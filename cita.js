@@ -121,7 +121,7 @@
   const foto = (p) => p.imagen
     ? '<img src="' + esc(p.imagen) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
     : '<span class="sin-foto">' + esc(p.categoria || '') + '</span>';
-  const boton = (p) => p.fuente === 'Google Maps' ? 'Ver en Google Maps' : (p.siempre || p.precio === 0 ? 'Ver en ' + p.fuente : 'Ver y comprar en ' + p.fuente);
+  const boton = (p) => p.siempre && (p.fuente === 'Google Maps' || p.fuente === 'Plancito') ? 'Ver ubicación' : 'Ver y comprar';
 
   function tarjeta(p) {
     const cuando = p.siempre ? (p.salidas ? 'Salidas: ' + p.salidas : 'Toda la semana') : (p.inicio === p.fin ? fecha(p.inicio) : 'Hasta el ' + fecha(p.fin)) + (p.hora ? ' · ' + p.hora : '');

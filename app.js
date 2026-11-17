@@ -217,7 +217,7 @@
     return ['Justo para su presupuesto', 'justo'];
   }
   const cuando = (p) => p.siempre ? (p.salidas ? 'Salidas: ' + p.salidas : 'Toda la semana') : (p.inicio === p.fin ? fechaCorta(p.inicio) : 'Hasta el ' + fechaCorta(p.fin)) + (p.hora && !p.siempre ? ' · ' + p.hora : '');
-  const textoBoton = (p) => p.ejemplo ? 'Lugar de ejemplo' : (p.siempre ? (p.fuente && p.fuente !== 'Plancito' ? 'Ver en ' + p.fuente : 'Ver ubicación') : 'Ver y comprar en ' + p.fuente);
+  const textoBoton = (p) => p.ejemplo ? 'Lugar de ejemplo' : (p.siempre && (p.fuente === 'Google Maps' || p.fuente === 'Plancito') ? 'Ver ubicación' : 'Ver y comprar');
   const enlace = (p) => p.url ? ' href="' + esc(p.url) + '" target="_blank" rel="noopener sponsored"' : ' href="#" aria-disabled="true" data-accion="nada"';
 
 
