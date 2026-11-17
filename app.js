@@ -596,7 +596,10 @@
   }
   const proximos14 = () => { const h = hoy(); return Array.from({ length: 14 }, (_, i) => sumarDias(h, i)); };
   const vigente = (p) => p.siempre || proximos14().some((d) => p.inicio <= d && d <= p.fin);
-  const porSorpresa = (a, b) => (b.destacado - a.destacado) || (sorpresa(b) - sorpresa(a)) || ((b.resenas || 0) - (a.resenas || 0));
+  const porSorpresa = (a, b) => (b.destacado - a.destacado) || (sorpresa(b) - sorpresa(a)) || ((b.resenas || 0) - (a.resenas || 0)) || (a.precio - b.precio);
+  // full days: fuera los privados (muy caros) y los que solo salen en otra temporada
+  const MES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'set', 'octubre', 'noviembre', 'diciembre'][+hoy().slice(5, 7) - 1];
+  const aireBueno = (p) => !/privad/i.test(p.nombre) && !(/(enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre)/i.test(p.salidas || '') && !normal(p.salidas).includes(MES));
 
   function rankingCita() {
     const lugares = PLANES.filter((p) => p.siempre && !p.ejemplo);
@@ -607,7 +610,7 @@
     const nAire = Math.min(5, Math.round(huecos / 3));
     const rest = resto((p) => p.tipo === 'restaurantes', huecos - nAire);
     rest.forEach((p) => usados.add(p.id));
-    const aire = resto((p) => p.tipo === 'aire', nAire);
+    const aire = resto((p) => p.tipo === 'aire' && aireBueno(p), nAire);
     return tops.concat(rest, aire).sort(porSorpresa).slice(0, 15);
   }
   function opcionesCita() {
@@ -624,7 +627,7 @@
       cenar: [(p) => p.siempre && p.tipo === 'restaurantes', porSorpresa],
       bailar: [(p) => p.tipo === 'bar' || ['Fiesta', 'Discoteca', 'Karaoke'].includes(p.categoria), porSorpresa],
       leer: [(p) => p.tipo === 'cultural' && /literatura|libro|feria|exposici|museo|teatro|cultura|arte|poes/i.test(normal(p.categoria + ' ' + p.nombre)), fechaPrimero],
-      aire: [(p) => p.tipo === 'aire', porSorpresa],
+      aire: [(p) => p.tipo === 'aire' && (aireBueno(p) || p.destacado), porSorpresa],
       cafe: [(p) => p.tipo === 'cafe', porSorpresa],
       reir: [(p) => /stand ?up|comedia|humor/i.test(normal(p.categoria + ' ' + p.nombre)), fechaPrimero]
     };
