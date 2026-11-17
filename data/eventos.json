@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T15:32-05:00",
+ "actualizado": "2026-11-17T15:48-05:00",
  "eventos": [
   {
    "nombre": "\"Por la alegría de los carnavales\"",
@@ -1232,6 +1232,20 @@
    "url": "https://entradalibre.me/event/flamenco-en-piano/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/8435215ac3783515.webp"
+  },
+  {
+   "nombre": "Full Day Paracas - Ica - Laguna de Huacachina 2026 - Full Day Paracas - Ica - Laguana de Huacachina 2026",
+   "inicio": "2026-11-18",
+   "fin": "2026-11-25",
+   "hora": "",
+   "lugar": "Punto de Reunion Cc.plaza Norte - Lima",
+   "categoria": "Show",
+   "tipo": "cultural",
+   "precio": 16,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE075_calugalistado.jpg?v=1794679850",
+   "url": "https://teleticket.com.pe/evento/full-day-paracas-ica-laguana-de-huacachina-2026",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/00989669e6a70c6e.webp"
   },
   {
    "nombre": "Hacer Cine De Bajo Presupuesto",
@@ -6302,6 +6316,20 @@
    "imagen_local": "img/cache/879fe3da8258aa76.webp"
   },
   {
+   "nombre": "Tour Del Miedo Nocturno - Fortaleza Real Felipe 2026 - Tour Del Miedo Nocturno - Fortaleza Real Felipe 2026",
+   "inicio": "2026-12-07",
+   "fin": "2027-01-30",
+   "hora": "",
+   "lugar": "Museo Fortaleza Real Felipe - Lima",
+   "categoria": "Show",
+   "tipo": "cultural",
+   "precio": 60,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE074_calugalistado.jpg?v=1794414346",
+   "url": "https://teleticket.com.pe/evento/tour-del-miedo-nocturno-fortaleza-real-felipe-2027",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4fff1607103fcfa0.webp"
+  },
+  {
    "nombre": "Ya Fue Todo Party Vol.2 : Fuera de Control",
    "inicio": "2026-12-07",
    "fin": "2026-12-07",
@@ -6339,7 +6367,7 @@
    "tipo": "cultural",
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/tim040_calugalistado.jpg",
-   "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-la-ultima-gran-noche-tumbakin--adalberto-alvarez-penia-del-carajo",
+   "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-la-ultima-gran-noche-penia-del-carajo",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/4e6f14ad942c0202.webp"
   },
