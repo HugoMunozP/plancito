@@ -3,7 +3,16 @@ name: Actualizar eventos
 on:
   schedule:
     - cron: "17 11 * * *"   # todos los días 6:17 a. m. hora de Lima (los tours se actualizan los lunes)
-  workflow_dispatch:         # botón "Run workflow": corre todo, incluidos los tours
+  workflow_dispatch:         # botón "Run workflow"
+    inputs:
+      tours:
+        description: "Actualizar también tours y full days"
+        type: boolean
+        default: true
+      google:
+        description: "Volver a consultar Google Maps (restaurantes, cafés y bares). Normalmente NO hace falta"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,7 +38,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           FORM_CSV_URL: ${{ vars.FORM_CSV_URL }}
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
-          FORZAR_TOURS: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORZAR_TOURS: ${{ github.event_name == 'workflow_dispatch' && inputs.tours && '1' || '0' }}
+          FORZAR_GOOGLE: ${{ github.event_name == 'workflow_dispatch' && inputs.google && '1' || '0' }}
         run: python scraper/scrape.py
 
       - name: Guardar cambios

@@ -152,10 +152,6 @@
           <div class="chips" id="atributos"></div>
         </div>
 
-        <label class="check" style="background:var(--panel);border:1px solid var(--borde);border-radius:12px;padding:12px 14px">
-          <input type="checkbox" id="destacado"> <span><b style="color:var(--amarillo)">Top para citas</b> · sale primero en el ranking de «Para una cita»</span>
-        </label>
-
         <label class="campo">Link <em>(Google Maps, Instagram, web o página de compra)</em>
           <input type="url" id="url" placeholder="https://maps.app.goo.gl/…">
         </label>
@@ -189,6 +185,22 @@
     </div>
     <div class="lista" id="lista"><span class="sub">Conecta con GitHub para ver tu lista.</span></div>
   </aside>
+
+  <section class="caja" id="ranking-caja" style="grid-column: 1 / -1">
+    <h2>Ranking «Para una cita»</h2>
+    <p class="sub">Los 15 lugares que salen en la página «Para una cita», en este orden. Tú eliges cuáles van y escribes el % de sorpresa de cada uno. Puedes elegir cualquier lugar: los de Google Maps, los full days o los que agregaste tú.</p>
+    <div class="fila" style="align-items:end;margin-bottom:12px">
+      <label class="campo">Agregar un lugar al ranking
+        <input type="text" id="rk-buscar" list="rk-candidatos" placeholder="Escribe el nombre: Barra Botánica, Lomas de Lachay…">
+        <datalist id="rk-candidatos"></datalist>
+      </label>
+      <div class="botones"><button type="button" class="secundario" id="rk-agregar">Agregar</button></div>
+    </div>
+    <ol class="lista" id="rk-lista" style="padding:0;margin:0;list-style:none;max-height:none"></ol>
+    <div id="rk-aviso" class="aviso oculto" role="status" style="margin-top:12px"></div>
+    <div class="botones" style="margin-top:14px"><button type="button" class="primario" id="rk-guardar">Guardar ranking</button><span class="sub" id="rk-cuenta" style="align-self:center;margin:0"></span></div>
+  </section>
+
 </main>
 
 <script>
@@ -196,7 +208,7 @@
   'use strict';
   const REPO = 'HugoMunozP/plancito';
   const RAMA = 'main';
-  const ARCHIVO = { lugar: 'data/manual/lugares.json', evento: 'data/manual/eventos.json' };
+  const ARCHIVO = { lugar: 'data/manual/lugares.json', evento: 'data/manual/eventos.json', ranking: 'data/manual/ranking.json' };
   const API = 'https://api.github.com/repos/' + REPO + '/contents/';
 
   const TIPOS = [
@@ -227,7 +239,7 @@
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   let token = '';
   try { token = localStorage.getItem('plancito_token') || ''; } catch (e) { /* sin localStorage */ }
-  const datos = { lugar: { items: [], sha: null }, evento: { items: [], sha: null } };
+  const datos = { lugar: { items: [], sha: null }, evento: { items: [], sha: null }, ranking: { items: [], sha: null } };
   let editando = null;   // { modo, id }
   let fotoNueva = null;  // Blob jpg
   let fotoActual = '';   // ruta existente
@@ -332,8 +344,9 @@
     $('conexion').classList.toggle('oculto', !!token);
     if (!token) return;
     try {
-      await Promise.all([cargar('lugar'), cargar('evento')]);
+      await Promise.all([cargar('lugar'), cargar('evento'), cargar('ranking'), cargarCandidatos()]);
       pintarLista();
+      pintarRanking();
     } catch (e) {
       $('conexion').classList.remove('oculto');
       avisoToken(e.message, 'error');
@@ -398,7 +411,6 @@
     $('precio').value = x.precio || '';
     $('calificacion').value = x.calificacion || '';
     $('url').value = x.url || '';
-    $('destacado').checked = !!x.destacado;
     $('inicio').value = x.inicio || ''; $('fin').value = x.fin && x.fin !== x.inicio ? x.fin : ''; $('hora').value = aHora24(x.hora);
     document.querySelectorAll('input[name=attr]').forEach((c) => { c.checked = false; });
     pintarTipo(true);
@@ -459,8 +471,7 @@
         tipo: t,
         precio: gratis ? 0 : Math.round(precio * 100) / 100,
         imagen,
-        url: url || null,
-        destacado: $('destacado').checked
+        url: url || null
       };
       if (m === 'lugar') {
         item.calificacion = parseFloat($('calificacion').value) || null;
@@ -492,6 +503,74 @@
     }
   });
   function avisar(t, tipo) { const a = $('aviso'); a.textContent = t; a.className = 'aviso ' + tipo; }
+
+
+  // ---------- Ranking «Para una cita» ----------
+  let CANDIDATOS = [];
+  const claveDe = (x) => x.url || x.nombre;
+  async function cargarCandidatos() {
+    const lu = await fetch('data/lugares.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ lugares: [] }));
+    const todos = datos.lugar.items.filter((x) => !x.ejemplo).concat(lu.lugares || []);
+    const vistos = new Set();
+    CANDIDATOS = todos.filter((x) => x.nombre && !vistos.has(claveDe(x)) && vistos.add(claveDe(x)));
+    $('rk-candidatos').innerHTML = CANDIDATOS.map((x) => '<option value="' + esc(x.nombre + ' — ' + (x.lugar || '') + ' (' + (x.categoria || '') + ')') + '">').join('');
+  }
+  const etiquetaDe = (x) => x.nombre + ' — ' + (x.lugar || '') + ' (' + (x.categoria || '') + ')';
+  function pintarRanking() {
+    const it = datos.ranking.items;
+    $('rk-cuenta').textContent = it.length + ' de 15';
+    $('rk-lista').innerHTML = it.length ? it.map((r, i) => {
+      const c = CANDIDATOS.find((x) => claveDe(x) === r.clave);
+      return '<li class="item"><b style="width:26px;text-align:center;color:var(--amarillo);font-size:18px">' + (i + 1) + '</b>' +
+        '<div class="min" style="background-image:url(\'' + esc(c ? (c.imagen_local || c.imagen || '') : '') + '\')"></div>' +
+        '<div class="info"><b>' + esc(r.nombre) + '</b><span>' + (c ? esc((c.categoria || '') + ' · ' + (c.lugar || '') + ' · S/ ' + c.precio + ' por persona') : '<i class="etq">YA NO ESTÁ EN LA WEB</i>') + '</span></div>' +
+        '<label class="check" style="gap:6px"><input type="number" min="0" max="100" step="1" value="' + esc(r.pct) + '" data-rk-pct="' + i + '" aria-label="% de sorpresa de ' + esc(r.nombre) + '" style="width:76px;min-height:40px;padding:6px 8px">%</label>' +
+        '<div class="acc"><button type="button" class="secundario mini" data-rk-mover="' + i + '" data-dir="-1" aria-label="Subir">↑</button>' +
+        '<button type="button" class="secundario mini" data-rk-mover="' + i + '" data-dir="1" aria-label="Bajar">↓</button>' +
+        '<button type="button" class="peligro" data-rk-quitar="' + i + '">Quitar</button></div></li>';
+    }).join('') : '<span class="sub">El ranking está vacío: la página mostrará uno automático con los mejor calificados.</span>';
+  }
+  function avisoRk(t, tipo) { const a = $('rk-aviso'); a.textContent = t; a.className = 'aviso ' + tipo; }
+  $('rk-agregar').addEventListener('click', () => {
+    const txt = $('rk-buscar').value.trim();
+    const c = CANDIDATOS.find((x) => etiquetaDe(x) === txt) || CANDIDATOS.find((x) => x.nombre.toLowerCase() === txt.toLowerCase());
+    if (!c) return avisoRk('Elige un lugar de la lista que aparece al escribir.', 'error');
+    if (datos.ranking.items.some((r) => r.clave === claveDe(c))) return avisoRk('«' + c.nombre + '» ya está en el ranking.', 'error');
+    if (datos.ranking.items.length >= 15) return avisoRk('Ya hay 15. Quita uno antes de agregar otro.', 'error');
+    datos.ranking.items.push({ clave: claveDe(c), nombre: c.nombre, pct: 90 });
+    $('rk-buscar').value = '';
+    pintarRanking();
+    avisoRk('Agregado al final con 90%. Ajusta su % y su lugar, y luego «Guardar ranking».', 'info');
+  });
+  $('rk-lista').addEventListener('input', (ev) => {
+    const i = ev.target.dataset.rkPct;
+    if (i !== undefined) datos.ranking.items[+i].pct = Math.max(0, Math.min(100, Math.round(+ev.target.value || 0)));
+  });
+  $('rk-lista').addEventListener('click', (ev) => {
+    const m = ev.target.closest('[data-rk-mover]');
+    const q = ev.target.closest('[data-rk-quitar]');
+    const it = datos.ranking.items;
+    if (m) {
+      const i = +m.dataset.rkMover, j = i + +m.dataset.dir;
+      if (j < 0 || j >= it.length) return;
+      [it[i], it[j]] = [it[j], it[i]];
+      pintarRanking();
+      const b = document.querySelector('[data-rk-mover="' + j + '"][data-dir="' + m.dataset.dir + '"]'); if (b) b.focus();
+    }
+    if (q) { it.splice(+q.dataset.rkQuitar, 1); pintarRanking(); }
+  });
+  $('rk-guardar').addEventListener('click', async () => {
+    if (!token) return avisoRk('Primero conecta con GitHub (arriba).', 'error');
+    const b = $('rk-guardar'); b.disabled = true; b.textContent = 'Guardando…';
+    try {
+      const nuevos = datos.ranking.items.slice();
+      await cargar('ranking');
+      datos.ranking.items = nuevos;
+      await guardarArchivo('ranking', 'Ranking Para una cita (' + nuevos.length + ')');
+      avisoRk('¡Listo! El ranking se actualiza en la web en 1 o 2 minutos.', 'ok');
+    } catch (e) { avisoRk(e.message, 'error'); }
+    finally { b.disabled = false; b.textContent = 'Guardar ranking'; }
+  });
 
   conectar();
 })();

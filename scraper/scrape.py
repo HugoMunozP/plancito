@@ -34,10 +34,14 @@ FUENTES_EVENTOS = [
     # ("Eventbrite", eventbrite),  # desactivado: muestra un captcha a los servidores de GitHub
     ("Formulario", formulario),
 ]
-# Tours, full days y restaurantes cambian poco: se actualizan una vez por semana (lunes)
+# Tours y full days cambian poco: se actualizan una vez por semana (lunes)
 FUENTES_LUGARES = [
     ("Civitatis", civitatis),
     ("Inca Trilogy Tours", incatrilogy),
+]
+# Restaurantes, cafés y bares de Google Maps: casi no cambian. Solo se vuelven a consultar cuando
+# lo pides (Actions > Run workflow > marcar "Volver a consultar Google Maps"). Si no, se reusan.
+FUENTES_GOOGLE = [
     ("Google Maps", google_places),
 ]
 MINIMO_EVENTOS = 15
@@ -90,8 +94,10 @@ def main():
     if not (MANUAL / "eventos.json").exists():
         (MANUAL / "eventos.json").write_text("[]\n", encoding="utf-8")
 
-    hacer_tours = HOY.weekday() == 0 or os.environ.get("FORZAR_TOURS") == "1" or \
-        not any(l.get("fuente") for l in lugares_ant)
+    previos_tours = [l for l in lugares_ant if l.get("fuente") in dict(FUENTES_LUGARES)]
+    previos_google = [l for l in lugares_ant if l.get("fuente") in dict(FUENTES_GOOGLE)]
+    hacer_tours = HOY.weekday() == 0 or os.environ.get("FORZAR_TOURS") == "1" or not previos_tours
+    hacer_google = os.environ.get("FORZAR_GOOGLE") == "1" or not previos_google
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -102,8 +108,15 @@ def main():
         if hacer_tours:
             tours, res_lu = correr(FUENTES_LUGARES, page, ctx, lugares_ant)
         else:
-            tours = [l for l in lugares_ant if l.get("fuente")]
+            tours = previos_tours
             res_lu = {"(tours)": f"sin cambios hasta el lunes ({len(tours)})"}
+        if hacer_google:
+            google, res_g = correr(FUENTES_GOOGLE, page, ctx, lugares_ant)
+        else:
+            google = previos_google
+            res_g = {"Google Maps": f"sin consultar, se reusan {len(google)}"}
+        tours = tours + google
+        res_lu.update(res_g)
         browser.close()
 
     # ---- eventos (los manuales de data/manual/ los lee la web directamente, desde admin.html)

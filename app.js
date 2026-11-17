@@ -155,7 +155,6 @@
       }))).filter((p) => typeof p.precio === 'number' && p.nombre);
       PLANES.forEach((p) => { if (p.precio === 0 && !p.atributos.includes('gratis')) p.atributos.push('gratis'); });
       render();
-      if (location.hash === '#para-una-cita') abrirCita();
     });
   }
 
@@ -296,8 +295,7 @@
     const atajo = (v, t) => '<button type="button" class="chip" aria-pressed="' + (E.fecha === v) + '" data-accion="fecha" data-valor="' + v + '">' + t + '</button>';
     const presupuesto = PRESUPUESTOS.map((v) => v === 0
       ? '<button type="button" class="chip chip-gratis" aria-pressed="' + (E.presupuesto === 0) + '" data-accion="presupuesto" data-valor="0">' + linea(ATRIBUTOS.gratis[3]) + 'Planes gratis' + (c.gratis ? ' <em>' + c.gratis + '</em>' : '') + '</button>'
-      : '<button type="button" class="chip" aria-pressed="' + (E.presupuesto === v) + '" data-accion="presupuesto" data-valor="' + v + '">S/ ' + v + '</button>').join('')
-      + '<button type="button" class="chip chip-cita" data-accion="cita">' + linea('<path d="M12 20s-7-4.5-9-9a4.5 4.5 0 0 1 9-3 4.5 4.5 0 0 1 9 3c-2 4.5-9 9-9 9z"/>') + 'Para una cita</button>';
+      : '<button type="button" class="chip" aria-pressed="' + (E.presupuesto === v) + '" data-accion="presupuesto" data-valor="' + v + '">S/ ' + v + '</button>').join('');
     const tipos = TIPOS.map(([k, t]) => {
       const on = k === 'todo' ? c.todo && !E.romantico : c.sel.includes(k);
       const off = k !== 'todo' && c.disponibles[k] === 0;
@@ -539,7 +537,7 @@
     clearInterval(temporizador);
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     temporizador = setInterval(() => {
-      if (E.q || document.hidden || E.calAbierto || R.abierta || CITA.abierta) return;
+      if (E.q || document.hidden || E.calAbierto || R.abierta) return;
       const n = destacados(calcular()).length;
       if (n > 1) { E.heroIdx = (E.heroIdx + 1) % n; renderHero(calcular()); }
     }, 8000);
@@ -564,127 +562,6 @@
 
   window.addEventListener('scroll', () => { $('barra').classList.toggle('solida', window.scrollY > 40); }, { passive: true });
 
-
-  // ---------- Para una cita: ranking de 15 + según lo que le gusta a ella ----------
-  const CITA = { abierta: false, gusto: 'cenar', tope: 'todos', origen: null };
-  const GUSTOS = [
-    ['cenar', 'Cena para sorprenderla', 'Los restaurantes mejor calificados', '<path d="M8 3v18M5 3v6a3 3 0 0 0 6 0V3"/><path d="M17 21V3c-2 1-3 4-3 7h3"/>'],
-    ['bailar', 'Le gusta bailar', 'Bares y fiestas', '<path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>'],
-    ['leer', 'Le encanta leer y lo cultural', 'Museos, teatro, expos y librerías', '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/>'],
-    ['aire', 'Sorprenderla al aire libre', 'Full days, paseos y planes gratis', '<path d="M12 3l6 9h-4l4 6H6l4-6H6z"/><path d="M12 18v4"/>'],
-    ['cafe', 'Es de cafecito y conversar', 'Cafés con buena nota', '<path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M16 11h2a2 2 0 0 1 0 4h-2"/>'],
-    ['reir', 'Le encanta reír', 'Stand up y comedia', '<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>']
-  ];
-  const TOPES = [['todos', 'Todos'], ['gratis', 'Gratis'], ['100', 'Hasta S/ 100'], ['200', 'Hasta S/ 200'], ['mas', 'Más de S/ 200']];
-  const VOTOS_KEY = 'plancito_votos';
-  let VOTOS = {};
-  try { VOTOS = JSON.parse(localStorage.getItem(VOTOS_KEY) || '{}') || {}; } catch (e) { VOTOS = {}; }
-  const claveVoto = (p) => p.url || p.nombre;
-  function votar(p, v) {
-    const k = claveVoto(p);
-    VOTOS[k] = VOTOS[k] === v ? 0 : v;
-    try { localStorage.setItem(VOTOS_KEY, JSON.stringify(VOTOS)); } catch (e) { /* sin almacenamiento */ }
-  }
-  // % de sorpresa: nota de Google ponderada por cantidad de reseñas (un 5.0 con 8 reseñas no le gana a un 4.8 con 5.000)
-  function sorpresa(p) {
-    const r = p.calificacion || 0;
-    const n = p.resenas || 0;
-    const base = r ? (n * r + 300 * 4.3) / (n + 300) : 4.45;
-    let pct = Math.round(70 + (base - 4.0) * 30 * 1.25);
-    if (p.destacado) pct = Math.max(pct, 97);
-    return Math.max(60, Math.min(100, pct));
-  }
-  const proximos14 = () => { const h = hoy(); return Array.from({ length: 14 }, (_, i) => sumarDias(h, i)); };
-  const vigente = (p) => p.siempre || proximos14().some((d) => p.inicio <= d && d <= p.fin);
-  const porSorpresa = (a, b) => (b.destacado - a.destacado) || (sorpresa(b) - sorpresa(a)) || ((b.resenas || 0) - (a.resenas || 0)) || (a.precio - b.precio);
-  // full days: fuera los privados (muy caros) y los que solo salen en otra temporada
-  const MES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'set', 'octubre', 'noviembre', 'diciembre'][+hoy().slice(5, 7) - 1];
-  const aireBueno = (p) => !/privad/i.test(p.nombre) && !(/(enero|febrero|marzo|abril|mayo|junio|julio|agosto|setiembre|septiembre|octubre|noviembre|diciembre)/i.test(p.salidas || '') && !normal(p.salidas).includes(MES));
-
-  function rankingCita() {
-    const lugares = PLANES.filter((p) => p.siempre && !p.ejemplo);
-    const tops = lugares.filter((p) => p.destacado).sort(porSorpresa);
-    const usados = new Set(tops.map((p) => p.id));
-    const resto = (filtro, n) => lugares.filter((p) => !usados.has(p.id) && filtro(p)).sort(porSorpresa).slice(0, n);
-    const huecos = Math.max(0, 15 - tops.length);
-    const nAire = Math.min(5, Math.round(huecos / 3));
-    const rest = resto((p) => p.tipo === 'restaurantes', huecos - nAire);
-    rest.forEach((p) => usados.add(p.id));
-    const aire = resto((p) => p.tipo === 'aire' && aireBueno(p), nAire);
-    return tops.concat(rest, aire).sort(porSorpresa).slice(0, 15);
-  }
-  function opcionesCita() {
-    const tope = (p) => {
-      const t = total(p);
-      if (CITA.tope === 'gratis') return t === 0;
-      if (CITA.tope === '100') return t <= 100;
-      if (CITA.tope === '200') return t <= 200;
-      if (CITA.tope === 'mas') return t > 200;
-      return true;
-    };
-    const fechaPrimero = (a, b) => (a.siempre - b.siempre) || String(a.inicio || '').localeCompare(String(b.inicio || '')) || porSorpresa(a, b);
-    const filtros = {
-      cenar: [(p) => p.siempre && p.tipo === 'restaurantes', porSorpresa],
-      bailar: [(p) => p.tipo === 'bar' || ['Fiesta', 'Discoteca', 'Karaoke'].includes(p.categoria), porSorpresa],
-      leer: [(p) => p.tipo === 'cultural' && /literatura|libro|feria|exposici|museo|teatro|cultura|arte|poes/i.test(normal(p.categoria + ' ' + p.nombre)), fechaPrimero],
-      aire: [(p) => p.tipo === 'aire' && (aireBueno(p) || p.destacado), porSorpresa],
-      cafe: [(p) => p.tipo === 'cafe', porSorpresa],
-      reir: [(p) => /stand ?up|comedia|humor/i.test(normal(p.categoria + ' ' + p.nombre)), fechaPrimero]
-    };
-    const [f, orden] = filtros[CITA.gusto];
-    return PLANES.filter((p) => !p.ejemplo && vigente(p) && f(p) && tope(p)).sort(orden).slice(0, 6);
-  }
-  function filaRanking(p, i) {
-    const pct = sorpresa(p);
-    const v = VOTOS[claveVoto(p)] || 0;
-    return '<li class="rk-item">' +
-      '<span class="rk-num">' + (i + 1) + '</span>' +
-      '<a class="rk-foto"' + enlace(p) + ' aria-label="' + esc(p.nombre) + '">' + portada(p) + '</a>' +
-      '<div class="rk-info"><b>' + esc(p.nombre) + (p.destacado ? ' <em class="rk-top">TOP</em>' : '') + '</b>' +
-      '<span>' + esc(p.categoria || '') + (p.lugar ? ' · ' + esc(p.lugar) : '') + (p.calificacion ? ' · ★ ' + p.calificacion.toFixed(1) : '') + '</span>' +
-      '<span class="rk-precio">' + (total(p) ? soles(total(p)) + ' para dos' : 'Gratis') + '</span>' +
-      '<div class="rk-barra" aria-hidden="true"><i style="width:' + pct + '%"></i></div></div>' +
-      '<div class="rk-lado"><span class="rk-pct"><b>' + pct + '%</b><small>la sorprende</small></span>' +
-      '<div class="rk-votos" role="group" aria-label="¿Te gustó ' + esc(p.nombre) + '?">' +
-      '<button type="button" class="rk-voto" aria-pressed="' + (v === 1) + '" aria-label="Me gustó" data-accion="voto" data-valor="1" data-id="' + esc(p.id) + '">' + linea('<path d="M7 11v9H4v-9zM7 11l4-8a2 2 0 0 1 3 2l-1 4h5a2 2 0 0 1 2 2.3l-1.2 7A2 2 0 0 1 16.8 20H7"/>') + '</button>' +
-      '<button type="button" class="rk-voto no" aria-pressed="' + (v === -1) + '" aria-label="No me gustó" data-accion="voto" data-valor="-1" data-id="' + esc(p.id) + '">' + linea('<path d="M17 13V4h3v9zM17 13l-4 8a2 2 0 0 1-3-2l1-4H6a2 2 0 0 1-2-2.3l1.2-7A2 2 0 0 1 7.2 4H17"/>') + '</button>' +
-      '</div></div></li>';
-  }
-  function renderCita() {
-    const m = $('cita');
-    m.hidden = !CITA.abierta;
-    if (!CITA.abierta) { m.innerHTML = ''; return; }
-    const rk = rankingCita();
-    const g = GUSTOS.find((x) => x[0] === CITA.gusto);
-    const ops = opcionesCita();
-    m.innerHTML = '<div class="cita-caja" role="dialog" aria-modal="true" aria-labelledby="cita-titulo">' +
-      '<button type="button" class="modal-cerrar" data-accion="cerrar-cita" aria-label="Cerrar">✕</button>' +
-      '<header class="cita-cabeza"><span class="eyebrow">Plancito para una cita</span><h2 id="cita-titulo">Los 15 lugares que más sorprenden</h2>' +
-      '<p>Restaurantes y planes al aire libre mejor calificados en Lima. El % de sorpresa sale de la nota y la cantidad de reseñas. Dale like a los que te gustaron.</p></header>' +
-      '<ol class="rk-lista">' + rk.map(filaRanking).join('') + '</ol>' +
-      '<section class="cita-gustos" aria-labelledby="gustos-titulo"><h3 id="gustos-titulo">¿Qué le gusta a ella?</h3>' +
-      '<div class="gustos">' + GUSTOS.map(([k, t, d, ic]) => '<button type="button" class="gusto" aria-pressed="' + (CITA.gusto === k) + '" data-accion="gusto" data-valor="' + k + '">' + linea(ic) + '<span><b>' + t + '</b><small>' + d + '</small></span></button>').join('') + '</div>' +
-      '<div class="cita-tope" role="group" aria-label="Presupuesto para dos"><span class="mini-etiqueta">Presupuesto para dos</span>' +
-      TOPES.map(([k, t]) => '<button type="button" class="chip' + (k === 'gratis' ? ' chip-gratis' : '') + '" aria-pressed="' + (CITA.tope === k) + '" data-accion="cita-tope" data-valor="' + k + '">' + t + '</button>').join('') + '</div>' +
-      '<h4>' + esc(g[1]) + ' · ' + ops.length + (ops.length === 1 ? ' opción' : ' opciones') + '</h4>' +
-      (ops.length ? '<div class="grilla cita-grilla">' + ops.map(tarjeta).join('') + '</div>'
-        : '<div class="vacio">No hay opciones con ese presupuesto. Prueba con «Todos».</div>') +
-      '</section></div>';
-  }
-  function abrirCita(origen) {
-    CITA.abierta = true; CITA.origen = origen || null;
-    document.body.classList.add('con-modal');
-    if (location.hash !== '#para-una-cita') history.replaceState(null, '', '#para-una-cita');
-    renderCita();
-    const c = $('cita').querySelector('.modal-cerrar'); if (c) c.focus();
-  }
-  function cerrarCita() {
-    CITA.abierta = false;
-    document.body.classList.remove('con-modal');
-    if (location.hash === '#para-una-cita') history.replaceState(null, '', location.pathname + location.search);
-    renderCita();
-    if (CITA.origen && document.contains(CITA.origen)) CITA.origen.focus();
-  }
 
   // ---------- Acciones ----------
   function limpiarBusqueda() { input.value = ''; E.q = ''; form.classList.remove('con-texto', 'abierta'); }
@@ -711,15 +588,6 @@
         break;
       case 'romantico': E.romantico = !E.romantico; E.heroIdx = 0; break;
       case 'abrir-ruleta': abrirRuleta(el); return;
-      case 'cita': ev.preventDefault(); abrirCita(el); return;
-      case 'cerrar-cita': cerrarCita(); return;
-      case 'gusto': CITA.gusto = v; renderCita(); return;
-      case 'cita-tope': CITA.tope = v; renderCita(); return;
-      case 'voto': {
-        const p = PLANES.find((x) => x.id === el.dataset.id);
-        if (p) { votar(p, +v); renderCita(); const b = $('cita').querySelector('[data-id="' + el.dataset.id + '"][data-valor="' + v + '"]'); if (b) b.focus(); }
-        return;
-      }
       case 'cerrar-ruleta': cerrarRuleta(); return;
       case 'girar': girar(); return;
       case 'mezclar': if (!R.girando) { cargarRuleta(); renderRuleta(); } return;
@@ -753,7 +621,6 @@
 
   document.addEventListener('keydown', (ev) => {
     if (ev.key === 'Escape' && R.abierta) { cerrarRuleta(); return; }
-    if (ev.key === 'Escape' && CITA.abierta) { cerrarCita(); return; }
     if (ev.key === 'Escape') {
       if (E.calAbierto) { E.calAbierto = false; render(); return; }
       if (document.activeElement === input) { limpiarBusqueda(); render(); input.blur(); }
@@ -763,7 +630,9 @@
     }
   });
 
-  window.addEventListener('hashchange', () => { if (location.hash === '#para-una-cita' && !CITA.abierta) abrirCita(); });
+  // enlaces viejos y desde cita.html
+  if (location.hash === '#para-una-cita') location.replace('cita.html');
+  if (location.hash === '#gratis') E.presupuesto = 0;
   cargar();
   rotarHero();
 })();

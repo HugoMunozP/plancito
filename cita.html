@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para una cita · Plancito</title>
+<meta name="description" content="Los 15 lugares de Lima que más sorprenden en una cita, y planes según lo que le gusta a ella: cenar, bailar, leer, aire libre, café o reír.">
+<meta property="og:title" content="Para una cita · Plancito">
+<meta property="og:description" content="Los 15 lugares de Lima que más sorprenden en una cita.">
+<meta name="theme-color" content="#0F0A1F">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="estilos.css?v=20261117d">
+</head>
+<body class="pagina-cita">
+
+<header class="barra solida" id="barra">
+  <div class="barra-izq">
+    <a href="./" class="logo" aria-label="Plancito, inicio">
+      <img src="img/logo.svg" alt="" width="36" height="36">
+      <span>plancito</span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="./">Inicio</a>
+      <a href="./#gratis" class="menu-gratis">Planes gratis</a>
+      <a href="cita.html" class="menu-cita" aria-current="page">Para una cita</a>
+    </nav>
+  </div>
+</header>
+
+<main class="cita-pagina">
+  <header class="cita-cabeza">
+    <span class="eyebrow">Plancito para una cita</span>
+    <h1>¿A dónde la llevas?</h1>
+    <p>Elige lo que le gusta a ella y te mostramos los mejores planes con su precio para dos. Más abajo, los 15 lugares que más sorprenden.</p>
+  </header>
+
+  <section class="cita-gustos" aria-labelledby="gustos-titulo">
+    <h2 id="gustos-titulo">¿Qué le gusta a ella?</h2>
+    <div class="gustos" id="gustos"><!-- cita.js --></div>
+    <div class="cita-tope" id="topes" role="group" aria-label="Presupuesto para dos"><!-- cita.js --></div>
+  </section>
+
+  <section id="opciones" aria-live="polite"><!-- cita.js --></section>
+
+  <section aria-labelledby="ranking-titulo" class="cita-ranking">
+    <h2 id="ranking-titulo">Los 15 lugares que más sorprenden</h2>
+    <p class="sub-ranking">Dale like a los que te gustaron.</p>
+    <ol class="rk-lista" id="ranking"><!-- cita.js --></ol>
+  </section>
+</main>
+
+<footer class="pie">
+  <span>Restaurantes, cafés y bares: datos y fotos de Google Maps. Eventos de Joinnus, Teleticket y EntradaLibre. Full days de Civitatis e Inca Trilogy Tours.</span>
+  <span>Precios referenciales para dos personas.</span>
+</footer>
+
+<script src="cita.js?v=20261117d"></script>
+</body>
+</html>
