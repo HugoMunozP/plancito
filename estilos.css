@@ -368,3 +368,12 @@ body.con-modal { overflow: hidden; }
 .rk-m-votos .rk-voto { width: 32px; height: 28px; border-radius: 8px; }
 .rk-m-votos .rk-voto svg { width: 15px; height: 15px; }
 @media (max-width: 860px) { .rk-mini { grid-template-columns: 1fr; } }
+
+/* Filtro de zona */
+.zona-caja { position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 12px 0 14px; border-radius: 999px; background: #fff; color: var(--fondo); font-weight: 800; font-size: 14px; flex: none; }
+.zona-caja svg { width: 18px; height: 18px; flex: none; color: #D42F1A; }
+.zona-caja .flecha { width: 16px; height: 16px; color: var(--fondo); pointer-events: none; }
+.zona-caja select { appearance: none; -webkit-appearance: none; border: none; background: transparent; font: inherit; font-weight: 800; color: var(--fondo); padding: 8px 0; cursor: pointer; max-width: 220px; }
+.zona-caja select:focus { outline: none; }
+.zona-caja:focus-within { outline: 3px solid var(--celeste); outline-offset: 2px; }
+.oculto-visual { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

@@ -77,7 +77,7 @@
 
   // ---------- Estado ----------
   const E = {
-    fecha: 'finde', presupuesto: 150, tipos: new Set(), estrellas: 0, attrs: new Set(),
+    zona: 'Miraflores', fecha: 'finde', presupuesto: 150, tipos: new Set(), estrellas: 0, attrs: new Set(),
     romantico: false, q: '', heroIdx: 0, masFiltros: false, calAbierto: false
   };
   let PLANES = [];
@@ -134,6 +134,26 @@
     return fechaLarga(E.fecha);
   }
 
+  // ---------- Zonas (distritos) ----------
+  const DISTRITOS = ['Ancón', 'Ate', 'Barranco', 'Bellavista', 'Breña', 'Callao', 'Carabayllo', 'Carmen de la Legua', 'Cercado de Lima',
+    'Chaclacayo', 'Chorrillos', 'Cieneguilla', 'Comas', 'El Agustino', 'Independencia', 'Jesús María', 'La Molina',
+    'La Perla', 'La Punta', 'La Victoria', 'Lince', 'Los Olivos', 'Lurigancho', 'Lurín', 'Magdalena del Mar',
+    'Miraflores', 'Pachacámac', 'Pucusana', 'Pueblo Libre', 'Puente Piedra', 'Punta Hermosa', 'Punta Negra', 'Rímac',
+    'San Bartolo', 'San Borja', 'San Isidro', 'San Juan de Lurigancho', 'San Juan de Miraflores', 'San Luis',
+    'San Martín de Porres', 'San Miguel', 'Santa Anita', 'Santa María del Mar', 'Santa Rosa', 'Santiago de Surco',
+    'Surquillo', 'Ventanilla', 'Villa El Salvador', 'Villa María del Triunfo'];
+  const ALIAS = { surco: 'Santiago de Surco', cercado: 'Cercado de Lima', magdalena: 'Magdalena del Mar' };
+  const plano = (t) => ' ' + String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ') + ' ';
+  const DIST_ORDEN = DISTRITOS.slice().sort((a, b) => b.length - a.length).map((d) => [d, plano(d)]);
+  function distritoDe(lugar) {
+    const t = plano(lugar);
+    for (const [d, k] of DIST_ORDEN) if (t.includes(k)) return d;
+    for (const a in ALIAS) if (t.includes(' ' + a + ' ')) return ALIAS[a];
+    return '';
+  }
+  // Los full days salen «desde Lima»: se muestran en cualquier zona
+  const zonaOk = (p) => E.zona === 'todas' || p.distrito === E.zona || p.lugar === 'Desde Lima';
+
   // ---------- Datos ----------
   function cargar() {
     const ev = fetch('data/eventos.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ eventos: [] }));
@@ -153,7 +173,7 @@
         calificacion: l.calificacion || 0, atributos: l.atributos || [], url: l.url, imagen: l.imagen_local || l.imagen || '',
         salidas: l.salidas || '', resenas: l.resenas || 0, destacado: !!l.destacado, fotoAutor: l.foto_autor || '', fuente: l.ejemplo ? 'Ejemplo' : (l.fuente || 'Plancito'), siempre: true, ejemplo: !!l.ejemplo
       }))).filter((p) => typeof p.precio === 'number' && p.nombre);
-      PLANES.forEach((p) => { if (p.precio === 0 && !p.atributos.includes('gratis')) p.atributos.push('gratis'); });
+      PLANES.forEach((p) => { if (p.precio === 0 && !p.atributos.includes('gratis')) p.atributos.push('gratis'); p.distrito = distritoDe(p.lugar); });
       render();
     });
   }
@@ -164,7 +184,7 @@
   function tiposActivos(dias, tope) {
     const n = {};
     TIPOS_REALES.forEach((t) => { n[t] = 0; });
-    PLANES.forEach((p) => { if (n[p.tipo] !== undefined && ocurre(p, dias) && total(p) <= tope) n[p.tipo]++; });
+    PLANES.forEach((p) => { if (n[p.tipo] !== undefined && zonaOk(p) && ocurre(p, dias) && total(p) <= tope) n[p.tipo]++; });
     return n;
   }
 
@@ -223,8 +243,8 @@
       : sel.reduce((acc, t) => acc.concat(ATRIBUTOS_POR_TIPO[t].filter((a) => !acc.includes(a))), []);
     const attrsActivos = [...E.attrs].filter((a) => attrsVisibles.includes(a));
     const esRomantico = (p) => p.atributos.includes('romantico');
-    const romanticos = PLANES.filter((p) => ocurre(p, dias) && total(p) <= tope && esRomantico(p)).length;
-    const planes = PLANES.filter((p) => ocurre(p, dias) && total(p) <= tope
+    const romanticos = PLANES.filter((p) => zonaOk(p) && ocurre(p, dias) && total(p) <= tope && esRomantico(p)).length;
+    const planes = PLANES.filter((p) => zonaOk(p) && ocurre(p, dias) && total(p) <= tope
       && (todo || sel.includes(p.tipo))
       && (!E.romantico || esRomantico(p))
       && (!E.estrellas || p.calificacion >= E.estrellas)
@@ -249,8 +269,8 @@
     const lista = destacados(c);
     hero.classList.toggle('oculto', c.palabras.length > 0);
     if (!lista.length) {
-      hero.innerHTML = '<div class="hero-vacio"><span class="eyebrow">Lima · ' + esc(textoFecha()) + '</span>' +
-        '<h1>' + tituloPresupuesto() + '</h1><p>No hay planes con estos filtros. Prueba otra fecha o sube un poco el monto.</p></div>';
+      hero.innerHTML = '<div class="hero-vacio"><span class="eyebrow">' + (E.zona === 'todas' ? 'Lima' : esc(E.zona)) + ' · ' + esc(textoFecha()) + '</span>' +
+        '<h1>' + tituloPresupuesto() + '</h1><p>No hay planes con estos filtros' + (E.zona !== 'todas' ? ' en ' + esc(E.zona) : '') + '. Prueba otra zona, otra fecha o sube un poco el monto.</p></div>';
       return;
     }
     if (E.heroIdx >= lista.length) E.heroIdx = 0;
@@ -283,7 +303,7 @@
     const conPlanes = new Set();
     for (let i = 0; i < 14; i++) {
       const d = sumarDias(h, i);
-      if (PLANES.some((p) => !p.siempre && ocurre(p, [d]) && total(p) <= E.presupuesto)) conPlanes.add(d);
+      if (PLANES.some((p) => !p.siempre && zonaOk(p) && ocurre(p, [d]) && total(p) <= E.presupuesto)) conPlanes.add(d);
     }
     const incluidos = new Set(c.dias);
     let dias = '';
@@ -313,8 +333,18 @@
     }).join('');
     const extras = (E.estrellas ? 1 : 0) + c.attrsActivos.length;
 
+    const cuenta = {};
+    PLANES.forEach((p) => { if (p.distrito) cuenta[p.distrito] = (cuenta[p.distrito] || 0) + 1; });
+    const zonas = Object.keys(cuenta).sort((a, b) => a.localeCompare(b, 'es'));
+    if (E.zona !== 'todas' && !zonas.includes(E.zona)) zonas.unshift(E.zona);
+    const zona = '<label class="zona-caja">' + linea('<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>') +
+      '<span class="oculto-visual">Zona</span><select id="zona" aria-label="Zona">' +
+      '<option value="todas"' + (E.zona === 'todas' ? ' selected' : '') + '>Toda Lima</option>' +
+      zonas.map((d) => '<option value="' + esc(d) + '"' + (E.zona === d ? ' selected' : '') + '>' + esc(d) + (cuenta[d] ? ' (' + cuenta[d] + ')' : '') + '</option>').join('') +
+      '</select>' + linea('<polyline points="6 9 12 15 18 9"/>').replace('<svg', '<svg class="flecha"') + '</label>';
+
     $('filtros').innerHTML =
-      '<div class="filtros-fila">' +
+      '<div class="filtros-fila">' + zona +
       '<div class="fecha-caja"><button type="button" class="fecha-boton" aria-haspopup="listbox" aria-expanded="' + E.calAbierto + '" data-accion="calendario">' +
       linea('<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>') + '<span>' + esc(textoFecha()) + '</span>' +
       linea('<polyline points="6 9 12 15 18 9"/>').replace('<svg', '<svg class="flecha"') + '</button>' +
@@ -617,6 +647,14 @@
       default: return;
     }
     render();
+  });
+
+  document.addEventListener('change', (ev) => {
+    if (ev.target.id === 'zona') {
+      E.zona = ev.target.value; E.heroIdx = 0;
+      render();
+      const z = $('zona'); if (z) z.focus();
+    }
   });
 
   document.addEventListener('keydown', (ev) => {

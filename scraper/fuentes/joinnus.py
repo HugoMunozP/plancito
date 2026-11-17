@@ -1,7 +1,9 @@
 """Joinnus: tarjetas renderizadas con JavaScript en /descubrir/<categoria>."""
 import re
 
-from comun import HOY, fechas_de, precio_de, scroll_hasta_el_final, sin_tildes
+import json
+
+from comun import HOY, distrito_de, fechas_de, precio_de, scroll_hasta_el_final, sin_tildes
 
 JOINNUS_CATEGORIAS = {
     # slug en joinnus: (categoria, tipo)
@@ -78,4 +80,35 @@ def scrape(page, ctx):
             }
             nuevos += 1
         print(f"  [joinnus] {slug}: {nuevos} eventos")
+    completar_lugares(ctx, eventos)
     return list(eventos.values())
+
+
+def completar_lugares(ctx, eventos):
+    """La tarjeta solo dice «Lima». La página del evento trae el local y la dirección (JSON-LD):
+    se usan para poner «Local - Distrito» y que funcione el filtro por zona."""
+    n = 0
+    for u, e in eventos.items():
+        try:
+            r = ctx.request.get(u, timeout=20000)
+            if not r.ok:
+                continue
+            for bloque in re.findall(r'<script type="application/ld\+json"[^>]*>([\s\S]*?)</script>', r.text()):
+                try:
+                    d = json.loads(bloque)
+                except ValueError:
+                    continue
+                loc = d.get("location") if isinstance(d, dict) else None
+                if not isinstance(loc, dict):
+                    continue
+                adr = loc.get("address") or {}
+                dist = distrito_de(adr.get("streetAddress", "") if isinstance(adr, dict) else str(adr))
+                local = (loc.get("name") or "").strip()
+                if dist:
+                    e["lugar"] = (local.title() + " - " + dist) if local else dist
+                    n += 1
+                break
+        except Exception:
+            continue
+    print(f"  [joinnus] distrito encontrado en {n} de {len(eventos)} eventos")
+

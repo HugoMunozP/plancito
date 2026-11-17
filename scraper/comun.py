@@ -32,6 +32,31 @@ DISTRITOS_LIMA = {
 }
 
 
+# Nombres para mostrar (el filtro de zona de la web usa la misma lista)
+DISTRITOS_NOMBRES = [
+    "Ancón", "Ate", "Barranco", "Bellavista", "Breña", "Callao", "Carabayllo", "Carmen de la Legua", "Cercado de Lima",
+    "Chaclacayo", "Chorrillos", "Cieneguilla", "Comas", "El Agustino", "Independencia", "Jesús María", "La Molina",
+    "La Perla", "La Punta", "La Victoria", "Lince", "Los Olivos", "Lurigancho", "Lurín", "Magdalena del Mar",
+    "Miraflores", "Pachacámac", "Pucusana", "Pueblo Libre", "Puente Piedra", "Punta Hermosa", "Punta Negra", "Rímac",
+    "San Bartolo", "San Borja", "San Isidro", "San Juan de Lurigancho", "San Juan de Miraflores", "San Luis",
+    "San Martín de Porres", "San Miguel", "Santa Anita", "Santa María del Mar", "Santa Rosa", "Santiago de Surco",
+    "Surquillo", "Ventanilla", "Villa El Salvador", "Villa María del Triunfo",
+]
+ALIAS_DISTRITO = {"surco": "Santiago de Surco", "cercado": "Cercado de Lima", "magdalena": "Magdalena del Mar", "smp": "San Martín de Porres"}
+
+
+def distrito_de(texto):
+    """Distrito de Lima mencionado en un texto (dirección o lugar), o '' si no hay."""
+    t = " " + re.sub(r"[^a-z0-9]+", " ", sin_tildes((texto or "").lower())) + " "
+    for d in sorted(DISTRITOS_NOMBRES, key=len, reverse=True):
+        if " " + re.sub(r"[^a-z0-9]+", " ", sin_tildes(d.lower())) + " " in t:
+            return d
+    for a, d in ALIAS_DISTRITO.items():
+        if f" {a} " in t:
+            return d
+    return ""
+
+
 def sin_tildes(t):
     return "".join(c for c in unicodedata.normalize("NFD", t or "") if unicodedata.category(c) != "Mn")
 
