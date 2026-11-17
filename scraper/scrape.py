@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from playwright.sync_api import sync_playwright  # noqa: E402
 
 from comun import HOY, LIMA, UA  # noqa: E402
+from imagenes import bajar_todas  # noqa: E402
 from fuentes import civitatis, entradalibre, eventbrite, formulario, google_places, incatrilogy, joinnus, teleticket  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -129,6 +130,14 @@ def main():
         if t.get("url") and t["url"] not in vistos_l:
             vistos_l.add(t["url"])
             lugares.append(t)
+    # ---- fotos: se bajan a img/cache/ para no depender de otras páginas
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        ctx = browser.new_context(user_agent=UA)
+        bajar_todas(ctx, limpios + lugares, RAIZ / "img" / "cache", RAIZ)
+        browser.close()
+    (DATA / "eventos.json").write_text(
+        json.dumps({"actualizado": ahora, "eventos": limpios}, ensure_ascii=False, indent=1), encoding="utf-8")
     (DATA / "lugares.json").write_text(
         json.dumps({"actualizado": ahora, "lugares": lugares}, ensure_ascii=False, indent=1), encoding="utf-8")
 

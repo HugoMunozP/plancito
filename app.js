@@ -146,11 +146,11 @@
       const propios = evManual.filter((e) => e.nombre && e.inicio && (e.fin || e.inicio) >= hoyISO).map((e) => Object.assign({ fuente: 'Plancito' }, e));
       PLANES = (eventos.eventos || []).concat(propios).map((e, i) => ({
         id: 'e' + i, nombre: e.nombre, inicio: e.inicio, fin: e.fin || e.inicio, hora: e.hora, lugar: e.lugar,
-        categoria: e.categoria, tipo: e.tipo, precio: e.precio, imagen: e.imagen, url: e.url, fuente: e.fuente,
+        categoria: e.categoria, tipo: e.tipo, precio: e.precio, imagen: e.imagen_local || e.imagen, url: e.url, fuente: e.fuente,
         atributos: [], siempre: false, ejemplo: false, calificacion: 0
       })).concat(luManual.concat(lugares.lugares || []).map((l, i) => ({
         id: 'l' + i, nombre: l.nombre, lugar: l.lugar, categoria: l.categoria, tipo: l.tipo, precio: l.precio,
-        calificacion: l.calificacion || 0, atributos: l.atributos || [], url: l.url, imagen: l.imagen || '',
+        calificacion: l.calificacion || 0, atributos: l.atributos || [], url: l.url, imagen: l.imagen_local || l.imagen || '',
         salidas: l.salidas || '', resenas: l.resenas || 0, fuente: l.ejemplo ? 'Ejemplo' : (l.fuente || 'Plancito'), siempre: true, ejemplo: !!l.ejemplo
       }))).filter((p) => typeof p.precio === 'number' && p.nombre);
       PLANES.forEach((p) => { if (p.precio === 0 && !p.atributos.includes('gratis')) p.atributos.push('gratis'); });
