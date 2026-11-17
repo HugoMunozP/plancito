@@ -377,3 +377,43 @@ body.con-modal { overflow: hidden; }
 .zona-caja select:focus { outline: none; }
 .zona-caja:focus-within { outline: 3px solid var(--celeste); outline-offset: 2px; }
 .oculto-visual { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ============ Páginas fijas para Google (planes/…) — las genera scraper/paginas.py ============ */
+.pagina-seo .barra { position: sticky; }
+.sp { max-width: 1040px; margin: 0 auto; padding: 28px var(--lado) 48px; }
+.sp-migas { font-size: 13px; color: var(--tenue); margin-bottom: 14px; }
+.sp-migas a { color: var(--suave); }
+.sp h1 { font-family: var(--titulos); font-weight: 800; font-size: clamp(30px, 5vw, 46px); line-height: 1.05; margin: 0 0 14px; }
+.sp h2 { font-family: var(--titulos); font-weight: 800; font-size: 24px; margin: 40px 0 14px; }
+.sp-intro { font-size: 18px; line-height: 1.5; color: var(--suave); margin: 0 0 6px; max-width: 760px; }
+.sp-act, .sp-nota { font-size: 13px; color: var(--tenue); }
+.sp-nota a { color: var(--amarillo); }
+.sp-cta { display: inline-block; margin: 8px 0 20px; background: var(--amarillo); color: var(--fondo); font-weight: 800; text-decoration: none; padding: 10px 18px; border-radius: 999px; }
+.sp-lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.sp-plan { display: grid; grid-template-columns: 160px 1fr auto; gap: 16px; align-items: center; background: var(--fondo2); border: 1px solid var(--borde); border-radius: 12px; padding: 12px; }
+.sp-plan img, .sp-sinfoto { width: 160px; height: 100px; object-fit: cover; border-radius: 8px; background: var(--panel); display: block; }
+.sp-info h3 { margin: 0 0 6px; font-size: 17px; line-height: 1.25; }
+.sp-meta { margin: 0 0 6px; font-size: 14px; color: var(--suave); }
+.sp-precio { margin: 0; font-size: 14px; color: var(--tenue); }
+.sp-precio b { color: #fff; }
+.sp-precio .sp-gratis { color: var(--amarillo); }
+.sp-btn { white-space: nowrap; font-weight: 700; font-size: 14px; text-decoration: none; color: var(--amarillo); }
+.sp-faq h3 { font-size: 17px; margin: 18px 0 6px; }
+.sp-faq p { margin: 0; color: var(--suave); line-height: 1.5; }
+.sp-explora { margin-top: 40px; border-top: 1px solid var(--borde); padding-top: 8px; }
+.sp-grupos { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px 28px; }
+.sp-grupos h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--tenue); margin: 14px 0 8px; }
+.sp-grupos ul, .sp-indice { list-style: none; margin: 0; padding: 0; }
+.sp-grupos li, .sp-indice li { margin: 0 0 8px; }
+.sp-grupos a, .sp-indice a { color: var(--suave); text-decoration: none; }
+.sp-grupos a:hover, .sp-indice a:hover, .sp-grupos a[aria-current] { color: var(--amarillo); }
+.sp-indice { columns: 2 260px; font-size: 17px; }
+.sp-indice span { color: var(--tenue); font-size: 14px; }
+.explora-pie { padding: 8px var(--lado) 0; }
+.explora-pie .sp-explora { border-top: 1px solid var(--borde); }
+.explora-pie h2 { font-family: var(--titulos); font-weight: 800; font-size: 22px; margin: 24px 0 6px; }
+@media (max-width: 640px) {
+  .sp-plan { grid-template-columns: 96px 1fr; }
+  .sp-plan img, .sp-sinfoto { width: 96px; height: 72px; }
+  .sp-btn { grid-column: 1 / -1; }
+}

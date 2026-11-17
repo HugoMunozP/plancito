@@ -1,0 +1,39 @@
+name: Generar páginas para Google
+
+# Regenera planes/, sitemap.xml y robots.txt cuando cambias lugares o eventos a mano
+# (desde admin.html o editando data/manual/). El scraper diario también las regenera.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/manual/**"
+      - "scraper/paginas.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paginas
+  cancel-in-progress: true
+
+jobs:
+  paginas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar páginas
+        run: python scraper/paginas.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "plancito-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add planes/ index.html sitemap.xml robots.txt
+          git diff --cached --quiet && echo "Sin cambios" || (git commit -m "Páginas para Google $(date -u +%F)" && git push)

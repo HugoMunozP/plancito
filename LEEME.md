@@ -77,3 +77,18 @@ También puedes editar los archivos a mano:
 - Tipo de cambio para convertir dólares y euros a soles: `TIPO_CAMBIO` en `scraper/comun.py`.
 - Para apagar una fuente, quítala de `FUENTES_EVENTOS` o de `FUENTES_LUGARES` en `scraper/scrape.py`.
 - Si algo falla, abre **Actions**, entra a la ejecución y revisa el paso "Scrapear todas las fuentes". Al final del log hay un resumen de cuántos datos salieron de cada fuente.
+
+## Páginas para Google (SEO) y medición de visitas
+
+La web principal se arma con JavaScript, así que Google ve poco texto. `scraper/paginas.py` escribe páginas fijas en HTML con los mismos datos:
+
+- `planes/<tema>/index.html`: planes gratis, este fin de semana, hoy, por presupuesto, por tipo (conciertos, teatro, stand up, exposiciones, cine, niños, full days, tours, restaurantes, cafés, bares) y por distrito (Miraflores, Barranco, Surco, San Isidro, San Borja, Centro de Lima).
+- `planes/index.html`: el índice de todas.
+- `sitemap.xml` y `robots.txt`.
+- Los enlaces a esas páginas al pie de `index.html` (entre `EXPLORA:INICIO` y `EXPLORA:FIN`).
+
+Se regeneran solas cada día después del scraper, y cuando cambias `data/manual/` (workflow "Generar páginas para Google"). Para agregar o cambiar un tema, edita la función `temas()` en `scraper/paginas.py`.
+
+**Google Search Console:** registra `https://plancitopes.com/`, verifica con la etiqueta HTML (pégala en `index.html`, donde dice GOOGLE SEARCH CONSOLE) y envía `sitemap.xml`.
+
+**Google Analytics 4:** pega tu ID de medición (`G-…`) en `medicion.js`. Mientras esté vacío no se carga nada. Además de las visitas, registra los clics en "Ver y comprar", "Ver ubicación" y compartir por WhatsApp.
