@@ -187,8 +187,8 @@
   </aside>
 
   <section class="caja" id="ranking-caja" style="grid-column: 1 / -1">
-    <h2>Ranking «Para una cita»</h2>
-    <p class="sub">Los 15 lugares que salen en la página «Para una cita», en este orden. Tú eliges cuáles van y escribes el % de sorpresa de cada uno. Puedes elegir cualquier lugar: los de Google Maps, los full days o los que agregaste tú.</p>
+    <h2>Top 3 «Para una cita»</h2>
+    <p class="sub">Los 3 lugares que salen arriba en la página «Para una cita», en este orden. Tú eliges cuáles van y escribes el % de sorpresa de cada uno. Puedes elegir cualquier lugar: los de Google Maps, los full days o los que agregaste tú.</p>
     <div class="fila" style="align-items:end;margin-bottom:12px">
       <label class="campo">Agregar un lugar al ranking
         <input type="text" id="rk-buscar" list="rk-candidatos" placeholder="Escribe el nombre: Barra Botánica, Lomas de Lachay…">
@@ -518,7 +518,7 @@
   const etiquetaDe = (x) => x.nombre + ' — ' + (x.lugar || '') + ' (' + (x.categoria || '') + ')';
   function pintarRanking() {
     const it = datos.ranking.items;
-    $('rk-cuenta').textContent = it.length + ' de 15';
+    $('rk-cuenta').textContent = it.length + ' de 3';
     $('rk-lista').innerHTML = it.length ? it.map((r, i) => {
       const c = CANDIDATOS.find((x) => claveDe(x) === r.clave);
       return '<li class="item"><b style="width:26px;text-align:center;color:var(--amarillo);font-size:18px">' + (i + 1) + '</b>' +
@@ -528,7 +528,7 @@
         '<div class="acc"><button type="button" class="secundario mini" data-rk-mover="' + i + '" data-dir="-1" aria-label="Subir">↑</button>' +
         '<button type="button" class="secundario mini" data-rk-mover="' + i + '" data-dir="1" aria-label="Bajar">↓</button>' +
         '<button type="button" class="peligro" data-rk-quitar="' + i + '">Quitar</button></div></li>';
-    }).join('') : '<span class="sub">El ranking está vacío: la página mostrará uno automático con los mejor calificados.</span>';
+    }).join('') : '<span class="sub">Está vacío: la página mostrará los 3 mejor calificados automáticamente.</span>';
   }
   function avisoRk(t, tipo) { const a = $('rk-aviso'); a.textContent = t; a.className = 'aviso ' + tipo; }
   $('rk-agregar').addEventListener('click', () => {
@@ -536,7 +536,7 @@
     const c = CANDIDATOS.find((x) => etiquetaDe(x) === txt) || CANDIDATOS.find((x) => x.nombre.toLowerCase() === txt.toLowerCase());
     if (!c) return avisoRk('Elige un lugar de la lista que aparece al escribir.', 'error');
     if (datos.ranking.items.some((r) => r.clave === claveDe(c))) return avisoRk('«' + c.nombre + '» ya está en el ranking.', 'error');
-    if (datos.ranking.items.length >= 15) return avisoRk('Ya hay 15. Quita uno antes de agregar otro.', 'error');
+    if (datos.ranking.items.length >= 3) return avisoRk('Ya hay 3. Quita uno antes de agregar otro.', 'error');
     datos.ranking.items.push({ clave: claveDe(c), nombre: c.nombre, pct: 90 });
     $('rk-buscar').value = '';
     pintarRanking();

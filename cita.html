@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="estilos.css?v=20261117d">
+<link rel="stylesheet" href="estilos.css?v=20261117e">
 </head>
 <body class="pagina-cita">
 
@@ -34,8 +34,13 @@
   <header class="cita-cabeza">
     <span class="eyebrow">Plancito para una cita</span>
     <h1>¿A dónde la llevas?</h1>
-    <p>Elige lo que le gusta a ella y te mostramos los mejores planes con su precio para dos. Más abajo, los 15 lugares que más sorprenden.</p>
+    <p>Elige lo que le gusta a ella y te mostramos los mejores planes con su precio para dos.</p>
   </header>
+
+  <section aria-labelledby="ranking-titulo" class="rk-mini-caja">
+    <h2 id="ranking-titulo">Top 3 que más sorprenden</h2>
+    <ol class="rk-mini" id="ranking"><!-- cita.js --></ol>
+  </section>
 
   <section class="cita-gustos" aria-labelledby="gustos-titulo">
     <h2 id="gustos-titulo">¿Qué le gusta a ella?</h2>
@@ -45,11 +50,6 @@
 
   <section id="opciones" aria-live="polite"><!-- cita.js --></section>
 
-  <section aria-labelledby="ranking-titulo" class="cita-ranking">
-    <h2 id="ranking-titulo">Los 15 lugares que más sorprenden</h2>
-    <p class="sub-ranking">Dale like a los que te gustaron.</p>
-    <ol class="rk-lista" id="ranking"><!-- cita.js --></ol>
-  </section>
 </main>
 
 <footer class="pie">
@@ -57,6 +57,6 @@
   <span>Precios referenciales para dos personas.</span>
 </footer>
 
-<script src="cita.js?v=20261117d"></script>
+<script src="cita.js?v=20261117e"></script>
 </body>
 </html>

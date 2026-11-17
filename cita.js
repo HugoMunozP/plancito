@@ -1,6 +1,7 @@
 /* =========================================================
    Plancito · página «Para una cita»
    - Arriba: ¿Qué le gusta a ella? + presupuesto → opciones con precio para dos
+   - Arriba: Top 3 (lo eliges tú en admin.html → data/manual/ranking.json)
    - Abajo: ranking de 15 lugares (lo eliges tú en admin.html → data/manual/ranking.json)
    ========================================================= */
 (function () {
@@ -20,15 +21,15 @@
   const fecha = (iso) => { const d = new Date(iso + 'T12:00:00Z'); return DIAS[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MESES[d.getUTCMonth()]; };
 
   const GUSTOS = [
+    ['aire', 'Sorprenderla al aire libre', 'Full days, paseos y planes gratis', '<path d="M12 3l6 9h-4l4 6H6l4-6H6z"/><path d="M12 18v4"/>'],
     ['cenar', 'Cena para sorprenderla', 'Los restaurantes mejor calificados', '<path d="M8 3v18M5 3v6a3 3 0 0 0 6 0V3"/><path d="M17 21V3c-2 1-3 4-3 7h3"/>'],
     ['bailar', 'Le gusta bailar', 'Bares y fiestas', '<path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>'],
     ['leer', 'Le encanta leer y lo cultural', 'Museos, teatro, expos y ferias', '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/>'],
-    ['aire', 'Sorprenderla al aire libre', 'Full days, paseos y planes gratis', '<path d="M12 3l6 9h-4l4 6H6l4-6H6z"/><path d="M12 18v4"/>'],
     ['cafe', 'Es de cafecito y conversar', 'Cafés con buena nota', '<path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M16 11h2a2 2 0 0 1 0 4h-2"/>'],
     ['reir', 'Le encanta reír', 'Stand up y comedia', '<circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>']
   ];
   const TOPES = [['todos', 'Todos'], ['gratis', 'Gratis'], ['100', 'Hasta S/ 100'], ['200', 'Hasta S/ 200'], ['mas', 'Más de S/ 200']];
-  const E = { gusto: 'cenar', tope: 'todos' };
+  const E = { gusto: 'aire', tope: 'todos' };
   let LUGARES = [];
   let EVENTOS = [];
   let RANKING = [];
@@ -87,11 +88,11 @@
       return RANKING.map((r) => {
         const p = porClave.get(r.clave) || porNombre.get(normal(r.nombre));
         return p ? Object.assign({}, p, { pct: Number(r.pct) || sorpresaAuto(p) }) : null;
-      }).filter(Boolean).slice(0, 15);
+      }).filter(Boolean).slice(0, 3);
     }
     const rest = LUGARES.filter((p) => p.tipo === 'restaurantes').sort(porNota).slice(0, 10);
     const aire = LUGARES.filter((p) => p.tipo === 'aire' && aireBueno(p)).sort(porNota).slice(0, 5);
-    return rest.concat(aire).sort(porNota).map((p) => Object.assign({}, p, { pct: sorpresaAuto(p) }));
+    return rest.concat(aire).sort(porNota).slice(0, 3).map((p) => Object.assign({}, p, { pct: sorpresaAuto(p) }));
   }
 
   function opciones() {
@@ -139,18 +140,15 @@
   function filaRanking(p, i) {
     const v = VOTOS[claveDe(p)] || 0;
     const k = esc(claveDe(p));
-    return '<li class="rk-item">' +
-      '<span class="rk-num">' + (i + 1) + '</span>' +
-      '<a class="rk-foto"' + enlace(p) + ' aria-label="' + esc(p.nombre) + '"><div class="portada-plan">' + foto(p) + '</div></a>' +
-      '<div class="rk-info"><b>' + esc(p.nombre) + '</b>' +
-      '<span>' + esc(p.categoria || '') + (p.lugar ? ' · ' + esc(p.lugar) : '') + (p.calificacion ? ' · ★ ' + p.calificacion.toFixed(1) : '') + '</span>' +
-      '<span class="rk-precio">' + (total(p) ? soles(total(p)) + ' para dos' : 'Gratis') + '</span>' +
-      '<div class="rk-barra" aria-hidden="true"><i style="width:' + p.pct + '%"></i></div></div>' +
-      '<div class="rk-lado"><span class="rk-pct"><b>' + p.pct + '%</b><small>la sorprende</small></span>' +
-      '<div class="rk-votos" role="group" aria-label="¿Te gustó ' + esc(p.nombre) + '?">' +
+    return '<li class="rk-m">' +
+      '<a class="rk-m-foto"' + enlace(p) + ' aria-label="' + esc(p.nombre) + '"><div class="portada-plan">' + foto(p) + '</div><span class="rk-m-num">' + (i + 1) + '</span></a>' +
+      '<div class="rk-m-info"><b title="' + esc(p.nombre) + '">' + esc(p.nombre) + '</b>' +
+      '<span><em>' + p.pct + '%</em> la sorprende</span>' +
+      '<span class="rk-m-precio">' + (total(p) ? soles(total(p)) + ' para dos' : 'Gratis') + '</span></div>' +
+      '<div class="rk-m-votos" role="group" aria-label="¿Te gustó ' + esc(p.nombre) + '?">' +
       '<button type="button" class="rk-voto" aria-pressed="' + (v === 1) + '" aria-label="Me gustó" data-voto="1" data-clave="' + k + '">' + linea('<path d="M7 11v9H4v-9zM7 11l4-8a2 2 0 0 1 3 2l-1 4h5a2 2 0 0 1 2 2.3l-1.2 7A2 2 0 0 1 16.8 20H7"/>') + '</button>' +
       '<button type="button" class="rk-voto no" aria-pressed="' + (v === -1) + '" aria-label="No me gustó" data-voto="-1" data-clave="' + k + '">' + linea('<path d="M17 13V4h3v9zM17 13l-4 8a2 2 0 0 1-3-2l1-4H6a2 2 0 0 1-2-2.3l1.2-7A2 2 0 0 1 7.2 4H17"/>') + '</button>' +
-      '</div></div></li>';
+      '</div></li>';
   }
 
   function render() {
