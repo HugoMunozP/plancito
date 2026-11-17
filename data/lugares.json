@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T15:06-05:00",
+ "actualizado": "2026-11-17T15:32-05:00",
  "lugares": [
   {
    "nombre": "Excursión a Ica y Huacachina + Islas Ballestas en grupo reducido",
@@ -1210,7 +1210,8 @@
     "terraza",
     "vegetariano",
     "ninos",
-    "pet"
+    "pet",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=18221584359955907047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1244,7 +1245,8 @@
    "atributos": [
     "terraza",
     "pet",
-    "musica"
+    "musica",
+    "happy"
    ],
    "subtipo": "Pub restaurante",
    "url": "https://maps.google.com/?cid=3284888330830627521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1259,7 +1261,8 @@
    "calificacion": 4.9,
    "resenas": 895,
    "atributos": [
-    "terraza"
+    "terraza",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=18228028606783006717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1275,7 +1278,8 @@
    "resenas": 2612,
    "atributos": [
     "terraza",
-    "vegetariano"
+    "vegetariano",
+    "postres"
    ],
    "subtipo": "Restaurante peruano",
    "url": "https://maps.google.com/?cid=9211312265691928987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1294,6 +1298,7 @@
     "vegetariano",
     "ninos",
     "pet",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1311,7 +1316,8 @@
    "atributos": [
     "terraza",
     "ninos",
-    "pet"
+    "pet",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=3310299213549937011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1327,7 +1333,8 @@
    "resenas": 721,
    "atributos": [
     "terraza",
-    "pet"
+    "pet",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=13465609780386185366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1344,7 +1351,8 @@
    "atributos": [
     "terraza",
     "vegetariano",
-    "pet"
+    "pet",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=8581321815547810356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1363,7 +1371,8 @@
     "vegetariano",
     "ninos",
     "pet",
-    "musica"
+    "musica",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=4204041385253026227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1376,10 +1385,11 @@
    "tipo": "restaurantes",
    "precio": 40,
    "calificacion": 4.7,
-   "resenas": 9202,
+   "resenas": 9203,
    "atributos": [
     "terraza",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=17265133651936947126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1407,6 +1417,7 @@
    "calificacion": 4.7,
    "resenas": 5183,
    "atributos": [
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1421,7 +1432,9 @@
    "precio": 70,
    "calificacion": 4.7,
    "resenas": 4354,
-   "atributos": [],
+   "atributos": [
+    "postres"
+   ],
    "subtipo": "Restaurante italiano",
    "url": "https://maps.google.com/?cid=16229296000474696287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
@@ -1433,14 +1446,63 @@
    "tipo": "restaurantes",
    "precio": 80,
    "calificacion": 4.7,
-   "resenas": 2725,
+   "resenas": 2726,
    "atributos": [
     "terraza",
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=18199989802305695384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Selectos Ibéricos Miraflores - Tarata",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 2154,
+   "atributos": [
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Restaurante de cocina española",
+   "url": "https://maps.google.com/?cid=14500142104930856899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Barra de Jackili Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 1687,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Marisquería",
+   "url": "https://maps.google.com/?cid=3376368350692045045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Alegría Picantería Piurana",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 110,
+   "calificacion": 4.7,
+   "resenas": 1619,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=16497700141145920644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -1455,6 +1517,7 @@
     "vegetariano",
     "ninos",
     "musica",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1472,6 +1535,7 @@
    "atributos": [
     "terraza",
     "vegetariano",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1489,6 +1553,7 @@
    "atributos": [
     "terraza",
     "vegetariano",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1505,7 +1570,8 @@
    "resenas": 14758,
    "atributos": [
     "terraza",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante peruano",
    "url": "https://maps.google.com/?cid=13014813205168135938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1522,6 +1588,8 @@
    "atributos": [
     "terraza",
     "ninos",
+    "postres",
+    "happy",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1539,7 +1607,8 @@
    "atributos": [
     "terraza",
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Marisquería",
    "url": "https://maps.google.com/?cid=14832447119192303207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1556,60 +1625,11 @@
    "atributos": [
     "terraza",
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante peruano",
    "url": "https://maps.google.com/?cid=6458308515752095155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
-   "nombre": "El Bodegón - Miraflores",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 80,
-   "calificacion": 4.6,
-   "resenas": 3800,
-   "atributos": [
-    "ninos"
-   ],
-   "subtipo": "Restaurante",
-   "url": "https://maps.google.com/?cid=1621032092564820966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
-   "nombre": "Amarena La Mar",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 50,
-   "calificacion": 4.7,
-   "resenas": 645,
-   "atributos": [
-    "terraza",
-    "vegetariano",
-    "ninos",
-    "pet",
-    "musica"
-   ],
-   "subtipo": "Taberna",
-   "url": "https://maps.google.com/?cid=3371029953791463817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
-   "nombre": "MAYTA by Jaime Pesaque",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 240,
-   "calificacion": 4.6,
-   "resenas": 2681,
-   "atributos": [
-    "vegetariano",
-    "romantico"
-   ],
-   "subtipo": "Restaurante",
-   "url": "https://maps.google.com/?cid=8877732925407308623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -1626,6 +1646,7 @@
     "ninos",
     "pet",
     "musica",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1642,6 +1663,7 @@
    "resenas": 633,
    "atributos": [
     "vegetariano",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1661,6 +1683,7 @@
     "vegetariano",
     "ninos",
     "musica",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1676,6 +1699,8 @@
    "calificacion": 4.9,
    "resenas": 460,
    "atributos": [
+    "postres",
+    "happy",
     "romantico"
    ],
    "subtipo": "Coctelería",
@@ -1693,6 +1718,7 @@
    "atributos": [
     "vegetariano",
     "pet",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1727,6 +1753,8 @@
    "atributos": [
     "terraza",
     "vegetariano",
+    "postres",
+    "happy",
     "romantico"
    ],
    "subtipo": "Restaurante peruano",
@@ -1743,6 +1771,7 @@
    "resenas": 3293,
    "atributos": [
     "terraza",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante italiano",
@@ -1774,7 +1803,8 @@
    "resenas": 647,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante japonés",
    "url": "https://maps.google.com/?cid=12108224774572212714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1789,7 +1819,8 @@
    "calificacion": 4.6,
    "resenas": 3030,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=12316649270636239639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1804,6 +1835,8 @@
    "calificacion": 4.6,
    "resenas": 2485,
    "atributos": [
+    "postres",
+    "happy",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -1819,6 +1852,8 @@
    "calificacion": 4.6,
    "resenas": 1733,
    "atributos": [
+    "postres",
+    "happy",
     "romantico"
    ],
    "subtipo": "Pub restaurante",
@@ -1835,7 +1870,8 @@
    "resenas": 281,
    "atributos": [
     "ninos",
-    "musica"
+    "musica",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=6667361515170182545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1865,6 +1901,7 @@
    "atributos": [
     "terraza",
     "ninos",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante especializado en filetes",
@@ -1879,7 +1916,9 @@
    "precio": 100,
    "calificacion": 4.6,
    "resenas": 450,
-   "atributos": [],
+   "atributos": [
+    "postres"
+   ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=7343442053835713429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
@@ -1894,7 +1933,8 @@
    "resenas": 2297,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Pizzería",
    "url": "https://maps.google.com/?cid=6420491424745682469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1910,7 +1950,8 @@
    "resenas": 424,
    "atributos": [
     "terraza",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=6522058814038187531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1926,6 +1967,7 @@
    "resenas": 2013,
    "atributos": [
     "terraza",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante especializado en filetes",
@@ -1942,7 +1984,8 @@
    "resenas": 412,
    "atributos": [
     "terraza",
-    "musica"
+    "musica",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=3809231209957635345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1957,7 +2000,8 @@
    "calificacion": 4.5,
    "resenas": 1799,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante peruano",
    "url": "https://maps.google.com/?cid=5609117578777353797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -1974,6 +2018,7 @@
    "atributos": [
     "terraza",
     "vegetariano",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante de fusión",
@@ -1989,7 +2034,8 @@
    "calificacion": 4.5,
    "resenas": 1041,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=10426336445579636869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2006,6 +2052,7 @@
    "atributos": [
     "terraza",
     "vegetariano",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -2022,7 +2069,8 @@
    "resenas": 3180,
    "atributos": [
     "terraza",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Hamburguesería",
    "url": "https://maps.google.com/?cid=9949361473924449959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2037,7 +2085,8 @@
    "calificacion": 4.6,
    "resenas": 2517,
    "atributos": [
-    "terraza"
+    "terraza",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=8017638732222161041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2055,7 +2104,9 @@
     "terraza",
     "vegetariano",
     "ninos",
-    "musica"
+    "musica",
+    "postres",
+    "happy"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=7767752113096035135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2072,10 +2123,26 @@
    "atributos": [
     "ninos",
     "pet",
-    "musica"
+    "musica",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=15934509224666665265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Nacional Chacarilla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.7,
+   "resenas": 468,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=10231864844393896051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -2088,7 +2155,8 @@
    "resenas": 5570,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante japonés",
    "url": "https://maps.google.com/?cid=4679634034950821555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2103,7 +2171,9 @@
    "calificacion": 4.5,
    "resenas": 5285,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres",
+    "happy"
    ],
    "subtipo": "Restaurante peruano",
    "url": "https://maps.google.com/?cid=3492830545980309722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2118,7 +2188,8 @@
    "calificacion": 4.5,
    "resenas": 3799,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=9398463415901770655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2131,13 +2202,31 @@
    "tipo": "restaurantes",
    "precio": 110,
    "calificacion": 4.5,
-   "resenas": 3415,
+   "resenas": 3418,
    "atributos": [
     "terraza",
+    "postres",
     "romantico"
    ],
    "subtipo": "Marisquería",
    "url": "https://maps.google.com/?cid=13635643989892432538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Antica Pizzería Chacarilla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.5,
+   "resenas": 2892,
+   "atributos": [
+    "vegetariano",
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Restaurante italiano",
+   "url": "https://maps.google.com/?cid=13484203522139843597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -2150,7 +2239,8 @@
    "resenas": 1664,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante vietnamita",
    "url": "https://maps.google.com/?cid=11063179877441773592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2166,7 +2256,8 @@
    "resenas": 808,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante japonés",
    "url": "https://maps.google.com/?cid=13324830467629196895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2181,7 +2272,8 @@
    "calificacion": 4.5,
    "resenas": 637,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=6841242900235466357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2196,7 +2288,8 @@
    "calificacion": 4.5,
    "resenas": 618,
    "atributos": [
-    "terraza"
+    "terraza",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=2289469489080020683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2211,7 +2304,8 @@
    "calificacion": 4.7,
    "resenas": 1789,
    "atributos": [
-    "terraza"
+    "terraza",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=11846334315842939789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2227,7 +2321,8 @@
    "resenas": 1012,
    "atributos": [
     "ninos",
-    "pet"
+    "pet",
+    "postres"
    ],
    "subtipo": "Restaurante japonés",
    "url": "https://maps.google.com/?cid=2611261644086931818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2242,7 +2337,8 @@
    "calificacion": 4.6,
    "resenas": 5391,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante de sopas",
    "url": "https://maps.google.com/?cid=13717297243608253202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2258,6 +2354,7 @@
    "resenas": 795,
    "atributos": [
     "terraza",
+    "postres",
     "romantico"
    ],
    "subtipo": "Restaurante",
@@ -2274,7 +2371,8 @@
    "resenas": 276,
    "atributos": [
     "terraza",
-    "musica"
+    "musica",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=4849331779369070116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2289,7 +2387,8 @@
    "calificacion": 4.5,
    "resenas": 1621,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=7400952547862941491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -2304,10 +2403,26 @@
    "calificacion": 4.5,
    "resenas": 1167,
    "atributos": [
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante asiático",
    "url": "https://maps.google.com/?cid=5556637130124531371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Linterna",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.5,
+   "resenas": 824,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Restaurante italiano",
+   "url": "https://maps.google.com/?cid=17339078598256605735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -2320,23 +2435,1337 @@
    "resenas": 690,
    "atributos": [
     "vegetariano",
-    "ninos"
+    "ninos",
+    "postres"
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=16069810264658954179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
-   "nombre": "Anticucheria Dkyara - Surco",
+   "nombre": "Milimétrica Coffee",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 599,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=14486481608447853706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "LA CRÈME DE LA CRÈME",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 542,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12797781674785278885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Neira Café Lab - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 938,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=8424287596650979661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Sol Coffee - Cafecito Here",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 10,
+   "calificacion": 4.9,
+   "resenas": 287,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=10900188882292654723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cítrica Specialty Coffee",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 407,
+   "atributos": [],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=17039601782103137525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Ayni Coffee - Bolivar",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 732,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=15956503665119453035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Amarena La Mar",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 50,
+   "calificacion": 4.7,
+   "resenas": 645,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "musica",
+    "postres"
+   ],
+   "subtipo": "Taberna",
+   "url": "https://maps.google.com/?cid=3371029953791463817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "COFFEE TIME MIRAFLORES",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.8,
+   "resenas": 335,
+   "atributos": [],
+   "subtipo": "Tostaderos de café",
+   "url": "https://maps.google.com/?cid=6894141659521958304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "El Pan de Bertini - Cafe",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 470,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=1366565186023424736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "U Y W A",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 5,
+   "resenas": 154,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=15480979304205624295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kaldis Specialty Coffee Recavarren",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 1068,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=17851884646770119152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Raiz Coffee",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 10,
+   "calificacion": 4.7,
+   "resenas": 421,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=16648992406237145008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Lima Focacceria",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 258,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=7534204836802984154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kaldis Specialty Coffee Grimaldo",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 340,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=764749799139644056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "DULCE CIUDAD - MIRAFLORES",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 201,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12582914367205244038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Piola Café",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 284,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12174258213483648070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Pastelería San Antonio - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.5,
+   "resenas": 4818,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Pastelería",
+   "url": "https://maps.google.com/?cid=6020093203339585543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Tiendecita Blanca",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 80,
+   "calificacion": 4.5,
+   "resenas": 3391,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Restaurante suizo",
+   "url": "https://maps.google.com/?cid=16310557049957529444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Pan Atelier",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 2462,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=13110854199853591261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Café Parque Sol",
+   "lugar": "Miraflores",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 239,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=761205863306974081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Oscar Lorenzo Café - San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 80,
+   "calificacion": 4.9,
+   "resenas": 2329,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet",
+    "musica",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=5096748475033382718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Napoléon Café",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 803,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=1608906567405269166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Nítido Coffee Co",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 297,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=5680382750969855263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Morfi Cafe",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 195,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=16495331822968374603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Usina Cafetera San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.5,
+   "resenas": 2299,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "musica",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=9444232320957627214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Space Café",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 236,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=7969816359721276303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Puku Puku Pardo y Aliaga",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 1530,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=17657129795245531747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "The Coffee Road",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 1072,
+   "atributos": [
+    "pet",
+    "musica",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=6035627176004965512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cormiglio Café",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.9,
+   "resenas": 96,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12220738525855743228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Oh-jalá",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 163,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=2466429511124279816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Panadería del Country",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 568,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=11015373334189341745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kaldis Specialty Coffee San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 215,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=5962764397916171418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "FOUR SENSES coffee & tea",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 159,
+   "atributos": [
+    "terraza",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=18339832638801900279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Blanco Latte & Brunch",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 159,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=8920455563661255659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "DUAL san isidro",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 139,
+   "atributos": [
+    "pet",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=8258346999862856817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Sra. Zapata Flores & Café",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 111,
+   "atributos": [
+    "terraza",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=4160037492532481570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Bartolomé Café",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 96,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=8224727357380501156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "MADRE & CO.",
+   "lugar": "San Isidro",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 87,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12694112013224177649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "PETITE | The Pastry & Co - San Borja",
+   "lugar": "San Borja",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.8,
+   "resenas": 1788,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Pastelería",
+   "url": "https://maps.google.com/?cid=15883286848234593249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Curcucho Cafe",
+   "lugar": "San Borja",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.8,
+   "resenas": 206,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=7658115900991421714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "80+ COFFEE & TEA",
+   "lugar": "San Borja",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 141,
+   "atributos": [
+    "terraza",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=16443103863668966348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "NARANJO",
+   "lugar": "San Borja",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 174,
+   "atributos": [
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=4171375518916087703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Sweet 7 - Bubble Tea (Sede: San Borja)",
+   "lugar": "San Borja",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.5,
+   "resenas": 350,
+   "atributos": [
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Salón de té",
+   "url": "https://maps.google.com/?cid=3770637592322918191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Oscar Lorenzo Café - Surco",
    "lugar": "Santiago de Surco",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 60,
+   "calificacion": 4.9,
+   "resenas": 1842,
+   "atributos": [
+    "terraza",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=5232566641894231588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Mora Pastelería & Cafetería",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.6,
+   "resenas": 748,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Pastelería",
+   "url": "https://maps.google.com/?cid=13034010535245284869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Imperial Coffee",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 5,
+   "resenas": 98,
+   "atributos": [],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=15310965456390281754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Amauta Coffee",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 214,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=14289017399131864887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Meyuka Coffee Lab",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.9,
+   "resenas": 112,
+   "atributos": [
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=6632259993174376652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Aroma De Café",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 341,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=12251744812022270715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Starbucks - Pedro Venturo",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 474,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=13360028499101507379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Arte Café Perú",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 108,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=16068817522058941926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Valentini Café - Surco",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 50,
+   "calificacion": 4.6,
+   "resenas": 154,
+   "atributos": [
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=6651497016666248979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Amarás Café",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 94,
+   "atributos": [
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=15882516851484680186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cabina Lima",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 183,
+   "atributos": [
+    "terraza",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=10741664087595869950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Ciabattería - Sanguches y Café",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 88,
+   "atributos": [
+    "ninos",
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=13270650746418689698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Neira Café Lab - Chacarilla ;-)",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 87,
+   "atributos": [
+    "postres"
+   ],
+   "subtipo": "Cafetería",
+   "url": "https://maps.google.com/?cid=14057133054762424140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Beso Francés Crepería - Cafetería",
+   "lugar": "Santiago de Surco",
+   "categoria": "Café",
+   "tipo": "cafe",
+   "precio": 25,
+   "calificacion": 4.5,
+   "resenas": 93,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet",
+    "postres"
+   ],
+   "subtipo": "Tienda de postres",
+   "url": "https://maps.google.com/?cid=12775342235118935325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Molly's Irish Bar & Restaurant",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 60,
+   "calificacion": 4.7,
+   "resenas": 10175,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "musica",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Pub irlandés",
+   "url": "https://maps.google.com/?cid=4363491837794013932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Caños del Santero Miraflores - Craft beer & burgers - Cerveza artesanal",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 80,
+   "calificacion": 4.7,
+   "resenas": 2034,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "musica",
+    "happy"
+   ],
+   "subtipo": "Bar restaurante",
+   "url": "https://maps.google.com/?cid=14551193742466591934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Beer Pong Perú Bar",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 40,
+   "calificacion": 4.9,
+   "resenas": 412,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=8425328931222360647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Bijou Bar - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 90,
+   "calificacion": 4.9,
+   "resenas": 321,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=12808780220075958092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "El Bodegón - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 3800,
+   "atributos": [
+    "ninos",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=1621032092564820966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "República del Pisco - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 2045,
+   "atributos": [
+    "terraza",
+    "musica",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=16590284709529115204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cocodrilo Verde - Lounge Bar en Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 100,
+   "calificacion": 4.6,
+   "resenas": 1093,
+   "atributos": [
+    "musica",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=7622261516960179413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Muna Craft Bar | Bar en Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 45,
+   "calificacion": 4.8,
+   "resenas": 257,
+   "atributos": [
+    "musica",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=2580788193656103646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Bar Capitán Meléndez",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 60,
+   "calificacion": 4.6,
+   "resenas": 667,
+   "atributos": [
+    "terraza",
+    "pet",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=3974329170069098125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Intro Café Bar",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 50,
+   "calificacion": 4.6,
+   "resenas": 567,
+   "atributos": [
+    "terraza",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=10584199079173308621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Pescados Capitales Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 140,
+   "calificacion": 4.5,
+   "resenas": 4308,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet",
+    "musica",
+    "postres",
+    "happy",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=18091926568235566687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Ginebra Restobar",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 435,
+   "atributos": [
+    "pet",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Pub restaurante",
+   "url": "https://maps.google.com/?cid=7998187739534804340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Orus Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 45,
+   "calificacion": 4.7,
+   "resenas": 223,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=12968284570950802106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "El Olimpo - Restobar",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
    "precio": 60,
    "calificacion": 4.5,
-   "resenas": 156,
+   "resenas": 1378,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar restaurante",
+   "url": "https://maps.google.com/?cid=12122845812581834054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "The Parrot Shadow",
+   "lugar": "Miraflores",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 50,
+   "calificacion": 4.7,
+   "resenas": 207,
    "atributos": [],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=4846789995619124532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Selectos Ibéricos - República",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 70,
+   "calificacion": 4.6,
+   "resenas": 1263,
+   "atributos": [
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Bar restaurante",
+   "url": "https://maps.google.com/?cid=13654827041538982037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Bar Inglés",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 45,
+   "calificacion": 4.6,
+   "resenas": 565,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=59741914349927344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "BOTTEGA DASSO",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 45,
+   "calificacion": 4.5,
+   "resenas": 1533,
+   "atributos": [
+    "postres",
+    "happy"
+   ],
    "subtipo": "Restaurante",
-   "url": "https://maps.google.com/?cid=11039339019246040189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "url": "https://maps.google.com/?cid=7364607166480799795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Alphonse Bar",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 130,
+   "calificacion": 4.6,
+   "resenas": 254,
+   "atributos": [
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=2788206801442506573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Zani Restaurante",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 70,
+   "calificacion": 4.7,
+   "resenas": 120,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "postres",
+    "happy"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=539439453086842909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Notas de Cata - Winebar",
+   "lugar": "San Isidro",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 90,
+   "calificacion": 4.6,
+   "resenas": 142,
+   "atributos": [
+    "terraza",
+    "happy",
+    "romantico"
+   ],
+   "subtipo": "Vinoteca",
+   "url": "https://maps.google.com/?cid=8235078724761654283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "FORTI Barber Studio - San Borja",
+   "lugar": "San Borja",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 45,
+   "calificacion": 4.7,
+   "resenas": 253,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Barbería",
+   "url": "https://maps.google.com/?cid=16555439059351682617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Curayacu Tiki Bar - San Borja",
+   "lugar": "San Borja",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 125,
+   "atributos": [
+    "pet",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=10293257264025793377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Terraza 45 - Show Bar del Despecho",
+   "lugar": "Santiago de Surco",
+   "categoria": "Bar",
+   "tipo": "bar",
+   "precio": 100,
+   "calificacion": 4.6,
+   "resenas": 394,
+   "atributos": [
+    "musica",
+    "happy"
+   ],
+   "subtipo": "Bar",
+   "url": "https://maps.google.com/?cid=2253381676209935905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   }
  ]

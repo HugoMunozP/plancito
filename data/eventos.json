@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T15:06-05:00",
+ "actualizado": "2026-11-17T15:32-05:00",
  "eventos": [
   {
    "nombre": "\"Por la alegría de los carnavales\"",
@@ -644,20 +644,6 @@
    "url": "https://entradalibre.me/event/peregrino-de-esperanza/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/1bff52e87402cd93.webp"
-  },
-  {
-   "nombre": "Recordé La Ladera De Un Cerro",
-   "inicio": "2026-11-17",
-   "fin": "2026-11-17",
-   "hora": "1:00 pm",
-   "lugar": "San Miguel",
-   "categoria": "Dibujo",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117DIINSANREC.webp",
-   "url": "https://entradalibre.me/event/recorde-la-ladera-de-un-cerro-2/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/c43dcedb1d40ef47.webp"
   },
   {
    "nombre": "Remembranzas – 40 Años",
@@ -1766,20 +1752,6 @@
    "imagen_local": "img/cache/93c65219fd12a236.webp"
   },
   {
-   "nombre": "BAILE DE HUESOS",
-   "inicio": "2026-11-19",
-   "fin": "2026-11-19",
-   "hora": "8:00 pm",
-   "lugar": "Lima",
-   "categoria": "Teatro",
-   "tipo": "cultural",
-   "precio": 40,
-   "imagen": "https://cdn.joinnus.com/images/78112/main/z8HweLuOyDrfUjy.webp",
-   "url": "https://www.joinnus.com/events/theater/lima-baile-de-huesos-78112",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/eed4c720baac51c4.webp"
-  },
-  {
    "nombre": "BITS | Lo mejor de la stand-up de Lima",
    "inicio": "2026-11-19",
    "fin": "2026-11-19",
@@ -2590,6 +2562,34 @@
    "url": "https://entradalibre.me/event/the-british-rock-experience-3/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/56ad4d1457c05ccb.webp"
+  },
+  {
+   "nombre": "TOMA Y DACA de Omar Velásquez",
+   "inicio": "2026-11-19",
+   "fin": "2026-11-19",
+   "hora": "8:00 pm",
+   "lugar": "Lima",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 15,
+   "imagen": "https://cdn.joinnus.com/images/79903/main/9iDR9qYIWI7lZyR.webp",
+   "url": "https://www.joinnus.com/events/theater/lima-toma-y-daca-de-omar-velasquez-79903",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/84b14f7daea19823.webp"
+  },
+  {
+   "nombre": "Tour Del Miedo 2026 - Cementerio Presbitero Matias Maestro - Tour Del Miedo 2026 - Cementerio Presbitero Matias Maestro",
+   "inicio": "2026-11-19",
+   "fin": "2026-11-21",
+   "hora": "",
+   "lugar": "Museo Cementerio – Presbítero Matías Maestro - Lima",
+   "categoria": "Show",
+   "tipo": "cultural",
+   "precio": 60,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE073_calugalistado.jpg?v=1794406264",
+   "url": "https://teleticket.com.pe/evento/tour-del-miedo-2026-cementerio-presbitero-matias",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/36190ba5f2c85267.webp"
   },
   {
    "nombre": "TOUR DEL MIEDO CEMENTERIO PRESBÍTERO SIN TRASLADO 2026",
@@ -5702,12 +5702,12 @@
   {
    "nombre": "Las Eternas - Miraflores",
    "inicio": "2026-11-28",
-   "fin": "2026-11-28",
+   "fin": "2026-12-04",
    "hora": "",
    "lugar": "Teatro Auditorio Miraflores - Miraflores - Lima",
    "categoria": "Teatro",
    "tipo": "cultural",
-   "precio": 70,
+   "precio": 80,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta111_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/las-eternas-miraflores-teatro-auditorio-miraflores",
    "fuente": "Teleticket",
@@ -6330,6 +6330,20 @@
    "imagen_local": "img/cache/022f78506b38dd3d.webp"
   },
   {
+   "nombre": "Llegó la Salsa a Barranco: la Ultima Gran Noche",
+   "inicio": "2026-12-08",
+   "fin": "2026-12-08",
+   "hora": "",
+   "lugar": "Peña Del Carajo - Barranco - Lima",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 40,
+   "imagen": "https://cdn.teleticket.com.pe/images/eventos/tim040_calugalistado.jpg",
+   "url": "https://teleticket.com.pe/evento/llego-la-salsa-a-barranco-la-ultima-gran-noche-tumbakin--adalberto-alvarez-penia-del-carajo",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4e6f14ad942c0202.webp"
+  },
+  {
    "nombre": "Cascarón Criollo",
    "inicio": "2026-12-10",
    "fin": "2026-12-10",
@@ -6426,6 +6440,20 @@
    "url": "https://teleticket.com.pe/evento/un-anio-mas-segunda-edicion-serenata-a-josue-rivaldo-cc-bianca",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/1aa65eb02e4396cf.webp"
+  },
+  {
+   "nombre": "Aldair Sánchez",
+   "inicio": "2026-12-12",
+   "fin": "2026-12-12",
+   "hora": "",
+   "lugar": "Centro de Convenciones Surco - Santiago de Surco - Lima",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 40,
+   "imagen": "https://cdn.teleticket.com.pe/images/eventos/msj018_calugalistado.jpg",
+   "url": "https://teleticket.com.pe/evento/aldair-sanchez-centro-de-convenciones-surco",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/886b5b3bf25548fc.webp"
   },
   {
    "nombre": "CHURRE pa´ simplón - CHURRE pa´ simplón",
