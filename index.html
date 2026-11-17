@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plancito · ¿Qué hacemos con nuestro presupuesto?</title>
+<meta name="description" content="Planes en Lima según tu presupuesto: conciertos, teatro, fútbol, cine, full days, restaurantes y planes gratis. Busca, filtra y elige en segundos.">
+<meta property="og:title" content="Plancito · ¿Qué hacemos con S/ 150?">
+<meta property="og:description" content="Todos los planes de Lima que entran en tu presupuesto, en un solo lugar.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0F0A1F">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="estilos.css">
+<!-- GOOGLE ADSENSE: cuando te aprueben, pega aquí el script que te da Google, por ejemplo:
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+
+<header class="barra" id="barra">
+  <div class="barra-izq">
+    <a href="#" class="logo" data-accion="inicio" aria-label="Plancito, inicio">
+      <img src="img/logo.svg" alt="" width="36" height="36">
+      <span>plancito</span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#" data-accion="inicio">Inicio</a>
+      <a href="#" class="menu-gratis" data-accion="atajo" data-valor="gratis">Planes gratis</a>
+      <a href="#" data-accion="atajo" data-valor="cultural">Conciertos y teatro</a>
+      <a href="#" data-accion="atajo" data-valor="romantico">Cena romántica</a>
+      <a href="#" data-accion="atajo" data-valor="restaurantes">Comida</a>
+      <a href="#" data-accion="atajo" data-valor="aire">Aire libre</a>
+    </nav>
+  </div>
+  <form class="busqueda" id="busqueda" role="search" autocomplete="off">
+    <button type="button" class="busqueda-icono" id="busqueda-icono" aria-label="Buscar planes">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    </button>
+    <input type="search" id="q" placeholder="Conciertos, Barranco, full day, gratis…" aria-label="Buscar planes por nombre, lugar o categoría" enterkeyhint="search">
+    <button type="button" class="busqueda-limpiar" id="busqueda-limpiar" aria-label="Borrar búsqueda">✕</button>
+  </form>
+</header>
+
+<main>
+  <section class="hero" id="hero" aria-label="Plan destacado"><!-- lo llena app.js --></section>
+
+  <section class="filtros" id="filtros" aria-label="Filtros"><!-- lo llena app.js --></section>
+
+  <section class="filas" id="filas"><!-- lo llena app.js --></section>
+</main>
+
+<div class="anuncio anuncio-cuadrado"><small>PUBLICIDAD</small>Espacio 300×250</div>
+<!-- ESPACIO PUBLICITARIO 300x250: reemplaza el div de arriba por tu bloque de AdSense -->
+
+<footer class="pie">
+  <span>plancito junta planes de <a href="https://www.joinnus.com" target="_blank" rel="noopener">Joinnus</a>, <a href="https://teleticket.com.pe" target="_blank" rel="noopener">Teleticket</a>, <a href="https://entradalibre.me" target="_blank" rel="noopener">EntradaLibre</a>, <a href="https://www.eventbrite.com" target="_blank" rel="noopener">Eventbrite</a>, <a href="https://www.civitatis.com" target="_blank" rel="noopener">Civitatis</a> y más. Al comprar te llevamos a la página oficial.</span>
+  <span id="actualizado">Precios referenciales.</span>
+</footer>
+
+<div id="ruleta-modal" class="ruleta-modal" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

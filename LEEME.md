@@ -30,8 +30,8 @@ GitHub Actions corre `scraper/scrape.py` todos los días a las 6:17 a. m. (hora 
 
 ## Puesta en marcha (una sola vez)
 
-1. Crea un repositorio público en GitHub, por ejemplo `plancito`.
-2. Sube el contenido de este zip junto con los archivos de la web: `index.html`, `app.js`, `estilos.css`, `img/` y `data/lugares.json`. Los puedes descargar de tu artifact "Plancito – versión real". La carpeta `.github` también tiene que subirse.
+1. (Ya hecho) Repositorio público `HugoMunozP/plancito`.
+2. (Ya hecho) Los archivos de la web y del scraper ya están en el repositorio.
 3. Ve a **Settings → Actions → General → Workflow permissions** y marca **Read and write permissions**.
 4. Ve a **Actions → Actualizar eventos → Run workflow**. Tarda entre 5 y 10 minutos.
 5. Ve a **Settings → Pages**, elige *Deploy from a branch*, la rama `main` y la carpeta `/ (root)`.
