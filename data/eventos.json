@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T13:58-05:00",
+ "actualizado": "2026-11-17T14:40-05:00",
  "eventos": [
   {
    "nombre": "\"Por la alegría de los carnavales\"",
@@ -110,7 +110,7 @@
    "inicio": "2026-11-17",
    "fin": "2026-11-17",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -1170,19 +1170,6 @@
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118MUCLCHOFLA.jpg",
    "url": "https://entradalibre.me/event/flamenco-en-piano/",
    "fuente": "EntradaLibre"
-  },
-  {
-   "nombre": "Full Day Paracas - Ica - Laguna de Huacachina 2026 - Full Day Paracas - Ica - Laguana de Huacachina 2026",
-   "inicio": "2026-11-18",
-   "fin": "2026-11-25",
-   "hora": "",
-   "lugar": "Punto de Reunion Cc.plaza Norte - Lima",
-   "categoria": "Show",
-   "tipo": "cultural",
-   "precio": 16,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE075_calugalistado.jpg?v=1794679850",
-   "url": "https://teleticket.com.pe/evento/full-day-paracas-ica-laguana-de-huacachina-2026",
-   "fuente": "Teleticket"
   },
   {
    "nombre": "Hacer Cine De Bajo Presupuesto",
@@ -2528,7 +2515,7 @@
    "inicio": "2026-11-19",
    "fin": "2026-11-26",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -2652,19 +2639,6 @@
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120DAPUCERBAL.jpg",
    "url": "https://entradalibre.me/event/ballet-san-marcos-3/",
    "fuente": "EntradaLibre"
-  },
-  {
-   "nombre": "BAR CRAWL LIMA: RUTA BOHEMIA EN BARRANCO",
-   "inicio": "2026-11-20",
-   "fin": "2026-11-20",
-   "hora": "8:30 pm",
-   "lugar": "Lima",
-   "categoria": "Fiesta",
-   "tipo": "bar",
-   "precio": 80,
-   "imagen": "https://cdn.joinnus.com/images/80486/main/zoXyhtZtaIUwLKe.webp",
-   "url": "https://www.joinnus.com/events/party/lima-bar-crawl-lima-ruta-bohemia-en-barranco-80486",
-   "fuente": "Joinnus"
   },
   {
    "nombre": "BINGO DEL DESPECHO - 20.11",
@@ -2840,7 +2814,7 @@
    "inicio": "2026-11-20",
    "fin": "2026-11-20",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -2992,7 +2966,7 @@
    "fuente": "EntradaLibre"
   },
   {
-   "nombre": "LED VARELA - POPULAR - Stand Up Comedy",
+   "nombre": "Led Varela - Popular - Stand Up Comedy",
    "inicio": "2026-11-20",
    "fin": "2026-11-20",
    "hora": "",
@@ -3356,7 +3330,7 @@
    "fuente": "EntradaLibre"
   },
   {
-   "nombre": "¡FULL DAY LUNAHUANÁ CON RUTAS INCAS! - ¡Full Day Lunahuaná! Cerro Azul, Vitivinícola, Apícola y más",
+   "nombre": "¡full Day Lunahuaná Con Rutas Incas! - ¡Full Day Lunahuaná! Cerro Azul, Vitivinícola, Apícola y más",
    "inicio": "2026-11-20",
    "fin": "2026-11-22",
    "hora": "",
@@ -3369,7 +3343,7 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "¡TOUR CHANCAY + HUARAL 2D/1N CON RUTAS INCAS! - ¡Tour Chancay + Huaral 2D/1N! Hospedaje, Eco Truly Park y más",
+   "nombre": "¡tour Chancay + Huaral 2d/1n Con Rutas Incas! - ¡Tour Chancay + Huaral 2D/1N! Hospedaje, Eco Truly Park y más",
    "inicio": "2026-11-20",
    "fin": "2026-11-21",
    "hora": "",
@@ -3382,7 +3356,7 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "¡TOUR HUANCAYA + PIQUECOCHA 2D/1N CON RUTAS INCAS! - ¡Tour Huancaya + Piquecocha 2N/1D! Lagunas, Cascadas, Yoga y más",
+   "nombre": "¡tour Huancaya + Piquecocha 2d/1n Con Rutas Incas! - ¡Tour Huancaya + Piquecocha 2N/1D! Lagunas, Cascadas, Yoga y más",
    "inicio": "2026-11-20",
    "fin": "2026-12-11",
    "hora": "",
@@ -3759,7 +3733,7 @@
    "fuente": "Joinnus"
   },
   {
-   "nombre": "GANADORES EN CONCIERTO - Juan Gabriel (Ronald Hidalgo), Raphael (Josue Rivaldo) y Susan Ochoa",
+   "nombre": "Ganadores en Concierto - Juan Gabriel (Ronald Hidalgo), Raphael (Josue Rivaldo) y Susan Ochoa",
    "inicio": "2026-11-21",
    "fin": "2026-11-21",
    "hora": "",
@@ -3867,7 +3841,7 @@
    "inicio": "2026-11-21",
    "fin": "2026-11-21",
    "hora": "",
-   "lugar": "Rock And Pez - MIRAFLORES - LIMA",
+   "lugar": "Rock And Pez - Miraflores - Lima",
    "categoria": "Concierto",
    "tipo": "cultural",
    "precio": 40,
@@ -4175,7 +4149,7 @@
    "fuente": "EntradaLibre"
   },
   {
-   "nombre": "RISOTERAPIA DEL SEXO - ¡Mejorado, aumentado y repotenciado!",
+   "nombre": "Risoterapia Del Sexo - ¡Mejorado, aumentado y repotenciado!",
    "inicio": "2026-11-21",
    "fin": "2026-12-12",
    "hora": "",
@@ -4257,7 +4231,7 @@
    "inicio": "2026-11-21",
    "fin": "2026-11-21",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Show",
    "tipo": "cultural",
    "precio": 40,
@@ -4344,7 +4318,7 @@
    "fuente": "EntradaLibre"
   },
   {
-   "nombre": "¡TOUR CHURÍN 2D/1N CON RUTAS INCAS! - ¡Tour Churín 2D/1N! Hospedaje, Baños Termales, Piscigranja y más",
+   "nombre": "¡tour Churín 2d/1n Con Rutas Incas! - ¡Tour Churín 2D/1N! Hospedaje, Baños Termales, Piscigranja y más",
    "inicio": "2026-11-21",
    "fin": "2026-12-19",
    "hora": "",
@@ -4357,7 +4331,7 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "¡TOUR RÚPAC 2D/1N CON RUTAS INCAS! - ¡Tour Rúpac 2D/1N! Centro Arqueológico, Camping, Fogata y más",
+   "nombre": "¡tour Rúpac 2d/1n Con Rutas Incas! - ¡Tour Rúpac 2D/1N! Centro Arqueológico, Camping, Fogata y más",
    "inicio": "2026-11-21",
    "fin": "2026-12-05",
    "hora": "",
@@ -4595,7 +4569,7 @@
    "inicio": "2026-11-22",
    "fin": "2026-11-22",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Nacional",
    "tipo": "cultural",
    "precio": 69,
@@ -4734,7 +4708,7 @@
    "fuente": "EntradaLibre"
   },
   {
-   "nombre": "¡FULL DAY CALLAHUANCA CON RUTAS INCAS! - ¡Full Day Callahuanca! Mano Gigante, Pozas del Duende, Adrenalina y más",
+   "nombre": "¡full Day Callahuanca Con Rutas Incas! - ¡Full Day Callahuanca! Mano Gigante, Pozas del Duende, Adrenalina y más",
    "inicio": "2026-11-22",
    "fin": "2026-12-27",
    "hora": "",
@@ -5037,13 +5011,26 @@
    "inicio": "2026-11-26",
    "fin": "2026-11-27",
    "hora": "",
-   "lugar": "Teatro Peruano Japonés - JESUS MARIA - LIMA",
+   "lugar": "Teatro Peruano Japonés - Jesus Maria - Lima",
    "categoria": "Teatro",
    "tipo": "cultural",
    "precio": 41,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pdp010_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/con-un-poco-de-azucar-teatro-peruano-japones",
    "fuente": "Teleticket"
+  },
+  {
+   "nombre": "BAR CRAWL LIMA: RUTA BOHEMIA EN BARRANCO",
+   "inicio": "2026-11-27",
+   "fin": "2026-11-27",
+   "hora": "8:30 pm",
+   "lugar": "Lima",
+   "categoria": "Fiesta",
+   "tipo": "bar",
+   "precio": 80,
+   "imagen": "https://cdn.joinnus.com/images/80486/main/zoXyhtZtaIUwLKe.webp",
+   "url": "https://www.joinnus.com/events/party/lima-bar-crawl-lima-ruta-bohemia-en-barranco-80486",
+   "fuente": "Joinnus"
   },
   {
    "nombre": "Canto Raiz Voces De Los Territorios",
@@ -5310,7 +5297,7 @@
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
    "hora": "",
-   "lugar": "Rock And Pez - MIRAFLORES - LIMA",
+   "lugar": "Rock And Pez - Miraflores - Lima",
    "categoria": "Concierto",
    "tipo": "cultural",
    "precio": 33,
@@ -5401,7 +5388,7 @@
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Teatro",
    "tipo": "cultural",
    "precio": 33,
@@ -5414,7 +5401,7 @@
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 38.4,
@@ -5674,7 +5661,7 @@
    "inicio": "2026-12-04",
    "fin": "2026-12-04",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 38,
@@ -5700,7 +5687,7 @@
    "inicio": "2026-12-05",
    "fin": "2026-12-06",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -5709,7 +5696,7 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "NOS CASAMOS LA CAGAMOS - Show de Comedia en Pareja",
+   "nombre": "Nos Casamos la Cagamos - Show de Comedia en Pareja",
    "inicio": "2026-12-05",
    "fin": "2026-12-05",
    "hora": "",
@@ -5778,7 +5765,7 @@
    "inicio": "2026-12-05",
    "fin": "2026-12-05",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -5869,7 +5856,7 @@
    "inicio": "2026-12-07",
    "fin": "2026-12-07",
    "hora": "",
-   "lugar": "Teatro Municipal de Surco - - Santiago de Surco - Lima",
+   "lugar": "Teatro Municipal de Surco -  - Santiago de Surco - Lima",
    "categoria": "Teatro",
    "tipo": "cultural",
    "precio": 43,
@@ -5921,7 +5908,7 @@
    "inicio": "2026-12-08",
    "fin": "2026-12-08",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -5956,11 +5943,11 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "EL NEFASTO ESPECIAL DE NAVIDAD - EL NEFASTO ESPECIAL DE NAVIDAD x CHOCOCHIFLE",
+   "nombre": "el Nefasto Especial de Navidad - EL NEFASTO ESPECIAL DE NAVIDAD x CHOCOCHIFLE",
    "inicio": "2026-12-11",
    "fin": "2026-12-11",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -6025,7 +6012,7 @@
    "inicio": "2026-12-12",
    "fin": "2026-12-12",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 33,
@@ -6077,7 +6064,7 @@
    "inicio": "2026-12-12",
    "fin": "2026-12-12",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 35,
@@ -6324,7 +6311,7 @@
    "inicio": "2027-01-23",
    "fin": "2027-01-23",
    "hora": "",
-   "lugar": "Multiteatro Movistar - SALA 1 - SANTIAGO DE SURCO - LIMA",
+   "lugar": "Multiteatro Movistar - Sala 1 - Santiago de Surco - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 110,
@@ -6398,11 +6385,11 @@
    "fuente": "Teleticket"
   },
   {
-   "nombre": "GRAN GALA INTERNACIONAL - GRAN GALA INTERNACIONAL - Adrián Lima, Jhony Jackson y Christian Allen",
+   "nombre": "Gran Gala Internacional - Gran Gala Internacional - Adrián Lima, Jhony Jackson y Christian Allen",
    "inicio": "2027-02-20",
    "fin": "2027-02-20",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 40,
@@ -6428,7 +6415,7 @@
    "inicio": "2027-02-26",
    "fin": "2027-02-27",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 60,
@@ -6454,7 +6441,7 @@
    "inicio": "2027-04-10",
    "fin": "2027-04-10",
    "hora": "",
-   "lugar": "Lima Comedy Club - MIRAFLORES - LIMA",
+   "lugar": "Lima Comedy Club - Miraflores - Lima",
    "categoria": "Stand up",
    "tipo": "cultural",
    "precio": 120,

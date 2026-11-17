@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T13:58-05:00",
+ "actualizado": "2026-11-17T14:40-05:00",
  "lugares": [
   {
    "nombre": "Café de especialidad en Barranco",
@@ -42,94 +42,6 @@
     "pet",
     "terraza",
     "postres"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Cena a la luz de las velas en Barranco",
-   "lugar": "Barranco",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 65,
-   "calificacion": 4.7,
-   "atributos": [
-    "romantico",
-    "vegetariano",
-    "postres"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Bistró íntimo con terraza en Miraflores",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 50,
-   "calificacion": 4.5,
-   "atributos": [
-    "romantico",
-    "terraza",
-    "vegetariano"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Trattoria con vino de la casa en San Isidro",
-   "lugar": "San Isidro",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 40,
-   "calificacion": 4.4,
-   "atributos": [
-    "romantico",
-    "postres"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Cevichería en Surquillo",
-   "lugar": "Surquillo",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 45,
-   "calificacion": 4.6,
-   "atributos": [
-    "ninos"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Pizzería con terraza en Barranco",
-   "lugar": "Barranco",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 35,
-   "calificacion": 4.3,
-   "atributos": [
-    "pet",
-    "terraza",
-    "ninos",
-    "vegetariano"
-   ],
-   "url": null,
-   "ejemplo": true
-  },
-  {
-   "nombre": "Restaurante con vista al mar en Chorrillos",
-   "lugar": "Chorrillos",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 90,
-   "calificacion": 4.8,
-   "atributos": [
-    "vista",
-    "terraza",
-    "romantico"
    ],
    "url": null,
    "ejemplo": true
@@ -1395,6 +1307,1159 @@
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/DPASO-PORTADA.jpg",
    "url": "https://www.incatrilogytours.com/tour/pachacamac-tour-con-almuerzo-show-y-caballos-dpaso-peruano/",
    "fuente": "Inca Trilogy Tours"
+  },
+  {
+   "nombre": "Barra Botánica",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.9,
+   "resenas": 1409,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=18221584359955907047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Terminal Pesquero Cevichería Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.8,
+   "resenas": 5298,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "musica"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=18059483100267527790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Eden Bar Lima",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.8,
+   "resenas": 4960,
+   "atributos": [
+    "terraza",
+    "pet",
+    "musica"
+   ],
+   "subtipo": "Pub restaurante",
+   "url": "https://maps.google.com/?cid=3284888330830627521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Avelino Restaurante",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.9,
+   "resenas": 895,
+   "atributos": [
+    "terraza"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=18228028606783006717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Chicho | Cocina de Raiz | Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 120,
+   "calificacion": 4.8,
+   "resenas": 2571,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=17336509321127648486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Ceviche House",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 60,
+   "calificacion": 4.9,
+   "resenas": 847,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "pet"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=3310299213549937011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Rastro",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 100,
+   "calificacion": 4.9,
+   "resenas": 721,
+   "atributos": [
+    "terraza",
+    "pet"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=13465609780386185366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Poke 51",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.8,
+   "resenas": 1321,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "pet"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=8581321815547810356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Grano Dorado / Café Restaurante",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 40,
+   "calificacion": 4.8,
+   "resenas": 1308,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=4204041385253026227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Molly's Irish Bar & Restaurant",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 60,
+   "calificacion": 4.7,
+   "resenas": 10175,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "musica"
+   ],
+   "subtipo": "Pub irlandés",
+   "url": "https://maps.google.com/?cid=4363491837794013932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Siete Sopas",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 40,
+   "calificacion": 4.7,
+   "resenas": 9202,
+   "atributos": [
+    "terraza",
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=17265133651936947126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Nacional La Mar",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.9,
+   "resenas": 520,
+   "atributos": [],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=5745856416328976196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Maido",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.7,
+   "resenas": 5183,
+   "atributos": [
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=814908386545305089&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Plaza Artesanal Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.7,
+   "resenas": 4354,
+   "atributos": [],
+   "subtipo": "Restaurante italiano",
+   "url": "https://maps.google.com/?cid=16229296000474696287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kauza Restaurante - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.7,
+   "resenas": 2725,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=18199989802305695384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Selectos Ibéricos Miraflores - Tarata",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 2154,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante de cocina española",
+   "url": "https://maps.google.com/?cid=14500142104930856899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Barra de Jackili Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 1687,
+   "atributos": [
+    "terraza",
+    "pet"
+   ],
+   "subtipo": "Marisquería",
+   "url": "https://maps.google.com/?cid=3376368350692045045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "XOMA Gastronómico",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.7,
+   "resenas": 1151,
+   "atributos": [
+    "vegetariano",
+    "ninos",
+    "musica",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=4443921567802147606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Restaurante Contraste Lima",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.8,
+   "resenas": 510,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=8230166714302497521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Tragaluz",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.7,
+   "resenas": 937,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=4920753949104096125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Lucha Sangucheria Criolla",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 14756,
+   "atributos": [
+    "terraza",
+    "ninos"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=13014813205168135938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Panchita - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 110,
+   "calificacion": 4.6,
+   "resenas": 14393,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=8923662332441684648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Punto Azul",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 13785,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Marisquería",
+   "url": "https://maps.google.com/?cid=14832447119192303207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cevichería Barra Maretazo | Peruvian Food",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.6,
+   "resenas": 5226,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=6458308515752095155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "El Bodegón - Miraflores",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 3800,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=1621032092564820966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "LIMANÁ - PERUVIAN SUPERFOOD RESTAURANT",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 140,
+   "calificacion": 4.8,
+   "resenas": 1547,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "musica",
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=1358046866517749197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Awicha San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 140,
+   "calificacion": 4.9,
+   "resenas": 632,
+   "atributos": [
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=2003760651511479783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Osaka",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.7,
+   "resenas": 4951,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "musica",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=5309908037867710521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Limaq Bar",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 120,
+   "calificacion": 4.9,
+   "resenas": 460,
+   "atributos": [
+    "romantico"
+   ],
+   "subtipo": "Coctelería",
+   "url": "https://maps.google.com/?cid=16888642126557701537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Shizen Restaurante Nikkei",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.7,
+   "resenas": 1249,
+   "atributos": [
+    "vegetariano",
+    "pet",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=9981149160461632010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kauza Restaurante - San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 100,
+   "calificacion": 4.8,
+   "resenas": 536,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "pet"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=2884840514349290315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Astrid & Gastón - Casa Hacienda Moreyra",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.6,
+   "resenas": 7850,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=3430230164583439791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Sàlve Luigi",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 120,
+   "calificacion": 4.6,
+   "resenas": 3293,
+   "atributos": [
+    "terraza",
+    "romantico"
+   ],
+   "subtipo": "Restaurante italiano",
+   "url": "https://maps.google.com/?cid=3557456358588817960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Pezcaderia Barra Marina",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.9,
+   "resenas": 252,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=10363970603737538085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Zen Sushi Bar",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.7,
+   "resenas": 647,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante japonés",
+   "url": "https://maps.google.com/?cid=12108224774572212714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Juicy Lucy Alpina",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 40,
+   "calificacion": 4.6,
+   "resenas": 3030,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=12316649270636239639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cosme Restaurante y Bar",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 140,
+   "calificacion": 4.6,
+   "resenas": 2485,
+   "atributos": [
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=17943169957881519260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Carnaval",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 120,
+   "calificacion": 4.6,
+   "resenas": 1733,
+   "atributos": [
+    "romantico"
+   ],
+   "subtipo": "Pub restaurante",
+   "url": "https://maps.google.com/?cid=16680007019798469562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Piccolina San Isidro",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.8,
+   "resenas": 281,
+   "atributos": [
+    "ninos",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=6667361515170182545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Bife 117 Angus & Wagyu Steak House",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.8,
+   "resenas": 223,
+   "atributos": [],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=12852506458798687306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "El Hornero",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 140,
+   "calificacion": 4.5,
+   "resenas": 5379,
+   "atributos": [
+    "terraza",
+    "ninos",
+    "romantico"
+   ],
+   "subtipo": "Restaurante especializado en filetes",
+   "url": "https://maps.google.com/?cid=5065148825894387007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Market 770",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 100,
+   "calificacion": 4.6,
+   "resenas": 450,
+   "atributos": [],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=7343442053835713429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Linterna",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.5,
+   "resenas": 2297,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Pizzería",
+   "url": "https://maps.google.com/?cid=6420491424745682469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Los Ganaderos - Parrilladas",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 110,
+   "calificacion": 4.6,
+   "resenas": 424,
+   "atributos": [
+    "terraza",
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=6522058814038187531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Cuadra de Salvador - Steakhouse",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.5,
+   "resenas": 2013,
+   "atributos": [
+    "terraza",
+    "romantico"
+   ],
+   "subtipo": "Restaurante especializado en filetes",
+   "url": "https://maps.google.com/?cid=592039826652544665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Martina Comida y Cafe",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 30,
+   "calificacion": 4.6,
+   "resenas": 412,
+   "atributos": [
+    "terraza",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=3809231209957635345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "José Antonio",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 100,
+   "calificacion": 4.5,
+   "resenas": 1799,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=5609117578777353797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Nanka",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 110,
+   "calificacion": 4.5,
+   "resenas": 1092,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante de fusión",
+   "url": "https://maps.google.com/?cid=13900010070478096776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Centro Aeronáutico del Perú",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 1041,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=10426336445579636869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "LA LOCANDA",
+   "lugar": "San Isidro",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.6,
+   "resenas": 312,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=18421966153166856407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Juicy Lucy - La Rambla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 30,
+   "calificacion": 4.7,
+   "resenas": 3180,
+   "atributos": [
+    "terraza",
+    "ninos"
+   ],
+   "subtipo": "Hamburguesería",
+   "url": "https://maps.google.com/?cid=9949361473924449959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Nacional La Rambla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.6,
+   "resenas": 2517,
+   "atributos": [
+    "terraza"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=8017638732222161041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "SANMAR Restaurante Peruano & bar",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 573,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=7767752113096035135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Restaurante SanMar Familia y amigos",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.8,
+   "resenas": 310,
+   "atributos": [
+    "ninos",
+    "pet",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=15934509224666665265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Naruto Japanese Food",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 5570,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante japonés",
+   "url": "https://maps.google.com/?cid=4679634034950821555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Panchita - Chacarilla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 100,
+   "calificacion": 4.5,
+   "resenas": 5285,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=3492830545980309722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Pastelería San Antonio - Chacarilla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 3799,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=9398463415901770655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Pescados Capitales Chacarilla",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 110,
+   "calificacion": 4.5,
+   "resenas": 3415,
+   "atributos": [
+    "terraza",
+    "romantico"
+   ],
+   "subtipo": "Marisquería",
+   "url": "https://maps.google.com/?cid=13635643989892432538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Viet Restaurant Vietnamita",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 1664,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante vietnamita",
+   "url": "https://maps.google.com/?cid=11063179877441773592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "REIWA Izakaya San Borja",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.5,
+   "resenas": 808,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante japonés",
+   "url": "https://maps.google.com/?cid=13324830467629196895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Don Roberto",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 30,
+   "calificacion": 4.5,
+   "resenas": 637,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=6841242900235466357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Edo",
+   "lugar": "San Borja",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.5,
+   "resenas": 618,
+   "atributos": [
+    "terraza"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=2289469489080020683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Selectos Ibéricos - Chacarilla",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.7,
+   "resenas": 1789,
+   "atributos": [
+    "terraza"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=11846334315842939789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Kyoto Restaurante Nikkei - C.C El Polo",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.7,
+   "resenas": 1012,
+   "atributos": [
+    "ninos",
+    "pet"
+   ],
+   "subtipo": "Restaurante japonés",
+   "url": "https://maps.google.com/?cid=2611261644086931818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Siete sopas",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 40,
+   "calificacion": 4.6,
+   "resenas": 5391,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante de sopas",
+   "url": "https://maps.google.com/?cid=13717297243608253202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Osaka El Polo II",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.6,
+   "resenas": 795,
+   "atributos": [
+    "terraza",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=12012433978166257950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Comitiva Restaurant",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.7,
+   "resenas": 276,
+   "atributos": [
+    "terraza",
+    "musica"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=4849331779369070116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Punto Azul",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 80,
+   "calificacion": 4.5,
+   "resenas": 1621,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=7400952547862941491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "YUUKI ASIAN STREET FOOD",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 1167,
+   "atributos": [
+    "ninos"
+   ],
+   "subtipo": "Restaurante asiático",
+   "url": "https://maps.google.com/?cid=5556637130124531371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Casa del Ceviche",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.5,
+   "resenas": 833,
+   "atributos": [
+    "pet"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=16922303796866785665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "La Linterna",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 90,
+   "calificacion": 4.5,
+   "resenas": 824,
+   "atributos": [],
+   "subtipo": "Restaurante italiano",
+   "url": "https://maps.google.com/?cid=17339078598256605735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Doomo Saltado",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 70,
+   "calificacion": 4.5,
+   "resenas": 690,
+   "atributos": [
+    "vegetariano",
+    "ninos"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=16069810264658954179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
   }
  ]
 }
