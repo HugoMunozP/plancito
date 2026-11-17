@@ -54,7 +54,8 @@ def precio_de(texto):
     """Busca el precio más bajo en un texto. Entiende S/, US$, USD, $ y €. Devuelve soles."""
     if not texto:
         return None
-    if re.search(r"\b(gratis|gratuito|libre|free)\b", texto, re.I):
+    texto = re.sub(r"cancelaci[oó]n gratuita|ingreso libre a|libro de reclamaciones", " ", texto, flags=re.I)
+    if re.search(r"\b(gratis|gratuito|entrada libre|ingreso libre|free)\b", texto, re.I):
         return 0
     patrones = [
         (r"S/\.?\s*([\d.,]+)", "PEN"), (r"([\d.,]+)\s*S/", "PEN"),

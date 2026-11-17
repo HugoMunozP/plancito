@@ -26,6 +26,7 @@ jobs:
 
       - name: Scrapear todas las fuentes
         env:
+          PYTHONUNBUFFERED: "1"
           FORM_CSV_URL: ${{ vars.FORM_CSV_URL }}
           FORZAR_TOURS: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python scraper/scrape.py

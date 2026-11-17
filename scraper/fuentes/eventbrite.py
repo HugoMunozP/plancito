@@ -9,7 +9,7 @@ import re
 
 from comun import es_de_lima, hora_de, sin_tildes
 
-URL = "https://www.eventbrite.com/d/peru--lima/free--events/?page={}"
+URL = "https://www.eventbrite.com.pe/d/peru--lima/free--events/?page={}"
 MAX_PAGINAS = 5
 
 
@@ -31,7 +31,10 @@ def scrape(page, ctx):
     for n in range(1, MAX_PAGINAS + 1):
         try:
             page.goto(URL.format(n), wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(2000)
+            try:
+                page.wait_for_selector('script[type="application/ld+json"]', state="attached", timeout=15000)
+            except Exception:
+                pass
         except Exception:
             break
         bloques = page.eval_on_selector_all(
@@ -72,7 +75,7 @@ def scrape(page, ctx):
                 "fuente": "Eventbrite",
             }
             nuevos += 1
-        print(f"  [eventbrite] página {n}: +{nuevos}")
+        print(f"  [eventbrite] página {n}: +{nuevos} (título: {page.title()[:60]!r}, json-ld: {len(bloques)})")
         if not items:
             break
     return list(eventos.values())

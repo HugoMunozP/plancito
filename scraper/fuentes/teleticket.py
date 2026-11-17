@@ -1,98 +1,99 @@
-"""Teleticket: tarjetas con imagen *calugalistado.jpg; si falta precio/fecha abre el detalle."""
+"""Teleticket: lista completa en https://teleticket.com.pe/todos (HTML del servidor).
+
+Cada tarjeta:
+  <a href=".../evento/...">
+    <img src="...calugalistado.jpg">
+    <p class="descripcion"><strong>LOCAL - DISTRITO - LIMA</strong> / Categoría</p>
+    <h3 title="NOMBRE">NOMBRE</h3>
+    <p class="fecha">17 de noviembre 2026 - 22 de noviembre 2026</p>
+  </a>
+El precio no está en la lista: se toma el más bajo de la página del evento (sin tarifas CONADIS).
+"""
 import re
 
-from comun import HOY, fechas_de, precio_de, scroll_hasta_el_final, sin_tildes
+from bs4 import BeautifulSoup
 
-TELETICKET_URLS = [
-    "https://teleticket.com.pe/",
-    "https://teleticket.com.pe/todos",
-    "https://teleticket.com.pe/musica",
-    "https://teleticket.com.pe/teatro",
-    "https://teleticket.com.pe/entretenimiento",
-]
+from comun import es_de_lima, fechas_de, redondear, sin_tildes
 
+LISTA = "https://teleticket.com.pe/todos"
 
-JS_TELETICKET = """
-() => {
-  const out = [];
-  document.querySelectorAll('img[src*="calugalistado"], img[data-src*="calugalistado"]').forEach(img => {
-    const a = img.closest('a') || img.closest('div')?.querySelector('a[href]');
-    if (!a) return;
-    let card = a;
-    for (let i = 0; i < 4 && card.parentElement && card.innerText.trim().length < 15; i++) card = card.parentElement;
-    out.push({
-      url: a.href,
-      nombre: img.alt || '',
-      imagen: img.getAttribute('src') && !img.getAttribute('src').startsWith('data:') ? img.src : (img.dataset.src || img.src),
-      texto: card.innerText
-    });
-  });
-  return out;
+CATEGORIAS = {
+    "musica": "Concierto", "humor": "Stand up", "stand up": "Stand up", "teatro": "Teatro",
+    "circo": "Show", "entretencion": "Show", "familia": "Show", "danza": "Danza",
+    "deportes": "Deporte", "festival": "Festival", "festivales": "Festival",
 }
-"""
 
 
-def categoria_teleticket(nombre, lugar, url):
-    t = sin_tildes(f"{nombre} {url}".lower())
-    if re.search(r"stand ?up|comedy|comedia|risoterapia|humor", t):
-        return "Stand up"
-    if re.search(r"tributo|concierto|tour|fest|en lima|sinfon|orquesta|salsa|rock|cumbia|criollo|gala", t):
-        return "Concierto"
-    if re.search(r"teatro|obra|musical|ballet|cascanueces", t + " " + sin_tildes(lugar.lower())):
-        return "Teatro"
-    return "Show"
+def capitalizar(t):
+    return " ".join(p.capitalize() if len(p) > 2 else p.lower() for p in t.split()) if t.isupper() else t
+
+
+def precio_detalle(ctx, url):
+    try:
+        r = ctx.request.get(url, timeout=30000)
+        if not r.ok:
+            return None
+        sopa = BeautifulSoup(r.text(), "html.parser")
+        for s in sopa(["script", "style"]):
+            s.decompose()
+        texto = re.sub(r"\s+", " ", sopa.get_text(" "))
+    except Exception:
+        return None
+    vals, fin_anterior = [], 0
+    for m in re.finditer(r"S/\.?\s?(\d[\d,]*(?:\.\d{1,2})?)", texto):
+        antes = texto[max(fin_anterior, m.start() - 40):m.start()].upper()
+        fin_anterior = m.end()
+        if "CONADIS" in antes:
+            continue
+        try:
+            v = float(m.group(1).replace(",", ""))
+        except ValueError:
+            continue
+        if v > 0:
+            vals.append(v)
+    return redondear(min(vals)) if vals else None
 
 
 def scrape(page, ctx):
-    crudos = {}
-    for url in TELETICKET_URLS:
-        try:
-            resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            if resp and resp.status >= 400:
-                continue
-            page.wait_for_selector('img[src*="calugalistado"], img[data-src*="calugalistado"]', timeout=20000)
-        except Exception:
+    r = ctx.request.get(LISTA, timeout=60000)
+    if not r.ok:
+        print(f"  [teleticket] HTTP {r.status}")
+        return []
+    sopa = BeautifulSoup(r.text(), "html.parser")
+    eventos, vistos = [], set()
+    tarjetas = [a for a in sopa.select("a[href]") if a.select_one("p.descripcion") and a.select_one("h3")]
+    for a in tarjetas:
+        url = a["href"]
+        if url in vistos:
             continue
-        scroll_hasta_el_final(page, 'img[src*="calugalistado"], img[data-src*="calugalistado"]')
-        for t in page.evaluate(JS_TELETICKET):
-            if "teleticket.com.pe" in t["url"] and t["url"] not in crudos:
-                crudos[t["url"]] = t
-        print(f"  [teleticket] {url}: {len(crudos)} acumulados")
-
-    eventos = []
-    for u, t in crudos.items():
-        lineas = [l.strip() for l in t["texto"].split("\n") if l.strip()]
-        texto = " | ".join(lineas)
-        f = fechas_de(texto)
-        precio = precio_de(texto)
-        lugar = next((l for l in lineas if " - " in l and "S/" not in l and not fechas_de(l)), "")
-        # si la tarjeta no trae precio o fecha, se abre la página del evento
-        if precio is None or not f or not lugar:
-            try:
-                page.goto(u, wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(2500)
-                det = page.inner_text("body")
-                precio = precio if precio is not None else precio_de(det)
-                f = f or fechas_de(det[:3000])
-                if not lugar:
-                    lugar = next((l.strip() for l in det.split("\n") if " - " in l and "Lima" in l and len(l) < 120), "")
-            except Exception:
-                pass
-        if not f or precio is None:
+        vistos.add(url)
+        desc = a.select_one("p.descripcion")
+        local = desc.select_one("strong").get_text(" ", strip=True) if desc.select_one("strong") else ""
+        cat_txt = desc.get_text(" ", strip=True).split("/")[-1].strip() if "/" in desc.get_text() else ""
+        if not es_de_lima(local):
             continue
-        nombre = t["nombre"].strip() or lineas[0]
+        h3 = a.select_one("h3")
+        nombre = (h3.get("title") or h3.get_text(" ", strip=True)).strip()
+        f = fechas_de(a.select_one("p.fecha").get_text(" ", strip=True) if a.select_one("p.fecha") else "")
+        if not f or not nombre:
+            continue
+        precio = precio_detalle(ctx, url)
+        if precio is None:
+            continue
+        img = a.select_one("img")
+        categoria = CATEGORIAS.get(sin_tildes(cat_txt.lower()), capitalizar(cat_txt) or "Show")
         eventos.append({
-            "nombre": nombre,
+            "nombre": capitalizar(nombre),
             "inicio": min(f).isoformat(),
             "fin": max(f).isoformat(),
             "hora": "",
-            "lugar": lugar or "Lima",
-            "categoria": categoria_teleticket(nombre, lugar, u),
-            "tipo": "cultural",
+            "lugar": capitalizar(local),
+            "categoria": categoria,
+            "tipo": "aire" if categoria == "Deporte" else "cultural",
             "precio": precio,
-            "imagen": t["imagen"],
-            "url": u,
+            "imagen": img.get("src", "") if img else "",
+            "url": url,
             "fuente": "Teleticket",
         })
-    print(f"  [teleticket] total: {len(eventos)} eventos")
+    print(f"  [teleticket] {len(tarjetas)} tarjetas, {len(eventos)} en Lima con precio")
     return eventos

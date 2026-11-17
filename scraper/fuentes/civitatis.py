@@ -43,7 +43,8 @@ def scrape(page, ctx):
             continue
         vistos.add(url)
         texto = t["texto"]
-        precio = 0 if re.search(r"free tour", t["nombre"], re.I) else precio_de(texto.replace("\n", " "))
+        texto_precio = re.sub(r"cancelaci[oó]n gratuita", " ", texto.replace("\n", " "), flags=re.I)
+        precio = 0 if re.search(r"free tour", t["nombre"], re.I) else precio_de(texto_precio)
         if precio is None:
             continue
         nota = re.search(r"(\d+[,.]\d)\s*/\s*10", texto)
