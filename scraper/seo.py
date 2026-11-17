@@ -192,7 +192,7 @@ footer{{color:#8C84A3;font-size:13px;margin-top:40px}}
 {"".join(bloques)}
 <h2 style="color:#F4F1FA;font-size:24px;margin-top:48px">Lugares para ir cualquier día</h2>
 {"".join(secciones_lugares)}
-<footer>Actualizado el {e(fecha_larga(hoy))} de {hoy.year}. Precios referenciales; al comprar vas a la página oficial de cada evento. Restaurantes, cafés y bares: datos de Google Maps.</footer>
+<footer>Actualizado el {e(fecha_larga(hoy))} de {hoy.year}. Precios referenciales; al comprar vas a la página oficial de cada evento. Restaurantes, cafés y bares: datos de Google Maps.<br><a href="sobre.html">Sobre Plancito</a> · <a href="privacidad.html">Privacidad</a></footer>
 </main>
 </body>
 </html>
@@ -200,7 +200,7 @@ footer{{color:#8C84A3;font-size:13px;margin-top:40px}}
     (RAIZ / "agenda.html").write_text(pagina, encoding="utf-8")
 
     hoy_iso = hoy.isoformat()
-    urls = [("", "daily", "1.0"), ("agenda.html", "daily", "0.9"), ("cita.html", "weekly", "0.8")]
+    urls = [("", "daily", "1.0"), ("agenda.html", "daily", "0.9"), ("cita.html", "weekly", "0.8"), ("sobre.html", "monthly", "0.4"), ("privacidad.html", "yearly", "0.2")]
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for ruta, freq, prio in urls:
