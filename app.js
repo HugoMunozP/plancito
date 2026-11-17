@@ -147,7 +147,7 @@
       })).concat((lugares.lugares || []).map((l, i) => ({
         id: 'l' + i, nombre: l.nombre, lugar: l.lugar, categoria: l.categoria, tipo: l.tipo, precio: l.precio,
         calificacion: l.calificacion || 0, atributos: l.atributos || [], url: l.url, imagen: l.imagen || '',
-        salidas: l.salidas || '', fuente: l.ejemplo ? 'Ejemplo' : (l.fuente || 'Plancito'), siempre: true, ejemplo: !!l.ejemplo
+        salidas: l.salidas || '', resenas: l.resenas || 0, fuente: l.ejemplo ? 'Ejemplo' : (l.fuente || 'Plancito'), siempre: true, ejemplo: !!l.ejemplo
       }))).filter((p) => typeof p.precio === 'number' && p.nombre);
       PLANES.forEach((p) => { if (p.precio === 0 && !p.atributos.includes('gratis')) p.atributos.push('gratis'); });
       render();
@@ -336,7 +336,7 @@
       '<span class="sticker">' + soles(total(p)) + '</span></div><div class="cuerpo">' +
       '<h4>' + esc(p.nombre) + '</h4>' +
       '<span class="cuando">' + esc(cuando(p)) + (p.lugar ? ' · ' + esc(p.lugar) : '') + '</span>' +
-      (p.calificacion ? '<span class="estrellas"><b>★ ' + p.calificacion.toFixed(1) + '</b>' + (p.ejemplo ? '<span class="etiqueta-ejemplo">EJEMPLO</span>' : '') + '</span>' : '') +
+      (p.calificacion ? '<span class="estrellas"><b>★ ' + p.calificacion.toFixed(1) + '</b>' + (p.resenas ? ' <small>(' + p.resenas.toLocaleString('es-PE') + ' reseñas en Google)</small>' : '') + (p.ejemplo ? '<span class="etiqueta-ejemplo">EJEMPLO</span>' : '') + '</span>' : '') +
       '<span class="gracia ' + f[1] + '">' + esc(f[0]) + '</span>' +
       '<span class="ir">' + esc(textoBoton(p)) + ' →</span></div></article>';
   }

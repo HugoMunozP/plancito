@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from playwright.sync_api import sync_playwright  # noqa: E402
 
 from comun import HOY, LIMA, UA  # noqa: E402
-from fuentes import civitatis, entradalibre, eventbrite, formulario, incatrilogy, joinnus, teleticket  # noqa: E402
+from fuentes import civitatis, entradalibre, eventbrite, formulario, google_places, incatrilogy, joinnus, teleticket  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
@@ -33,10 +33,11 @@ FUENTES_EVENTOS = [
     # ("Eventbrite", eventbrite),  # desactivado: muestra un captcha a los servidores de GitHub
     ("Formulario", formulario),
 ]
-# Tours y full days cambian poco: se actualizan una vez por semana (lunes)
+# Tours, full days y restaurantes cambian poco: se actualizan una vez por semana (lunes)
 FUENTES_LUGARES = [
     ("Civitatis", civitatis),
     ("Inca Trilogy Tours", incatrilogy),
+    ("Google Maps", google_places),
 ]
 MINIMO_EVENTOS = 15
 
@@ -125,6 +126,9 @@ def main():
 
     # ---- lugares (manuales primero, luego tours)
     lugares = leer_lista(MANUAL / "lugares.json")
+    if any(t.get("fuente") == "Google Maps" for t in tours):
+        # ya hay restaurantes reales: se quitan los restaurantes de ejemplo
+        lugares = [l for l in lugares if not (l.get("ejemplo") and l.get("tipo") == "restaurantes")]
     urls = {l.get("url") for l in lugares if l.get("url")}
     lugares += [t for t in tours if t["url"] not in urls]
     (DATA / "lugares.json").write_text(

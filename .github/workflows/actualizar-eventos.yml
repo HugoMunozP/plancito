@@ -28,6 +28,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           FORM_CSV_URL: ${{ vars.FORM_CSV_URL }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
           FORZAR_TOURS: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python scraper/scrape.py
 
