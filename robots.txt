@@ -1,0 +1,6 @@
+# Plancito: todos los buscadores y asistentes de IA son bienvenidos
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://plancitopes.com/sitemap.xml

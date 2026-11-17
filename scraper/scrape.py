@@ -158,6 +158,11 @@ def main():
     for k, v in {**res_ev, **res_lu}.items():
         print(f"  {k:20} {v}")
     print(f"OK: {len(limpios)} eventos y {len(lugares)} lugares guardados.")
+    try:
+        import seo
+        seo.main()
+    except Exception as err:  # la agenda para buscadores nunca debe romper la actualización
+        print(f"SEO: no se pudo generar ({err})")
 
 
 if __name__ == "__main__":
