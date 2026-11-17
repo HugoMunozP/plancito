@@ -43,7 +43,8 @@ def scrape(page, ctx):
             continue
         vistos.add(url)
         texto = t["texto"]
-        texto_precio = re.sub(r"cancelaci[oó]n gratuita", " ", texto.replace("\n", " "), flags=re.I)
+        # solo los "free tour" son gratis; cualquier otra palabra "gratis/gratuita/libre" de la tarjeta no es el precio
+        texto_precio = re.sub(r"\b(gratis|gratuit\w*|libre|free)\b", " ", texto.replace("\n", " "), flags=re.I)
         precio = 0 if re.search(r"free tour", t["nombre"], re.I) else precio_de(texto_precio)
         if precio is None:
             continue
