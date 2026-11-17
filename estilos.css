@@ -348,3 +348,4 @@ body.con-modal { overflow: hidden; }
   .rk-lado { grid-area: l; justify-content: space-between; }
   .rk-pct { flex-direction: row; align-items: baseline; gap: 6px; }
 }
+.cita-grilla .gracia { display: none; }
