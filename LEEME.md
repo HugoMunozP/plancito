@@ -12,7 +12,7 @@ GitHub Actions corre `scraper/scrape.py` todos los días a las 6:17 a. m. (hora 
 | Joinnus | Conciertos, teatro, fútbol, fiestas, etc. (incluye gratis) | Navegador invisible: la página arma las tarjetas con JavaScript | eventos |
 | Teleticket | Conciertos, teatro, stand up | Navegador invisible | eventos |
 | EntradaLibre | Unos 280 eventos culturales gratuitos (cine, expos, conciertos, charlas) | HTML de `entradalibre.me/event/?pg=N`, filtrado a Lima y Callao | eventos |
-| Eventbrite | Eventos gratuitos en Lima | Datos estructurados (JSON-LD) de la página de resultados | eventos |
+| Eventbrite (desactivado) | Eventos gratuitos en Lima | Muestra un captcha a los servidores de GitHub, así que está apagado en `scrape.py` | — |
 | Formulario de Google | Agencias de Facebook e Instagram, municipalidades, pádel, paddle, centros culturales | CSV publicado de la hoja de respuestas | eventos |
 | Civitatis | Tours, free tours y full days desde Lima | Navegador invisible | lugares |
 | Inca Trilogy Tours | Full days desde Lima (Huancaya, Lachay, Antioquía, Lunahuaná…) | Su API pública de WordPress, con precios en dólares convertidos a soles | lugares |

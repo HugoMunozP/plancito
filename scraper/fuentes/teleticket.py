@@ -25,7 +25,10 @@ CATEGORIAS = {
 
 
 def capitalizar(t):
-    return " ".join(p.capitalize() if len(p) > 2 else p.lower() for p in t.split()) if t.isupper() else t
+    """'LIMA COMEDY CLUB - MIRAFLORES - LIMA' -> 'Lima Comedy Club - Miraflores - Lima' (por tramos)."""
+    def tramo(x):
+        return " ".join(p.capitalize() if len(p) > 2 else p.lower() for p in x.split()) if x.isupper() else x
+    return " - ".join(tramo(x.strip()) for x in t.split(" - "))
 
 
 def precio_detalle(ctx, url):

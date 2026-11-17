@@ -30,7 +30,7 @@ FUENTES_EVENTOS = [
     ("Joinnus", joinnus),
     ("Teleticket", teleticket),
     ("EntradaLibre", entradalibre),
-    ("Eventbrite", eventbrite),
+    # ("Eventbrite", eventbrite),  # desactivado: muestra un captcha a los servidores de GitHub
     ("Formulario", formulario),
 ]
 # Tours y full days cambian poco: se actualizan una vez por semana (lunes)
