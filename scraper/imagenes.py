@@ -6,6 +6,7 @@ Cada item guarda la ruta local en "imagen_local". Las fotos que ya nadie usa se 
 """
 import hashlib
 import io
+import os
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -19,11 +20,45 @@ def _nombre(url):
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:16] + ".webp"
 
 
+def _guardar(datos, archivo):
+    img = Image.open(io.BytesIO(datos)).convert("RGB")
+    if img.width > ANCHO:
+        img = img.resize((ANCHO, round(img.height * ANCHO / img.width)), Image.LANCZOS)
+    img.save(archivo, "WEBP", quality=CALIDAD, method=6)
+
+
+def _foto_google(ctx, it, carpeta):
+    """Foto de Google Maps (API Place Photos). Se baja UNA vez por lugar: si ya existe no se vuelve a pedir
+    (cada descarga cuenta como una consulta; Google da 1.000 gratis al mes)."""
+    clave = os.environ.get("GOOGLE_PLACES_API_KEY", "").strip()
+    archivo = carpeta / ("g-" + hashlib.sha1(it["place_id"].encode()).hexdigest()[:16] + ".webp")
+    if not archivo.exists():
+        if not clave or not it.get("foto_google"):
+            return None
+        r = ctx.request.get(f"https://places.googleapis.com/v1/{it['foto_google']}/media?maxWidthPx={ANCHO}",
+                            headers={"X-Goog-Api-Key": clave}, timeout=30000)
+        if not r.ok:
+            raise ValueError(r.status)
+        _guardar(r.body(), archivo)
+    return archivo
+
+
 def bajar_todas(ctx, items, carpeta: Path, raiz: Path):
     carpeta.mkdir(parents=True, exist_ok=True)
     usados, nuevas, fallos = set(), 0, 0
     for it in items:
         url = (it.get("imagen") or "").strip()
+        if not url.startswith("http") and it.get("place_id"):
+            try:
+                existia = (carpeta / ("g-" + hashlib.sha1(it["place_id"].encode()).hexdigest()[:16] + ".webp")).exists()
+                archivo = _foto_google(ctx, it, carpeta)
+                if archivo:
+                    nuevas += 0 if existia else 1
+                    usados.add(archivo.name)
+                    it["imagen_local"] = archivo.relative_to(raiz).as_posix()
+            except Exception:
+                fallos += 1
+            continue
         if not url.startswith("http"):
             continue
         archivo = carpeta / _nombre(url)
@@ -36,11 +71,7 @@ def bajar_todas(ctx, items, carpeta: Path, raiz: Path):
                 })
                 if not r.ok:
                     raise ValueError(r.status)
-                img = Image.open(io.BytesIO(r.body()))
-                img = img.convert("RGB")
-                if img.width > ANCHO:
-                    img = img.resize((ANCHO, round(img.height * ANCHO / img.width)), Image.LANCZOS)
-                img.save(archivo, "WEBP", quality=CALIDAD, method=6)
+                _guardar(r.body(), archivo)
                 nuevas += 1
             except Exception:
                 fallos += 1

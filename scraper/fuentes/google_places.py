@@ -50,7 +50,7 @@ CAMPOS = ",".join([
     "places.priceLevel", "places.priceRange", "places.googleMapsUri", "places.types",
     "places.primaryTypeDisplayName", "places.outdoorSeating", "places.servesVegetarianFood",
     "places.goodForChildren", "places.allowsDogs", "places.liveMusic", "places.servesDessert",
-    "places.servesCocktails", "nextPageToken",
+    "places.servesCocktails", "places.photos", "nextPageToken",
 ])
 
 
@@ -137,6 +137,9 @@ def scrape(page, ctx):
                             "subtipo": (p.get("primaryTypeDisplayName") or {}).get("text", ""),
                             "url": p.get("googleMapsUri", ""),
                             "fuente": "Google Maps",
+                            "place_id": p["id"],
+                            "foto_google": ((p.get("photos") or [{}])[0]).get("name", ""),
+                            "foto_autor": ((((p.get("photos") or [{}])[0]).get("authorAttributions") or [{}])[0]).get("displayName", ""),
                         })
                     token = datos.get("nextPageToken")
                     if not token:

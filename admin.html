@@ -152,6 +152,10 @@
           <div class="chips" id="atributos"></div>
         </div>
 
+        <label class="check" style="background:var(--panel);border:1px solid var(--borde);border-radius:12px;padding:12px 14px">
+          <input type="checkbox" id="destacado"> <span><b style="color:var(--amarillo)">Top para citas</b> · sale primero en el ranking de «Para una cita»</span>
+        </label>
+
         <label class="campo">Link <em>(Google Maps, Instagram, web o página de compra)</em>
           <input type="url" id="url" placeholder="https://maps.app.goo.gl/…">
         </label>
@@ -357,7 +361,7 @@
     const nombreTipo = Object.fromEntries(TIPOS.map((t) => [t[0], t[1]]));
     $('lista').innerHTML = items.length ? items.map((x) =>
       '<div class="item"><div class="min" style="background-image:url(\'' + esc(x.imagen || '') + '\')"></div><div class="info">' +
-      '<b>' + esc(x.nombre) + '</b><span>' + (x.ejemplo ? '<i class="etq">EJEMPLO</i>' : '') + '<i class="etq">' + esc(nombreTipo[x.tipo] || x.tipo) + '</i>' +
+      '<b>' + esc(x.nombre) + '</b><span>' + (x.destacado ? '<i class="etq" style="background:#FFC933;color:#0F0A1F">TOP</i>' : '') + (x.ejemplo ? '<i class="etq">EJEMPLO</i>' : '') + '<i class="etq">' + esc(nombreTipo[x.tipo] || x.tipo) + '</i>' +
       esc(x.lugar || '') + ' · ' + (x.precio ? 'S/ ' + x.precio : 'Gratis') + (m === 'evento' ? ' · ' + esc(x.inicio) : '') + '</span></div>' +
       '<div class="acc"><button class="secundario mini" data-editar="' + esc(x.id) + '">Editar</button><button class="peligro" data-borrar="' + esc(x.id) + '">Borrar</button></div></div>'
     ).join('') : '<span class="sub">Todavía no agregaste ' + (m === 'evento' ? 'eventos' : 'lugares') + '.</span>';
@@ -394,6 +398,7 @@
     $('precio').value = x.precio || '';
     $('calificacion').value = x.calificacion || '';
     $('url').value = x.url || '';
+    $('destacado').checked = !!x.destacado;
     $('inicio').value = x.inicio || ''; $('fin').value = x.fin && x.fin !== x.inicio ? x.fin : ''; $('hora').value = aHora24(x.hora);
     document.querySelectorAll('input[name=attr]').forEach((c) => { c.checked = false; });
     pintarTipo(true);
@@ -454,7 +459,8 @@
         tipo: t,
         precio: gratis ? 0 : Math.round(precio * 100) / 100,
         imagen,
-        url: url || null
+        url: url || null,
+        destacado: $('destacado').checked
       };
       if (m === 'lugar') {
         item.calificacion = parseFloat($('calificacion').value) || null;
