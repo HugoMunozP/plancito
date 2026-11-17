@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T14:40-05:00",
+ "actualizado": "2026-11-17T15:06-05:00",
  "eventos": [
   {
    "nombre": "\"Por la alegría de los carnavales\"",
@@ -12,7 +12,8 @@
    "precio": 50,
    "imagen": "https://cdn.joinnus.com/images/80043/main/YoJF5Bg4fvfUozI.webp",
    "url": "https://www.joinnus.com/events/theater/lima-por-la-alegria-de-los-carnavales-80043",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/b48f3bcaff905edb.webp"
   },
   {
    "nombre": "7 Concurso De Narrativa Gráfica",
@@ -25,7 +26,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261017COEXLAM7CO.jpg",
    "url": "https://entradalibre.me/event/7-concurso-de-narrativa-grafica/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8664b83ffe2e949b.webp"
   },
   {
    "nombre": "Algo Mas Cerca De La Verdad",
@@ -38,7 +40,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261016PIEXSANALG.jpg",
    "url": "https://entradalibre.me/event/algo-mas-cerca-de-la-verdad-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1ebd579c804697db.webp"
   },
   {
    "nombre": "Amenopausica",
@@ -51,7 +54,8 @@
    "precio": 50,
    "imagen": "https://cdn.joinnus.com/images/79138/main/WZwgECZbW8oWgrt.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-amenopausica-79138",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/591142b36c99bbbe.webp"
   },
   {
    "nombre": "Biblioteca Nacional Del Perú",
@@ -64,7 +68,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/04/260327LIEXSANBIB.jpg",
    "url": "https://entradalibre.me/event/biblioteca-nacional-del-peru/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5e9a5ccd4e625bc6.webp"
   },
   {
    "nombre": "Bosque de Sobralias",
@@ -77,7 +82,8 @@
    "precio": 40,
    "imagen": "https://cdn.joinnus.com/images/79067/main/us4CfHmyLv24xXl.webp",
    "url": "https://www.joinnus.com/events/theater/lima-bosque-de-sobralias-79067",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e7e6dbe14366f254.webp"
   },
   {
    "nombre": "Buenos Días, Mario",
@@ -90,7 +96,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/06/260528LIEXCERBUE.jpg",
    "url": "https://entradalibre.me/event/buenos-dias-mario-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4c06e40b6f71dc83.webp"
   },
   {
    "nombre": "Caral: Vida En Armonía Con La Naturaleza Megadiversa",
@@ -103,7 +110,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/1-37.png",
    "url": "https://entradalibre.me/event/caral-vida-en-armonia-con-la-naturaleza-megadiversa/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ecb4f8bd95a202c6.webp"
   },
   {
    "nombre": "Cazadores de Historias - Ricardo Mendoza, Job Mansilla, Guille Neyra, Brayan Estiven",
@@ -116,7 +124,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIM004_calugalistado.jpg?v=1794413481",
    "url": "https://teleticket.com.pe/evento/cazadores-de-historias-lima-comedy",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f5c21a519c375377.webp"
   },
   {
    "nombre": "Centenario De La Revista Amauta",
@@ -129,7 +138,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261030LIEXCERCEN-scaled.jpg",
    "url": "https://entradalibre.me/event/centenario-de-la-revista-amauta/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15821e58742fa990.webp"
   },
   {
    "nombre": "Cine Y Derecho",
@@ -142,7 +152,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/cine-y-derecho/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Ciudad Abierta Documental",
@@ -155,7 +166,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117CIPRSANCIU.jpg",
    "url": "https://entradalibre.me/event/ciudad-abierta-documental/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/42a71046ce38fe01.webp"
   },
   {
    "nombre": "Club Peruano De Bonsái",
@@ -168,7 +180,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117MEEXSANCLU.jpg",
    "url": "https://entradalibre.me/event/club-peruano-de-bonsai/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/af984d5e36d93c54.webp"
   },
   {
    "nombre": "Coloreo Y Recorte De Loza Republicana",
@@ -181,7 +194,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117ARTACERCOL.jpg",
    "url": "https://entradalibre.me/event/coloreo-y-recorte-de-loza-republicana/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f1059f82676c0dba.webp"
   },
   {
    "nombre": "Coro Del Británico",
@@ -194,7 +208,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117MUCOSANCOR.jpg",
    "url": "https://entradalibre.me/event/coro-del-britanico-17/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/496a9ada7b6659af.webp"
   },
   {
    "nombre": "David Bowie: Station To Station",
@@ -207,20 +222,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261029MUEXMIRDAV.jpg",
    "url": "https://entradalibre.me/event/david-bowie-station-to-station/",
-   "fuente": "EntradaLibre"
-  },
-  {
-   "nombre": "Del Set Al Pixel",
-   "inicio": "2026-11-17",
-   "fin": "2026-11-17",
-   "hora": "12:00 pm",
-   "lugar": "Santiago de Surco",
-   "categoria": "Charla",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117CICHSANDEL.jpg",
-   "url": "https://entradalibre.me/event/del-set-al-pixel/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bbc6ec10096259fb.webp"
   },
   {
    "nombre": "Die Mauer – El Muro",
@@ -233,7 +236,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261110PIEXMIRDIE-scaled.jpg",
    "url": "https://entradalibre.me/event/die-mauer-el-muro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0bff5b9432def1bd.webp"
   },
   {
    "nombre": "Dirección De Fotografía",
@@ -246,7 +250,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117CICHSANDIR.jpg",
    "url": "https://entradalibre.me/event/direccion-de-fotografia-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4d729a36a02cb7a2.webp"
   },
   {
    "nombre": "Distancia Segura",
@@ -259,7 +264,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/260917PIEXSANDIS-scaled.jpg",
    "url": "https://entradalibre.me/event/distancia-segura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/775ec8b3abfc6cf8.webp"
   },
   {
    "nombre": "Doble Función!",
@@ -272,7 +278,8 @@
    "precio": 55,
    "imagen": "https://cdn.joinnus.com/images/80177/main/8SGmdyQqccFGbS4.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-doble-funcion-80177",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/c00aeb2b32ba8813.webp"
   },
   {
    "nombre": "Domo Geodésico De Realidad Virtual",
@@ -285,7 +292,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/260924TEEXPUEDOM.jpg",
    "url": "https://entradalibre.me/event/domo-geodesico-de-realidad-virtual/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/32f99aec085a8ac8.webp"
   },
   {
    "nombre": "El Arte De Mirarnos",
@@ -298,7 +306,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261105FOEXMIRELA.jpg",
    "url": "https://entradalibre.me/event/el-arte-de-mirarnos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/76526b76d452fb2f.webp"
   },
   {
    "nombre": "EL EFECTO PROUST",
@@ -311,7 +320,8 @@
    "precio": 35,
    "imagen": "https://cdn.joinnus.com/images/79976/main/5wwnUGbbOuWhCJ3.webp",
    "url": "https://www.joinnus.com/events/theater/lima-el-efecto-proust-79976",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/0961c67b9f8ab4e8.webp"
   },
   {
    "nombre": "El Fin Del Sueño",
@@ -324,7 +334,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/000002.jpg",
    "url": "https://entradalibre.me/event/el-fin-del-sueno-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bc0bbd8d4ef8907d.webp"
   },
   {
    "nombre": "El Instante Antes",
@@ -337,7 +348,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/f770fe33-6c43-4254-a060-8e4241c87ed4.jpg",
    "url": "https://entradalibre.me/event/el-instante-antes/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/9c317e6ca9684669.webp"
   },
   {
    "nombre": "En El Principio Solo Existía Agua Y Oscuridad",
@@ -350,7 +362,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261023TEEXSANENE.jpg",
    "url": "https://entradalibre.me/event/en-el-principio-solo-existia-agua-y-oscuridad/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/32d898251b149545.webp"
   },
   {
    "nombre": "En Junio Ya No Estaré",
@@ -363,7 +376,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_858813709_18037715720838921_6465339232437214488_n-scaled.jpg",
    "url": "https://entradalibre.me/event/en-junio-ya-no-estare/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/daa8d4fe1f9f12aa.webp"
   },
   {
    "nombre": "Entre Mar Y Materia",
@@ -376,7 +390,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Flyer-Entre-Mar-y-Materia.jpeg",
    "url": "https://entradalibre.me/event/entre-mar-y-materia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/6979cbdc098226cc.webp"
   },
   {
    "nombre": "Entre Mundos",
@@ -389,7 +404,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114TEEXMIRENT.jpg",
    "url": "https://entradalibre.me/event/entre-mundos-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e9cfc8006025781d.webp"
   },
   {
    "nombre": "Escuchar A La Tierra",
@@ -402,7 +418,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261113TEEXMIRESC.jpg",
    "url": "https://entradalibre.me/event/escuchar-a-la-tierra/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f567603b09f3387c.webp"
   },
   {
    "nombre": "FIESTA DE CHAMBA",
@@ -415,7 +432,8 @@
    "precio": 50,
    "imagen": "https://cdn.joinnus.com/images/78671/main/XhE4YNxKOF2iRo7.webp",
    "url": "https://www.joinnus.com/events/theater/lima-fiesta-de-chamba-78671",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e8e94d2fbfcbc947.webp"
   },
   {
    "nombre": "Geometrías Desbordadas",
@@ -428,7 +446,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/000001.jpg",
    "url": "https://entradalibre.me/event/geometrias-desbordadas/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c305560a5fbeb3ee.webp"
   },
   {
    "nombre": "Hilos Del Retorno",
@@ -441,7 +460,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117TEEXCERHIL.jpg",
    "url": "https://entradalibre.me/event/hilos-del-retorno/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ee5267dd615e004c.webp"
   },
   {
    "nombre": "Hogar",
@@ -454,7 +474,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117CIPRSANHOG.jpg",
    "url": "https://entradalibre.me/event/hogar-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/16d7935c57d1312f.webp"
   },
   {
    "nombre": "Icpna Print Exchange 2026",
@@ -467,7 +488,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/icpna.jpg",
    "url": "https://entradalibre.me/event/icpna-print-exchange-2026/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/71a0187f880297e1.webp"
   },
   {
    "nombre": "Km.0: Andrés Barrios",
@@ -480,7 +502,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117MUCOMIRAND-scaled.jpg",
    "url": "https://entradalibre.me/event/km-0-andres-barrios/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/098504ba73a66cee.webp"
   },
   {
    "nombre": "La Bola Negra",
@@ -493,7 +516,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_889977855_18040000334838921_286561496404495302_n-scaled.jpg",
    "url": "https://entradalibre.me/event/la-bola-negra/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/9a27693c5200562b.webp"
   },
   {
    "nombre": "La Canción De La Cima",
@@ -506,7 +530,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117TEPUSANLAC.jpg",
    "url": "https://entradalibre.me/event/la-cancion-de-la-cima/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/20b66b1544c6d06b.webp"
   },
   {
    "nombre": "La Vida De Los Otros",
@@ -519,7 +544,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261113CIPRMIRLAV-scaled.jpg",
    "url": "https://entradalibre.me/event/la-vida-de-los-otros-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/9025314e7abc2d84.webp"
   },
   {
    "nombre": "Lineas Paralelas",
@@ -532,7 +558,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/Fito-Espinosa-invitacion-menos-peso.png",
    "url": "https://entradalibre.me/event/lineas-paralelas/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/763b5a5417211566.webp"
   },
   {
    "nombre": "Memoria A Pantallazos",
@@ -545,7 +572,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/261001PIEXMIRMEM.jpg",
    "url": "https://entradalibre.me/event/memoria-a-pantallazos-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2475a63c017e6a7c.webp"
   },
   {
    "nombre": "Muestra Nacional De Cortometrajes Bloque 1",
@@ -558,7 +586,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_866525934_18038531132838921_3209658534841809555_n-scaled.jpg",
    "url": "https://entradalibre.me/event/muestra-nacional-de-cortometrajes-bloque-1/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/95c5ca62afd59081.webp"
   },
   {
    "nombre": "Museo De Historia Y Arte Del Callao",
@@ -571,7 +600,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/260102HIEXCALMUS.jpg",
    "url": "https://entradalibre.me/event/museo-de-historia-y-arte-del-callao/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/366191f7a3253c89.webp"
   },
   {
    "nombre": "Museo Numismático Del Perú",
@@ -584,7 +614,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2024/10/museo_numismatico.jpg",
    "url": "https://entradalibre.me/event/museo-numismatico-del-peru-2025/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c5fa8595f6349910.webp"
   },
   {
    "nombre": "NOVTEC 2026: MYSELVES",
@@ -597,7 +628,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/images/79836/main/SM9Wmcq9R3vrlR1.webp",
    "url": "https://www.joinnus.com/events/theater/lima-novtec-2026-myselves-79836",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/82efecf50d16f018.webp"
   },
   {
    "nombre": "Peregrino De Esperanza",
@@ -610,7 +642,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261110HIEXCERPER.jpg",
    "url": "https://entradalibre.me/event/peregrino-de-esperanza/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1bff52e87402cd93.webp"
   },
   {
    "nombre": "Recordé La Ladera De Un Cerro",
@@ -623,7 +656,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117DIINSANREC.webp",
    "url": "https://entradalibre.me/event/recorde-la-ladera-de-un-cerro-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c43dcedb1d40ef47.webp"
   },
   {
    "nombre": "Remembranzas – 40 Años",
@@ -636,7 +670,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117MUCOMIRREM-scaled.jpg",
    "url": "https://entradalibre.me/event/remembranzas-40-anos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d44c8d1f97aa401f.webp"
   },
   {
    "nombre": "Ritmos Y Encantos Del Perú",
@@ -649,7 +684,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117DAPUMIRRIT.jpg",
    "url": "https://entradalibre.me/event/ritmos-y-encantos-del-peru/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c6a36a26bf34ebb5.webp"
   },
   {
    "nombre": "Rocas Rojas",
@@ -662,7 +698,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_856281159_18037467701838921_3173139486943812187_n.jpg",
    "url": "https://entradalibre.me/event/rocas-rojas/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c9092f17fc207436.webp"
   },
   {
    "nombre": "Soniemfest 2026 - Tercera edición",
@@ -675,7 +712,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80589/main/HD5vJtpfCq7vMcs.webp",
    "url": "https://www.joinnus.com/events/theater/lima-soniemfest-2026-tercera-edicion-80589",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/85368269793d9b25.webp"
   },
   {
    "nombre": "States Of Appearance",
@@ -688,7 +726,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/260924PIEXSANSTA-scaled.jpg",
    "url": "https://entradalibre.me/event/states-of-appearance/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/af496e47347fedb5.webp"
   },
   {
    "nombre": "Suena La Casona",
@@ -701,7 +740,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117MUFECHOSUE.jpg",
    "url": "https://entradalibre.me/event/suena-la-casona-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4b128e4f5ece3fee.webp"
   },
   {
    "nombre": "Surcar El Cielo",
@@ -714,7 +754,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117LIPRSANSUR.jpg",
    "url": "https://entradalibre.me/event/surcar-el-cielo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d973dbe8d937039c.webp"
   },
   {
    "nombre": "Tokyo Godfathers",
@@ -727,7 +768,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_845902717_18036465014838921_8511650458502275021_n-scaled.jpg",
    "url": "https://entradalibre.me/event/tokyo-godfathers-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1415cc3657cf6b24.webp"
   },
   {
    "nombre": "TOMA TU TOMATE stand-up comedy",
@@ -740,7 +782,8 @@
    "precio": 35,
    "imagen": "https://cdn.joinnus.com/images/71784/main/mBEN8ziFtQNiMhB.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-toma-tu-tomate-standup-comedy-71784",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/aed33e9eba3aa66b.webp"
   },
   {
    "nombre": "Uchināmoon",
@@ -753,7 +796,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261022ILEXJESUCH.jpg",
    "url": "https://entradalibre.me/event/uchinamoon/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c0690354d7198f3b.webp"
   },
   {
    "nombre": "Un Lugar Para Sanar",
@@ -766,7 +810,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_860153006_18037715729838921_2949298758845377373_n-scaled.jpg",
    "url": "https://entradalibre.me/event/un-lugar-para-sanar/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/be0c08e226e6ed0c.webp"
   },
   {
    "nombre": "Una Mirada Británica: Kate Hepburn",
@@ -779,7 +824,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261008DIEXMIRUNA.jpg",
    "url": "https://entradalibre.me/event/una-mirada-britanica-kate-hepburn/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c82018b5c773e814.webp"
   },
   {
    "nombre": "Vainilla",
@@ -792,7 +838,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_838159083_18035587493838921_5706079700410840199_n-scaled.jpg",
    "url": "https://entradalibre.me/event/vainilla-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/84bd1edc2cd62086.webp"
   },
   {
    "nombre": "Videomapping",
@@ -805,7 +852,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114TEEXMIRVID.jpg",
    "url": "https://entradalibre.me/event/videomapping/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/565e02b5d6d667f6.webp"
   },
   {
    "nombre": "Wood Wide Web",
@@ -818,7 +866,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114TEEXMIRWOO.jpg",
    "url": "https://entradalibre.me/event/wood-wide-web/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b95f44106662d5aa.webp"
   },
   {
    "nombre": "Wu",
@@ -831,7 +880,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261117CUPRBARWU.webp",
    "url": "https://entradalibre.me/event/wu/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/cf8ef82612f1aa35.webp"
   },
   {
    "nombre": "Xiv Salón Internacional De Arte Con Derechos",
@@ -844,7 +894,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261016ESEXSANXIV.webp",
    "url": "https://entradalibre.me/event/xiv-salon-internacional-de-arte-con-derechos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/78db55783eb766e8.webp"
   },
   {
    "nombre": "A MEDIA LUZ · Cover Show a ANDRÉS CALAMARO by Francisco Chavez (Yo Soy)",
@@ -857,7 +908,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80097/main/t10KIHeiU8ZkGKd.webp",
    "url": "https://www.joinnus.com/events/party/lima-a-media-luz-cover-show-a-andres-calamaro-by-francisco-chavez-yo-soy-80097",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/da0f88606b681b02.webp"
   },
   {
    "nombre": "Alice In Chains - Unplugged \"exclusivo Solo 100 Asistentes\"",
@@ -870,7 +922,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80061/main/eCvCEvoR6BZsBHt.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-alice-in-chains-unplugged-exclusivo-solo-100-asistentes-80061",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e21ba66ca419675a.webp"
   },
   {
    "nombre": "All Of A Sudden",
@@ -883,7 +936,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_880020504_18039117947838921_3891944885417613067_n-scaled.jpg",
    "url": "https://entradalibre.me/event/all-of-a-sudden/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f8f4559170a3a0b5.webp"
   },
   {
    "nombre": "Artrotheca en el Jockey Plaza",
@@ -896,7 +950,8 @@
    "precio": 17.9,
    "imagen": "https://cdn.joinnus.com/user/5060753/WgMxSlnjmOyEwz3.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-artrotheca-en-el-jockey-plaza-76042",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/7279a867491d74e5.webp"
   },
   {
    "nombre": "Autoerótica",
@@ -909,7 +964,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/bRFlkfnuzsNlQE8mix47B7eLJFr.webp",
    "url": "https://entradalibre.me/event/autoerotica-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/77a6969dcaaf2cb5.webp"
   },
   {
    "nombre": "Bailemos Tondero Piurano",
@@ -922,7 +978,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118DACLSANBAI.webp",
    "url": "https://entradalibre.me/event/bailemos-tondero-piurano/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c2d94321581820d2.webp"
   },
   {
    "nombre": "BAR CRAWL LIMA: RUTA DE BARES POR MIRAFLORES",
@@ -935,7 +992,8 @@
    "precio": 80,
    "imagen": "https://cdn.joinnus.com/images/80485/main/xhQAKpV1F5d6RCU.webp",
    "url": "https://www.joinnus.com/events/party/lima-bar-crawl-lima-ruta-de-bares-por-miraflores-80485",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/792241c01f119113.webp"
   },
   {
    "nombre": "Cada Color Será Sentido-Tocado",
@@ -948,7 +1006,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Flyer.jpeg",
    "url": "https://entradalibre.me/event/cada-color-sera-sentido-tocado/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7f7dfc0edbcedce9.webp"
   },
   {
    "nombre": "Cada Vez",
@@ -961,7 +1020,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_840205519_18035587469838921_1898968436614978466_n-scaled.jpg",
    "url": "https://entradalibre.me/event/cada-vez/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5d41ae2fd1059798.webp"
   },
   {
    "nombre": "Campeonato Liga de Comediantes Latam en Peru",
@@ -974,7 +1034,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80618/main/j0cmLWRjNHJz9M5.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-campeonato-liga-de-comediantes-latam-en-peru-80618",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ff688fb17e0e3f2f.webp"
   },
   {
    "nombre": "CERO MIGAJEROS LAURA Y CARLOS",
@@ -987,7 +1048,8 @@
    "precio": 50,
    "imagen": "https://cdn.joinnus.com/images/79768/main/cT1bYeBBHdCeGEF.webp",
    "url": "https://www.joinnus.com/events/theater/lima-cero-migajeros-laura-y-carlos-79768",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/2bb267027f82add0.webp"
   },
   {
    "nombre": "Cine Y Derecho",
@@ -1000,7 +1062,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/cine-y-derecho-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Cine, Archivo E Inteligencia Artificial",
@@ -1013,7 +1076,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CICLSANCIN.jpg",
    "url": "https://entradalibre.me/event/cine-archivo-e-inteligencia-artificial/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/79818952546ea1a8.webp"
   },
   {
    "nombre": "CITY TOUR PRIVADO EN LIMA - CATACUMBA DE SAN FRANCISCO 2026",
@@ -1026,7 +1090,8 @@
    "precio": 110,
    "imagen": "https://cdn.joinnus.com/user/5060753/act695c3c524904e.jpg",
    "url": "https://www.joinnus.com/events/trip-adventure/lima-city-tour-privado-en-lima-catacumba-de-san-francisco-2026-73781",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/8a9249b13f27b00e.webp"
   },
   {
    "nombre": "Ciudad Abierta: Ficción Y Experimental",
@@ -1039,7 +1104,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CITACHOCIU.jpg",
    "url": "https://entradalibre.me/event/ciudad-abierta-ficcion-y-experimental/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e41d49d5a71a2ee8.webp"
   },
   {
    "nombre": "Con Todo Respeto pero Es Comedia",
@@ -1052,7 +1118,8 @@
    "precio": 15,
    "imagen": "https://cdn.joinnus.com/images/80019/main/EtUbU1s1VJQBN02.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-con-todo-respeto-pero-es-comedia-80019",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/887a633ece42ff76.webp"
   },
   {
    "nombre": "Conexiones Entre Perú Y Reino Unido",
@@ -1065,7 +1132,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118HICHSANCON.jpg",
    "url": "https://entradalibre.me/event/conexiones-entre-peru-y-reino-unido/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bdd2e0e9e675bf94.webp"
   },
   {
    "nombre": "CONFESIONES PODCAST - EDICIÓN TRUE CRIME",
@@ -1078,7 +1146,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80200/main/aEoujDyb27RBbCe.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-confesiones-podcast-edicion-true-crime-80200",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/3acdf26da15fdc33.webp"
   },
   {
    "nombre": "Coro De Varones Unm",
@@ -1091,7 +1160,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118MUCOCERCOR.jpg",
    "url": "https://entradalibre.me/event/coro-de-varones-unm/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/6f23a7b0cba1b2fd.webp"
   },
   {
    "nombre": "Donde Nacen Las Sombras",
@@ -1104,7 +1174,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/nDQ3JNn8I1Uy80GzGDLQSDEhXW3.webp",
    "url": "https://entradalibre.me/event/donde-nacen-las-sombras/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/20b6336b0028c687.webp"
   },
   {
    "nombre": "El Tribunal del Karma",
@@ -1117,7 +1188,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/77791/main/P5azxgQdAq28OAW.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-el-tribunal-del-karma-77791",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/bbd86bfab2e81f56.webp"
   },
   {
    "nombre": "En el principio solo existía Agua y Oscuridad",
@@ -1130,7 +1202,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/79715/main/6lsiRvwLU07IJSU.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-en-el-principio-solo-existia-agua-y-oscuridad-79715",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/3c1f38e51620de6d.webp"
   },
   {
    "nombre": "Esotéricos",
@@ -1143,7 +1216,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80150/main/MaS2P8XhWXZL0TC.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-esotericos-80150",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e34ff5b966574f5a.webp"
   },
   {
    "nombre": "Estacionamiento - Liga Peruana de Voley Betsson 2026-27",
@@ -1156,7 +1230,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/79868/main/6tVA2SSivOUBKlv.webp",
    "url": "https://www.joinnus.com/events/sports/lima-estacionamiento-liga-peruana-de-voley-betsson-2026-27-79868",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ba8919395b562865.webp"
   },
   {
    "nombre": "Flamenco En Piano",
@@ -1169,7 +1244,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118MUCLCHOFLA.jpg",
    "url": "https://entradalibre.me/event/flamenco-en-piano/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8435215ac3783515.webp"
   },
   {
    "nombre": "Hacer Cine De Bajo Presupuesto",
@@ -1182,7 +1258,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CICOSANHAC.jpg",
    "url": "https://entradalibre.me/event/hacer-cine-de-bajo-presupuesto/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f5f2a2141f1590b1.webp"
   },
   {
    "nombre": "La Anatomía De Los Caballos",
@@ -1195,7 +1272,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/tHP6StnYXWrMXE23wGPZtoe1RRN.webp",
    "url": "https://entradalibre.me/event/la-anatomia-de-los-caballos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/82c5d64bdd60cca2.webp"
   },
   {
    "nombre": "La Libertad Doble",
@@ -1208,7 +1286,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_857022838_18037467683838921_7651340404166564416_n.jpg",
    "url": "https://entradalibre.me/event/la-libertad-doble/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/303d46e2e3b3aa53.webp"
   },
   {
    "nombre": "LAS ALUCINES TOUR LATAM 2026",
@@ -1221,7 +1300,8 @@
    "precio": 155.53,
    "imagen": "https://cdn.joinnus.com/images/78330/main/Jq4cFQTutaiD4CS.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-las-alucines-tour-latam-2026-78330",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/46cc0bc763dd1c05.webp"
   },
   {
    "nombre": "Las Indias Galantes",
@@ -1234,7 +1314,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118MUCOSANLAS.jpg",
    "url": "https://entradalibre.me/event/las-indias-galantes/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e1bbb280d862bbd6.webp"
   },
   {
    "nombre": "Liga Peruana de Voley Betsson 2026-27",
@@ -1247,7 +1328,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/79816/main/P85YDq1bXnlFuHe.webp",
    "url": "https://www.joinnus.com/events/sports/lima-liga-peruana-de-voley-betsson-2026-27-79816",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/68f484492afd7072.webp"
   },
   {
    "nombre": "Los Diarios De La Boticaria",
@@ -1260,7 +1342,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118LIPRSANLOS.jpg",
    "url": "https://entradalibre.me/event/los-diarios-de-la-boticaria-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1e958a39e0782e5c.webp"
   },
   {
    "nombre": "Manuales De Supervivencia",
@@ -1273,7 +1356,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/vMNX7S6icxw2H9nPMuKoFZzRNCp.webp",
    "url": "https://entradalibre.me/event/manuales-de-supervivencia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e97901eeb2d3bae1.webp"
   },
   {
    "nombre": "Me Llaman Júpiter",
@@ -1286,7 +1370,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118HIPRBARMEL.jpg",
    "url": "https://entradalibre.me/event/me-llaman-jupiter/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b150d41b26bf3057.webp"
   },
   {
    "nombre": "Mientras Todo Arde",
@@ -1299,7 +1384,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118PIINMIRMIE.jpg",
    "url": "https://entradalibre.me/event/mientras-todo-arde/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/a833b97f721696b6.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Internacionales Bloque 1",
@@ -1312,7 +1398,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-internacionales-bloque-1/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Ulima Bloque 1",
@@ -1325,7 +1412,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-ulima-bloque-1/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Universitarios Bloque 1",
@@ -1338,7 +1426,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-universitarios-bloque-1/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra Nacional De Cortometrajes Bloque 2",
@@ -1351,7 +1440,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-nacional-de-cortometrajes-bloque-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Mónica Cabrejos Doctora Bandida - Terapia de Choque",
@@ -1364,7 +1454,8 @@
    "precio": 45,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/hvp028_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/monica-cabrejos-doctora-bandida-terapia-de-choque-la-estacion-de-barranco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/ef1e88128104f812.webp"
   },
   {
    "nombre": "Omnipresentes",
@@ -1377,7 +1468,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/xwIPPewcCWnNV2JjjppSNzoyKoW.webp",
    "url": "https://entradalibre.me/event/omnipresentes/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4208b95144157b48.webp"
   },
   {
    "nombre": "Paprika",
@@ -1390,7 +1482,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_845124983_18036465062838921_7687146502901769296_n-scaled.jpg",
    "url": "https://entradalibre.me/event/paprika-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c707a571e3839940.webp"
   },
   {
    "nombre": "Paprika, 20 Años Después",
@@ -1403,7 +1496,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/paprika-20-anos-despues/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Playground",
@@ -1416,7 +1510,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Flyer-2.jpg",
    "url": "https://entradalibre.me/event/playground/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/805e2e437bcfe6f7.webp"
   },
   {
    "nombre": "Propiedad Privada",
@@ -1429,7 +1524,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CUINMIRPRO.jpg",
    "url": "https://entradalibre.me/event/propiedad-privada/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/3abf90036e2e1887.webp"
   },
   {
    "nombre": "Recordé La Ladera De Un Cerro",
@@ -1442,7 +1538,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118DIEXSANREC.webp",
    "url": "https://entradalibre.me/event/recorde-la-ladera-de-un-cerro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7bdf88341359f267.webp"
   },
   {
    "nombre": "SANTIDAD",
@@ -1455,7 +1552,8 @@
    "precio": 10,
    "imagen": "https://cdn.joinnus.com/images/80132/main/titVgyjDc4fM3h9.webp",
    "url": "https://www.joinnus.com/events/cine/lima-santidad-80132",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/2a1c6ee306217b82.webp"
   },
   {
    "nombre": "Scary Comedy, Open Mic",
@@ -1468,7 +1566,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/77806/main/2wEXbuBLRo7FErH.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-scary-comedy-open-mic-77806",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5d8412c74a9c8d81.webp"
   },
   {
    "nombre": "SINFONÍA NRO 9 – LUDWIG VAN BEETHOVEN",
@@ -1481,7 +1580,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/78583/main/3rVsywIODtJgzzR.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-sinfonia-nro-9-ludwig-van-beethoven-78583",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e26a96f32f487bb1.webp"
   },
   {
    "nombre": "Stopmotion",
@@ -1494,7 +1594,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CITASANSTO.jpg",
    "url": "https://entradalibre.me/event/stopmotion/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/add418bb7f7f8f39.webp"
   },
   {
    "nombre": "SUEÑO",
@@ -1507,7 +1608,8 @@
    "precio": 28,
    "imagen": "https://cdn.joinnus.com/images/73375/main/muAnRa0xdsQxfjM.webp",
    "url": "https://www.joinnus.com/events/theater/lima-sueno-73375",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/1e867e521b4f12cb.webp"
   },
   {
    "nombre": "Sylvia Plath",
@@ -1520,7 +1622,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118LICOMIRSYL.jpg",
    "url": "https://entradalibre.me/event/sylvia-plath/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e08aac021ac3d7b7.webp"
   },
   {
    "nombre": "Tour Nocturno Cementerio Baquijano del Callao",
@@ -1533,7 +1636,8 @@
    "precio": 55,
    "imagen": "https://cdn.joinnus.com/images/77031/main/WTsK39HXrsz5kWp.webp",
    "url": "https://www.joinnus.com/events/art-culture/callao-tour-nocturno-cementerio-baquijano-del-callao-77031",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/47ee58dddb523e67.webp"
   },
   {
    "nombre": "Tradiciones Cerámicas Ychsma E Inca",
@@ -1546,7 +1650,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118ARCHCERTRA.jpg",
    "url": "https://entradalibre.me/event/tradiciones-ceramicas-ychsma-e-inca/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/eecc8292ff51ceb2.webp"
   },
   {
    "nombre": "Uchināmoon",
@@ -1559,7 +1664,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CUVIJESUCH.jpg",
    "url": "https://entradalibre.me/event/uchinamoon-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/41cd7c422400ce0f.webp"
   },
   {
    "nombre": "Un Mundo Maravilloso",
@@ -1572,7 +1678,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118CIPRLAMUNM.jpg",
    "url": "https://entradalibre.me/event/un-mundo-maravilloso/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/771e9354b46c2ffd.webp"
   },
   {
    "nombre": "Yayanum Wegamu",
@@ -1585,7 +1692,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118COPRMIRYAY.jpg",
    "url": "https://entradalibre.me/event/yayanum-wegamu/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/44a914d66ca0b9d8.webp"
   },
   {
    "nombre": "Yield Live Sessions Nro. 10 Presenta: Aukka",
@@ -1598,7 +1706,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80037/main/K2P8zvD4zRJJWGD.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-yield-live-sessions-nro-10-presenta-aukka-80037",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/4feccdd70858af80.webp"
   },
   {
    "nombre": "5.ª FERIA DE HORTICULTURA ORNAMENTAL.",
@@ -1611,7 +1720,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/IMG_1454.jpeg",
    "url": "https://entradalibre.me/event/5-a-feria-de-horticultura-ornamental/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f148ba9cdf3149ea.webp"
   },
   {
    "nombre": "Afinando Material",
@@ -1624,7 +1734,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80630/main/h8LPvxW5HE1SGIC.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-afinando-material-80630",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/6ffae6b1b8449df9.webp"
   },
   {
    "nombre": "Aquella Sombra Desvanecía",
@@ -1637,7 +1748,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/rmrck0d4EVt5GWq6vBRoN97wj9G.webp",
    "url": "https://entradalibre.me/event/aquella-sombra-desvanecia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d41e2a24666d9426.webp"
   },
   {
    "nombre": "Artistas Arguedianos En Escena",
@@ -1650,7 +1762,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261105DAENLIMART.jpg",
    "url": "https://entradalibre.me/event/artistas-arguedianos-en-escena-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/93c65219fd12a236.webp"
   },
   {
    "nombre": "BAILE DE HUESOS",
@@ -1663,7 +1776,8 @@
    "precio": 40,
    "imagen": "https://cdn.joinnus.com/images/78112/main/z8HweLuOyDrfUjy.webp",
    "url": "https://www.joinnus.com/events/theater/lima-baile-de-huesos-78112",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/eed4c720baac51c4.webp"
   },
   {
    "nombre": "BITS | Lo mejor de la stand-up de Lima",
@@ -1676,7 +1790,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/71783/main/S9HAF2SqlkY3sd1.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-bits-lo-mejor-de-la-standup-de-lima-71783",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/bf4c77c456b1055a.webp"
   },
   {
    "nombre": "Carlos Caamaño Espacio Fotográfico",
@@ -1689,7 +1804,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Carlos-Caamano-Espacio-Fotografico-Leslie-Osterling.png",
    "url": "https://entradalibre.me/event/carlos-caamano-espacio-fotografico/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0ffc2c37728990ae.webp"
   },
   {
    "nombre": "Cine Y Derecho",
@@ -1702,7 +1818,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/cine-y-derecho-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Cine Y Derecho",
@@ -1715,7 +1832,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/cine-y-derecho-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Concierto de aniversario: 23 años",
@@ -1728,7 +1846,8 @@
    "precio": 7.5,
    "imagen": "https://cdn.joinnus.com/images/80561/main/ZUw8fdieuNOzI6A.webp",
    "url": "https://www.joinnus.com/events/theater/lima-concierto-de-aniversario-23-anos-80561",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5ab2adbaf10a6273.webp"
   },
   {
    "nombre": "Creatividad Artificial",
@@ -1741,7 +1860,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119TECOMIRCRE.jpg",
    "url": "https://entradalibre.me/event/creatividad-artificial/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/152a483fbb46a5f6.webp"
   },
   {
    "nombre": "Crisis Galería",
@@ -1754,7 +1874,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Crisis-Galeria-Nina-Silverberg-scaled.jpeg",
    "url": "https://entradalibre.me/event/crisis-galeria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2a7a0643baf99a44.webp"
   },
   {
    "nombre": "Cámara De Audición",
@@ -1767,7 +1888,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119MUFEMIRCAM.jpg",
    "url": "https://entradalibre.me/event/camara-de-audicion/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1d6634eb99cd4886.webp"
   },
   {
    "nombre": "Democomedy: el Poder del Chiste | Stand-up Comedy",
@@ -1780,7 +1902,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80315/main/dkB5IAbfdNXwGgn.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-democomedy-el-poder-del-chiste-stand-up-comedy-80315",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/82ec8bca20fe5852.webp"
   },
   {
    "nombre": "Documental Upc",
@@ -1793,7 +1916,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_650145099_17877949479521870_5401062270782796650_n.jpg",
    "url": "https://entradalibre.me/event/documental-upc/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15035e14348ff056.webp"
   },
   {
    "nombre": "Día Del Músico",
@@ -1806,7 +1930,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Dia-Musico-Instagram.jpg",
    "url": "https://entradalibre.me/event/dia-del-musico-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2cf5c983af8ec9d1.webp"
   },
   {
    "nombre": "EL VIAJE AL ORIGEN DEL KENÉ",
@@ -1819,7 +1944,8 @@
    "precio": 10,
    "imagen": "https://cdn.joinnus.com/images/80130/main/2aYJv3p6J1kALw4.webp",
    "url": "https://www.joinnus.com/events/cine/lima-el-viaje-al-origen-del-kene-80130",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/653aee8cf67a3178.webp"
   },
   {
    "nombre": "El Viaje Al Origen Del Kené",
@@ -1832,7 +1958,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/nbNF7s1PXiE09XBM9thgHpKiRLn.webp",
    "url": "https://entradalibre.me/event/el-viaje-al-origen-del-kene/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/121ed56722d98096.webp"
   },
   {
    "nombre": "ELLAS",
@@ -1845,7 +1972,8 @@
    "precio": 10,
    "imagen": "https://cdn.joinnus.com/images/80133/main/6nbQHJ80n2yHOyL.webp",
    "url": "https://www.joinnus.com/events/cine/lima-ellas-80133",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/9d1d9d8d439d1fc4.webp"
   },
   {
    "nombre": "En Junio Ya No Estaré",
@@ -1858,7 +1986,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_858813709_18037715720838921_6465339232437214488_n-scaled.jpg",
    "url": "https://entradalibre.me/event/en-junio-ya-no-estare-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/daa8d4fe1f9f12aa.webp"
   },
   {
    "nombre": "Era Disco By Kioshy",
@@ -1871,7 +2000,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119MUCOPUEERA.jpg",
    "url": "https://entradalibre.me/event/era-disco-by-kioshy-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e5a7cc58a58fc0eb.webp"
   },
   {
    "nombre": "Estados Generales",
@@ -1884,7 +2014,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/pkwnZ2gxk85rn4iqzaKpgHQhI8J.webp",
    "url": "https://entradalibre.me/event/estados-generales/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0553cf9ec17d9463.webp"
   },
   {
    "nombre": "Exodus",
@@ -1897,7 +2028,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119FOINCEREXO.jpg",
    "url": "https://entradalibre.me/event/exodus/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/db6323d5a65af078.webp"
   },
   {
    "nombre": "FEDRA",
@@ -1910,7 +2042,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/79052/main/L9UmtgZxwWh7CSm.webp",
    "url": "https://www.joinnus.com/events/theater/lima-fedra-79052",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5af348d454cd023c.webp"
   },
   {
    "nombre": "Ficción Upc",
@@ -1923,7 +2056,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_650145099_17877949479521870_5401062270782796650_n.jpg",
    "url": "https://entradalibre.me/event/ficcion-upc/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15035e14348ff056.webp"
   },
   {
    "nombre": "Galería Forum",
@@ -1936,7 +2070,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Galeria-Forum-Bruno-Zeppilli.png",
    "url": "https://entradalibre.me/event/galeria-forum/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/cd6bf2387087d0d6.webp"
   },
   {
    "nombre": "Gojira Vs. Tool Tributo en Vivo",
@@ -1949,7 +2084,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80361/main/DPJs7crSZjUx74l.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-gojira-vs-tool-tributo-en-vivo-80361",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ce45419174ab2dd7.webp"
   },
   {
    "nombre": "Hogar Dulce Hogar",
@@ -1962,7 +2098,8 @@
    "precio": 45,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mvg055_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/hogar-dulce-hogar-teatro-audit-miraflores-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/b8cd93d48f4d036b.webp"
   },
   {
    "nombre": "Iii Jornadas Guerra Del Pacífico",
@@ -1975,7 +2112,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119HICOSANIII.jpg",
    "url": "https://entradalibre.me/event/iii-jornadas-guerra-del-pacifico/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/44363e6a2e691dd0.webp"
   },
   {
    "nombre": "Jardín Prohibido de Blurryface",
@@ -1988,7 +2126,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80566/main/f4ItcK0h9HqorX4.webp",
    "url": "https://www.joinnus.com/events/theater/lima-jardin-prohibido-de-blurryface-80566",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/61bbf5e8d43a8af4.webp"
   },
   {
    "nombre": "JUEVES DE FIESTÓN EN LE PARIS - JUE 19.11 | LE PARIS",
@@ -2001,7 +2140,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80624/main/nxT53C7cp18ERfH.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-jueves-de-fieston-en-le-paris-jue-1911-le-paris-80624",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/a9aa7ef1218c37e0.webp"
   },
   {
    "nombre": "Kanasandō",
@@ -2014,7 +2154,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119CIPRJESKAN.jpg",
    "url": "https://entradalibre.me/event/kanasando/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2c8ef1fed7f0707c.webp"
   },
   {
    "nombre": "La Calle Y El Fado",
@@ -2027,7 +2168,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119MUCOCERLAC.webp",
    "url": "https://entradalibre.me/event/la-calle-y-el-fado/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2a67973525daf45b.webp"
   },
   {
    "nombre": "La Dictadura Del Crimen",
@@ -2040,7 +2182,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119CIPRBARLAD.jpg",
    "url": "https://entradalibre.me/event/la-dictadura-del-crimen/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2b1952c80a0af3df.webp"
   },
   {
    "nombre": "La Galería",
@@ -2053,7 +2196,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/LA-GALERIA-Fernando-Otero.png",
    "url": "https://entradalibre.me/event/la-galeria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/3fe0d64654410ba2.webp"
   },
   {
    "nombre": "La Revolución del Amor",
@@ -2066,7 +2210,8 @@
    "precio": 15,
    "imagen": "https://cdn.joinnus.com/images/80042/main/J5vrfzxMMzsOSJi.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-la-revolucion-del-amor-80042",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/307ab1fb6d196100.webp"
   },
   {
    "nombre": "La Serpiente De Tres Cabezas",
@@ -2079,7 +2224,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/afiche-2026.jpg",
    "url": "https://entradalibre.me/event/la-serpiente-de-tres-cabezas-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/702b3c7bbe50d18d.webp"
   },
   {
    "nombre": "La Vía De La Máscara",
@@ -2092,7 +2238,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119TEINBARLAV.jpg",
    "url": "https://entradalibre.me/event/la-via-de-la-mascara-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/cc4a284102e302d2.webp"
   },
   {
    "nombre": "Leonardo Da Vinci",
@@ -2105,7 +2252,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119DIPRSANLEO-scaled.jpg",
    "url": "https://entradalibre.me/event/leonardo-da-vinci/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b6ecd9efdf238e6c.webp"
   },
   {
    "nombre": "Livia Benavides",
@@ -2118,7 +2266,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Copia-de-2610_liviabenavides_menudeldia2_18-copia-scaled.jpg",
    "url": "https://entradalibre.me/event/livia-benavides/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e6530e7d30555560.webp"
   },
   {
    "nombre": "MALPORTADA | Show de Stand Up Comedy",
@@ -2131,7 +2280,8 @@
    "precio": 35,
    "imagen": "https://cdn.joinnus.com/images/80176/main/mduM9ILeyigXOAl.webp",
    "url": "https://www.joinnus.com/events/stand-up/lima-malportada-show-de-stand-up-comedy-80176",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/15019c38c51de9a8.webp"
   },
   {
    "nombre": "Mancha Galería",
@@ -2144,7 +2294,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/La-Mancha-Galeria-Laura-Cuadros.png",
    "url": "https://entradalibre.me/event/mancha-galeria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/08bdb8e0a61ac617.webp"
   },
   {
    "nombre": "Monedas, Símbolos Y Memoria En La Lima Virreinal",
@@ -2157,7 +2308,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119ARCHCERMON.jpg",
    "url": "https://entradalibre.me/event/monedas-simbolos-y-memoria-en-la-lima-virreinal/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/78dda28de4eb3330.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Internacionales Bloque 2",
@@ -2170,7 +2322,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-internacionales-bloque-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Ulima Bloque 2",
@@ -2183,7 +2336,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-ulima-bloque-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Universitarios Bloque 2",
@@ -2196,7 +2350,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-universitarios-bloque-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Mueve Galería",
@@ -2209,7 +2364,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Mueve-Galeria-Neyra-Perez.png",
    "url": "https://entradalibre.me/event/mueve-galeria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/861c4e128eb736ee.webp"
   },
   {
    "nombre": "No Pertenecen A Este Lugar",
@@ -2222,7 +2378,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_861207987_18037715711838921_2118660893376484685_n-scaled.jpg",
    "url": "https://entradalibre.me/event/no-pertenecen-a-este-lugar/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/a0ad3c9fa9ecca01.webp"
   },
   {
    "nombre": "NOVTEC 2026 : Knits Island",
@@ -2235,7 +2392,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/79782/main/tmbESCv1EEOZQ8M.webp",
    "url": "https://www.joinnus.com/events/cine/lima-novtec-2026-knits-island-79782",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ccd9c210bf3dd26e.webp"
   },
   {
    "nombre": "Nuestra Identidad En Pantalla",
@@ -2248,7 +2406,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/nuestra-identidad-en-pantalla/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Nuestra Salvación",
@@ -2261,7 +2420,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_879595031_18039117986838921_3626528758464764975_n.jpg",
    "url": "https://entradalibre.me/event/nuestra-salvacion/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/063a9435642bb569.webp"
   },
   {
    "nombre": "Playground",
@@ -2274,7 +2434,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Flyer-2.jpg",
    "url": "https://entradalibre.me/event/playground-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/805e2e437bcfe6f7.webp"
   },
   {
    "nombre": "Prosas Para El Planeta",
@@ -2287,7 +2448,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119LIPRMIRPRO-scaled.jpg",
    "url": "https://entradalibre.me/event/prosas-para-el-planeta/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/94dcb686f6bdeb13.webp"
   },
   {
    "nombre": "Proyectos Audiovisuales Interactivos",
@@ -2300,7 +2462,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_650145099_17877949479521870_5401062270782796650_n.jpg",
    "url": "https://entradalibre.me/event/proyectos-audiovisuales-interactivos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15035e14348ff056.webp"
   },
   {
    "nombre": "Pruebas De Cámara, Luces Y Lentes Con Onset Y La Dfp",
@@ -2313,7 +2476,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/pruebas-de-camara-luces-y-lentes-con-onset-y-la-dfp/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "REVISTA DOCUMENTA Nº 16",
@@ -2326,7 +2490,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119HIPRCERREV.jpg",
    "url": "https://entradalibre.me/event/revista-documenta-no-16/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/af9da6a50d87a4fa.webp"
   },
   {
    "nombre": "Robot Dreams",
@@ -2339,7 +2504,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119CIPRLOSROB.webp",
    "url": "https://entradalibre.me/event/robot-dreams-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d27bbeebd9397817.webp"
   },
   {
    "nombre": "Ser Hamlet",
@@ -2352,7 +2518,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/otWGz1CfGdKeiv3MaeeqPdPAf5S.webp",
    "url": "https://entradalibre.me/event/ser-hamlet/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d79feced85f065d8.webp"
   },
   {
    "nombre": "Sesión De Escucha De Música Cuba Y Uruguay",
@@ -2365,7 +2532,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/inauguracion.jpg",
    "url": "https://entradalibre.me/event/sesion-de-escucha-de-musica-cuba-y-uruguay/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4d289924774cf469.webp"
   },
   {
    "nombre": "Sismo",
@@ -2378,7 +2546,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Sismo-Hasan-Ali-Kadiwala-Aman-Peace_2025-scaled.jpeg",
    "url": "https://entradalibre.me/event/sismo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ac7b7d5942fbdb99.webp"
   },
   {
    "nombre": "Sonido Y Experimentación",
@@ -2391,7 +2560,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_650145099_17877949479521870_5401062270782796650_n.jpg",
    "url": "https://entradalibre.me/event/sonido-y-experimentacion/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15035e14348ff056.webp"
   },
   {
    "nombre": "Soñé Con Piedras",
@@ -2404,7 +2574,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/expo-sone-scaled.jpg",
    "url": "https://entradalibre.me/event/sone-con-piedras/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/056573411bee4662.webp"
   },
   {
    "nombre": "The British Rock Experience",
@@ -2417,20 +2588,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119MUCOSANTHE.webp",
    "url": "https://entradalibre.me/event/the-british-rock-experience-3/",
-   "fuente": "EntradaLibre"
-  },
-  {
-   "nombre": "Tour Del Miedo 2026 - Cementerio Presbitero Matias Maestro - Tour Del Miedo 2026 - Cementerio Presbitero Matias Maestro",
-   "inicio": "2026-11-19",
-   "fin": "2026-11-21",
-   "hora": "",
-   "lugar": "Museo Cementerio – Presbítero Matías Maestro - Lima",
-   "categoria": "Show",
-   "tipo": "cultural",
-   "precio": 60,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE073_calugalistado.jpg?v=1794406264",
-   "url": "https://teleticket.com.pe/evento/tour-del-miedo-2026-cementerio-presbitero-matias",
-   "fuente": "Teleticket"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/56ad4d1457c05ccb.webp"
   },
   {
    "nombre": "TOUR DEL MIEDO CEMENTERIO PRESBÍTERO SIN TRASLADO 2026",
@@ -2443,7 +2602,8 @@
    "precio": 55,
    "imagen": "https://cdn.joinnus.com/user/5060753/act695c4027d4a64.jpg",
    "url": "https://www.joinnus.com/events/trip-adventure/lima-tour-del-miedo-cementerio-presbitero-sin-traslado-2026-73783",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/c804160c4c5e5555.webp"
   },
   {
    "nombre": "TRIBUTO GRUPO 5",
@@ -2456,7 +2616,8 @@
    "precio": 39,
    "imagen": "https://cdn.joinnus.com/images/80506/main/KnCXcUowWC1Er6d.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-tributo-grupo-5-80506",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e3587d5325c56190.webp"
   },
   {
    "nombre": "Un Sombrero Lleno De Lluvia",
@@ -2469,7 +2630,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119CIPRCERUNS.webp",
    "url": "https://entradalibre.me/event/un-sombrero-lleno-de-lluvia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f225dbed0c499b8f.webp"
   },
   {
    "nombre": "VERBENA: DANZAS Y TRADICIONES - JUE 19.11 | LE PARIS",
@@ -2482,7 +2644,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80592/main/V0gPBNVyJ5LvDZj.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-verbena-danzas-y-tradiciones-jue-1911-le-paris-80592",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/16a593a427065b77.webp"
   },
   {
    "nombre": "Vesper Tzu",
@@ -2495,7 +2658,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Vesper-Tzu-Maria-Alejandra-Lozano-.png",
    "url": "https://entradalibre.me/event/vesper-tzu/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/854d9597420d3603.webp"
   },
   {
    "nombre": "William Luna en Concierto Íntimo",
@@ -2508,7 +2672,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/wil040_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/william-luna-concierto-intimo-la-estacion-barranco-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/da868e4ffd23f94b.webp"
   },
   {
    "nombre": "Yaco y el Loco",
@@ -2521,7 +2686,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/psm012v3_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/yaco-y-el-loco-lima-comedy-club-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/79d86b3266df2ac2.webp"
   },
   {
    "nombre": "¡Que Giren Los 80S!",
@@ -2534,7 +2700,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119MUFISAN¡QU.jpg",
    "url": "https://entradalibre.me/event/que-giren-los-80s/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/aff35a8be088af4a.webp"
   },
   {
    "nombre": "¿ahora Qué?",
@@ -2547,7 +2714,8 @@
    "precio": 34,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/kab001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/ahora-que-cep-teatro-antonio-banderas",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e77a5af95a820196.webp"
   },
   {
    "nombre": "¿Cómo Hacer Viable Un Proyecto Cultural?",
@@ -2560,7 +2728,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_650145099_17877949479521870_5401062270782796650_n.jpg",
    "url": "https://entradalibre.me/event/como-hacer-viable-un-proyecto-cultural/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15035e14348ff056.webp"
   },
   {
    "nombre": "43 Aniversario Mercado Productores Santa Anita",
@@ -2573,7 +2742,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/images/80414/main/mDwL1wmkEBP7Rfd.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-43-aniversario-mercado-productores-santa-anita-80414",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/70d789fe7a3a3467.webp"
   },
   {
    "nombre": "Adiós Mundo Cruel",
@@ -2586,7 +2756,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_874287519_18039117965838921_8683972327753387786_n-scaled.jpg",
    "url": "https://entradalibre.me/event/adios-mundo-cruel/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/12b4abaabd51a653.webp"
   },
   {
    "nombre": "Androginópolis",
@@ -2599,7 +2770,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120TEINBARAND-scaled.jpg",
    "url": "https://entradalibre.me/event/androginopolis/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/872017567277433e.webp"
   },
   {
    "nombre": "Atipanakuy: Danza De Las Tijeras",
@@ -2612,7 +2784,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261113DAPESANATI.jpg",
    "url": "https://entradalibre.me/event/atipanakuy-danza-de-las-tijeras/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/000b16ab0f2e42cb.webp"
   },
   {
    "nombre": "ATLAS",
@@ -2625,7 +2798,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80300/main/Qsxc803LmJUC4Rj.webp",
    "url": "https://www.joinnus.com/events/cine/lima-atlas-80300",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/197b14b7fbec80e0.webp"
   },
   {
    "nombre": "Ballet San Marcos",
@@ -2638,7 +2812,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120DAPUCERBAL.jpg",
    "url": "https://entradalibre.me/event/ballet-san-marcos-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1814bce904fb20a6.webp"
   },
   {
    "nombre": "BINGO DEL DESPECHO - 20.11",
@@ -2651,7 +2826,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/images/80211/main/Iy7ryCARWtgho9u.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-bingo-del-despecho-2011-80211",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/a9c3273dd671f57a.webp"
   },
   {
    "nombre": "Brindis En Honor Al Artista Bruno Zeppilli",
@@ -2664,7 +2840,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Galeria-Forum-Bruno-Zeppilli.png",
    "url": "https://entradalibre.me/event/brindis-en-honor-al-artista-bruno-zeppilli/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/cd6bf2387087d0d6.webp"
   },
   {
    "nombre": "Canto A Mi Tierra",
@@ -2677,7 +2854,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120MUCOCERCAN.jpg",
    "url": "https://entradalibre.me/event/canto-a-mi-tierra/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b045b25016501f96.webp"
   },
   {
    "nombre": "Celebración Andina",
@@ -2690,7 +2868,8 @@
    "precio": 75,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/fer001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/celebracion-andina-meson-del-inca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/98b917490a5b9030.webp"
   },
   {
    "nombre": "Ceremonia De Clausura",
@@ -2703,7 +2882,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120CICLSANCER.jpg",
    "url": "https://entradalibre.me/event/ceremonia-de-clausura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/19e525be0aa1a6d8.webp"
   },
   {
    "nombre": "Ciclo Cine Y Derecho",
@@ -2716,7 +2896,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/ciclo-cine-y-derecho/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Comedy Sessions en Luoxo Hotel",
@@ -2729,7 +2910,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/jfb009_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/comedy-sessions-en-luoxo-hotel-hotel-luoxo",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/55ff51559286cc7a.webp"
   },
   {
    "nombre": "Concurso Nacional De Nacimientos",
@@ -2742,7 +2924,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120ARINCERCON.webp",
    "url": "https://entradalibre.me/event/concurso-nacional-de-nacimientos-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/86703cfc55b47d68.webp"
   },
   {
    "nombre": "Donde Duermen Los Sueños",
@@ -2755,7 +2938,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/1g9XnA5Ro0n8ct8wVdB5K8U0F83.webp",
    "url": "https://entradalibre.me/event/donde-duermen-los-suenos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/467dce218c8b6711.webp"
   },
   {
    "nombre": "El Baile De Los Que Sobran",
@@ -2768,7 +2952,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120LIPRLINELB.jpg",
    "url": "https://entradalibre.me/event/el-baile-de-los-que-sobran/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7c82e4ad45d2d797.webp"
   },
   {
    "nombre": "El Castillo Ambulante",
@@ -2781,7 +2966,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_846754329_18036465041838921_3950693785495809207_n-scaled.jpg",
    "url": "https://entradalibre.me/event/el-castillo-ambulante-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1108f68747573c4b.webp"
   },
   {
    "nombre": "El Coloquio De Los Pájaros",
@@ -2794,7 +2980,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/eB6Ipvk7uqTnPZAPHuzTqAqG2tx.webp",
    "url": "https://entradalibre.me/event/el-coloquio-de-los-pajaros/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/272c844ea0a197f6.webp"
   },
   {
    "nombre": "El Samurai Y El Prisionero",
@@ -2807,7 +2994,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_859074707_18037467692838921_2226224553832977784_n-scaled.jpg",
    "url": "https://entradalibre.me/event/el-samurai-y-el-prisionero/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/6494239150c23dd8.webp"
   },
   {
    "nombre": "Eso no es Nada - el Chato Raul",
@@ -2820,7 +3008,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mha008_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/eso-no-es-nada-el-chato-raul-lima-comedy-club",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1ac4d4cce358de48.webp"
   },
   {
    "nombre": "Experiencia Sonora: Vered",
@@ -2833,7 +3022,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_AQP6LVoLSmypVanrZefZHF_Ws7Fn4D5BhivGpAe7j6ZF5Gjc-t8lLiwSYd3xhFiicfrpvay5PgNoBOxv-vdRMeNaOvMXGPLj3l8YWwA_044.jpg",
    "url": "https://entradalibre.me/event/experiencia-sonora-vered/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d1b59b252c4b5f4a.webp"
   },
   {
    "nombre": "Explora el Universo desde el Planetario del IGP",
@@ -2846,7 +3036,8 @@
    "precio": 12,
    "imagen": "https://cdn.joinnus.com/images/80185/main/jCM6NuqaPjjGElc.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-explora-el-universo-desde-el-planetario-del-igp-80185",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/aa4fe4aa78399f9d.webp"
   },
   {
    "nombre": "Fernando Túpac Amarupa",
@@ -2859,7 +3050,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120HIPRCERFER.jpg",
    "url": "https://entradalibre.me/event/fernando-tupac-amarupa/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b6b89090d1b1f95f.webp"
   },
   {
    "nombre": "Festival Cultural E Inmersivo “Intactalia”",
@@ -2872,7 +3064,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120CUFECERFES.jpg",
    "url": "https://entradalibre.me/event/festival-cultural-e-inmersivo-intactalia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/22a233e84ca36701.webp"
   },
   {
    "nombre": "FRANK ARIEL",
@@ -2885,7 +3078,8 @@
    "precio": 50,
    "imagen": "https://cdn.joinnus.com/images/80501/main/bnC2FJyXBLXO8ZD.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-frank-ariel-80501",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/dc8d240da653af0f.webp"
   },
   {
    "nombre": "Ghost In The Shell 2.0",
@@ -2898,7 +3092,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_845653780_18036465050838921_3962579912622989366_n-scaled.jpg",
    "url": "https://entradalibre.me/event/ghost-in-the-shell-2-0/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/33214e5d34f7c432.webp"
   },
   {
    "nombre": "Hosanna, Magia en el Escenario",
@@ -2911,7 +3106,8 @@
    "precio": 30,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/hos002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/hosanna-magia-en-el-escenario-colegio-hosanna",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e18a51d1e83158d8.webp"
   },
   {
    "nombre": "Humo en la Neblina",
@@ -2924,7 +3120,8 @@
    "precio": 35,
    "imagen": "https://cdn.joinnus.com/images/79398/main/ennIoSzWGYD2X0r.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-humo-en-la-neblina-79398",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/89cefb0ee68153d3.webp"
   },
   {
    "nombre": "IT\"S OUR RODEO: MILK EDITION - VIER 20.11 | LE PARIS",
@@ -2937,7 +3134,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80532/main/Wem7ibrpc8PyvIC.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-its-our-rodeo-milk-edition-vier-2011-le-paris-80532",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e4fb843f7a2acb4e.webp"
   },
   {
    "nombre": "La Fuga Del Chacal",
@@ -2950,7 +3148,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/x7EUBPgJBwU2WSsQ0Ld9zD0eyyr.webp",
    "url": "https://entradalibre.me/event/la-fuga-del-chacal/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7ea4a44a9350d2ff.webp"
   },
   {
    "nombre": "La Vía De La Máscara",
@@ -2963,7 +3162,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120TEEXBARLAV.jpg",
    "url": "https://entradalibre.me/event/la-via-de-la-mascara/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7fc59c3548a7949f.webp"
   },
   {
    "nombre": "Led Varela - Popular - Stand Up Comedy",
@@ -2976,7 +3176,8 @@
    "precio": 167,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/amv003v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/popular-stand-up-comedy-led-varela-teatro-canout",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f75ac2fe29ec203d.webp"
   },
   {
    "nombre": "Los Inoxidables en Miraflores",
@@ -2989,7 +3190,8 @@
    "precio": 100,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta110_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/los-inoxidables-en-miraflores-teatro-auditorio-mirafloress",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/22ef7f4a7e6ab373.webp"
   },
   {
    "nombre": "Los Soneritos de Huarochirí – 19.º Gran Aniversario",
@@ -3002,7 +3204,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/user/4334637/Ulr3k7GztWBfAl1.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-los-soneritos-de-huarochiri-19-gran-aniversario-80444",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/6101128b9cb5037f.webp"
   },
   {
    "nombre": "MACHUCA (35 MM)",
@@ -3015,7 +3218,8 @@
    "precio": 10,
    "imagen": "https://cdn.joinnus.com/images/80137/main/760KBqobf5eIGVF.webp",
    "url": "https://www.joinnus.com/events/cine/lima-machuca-35-mm-80137",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/a50141298a518ea2.webp"
   },
   {
    "nombre": "Madeinusa",
@@ -3028,7 +3232,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/f187ptaaH4E0SVTIyJ9yoZYj6V4.webp",
    "url": "https://entradalibre.me/event/madeinusa-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/eb1a029ef31362cf.webp"
   },
   {
    "nombre": "Mickey Y Minnie En Mall Aventura",
@@ -3041,7 +3246,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/IG_NAVIDAD_DISNEY_SJL_1080x1350.png",
    "url": "https://entradalibre.me/event/mickey-y-minnie-en-mall-aventura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/09faf505698e0b94.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Internacionales Bloque 3",
@@ -3054,7 +3260,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-internacionales-bloque-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Ulima Bloque 1",
@@ -3067,7 +3274,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-ulima-bloque-1-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "Muestra Nacional De Cortometrajes Bloque 3",
@@ -3080,7 +3288,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_868545834_18038531186838921_7434755116004961255_n-scaled.jpg",
    "url": "https://entradalibre.me/event/muestra-nacional-de-cortometrajes-bloque-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/6f9f039f7a88769a.webp"
   },
   {
    "nombre": "Mujeres En La Industria Del Cine",
@@ -3093,7 +3302,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120CICOSANMUJ.jpg",
    "url": "https://entradalibre.me/event/mujeres-en-la-industria-del-cine/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/df54e74373ff82e9.webp"
   },
   {
    "nombre": "Músicas De La Selva",
@@ -3106,7 +3316,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120MUFEMIRRAD.jpg",
    "url": "https://entradalibre.me/event/radio-paralela-musicas-de-la-selva/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bc3947d20efd5ebb.webp"
   },
   {
    "nombre": "No Estamos Todas, Búscalas",
@@ -3119,7 +3330,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114FEPECERNOE.jpg",
    "url": "https://entradalibre.me/event/no-estamos-todas-buscalas/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/70e6085baa6f5008.webp"
   },
   {
    "nombre": "Noche de Estrellas - Ídolos",
@@ -3132,7 +3344,8 @@
    "precio": 44,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/jrm001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/noche-de-estrellas-idolos-club-de-tiro-bellavista-callao",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/fc25229073becf4a.webp"
   },
   {
    "nombre": "NOCVTEC 2026 : El Quinto Elemento",
@@ -3145,7 +3358,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/79864/main/Lt0OeqvrnQ8dBpf.webp",
    "url": "https://www.joinnus.com/events/cine/lima-nocvtec-2026-el-quinto-elemento-79864",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/d261ae8d056df194.webp"
   },
   {
    "nombre": "Nosotras Que Nos Queremos Tanto Miraflores",
@@ -3158,7 +3372,8 @@
    "precio": 100,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta099_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nosotras-que-nos-queremos-tanto-miraflores-teatro-auditorio-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/22c2140dcff8bfa9.webp"
   },
   {
    "nombre": "Notas De Danza",
@@ -3171,7 +3386,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120POPRBARNOT-scaled.jpg",
    "url": "https://entradalibre.me/event/notas-de-danza/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ad40dcfa8aeebdee.webp"
   },
   {
    "nombre": "NOVTEC 2026 : Level Five",
@@ -3184,7 +3400,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/79785/main/WhloIh0LINNEEuB.webp",
    "url": "https://www.joinnus.com/events/cine/lima-novtec-2026-level-five-79785",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/289f96f53bcff11a.webp"
   },
   {
    "nombre": "Omnipresentes",
@@ -3197,7 +3414,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/xwIPPewcCWnNV2JjjppSNzoyKoW.webp",
    "url": "https://entradalibre.me/event/omnipresentes-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4208b95144157b48.webp"
   },
   {
    "nombre": "Paddington",
@@ -3210,7 +3428,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261120CIPRSANPAD.webp",
    "url": "https://entradalibre.me/event/paddington-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f77e646623a8bd09.webp"
   },
   {
    "nombre": "Pintura Fresca",
@@ -3223,7 +3442,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120PIINBARPIN.jpg",
    "url": "https://entradalibre.me/event/pintura-fresca/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4347a9a6f87c2727.webp"
   },
   {
    "nombre": "Prófugos México",
@@ -3236,7 +3456,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80033/main/t73XMJgi6hTd95j.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-profugos-mexico-80033",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/caa6763b795a92e2.webp"
   },
   {
    "nombre": "Remodelación Del Espacio Público De Buenos Aires",
@@ -3249,7 +3470,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120ARCHCERREM.jpg",
    "url": "https://entradalibre.me/event/remodelacion-del-espacio-publico-de-buenos-aires/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/132e2b77f9f6656d.webp"
   },
   {
    "nombre": "Rio en Concierto - Una Cosa de Locos",
@@ -3262,7 +3484,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/qaj049_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/rio-en-concierto-una-cosa-de-locos-lima-39-restobar",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/5c00f8837fc872a8.webp"
   },
   {
    "nombre": "Shortcutz Lima",
@@ -3275,7 +3498,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/CONVOOCATORIA-ABIERTA.png",
    "url": "https://entradalibre.me/event/shortcutz-lima-5/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4064b009cb06b27b.webp"
   },
   {
    "nombre": "Tour Estadio Alejandro Villanueva",
@@ -3288,7 +3512,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/user/1322235/HbmCE715WzB4QB7.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-tour-estadio-alejandro-villanueva-61879",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/6d19317fc09402bd.webp"
   },
   {
    "nombre": "TRANSMUTACIÓN MUSICAL - FULLMETAL ALCHEMIST CONCIERTO TRIBUTO",
@@ -3301,7 +3526,8 @@
    "precio": 39.9,
    "imagen": "https://cdn.joinnus.com/images/78252/main/rSfpIWFFiHNZlqT.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-transmutacion-musical-fullmetal-alchemist-concierto-tributo-78252",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ec820ceaf48fd79c.webp"
   },
   {
    "nombre": "Vainilla",
@@ -3314,7 +3540,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_838159083_18035587493838921_5706079700410840199_n-scaled.jpg",
    "url": "https://entradalibre.me/event/vainilla-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/84bd1edc2cd62086.webp"
   },
   {
    "nombre": "Veo Edificios Caer Como Rayos",
@@ -3327,7 +3554,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_838593443_18035587496838921_8064420770769320036_n-scaled.jpg",
    "url": "https://entradalibre.me/event/veo-edificios-caer-como-rayos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/a2c550f9c312227d.webp"
   },
   {
    "nombre": "¡full Day Lunahuaná Con Rutas Incas! - ¡Full Day Lunahuaná! Cerro Azul, Vitivinícola, Apícola y más",
@@ -3340,7 +3568,8 @@
    "precio": 30,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP165_calugalistado.jpg?v=1793716442",
    "url": "https://teleticket.com.pe/evento/full-day-lunahuana-rutas-incas",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e5a95bc7ad21439a.webp"
   },
   {
    "nombre": "¡tour Chancay + Huaral 2d/1n Con Rutas Incas! - ¡Tour Chancay + Huaral 2D/1N! Hospedaje, Eco Truly Park y más",
@@ -3353,7 +3582,8 @@
    "precio": 3,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP162_calugalistado.jpg?v=1792160122",
    "url": "https://teleticket.com.pe/evento/tour-chancay-huaral-2d-1n-rutas-incas",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/0ed40852f54edc2c.webp"
   },
   {
    "nombre": "¡tour Huancaya + Piquecocha 2d/1n Con Rutas Incas! - ¡Tour Huancaya + Piquecocha 2N/1D! Lagunas, Cascadas, Yoga y más",
@@ -3366,7 +3596,8 @@
    "precio": 5,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP160_calugalistado.jpg?v=1791987934",
    "url": "https://teleticket.com.pe/evento/RIP160",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/25bf32d2cfdb730b.webp"
   },
   {
    "nombre": "Érase Una Vez Un Osito Llamado Pooh",
@@ -3379,7 +3610,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261120TEPULAMERA.webp",
    "url": "https://entradalibre.me/event/erase-una-vez-un-osito-llamado-pooh-9/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7cca47256c0299ce.webp"
   },
   {
    "nombre": "64 Años Del Teatro De La Uni",
@@ -3392,7 +3624,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/1000964453.jpg",
    "url": "https://entradalibre.me/event/64-anos-del-teatro-de-la-uni/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1b4168de9dd9812a.webp"
   },
   {
    "nombre": "9 Templos Al Cielo",
@@ -3405,7 +3638,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_874547586_18039117998838921_6241880820936346362_n-scaled.jpg",
    "url": "https://entradalibre.me/event/9-templos-al-cielo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7e45c6c98f58a297.webp"
   },
   {
    "nombre": "A Prueba De Muerte",
@@ -3418,7 +3652,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/vtu6H4NWnQVqEp3aanUq3hNeeot.webp",
    "url": "https://entradalibre.me/event/a-prueba-de-muerte/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ecd7f443c903b314.webp"
   },
   {
    "nombre": "A Través De Apolonia",
@@ -3431,7 +3666,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121LIPRMIRATR.jpg",
    "url": "https://entradalibre.me/event/a-traves-de-apolonia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e5d2919c693332ba.webp"
   },
   {
    "nombre": "Aladino y la Lampara Maravillosa - Arlequin Teatro",
@@ -3444,7 +3680,8 @@
    "precio": 25,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pat093v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/aladino-y-la-lampara-maravillosa-arlequin-teatro-auditorio-miraflores-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e50cc24f5f758258.webp"
   },
   {
    "nombre": "Alianza Lima vs FC Cajamarca | Torneo clausura Fecha 17 | Liga 1",
@@ -3457,7 +3694,8 @@
    "precio": 37.9,
    "imagen": "https://cdn.joinnus.com/images/73480/main/E0cPcQzD7yZ72HD.webp",
    "url": "https://www.joinnus.com/events/futbol/lima-alianza-lima-vs-fc-cajamarca-torneo-clausura-fecha-17-liga-1-73480",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/80a8861fa152d719.webp"
   },
   {
    "nombre": "All Of A Sudden",
@@ -3470,7 +3708,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_880020504_18039117947838921_3891944885417613067_n-1-scaled.jpg",
    "url": "https://entradalibre.me/event/all-of-a-sudden-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/27231aa9aef92b5b.webp"
   },
   {
    "nombre": "Amantes y Tramposos",
@@ -3483,7 +3722,8 @@
    "precio": 60,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta116_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/amantes-y-tramposos-teatro-auditorio-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/14e490f84e1d174b.webp"
   },
   {
    "nombre": "Andar Entre Libros",
@@ -3496,7 +3736,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121KIVICERAND.jpg",
    "url": "https://entradalibre.me/event/andar-entre-libros/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/deee40fc1a72b7f5.webp"
   },
   {
    "nombre": "Baje De Pepa",
@@ -3509,7 +3750,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/IMG_1466-scaled.jpeg",
    "url": "https://entradalibre.me/event/baje-de-pepa/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1b58d4a0efd934cf.webp"
   },
   {
    "nombre": "Biografía De Jorge Luis Borges",
@@ -3522,7 +3764,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_888783640_18039966896838921_3397990240517276791_n-scaled.jpg",
    "url": "https://entradalibre.me/event/biografia-de-jorge-luis-borges/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e6d583e1725be3d8.webp"
   },
   {
    "nombre": "Cada Vez",
@@ -3535,7 +3778,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_840205519_18035587469838921_1898968436614978466_n-1-scaled.jpg",
    "url": "https://entradalibre.me/event/cada-vez-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b24a201eb3e4475f.webp"
   },
   {
    "nombre": "Caperucita Roja- Arlequin Teatro",
@@ -3548,7 +3792,8 @@
    "precio": 25,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pat096_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/caperucita-roja-arlequin-teatro-teatro-auditorio-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/d41b514f59ee20ad.webp"
   },
   {
    "nombre": "Coleccionar El Presente, Custodiar El Futuro",
@@ -3561,7 +3806,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_AQP6LVoLSmypVanrZefZHF_Ws7Fn4D5BhivGpAe7j6ZF5Gjc-t8lLiwSYd3xhFiicfrpvay5PgNoBOxv-vdRMeNaOvMXGPLj3l8YWwA_044.jpg",
    "url": "https://entradalibre.me/event/coleccionar-el-presente-custodiar-el-futuro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d1b59b252c4b5f4a.webp"
   },
   {
    "nombre": "Combo Alianza Lima Vs Cajamarca - Liga 1 | Universitario - Liga Femenina",
@@ -3574,7 +3820,8 @@
    "precio": 99.9,
    "imagen": "https://cdn.joinnus.com/images/80580/main/ZRAHsAqCViFP5bh.webp",
    "url": "https://www.joinnus.com/events/sports/lima-combo-alianza-lima-vs-cajamarca-liga-1-universitario-liga-femenina-80580",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/98f67ef79d2927dd.webp"
   },
   {
    "nombre": "Concierto De Gala 2026",
@@ -3587,7 +3834,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121MUCOSANCON.jpg",
    "url": "https://entradalibre.me/event/concierto-de-gala-2026/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c0ed313d3a79bd07.webp"
   },
   {
    "nombre": "Dalex - Fiesta Concierto",
@@ -3600,7 +3848,8 @@
    "precio": 64,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/jze008_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/dalex-fiesta-concierto-discoteca-cocos",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/851f0bdb3e39c39e.webp"
   },
   {
    "nombre": "De Nuestras Manos 2026",
@@ -3613,7 +3862,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121ARFEMIRDEN.jpg",
    "url": "https://entradalibre.me/event/de-nuestras-manos-2026/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/31cbc8046301ed20.webp"
   },
   {
    "nombre": "El Baúl De Circacia",
@@ -3626,7 +3876,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261107KIPUCERELB.jpg",
    "url": "https://entradalibre.me/event/el-baul-de-circacia/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8d4c1f30177c4481.webp"
   },
   {
    "nombre": "El Cuy Y El Zorro",
@@ -3639,7 +3890,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121KIPUSANELC.jpg",
    "url": "https://entradalibre.me/event/el-cuy-y-el-zorro-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/29a135a33bbf4127.webp"
   },
   {
    "nombre": "El Viaje De Chihiro",
@@ -3652,7 +3904,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_844826674_18036465032838921_9179583095785314287_n-scaled.jpg",
    "url": "https://entradalibre.me/event/el-viaje-de-chihiro-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/08a0edb501a31eb3.webp"
   },
   {
    "nombre": "Escucha Y Conversación: Jarre / Björk",
@@ -3665,7 +3918,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121MUFEMIRRAD.jpg",
    "url": "https://entradalibre.me/event/radio-paralela-jarre-bjork/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e478b0364b9cede1.webp"
   },
   {
    "nombre": "Escuchar – Imaginar – Dibujar",
@@ -3678,7 +3932,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121KIFEMIRRAD.jpg",
    "url": "https://entradalibre.me/event/radio-paralela-escuchar-imaginar-dibujar/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5df6a2f72c593463.webp"
   },
   {
    "nombre": "Ese Día Imaginabas Que Alguien Te Oía: Brunch + Visita Guiada",
@@ -3691,7 +3946,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/LA-GALERIA-Fernando-Otero.png",
    "url": "https://entradalibre.me/event/ese-dia-imaginabas-que-alguien-te-oia-brunch-visita-guiada/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/3fe0d64654410ba2.webp"
   },
   {
    "nombre": "Este Rincón Que Habito",
@@ -3704,7 +3960,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261107LIVICEREST.jpg",
    "url": "https://entradalibre.me/event/este-rincon-que-habito/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c9c9382355fd2879.webp"
   },
   {
    "nombre": "Expo 100: 100 Dibujos De 100 Cafeterías",
@@ -3717,7 +3974,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/EXPO-100-AFICHE.png",
    "url": "https://entradalibre.me/event/expo-100-100-dibujos-de-100-cafeterias/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/db7a54c5ddc6b3a8.webp"
   },
   {
    "nombre": "Gala del Conjunto Folclórico",
@@ -3730,7 +3988,8 @@
    "precio": 24,
    "imagen": "https://cdn.joinnus.com/images/79846/main/V9yDCy6L5OQrvAL.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-gala-del-conjunto-folclorico-79846",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/843df4456d5e673b.webp"
   },
   {
    "nombre": "Ganadores en Concierto - Juan Gabriel (Ronald Hidalgo), Raphael (Josue Rivaldo) y Susan Ochoa",
@@ -3743,7 +4002,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/sei016_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/ganadores-en-concierto-cesar-mancilla-susan-ochoa-jeremy-gomez-centro-de-convenciones-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/7eda6375853122fe.webp"
   },
   {
    "nombre": "HEARTSTOPPER FOREVER - PROYECCIÓN EN EL CINE",
@@ -3756,7 +4016,8 @@
    "precio": 46,
    "imagen": "https://cdn.joinnus.com/images/79529/main/xPlAfgiVZ46AlHC.webp",
    "url": "https://www.joinnus.com/events/cine/lima-heartstopper-forever-proyeccion-en-el-cine-79529",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/2ef9df61af538c0d.webp"
   },
   {
    "nombre": "Jf Quarteto",
@@ -3769,7 +4030,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121MUCOJESJFQ-scaled.jpg",
    "url": "https://entradalibre.me/event/jf-quarteto/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/9e8b188bd93acd81.webp"
   },
   {
    "nombre": "Joyas Del Recuerdo",
@@ -3782,7 +4044,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261107ARTACERJOY.jpg",
    "url": "https://entradalibre.me/event/joyas-del-recuerdo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/65f98a9c1155e119.webp"
   },
   {
    "nombre": "La Insistencia De La Mirada",
@@ -3795,7 +4058,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121PIEXJESLAI.jpg",
    "url": "https://entradalibre.me/event/la-insistencia-de-la-mirada/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0c4154f501bd47e8.webp"
   },
   {
    "nombre": "La Libertad Doble",
@@ -3808,7 +4072,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_857022838_18037467683838921_7651340404166564416_n-1.jpg",
    "url": "https://entradalibre.me/event/la-libertad-doble-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/495aca8ce3de13fd.webp"
   },
   {
    "nombre": "La Moneda Como Memoria",
@@ -3821,7 +4086,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261107GRTACERLAM.jpg",
    "url": "https://entradalibre.me/event/la-moneda-como-memoria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d8a17c35d83a645e.webp"
   },
   {
    "nombre": "LA TRIBU",
@@ -3834,7 +4100,8 @@
    "precio": 10,
    "imagen": "https://cdn.joinnus.com/images/80131/main/AsnKwaugO6PV3Kl.webp",
    "url": "https://www.joinnus.com/events/cine/lima-la-tribu-80131",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/60a03d4dd56d4a8d.webp"
   },
   {
    "nombre": "la Trilogía – Tributo a Maná, Hombres g y Enanitos Verdes",
@@ -3847,7 +4114,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cha027_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/la-trilogia-–-tributo-a-mana-hombres-g-y-enanitos-verdes-rockk",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/856438e9dc8f76a7.webp"
   },
   {
    "nombre": "La Tunantada En El Valle Del Mantaro",
@@ -3860,7 +4128,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121CUCOCERLAT.jpg",
    "url": "https://entradalibre.me/event/la-tunantada-en-el-valle-del-mantaro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/03d278f45411b919.webp"
   },
   {
    "nombre": "La Última Bellaka",
@@ -3873,7 +4142,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80166/main/033a916f3i4y9BO.webp",
    "url": "https://www.joinnus.com/events/party/lima-la-ultima-bellaka-80166",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5795055eba517efc.webp"
   },
   {
    "nombre": "Las Eternas - Jesus Maria",
@@ -3886,7 +4156,8 @@
    "precio": 32,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta112_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/las-eternas-jesus-maria-auditorio-san-antonio-de-padua-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1af5732ba0c7fa8e.webp"
   },
   {
    "nombre": "Las Navegantas",
@@ -3899,7 +4170,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121KITAJESLAS.jpg",
    "url": "https://entradalibre.me/event/las-navegantas-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e4468ba555a69a3a.webp"
   },
   {
    "nombre": "Leyendas de Terror de los Andes",
@@ -3912,7 +4184,8 @@
    "precio": 60,
    "imagen": "https://cdn.joinnus.com/images/80519/main/3HoL2SfUasBBQCk.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-leyendas-de-terror-de-los-andes-80519",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/b10c3014dad4ef0a.webp"
   },
   {
    "nombre": "Live Coding",
@@ -3925,7 +4198,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114TETAMIRLIV.jpg",
    "url": "https://entradalibre.me/event/live-coding/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/370f898a1501c3bf.webp"
   },
   {
    "nombre": "Los Rocosaurios y el Misterio de Rocolandia - Rocosaurios y el Misterio de Rocolandia",
@@ -3938,7 +4212,8 @@
    "precio": 45,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/TBS003_calugalistado.jpg?v=1788558077",
    "url": "https://teleticket.com.pe/evento/TBS003",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/3c17b9a3dbeb231f.webp"
   },
   {
    "nombre": "Marcha 25N En Lima",
@@ -3951,7 +4226,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121FEENCERMAR.jpg",
    "url": "https://entradalibre.me/event/marcha-25n-en-lima/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1f201366dc21944c.webp"
   },
   {
    "nombre": "Meditación Para Principiantes",
@@ -3964,7 +4240,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121BITABARMED.jpg",
    "url": "https://entradalibre.me/event/meditacion-para-principiantes/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/482e3846eeb26623.webp"
   },
   {
    "nombre": "Mickey Y Minne En Mall Aventura",
@@ -3977,7 +4254,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/IG_NAVIDAD_DISNEY_SA_1080x1350.png",
    "url": "https://entradalibre.me/event/mickey-y-minne-en-mall-aventura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/30a9d64f305d3dac.webp"
   },
   {
    "nombre": "Mujer Que no Jode es Hombre - Edición 2026",
@@ -3990,7 +4268,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/rpa052_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/mujer-que-no-jode-es-hombre-edicion-2026-estacion-de-barranco-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/54dfb3939f98cf6b.webp"
   },
   {
    "nombre": "Mujeres En La Colección",
@@ -4003,7 +4282,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121TEVIBARMUJ.jpg",
    "url": "https://entradalibre.me/event/mujeres-en-la-coleccion-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/40eefb79a4d91cd1.webp"
   },
   {
    "nombre": "No Se Lo Digas A Nadie",
@@ -4016,7 +4296,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/93fjWBuwimIffPpDQH8cbA38Gy3.webp",
    "url": "https://entradalibre.me/event/no-se-lo-digas-a-nadie-4/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5090c034a4e30fde.webp"
   },
   {
    "nombre": "NOVTEC 2026 : El gran viaje",
@@ -4029,7 +4310,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/79787/main/lLnIZkx2Uto3hPO.webp",
    "url": "https://www.joinnus.com/events/cine/lima-novtec-2026-el-gran-viaje-79787",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/08e9ffa9c7f7c685.webp"
   },
   {
    "nombre": "NOVTEC 2026 : Resurrection",
@@ -4042,7 +4324,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/79788/main/ymDPfTbBoTOfcbD.webp",
    "url": "https://www.joinnus.com/events/cine/lima-novtec-2026-resurrection-79788",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/24f87b3bb64edd91.webp"
   },
   {
    "nombre": "Nuestra Salvación",
@@ -4055,7 +4338,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_879595031_18039117986838921_3626528758464764975_n.jpg",
    "url": "https://entradalibre.me/event/nuestra-salvacion-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/063a9435642bb569.webp"
   },
   {
    "nombre": "Parriland",
@@ -4068,7 +4352,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/79963/main/KHLAI3YB3t0Dq57.webp",
    "url": "https://www.joinnus.com/events/festivales/lima-parriland-79963",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/7314d0eaf2bfa542.webp"
   },
   {
    "nombre": "Performance I",
@@ -4081,7 +4366,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_AQP6LVoLSmypVanrZefZHF_Ws7Fn4D5BhivGpAe7j6ZF5Gjc-t8lLiwSYd3xhFiicfrpvay5PgNoBOxv-vdRMeNaOvMXGPLj3l8YWwA_044.jpg",
    "url": "https://entradalibre.me/event/performance-i/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d1b59b252c4b5f4a.webp"
   },
   {
    "nombre": "Performance Ii",
@@ -4094,7 +4380,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_AQP6LVoLSmypVanrZefZHF_Ws7Fn4D5BhivGpAe7j6ZF5Gjc-t8lLiwSYd3xhFiicfrpvay5PgNoBOxv-vdRMeNaOvMXGPLj3l8YWwA_044.jpg",
    "url": "https://entradalibre.me/event/performance-ii/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d1b59b252c4b5f4a.webp"
   },
   {
    "nombre": "Perros Del Depósito",
@@ -4107,7 +4394,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/xi8Iu6qyTfyZVDVy60raIOYJJmk.webp",
    "url": "https://entradalibre.me/event/perros-del-deposito/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/fb07ddfbc401ea00.webp"
   },
   {
    "nombre": "Pinocho - Arlequin Teatro",
@@ -4120,7 +4408,8 @@
    "precio": 25,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pat097_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/pinocho-arlequin-teatro-teatro-auditorioo-mirafloress",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/64c3c5840318d214.webp"
   },
   {
    "nombre": "Premiación 9:16 Fest",
@@ -4133,7 +4422,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121CIFEMIRPRE-scaled.jpg",
    "url": "https://entradalibre.me/event/premiacion-916-fest/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/6eb4c878713cbf6d.webp"
   },
   {
    "nombre": "Ramiro Llona. Grandes Formatos",
@@ -4146,7 +4436,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/06/260627PIEXCERRAM.jpg",
    "url": "https://entradalibre.me/event/ramiro-llona-grandes-formatos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1e82ad071a5478b5.webp"
   },
   {
    "nombre": "Risoterapia Del Sexo - ¡Mejorado, aumentado y repotenciado!",
@@ -4159,7 +4450,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cma052_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/risoterapia-del-sexo-jazz-zon-mejorado-aumentado-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/602699e153724686.webp"
   },
   {
    "nombre": "Rocas Rojas",
@@ -4172,7 +4464,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_856281159_18037467701838921_3173139486943812187_n.jpg",
    "url": "https://entradalibre.me/event/rocas-rojas-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c9092f17fc207436.webp"
   },
   {
    "nombre": "Taller De Pintura",
@@ -4185,7 +4478,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/La-Mancha-Galeria-Laura-Cuadros.png",
    "url": "https://entradalibre.me/event/taller-de-pintura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/08bdb8e0a61ac617.webp"
   },
   {
    "nombre": "Tarantino: La Ficción Bastarda",
@@ -4198,7 +4492,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/174381.jpg",
    "url": "https://entradalibre.me/event/tarantino-la-ficcion-bastarda/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2cb3ac4192d0b6cf.webp"
   },
   {
    "nombre": "Tour Del Miedo Nocturno 2026 - Fortaleza Real Felipe",
@@ -4211,7 +4506,8 @@
    "precio": 55,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/rpe068_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/tour-del-miedo-nocturno-2026-fortaleza-real-felipe-punto-de-reunion",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/d93ef44d807faea0.webp"
   },
   {
    "nombre": "Tour Monumental - Club Universitario de Deportes",
@@ -4224,7 +4520,8 @@
    "precio": 10,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/CLU194_calugalistado.jpg?v=1794871300",
    "url": "https://teleticket.com.pe/evento/tour-monumental-noviembre-4",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/3057a6942eb50fba.webp"
   },
   {
    "nombre": "Tributo a Bruno Mars x Jason Guerra",
@@ -4237,7 +4534,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/gvj002v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/tributo-a-bruno-mars-x-jason-guerra-lima-comedy-club-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1354b777a44a02f6.webp"
   },
   {
    "nombre": "un Intruso en Navidalia",
@@ -4250,7 +4548,8 @@
    "precio": 37,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/msc013_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/un-intruso-en-navidalia-centro-cultural-cafae-se",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f6af38bdd0f3e5f6.webp"
   },
   {
    "nombre": "Veo Edificios Caer Como Rayos",
@@ -4263,7 +4562,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_838593443_18035587496838921_8064420770769320036_n-scaled.jpg",
    "url": "https://entradalibre.me/event/veo-edificios-caer-como-rayos-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/a2c550f9c312227d.webp"
   },
   {
    "nombre": "Visita Guiada A Sismo",
@@ -4276,7 +4576,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Sismo-Hasan-Ali-Kadiwala-Aman-Peace_2025-scaled.jpeg",
    "url": "https://entradalibre.me/event/visita-guiada-a-sismo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ac7b7d5942fbdb99.webp"
   },
   {
    "nombre": "Visita Guiada A «Mi Patria»",
@@ -4289,7 +4590,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Carlos-Caamano-Espacio-Fotografico-Leslie-Osterling.png",
    "url": "https://entradalibre.me/event/visita-guiada-a-mi-patria/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0ffc2c37728990ae.webp"
   },
   {
    "nombre": "Visita Guiada: Distancia Segura",
@@ -4302,7 +4604,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/La-Mancha-Galeria-Laura-Cuadros.png",
    "url": "https://entradalibre.me/event/visita-guiada-distancia-segura/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/08bdb8e0a61ac617.webp"
   },
   {
    "nombre": "Voces De Papel",
@@ -4315,7 +4618,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/260926KITACERVOC.jpg",
    "url": "https://entradalibre.me/event/voces-de-papel/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/996d86b2e6a4eb55.webp"
   },
   {
    "nombre": "¡tour Churín 2d/1n Con Rutas Incas! - ¡Tour Churín 2D/1N! Hospedaje, Baños Termales, Piscigranja y más",
@@ -4328,7 +4632,8 @@
    "precio": 15,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP163_calugalistado.jpg?v=1792160958",
    "url": "https://teleticket.com.pe/evento/tour-churin-2d-1n-rutas-incas",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/42c5b5fa5f3f1be1.webp"
   },
   {
    "nombre": "¡tour Rúpac 2d/1n Con Rutas Incas! - ¡Tour Rúpac 2D/1N! Centro Arqueológico, Camping, Fogata y más",
@@ -4341,7 +4646,8 @@
    "precio": 30,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP144_calugalistado.jpg?v=1790778521",
    "url": "https://teleticket.com.pe/evento/RIP144",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/0c2a35aeba137c61.webp"
   },
   {
    "nombre": "Érase Una Vez Un Osito Llamado Pooh",
@@ -4354,7 +4660,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121TEPUSANERA.webp",
    "url": "https://entradalibre.me/event/erase-una-vez-un-osito-llamado-pooh-7/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b755133e3e57273e.webp"
   },
   {
    "nombre": "Alianza Lima Vs Universitario | Final Vuelta Clausura | Liga Femenina",
@@ -4367,7 +4674,8 @@
    "precio": 5,
    "imagen": "https://cdn.joinnus.com/images/80571/main/TM7DQMzojYlJmwo.webp",
    "url": "https://www.joinnus.com/events/sports/lima-alianza-lima-vs-universitario-final-vuelta-clausura-liga-femenina-80571",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/8ec147b4a902ed6e.webp"
   },
   {
    "nombre": "Brunch: Crisis Galería",
@@ -4380,7 +4688,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_AQP6LVoLSmypVanrZefZHF_Ws7Fn4D5BhivGpAe7j6ZF5Gjc-t8lLiwSYd3xhFiicfrpvay5PgNoBOxv-vdRMeNaOvMXGPLj3l8YWwA_044.jpg",
    "url": "https://entradalibre.me/event/brunch-galeria-crisis/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d1b59b252c4b5f4a.webp"
   },
   {
    "nombre": "Candelaria 2027",
@@ -4393,7 +4702,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261122CUFECERCAN.jpg",
    "url": "https://entradalibre.me/event/candelaria-2027/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0c2b9bd73b5fdc50.webp"
   },
   {
    "nombre": "Carrera Hello Kitty and Friends 5K",
@@ -4406,7 +4716,8 @@
    "precio": 60,
    "imagen": "https://cdn.joinnus.com/images/79818/main/gIBuXdUdpVNQcGd.webp",
    "url": "https://www.joinnus.com/events/sports/lima-carrera-hello-kitty-and-friends-5k-79818",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/701385de144a4d00.webp"
   },
   {
    "nombre": "Chicago el Musical - Chicago el Musical",
@@ -4419,7 +4730,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/LUM017_calugalistado.jpg?v=1792532341",
    "url": "https://teleticket.com.pe/evento/chicago-el-musical",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/a1fe3704ceeb2d7d.webp"
   },
   {
    "nombre": "Dame Esos 5k",
@@ -4432,7 +4744,8 @@
    "precio": 40,
    "imagen": "https://cdn.joinnus.com/images/78573/main/57THOFcNpSJM9A0.webp",
    "url": "https://www.joinnus.com/events/sports/lima-dame-esos-5k-78573",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/d14792e0fe4640a3.webp"
   },
   {
    "nombre": "El Acústico del Lobo Feroz - El Acústico del Lobo Feroz",
@@ -4445,7 +4758,8 @@
    "precio": 31,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/JEP112_calugalistado.jpg?v=1793228063",
    "url": "https://teleticket.com.pe/evento/el-acustico-del-lobo-feroz",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/9fac2427d7ec51ef.webp"
   },
   {
    "nombre": "El Amaru Semidiós Del Agua",
@@ -4458,7 +4772,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261108LICOCERELA.jpg",
    "url": "https://entradalibre.me/event/el-amaru-semidios-del-agua-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2b4205597d78dc98.webp"
   },
   {
    "nombre": "el Club de Las Viudas en Jesus Maria",
@@ -4471,7 +4786,8 @@
    "precio": 32,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta113_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/el-club-de-las-viudas-en-jesus-maria-auditorio-san-antonio-de-padua",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/715ab38b993b524c.webp"
   },
   {
    "nombre": "Eskuela Al Borde",
@@ -4484,7 +4800,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261122DIEXCOMESK.jpg",
    "url": "https://entradalibre.me/event/eskuela-al-borde/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/44047094c0048287.webp"
   },
   {
    "nombre": "la Liebre y la Tortuga - la Liebre y la Tortuga",
@@ -4497,7 +4814,8 @@
    "precio": 25,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/JEP110_calugalistado.jpg?v=1792191152",
    "url": "https://teleticket.com.pe/evento/la-liebre-y-la-tortuga",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/af90a4341bf169c9.webp"
   },
   {
    "nombre": "La Trama Que Sostiene",
@@ -4510,7 +4828,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261015TEEXSANLAT.jpg",
    "url": "https://entradalibre.me/event/la-trama-que-sostiene/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e7e5d6f3c15834bf.webp"
   },
   {
    "nombre": "León Criollo: San Isidro Le Canta Al Papa Peruano",
@@ -4523,7 +4842,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261122MUCOSANLEO.jpg",
    "url": "https://entradalibre.me/event/leon-criollo-san-isidro-le-canta-al-papa-peruano/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e8c8105088016e5d.webp"
   },
   {
    "nombre": "Lima Run Club",
@@ -4536,7 +4856,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/79910/main/yxkYwnilFctFF9r.webp",
    "url": "https://www.joinnus.com/events/sports/lima-lima-run-club-79910",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/aa38baf365d74990.webp"
   },
   {
    "nombre": "Los Tres Cerditos Del Rock - Los Tres Cerditos Del Rock",
@@ -4549,7 +4870,8 @@
    "precio": 28,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/JEP109_calugalistado.jpg?v=1792189050",
    "url": "https://teleticket.com.pe/evento/los-tres-cerditos-del-rock",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/737444a655dfa21c.webp"
   },
   {
    "nombre": "Los Tres Chanchitos y el Lobo Feroz en Teatro Padua",
@@ -4562,7 +4884,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta093_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/los-tres-chanchitos-y-el-lobo-feroz-en-teatro-padua-auditorio-san-antonio-de-padua-Aug11",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/960ac6a1f0af4fb3.webp"
   },
   {
    "nombre": "Los Trostes en Vivo - Segunda Fecha - Los Trostes en Vivo",
@@ -4575,7 +4898,8 @@
    "precio": 69,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/TCE008_calugalistado.jpg?v=1790709999",
    "url": "https://teleticket.com.pe/evento/TCE008",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/951fbedb055f31e1.webp"
   },
   {
    "nombre": "Master Class Muay Thai",
@@ -4588,7 +4912,8 @@
    "precio": 110,
    "imagen": "https://cdn.joinnus.com/images/80447/main/vTlS7B9dYN9uo4F.webp",
    "url": "https://www.joinnus.com/events/sports/lima-master-class-muay-thai-80447",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/1e6aad209b85bcb5.webp"
   },
   {
    "nombre": "Mi Enojo & Yo",
@@ -4601,7 +4926,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/DOMINGO-22.jpg",
    "url": "https://entradalibre.me/event/mi-enojo-yo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0afd6f8de1e43fe8.webp"
   },
   {
    "nombre": "Mujeres Haciendo Teatro",
@@ -4614,7 +4940,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/post-1.1.png",
    "url": "https://entradalibre.me/event/mujeres-haciendo-teatro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/47592ab42a2c9749.webp"
   },
   {
    "nombre": "Nina, La Lagartija",
@@ -4627,7 +4954,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261122KITABARNIN.jpg",
    "url": "https://entradalibre.me/event/nina-la-lagartija/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e9f54f5861ba448b.webp"
   },
   {
    "nombre": "Sporting Cristal vs Cienciano",
@@ -4640,7 +4968,8 @@
    "precio": 19.9,
    "imagen": "https://cdn.joinnus.com/images/73578/main/IJcLiWRBxLTWovN.webp",
    "url": "https://www.joinnus.com/events/futbol/lima-sporting-cristal-vs-cienciano-73578",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/fd01384efdd13658.webp"
   },
   {
    "nombre": "Varieté",
@@ -4653,7 +4982,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/post-1.1.png",
    "url": "https://entradalibre.me/event/variete/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/47592ab42a2c9749.webp"
   },
   {
    "nombre": "Visita Guiada A Menú Del Día Ii",
@@ -4666,7 +4996,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/2610_liviabenavides_menudeldia2_03-scaled.jpg",
    "url": "https://entradalibre.me/event/visita-guiada-a-menu-del-dia-ii/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1e70408cff41c964.webp"
   },
   {
    "nombre": "Visita Guiada: Galería Gato",
@@ -4679,7 +5010,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/Galeria-Gato-Valerie-Krause.jpeg",
    "url": "https://entradalibre.me/event/visita-guiada-galeria-gato/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f5197cfc11166757.webp"
   },
   {
    "nombre": "Volver Run Club",
@@ -4692,7 +5024,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-12.41.47-PM-2.jpeg",
    "url": "https://entradalibre.me/event/volver-run-club-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1b3a9ca90dc0f74d.webp"
   },
   {
    "nombre": "Yoga Para Todos",
@@ -4705,7 +5038,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261108BITAJESYOG.jpg",
    "url": "https://entradalibre.me/event/yoga-para-todos/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4eb55e855a37da05.webp"
   },
   {
    "nombre": "¡full Day Callahuanca Con Rutas Incas! - ¡Full Day Callahuanca! Mano Gigante, Pozas del Duende, Adrenalina y más",
@@ -4718,7 +5052,8 @@
    "precio": 8,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP164_calugalistado.jpg?v=1793715632",
    "url": "https://teleticket.com.pe/evento/full-day-callahuanca-rutas-incas",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/6a1424cc52c69352.webp"
   },
   {
    "nombre": "Corto De Boleto Xxii Edición",
@@ -4731,7 +5066,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/corto-de-boleto-xxii-edicion/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "El Matrimonio De María Braun",
@@ -4744,7 +5080,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/tXjZEzlf4WQwZ4Dt53gXeJVuO7p.webp",
    "url": "https://entradalibre.me/event/el-matrimonio-de-maria-braun/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/01a97200b1b56604.webp"
   },
   {
    "nombre": "La Angustia Corroe El Alma",
@@ -4757,7 +5094,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/raYnFIAXuxl3GwVPg1GkODi9dVq.webp",
    "url": "https://entradalibre.me/event/la-angustia-corroe-el-alma/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d94168d8dd377bf3.webp"
   },
   {
    "nombre": "La Gradiva",
@@ -4770,7 +5108,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_874685482_18039118079838921_2291832498908979836_n-scaled.jpg",
    "url": "https://entradalibre.me/event/la-gradiva/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2b584592fb65085e.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Ulima Bloque 2",
@@ -4783,7 +5122,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-ulima-bloque-2-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "No Matar",
@@ -4796,7 +5136,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/5bJJ68KvQUhD1mRYtq8lAgVHFbs.webp",
    "url": "https://entradalibre.me/event/no-matar/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/31fb24c9a334ce4e.webp"
   },
   {
    "nombre": "Su Propio Infierno",
@@ -4809,7 +5150,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123CIPRCERSUP.webp",
    "url": "https://entradalibre.me/event/su-propio-infierno/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/77d2ca3405566aab.webp"
   },
   {
    "nombre": "Un Lugar Para Sanar",
@@ -4822,7 +5164,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_860153006_18037715729838921_2949298758845377373_n-scaled.jpg",
    "url": "https://entradalibre.me/event/un-lugar-para-sanar-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/be0c08e226e6ed0c.webp"
   },
   {
    "nombre": "El Samurai Y El Prisionero",
@@ -4835,7 +5178,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_859074707_18037467692838921_2226224553832977784_n-1-scaled.jpg",
    "url": "https://entradalibre.me/event/el-samurai-y-el-prisionero-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f3543f8f4751a659.webp"
   },
   {
    "nombre": "La Aventura Soñada",
@@ -4848,7 +5192,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_877588465_18039117974838921_2991395274003755962_n.jpg",
    "url": "https://entradalibre.me/event/la-aventura-sonada/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4b301b22f960e71c.webp"
   },
   {
    "nombre": "Los Actores",
@@ -4861,7 +5206,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/dLShSQJGnDhJql3BFD4vBnr9bd.webp",
    "url": "https://entradalibre.me/event/los-actores/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c800f42a0e497ec8.webp"
   },
   {
    "nombre": "Sinfonías De Primavera",
@@ -4874,7 +5220,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124MUCOCERSIN.jpg",
    "url": "https://entradalibre.me/event/sinfonias-de-primavera-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4e0074fe03bde6d9.webp"
   },
   {
    "nombre": "The British Rock Experience",
@@ -4887,7 +5234,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124MUCOSANTHE.webp",
    "url": "https://entradalibre.me/event/the-british-rock-experience/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/14710b476eea5ab1.webp"
   },
   {
    "nombre": "Alex Ferreira en Lima",
@@ -4900,7 +5248,8 @@
    "precio": 90,
    "imagen": "https://cdn.joinnus.com/images/78802/main/fPRFz9UIoNFTxnz.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-alex-ferreira-en-lima-78802",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/6fdde61828576ff3.webp"
   },
   {
    "nombre": "Brasil Power",
@@ -4913,7 +5262,8 @@
    "precio": 35,
    "imagen": "https://cdn.joinnus.com/images/80197/main/XX6OBBbDRJLjSjS.webp",
    "url": "https://www.joinnus.com/events/art-culture/lima-brasil-power-80197",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/696596411b634c87.webp"
   },
   {
    "nombre": "Persépolis",
@@ -4926,7 +5276,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/nKk6mPk1JmkRxT92MqGWZQoCX2p.webp",
    "url": "https://entradalibre.me/event/persepolis-5/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/57da919f1580e408.webp"
   },
   {
    "nombre": "Sebastian Molina - Intimo Arjona",
@@ -4939,7 +5290,8 @@
    "precio": 45,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mig009_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/sebastian-molina-intimo-arjona-malala-resto-bar-",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/a9e952c3dd7a09db.webp"
   },
   {
    "nombre": "Voces Emergentes Y Autores Consagrados: Panorama Del Cine Internacional",
@@ -4952,7 +5304,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
    "url": "https://entradalibre.me/event/voces-emergentes-y-autores-consagrados-panorama-del-cine-internacional/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
   },
   {
    "nombre": "50 Años de Espectaculos de Juan Bojanich",
@@ -4965,7 +5318,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/bgj002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/50-anios-de-espectaculos-de-juan-bojanich-centro-de-convenciones-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/7b5bb8eae10e364d.webp"
   },
   {
    "nombre": "Era Disco By Kioshy",
@@ -4978,7 +5332,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261126MUCOLAMERA.jpg",
    "url": "https://entradalibre.me/event/era-disco-by-kioshy/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b8ffdba13b358eeb.webp"
   },
   {
    "nombre": "no Seas Sapo - no Seas Sapo",
@@ -4991,7 +5346,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/MMC009_calugalistado.jpg?v=1789879976",
    "url": "https://teleticket.com.pe/evento/MMC009",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/89235c7a08f0abf4.webp"
   },
   {
    "nombre": "The British Rock Experience",
@@ -5004,7 +5360,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261126MUCOSANTHE.webp",
    "url": "https://entradalibre.me/event/the-british-rock-experience-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5ab2da8bb17b4a71.webp"
   },
   {
    "nombre": "¡con un Poco de Azúcar!",
@@ -5017,7 +5374,8 @@
    "precio": 41,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pdp010_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/con-un-poco-de-azucar-teatro-peruano-japones",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/841e915621d2b46f.webp"
   },
   {
    "nombre": "BAR CRAWL LIMA: RUTA BOHEMIA EN BARRANCO",
@@ -5030,7 +5388,8 @@
    "precio": 80,
    "imagen": "https://cdn.joinnus.com/images/80486/main/zoXyhtZtaIUwLKe.webp",
    "url": "https://www.joinnus.com/events/party/lima-bar-crawl-lima-ruta-bohemia-en-barranco-80486",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/74426fdca8e0f092.webp"
   },
   {
    "nombre": "Canto Raiz Voces De Los Territorios",
@@ -5043,7 +5402,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/inbound4387312322893735717.jpg",
    "url": "https://entradalibre.me/event/canto-raiz-voces-de-los-territorios/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b4678c0358341237.webp"
   },
   {
    "nombre": "Cumbres Del Huayno",
@@ -5056,7 +5416,8 @@
    "precio": 114,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/edi001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/cumbres-del-huayno-auditorio-derrama-magisterial",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/6a7dd5df697e156f.webp"
   },
   {
    "nombre": "el Club de Las Viudas",
@@ -5069,7 +5430,8 @@
    "precio": 80,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta100v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/el-club-de-las-viudas-teatro-auditorio-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/475a48f99e7f71ab.webp"
   },
   {
    "nombre": "Eugène Courret, De La Sombra A La Luz",
@@ -5082,7 +5444,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/27-nov-a.jpg",
    "url": "https://entradalibre.me/event/eugene-courret-de-la-sombra-a-la-luz-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8f9eafa076ece06b.webp"
   },
   {
    "nombre": "La Casa Abre De Noche",
@@ -5095,7 +5458,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/27-novi-b.jpg",
    "url": "https://entradalibre.me/event/la-casa-abre-de-noche-16/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/a507991abb5bc896.webp"
   },
   {
    "nombre": "la Isla Del Tesoro",
@@ -5108,7 +5472,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/apf003_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/la-isla-del-tesoro-teatro-plaza-norte",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f2575cbe3812741d.webp"
   },
   {
    "nombre": "Marco Romero Una Noche Para Cantar",
@@ -5121,7 +5486,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mre003_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/marco-romero-una-noche-para-cantar-la-estacion-de-barranco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/712bf1d8cb5ade54.webp"
   },
   {
    "nombre": "Nuevaoleros Vol v",
@@ -5134,7 +5500,8 @@
    "precio": 32,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/crj022_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nuevaoleros-vol-v-centro-de-convenciones-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/3358ec18525a1ae5.webp"
   },
   {
    "nombre": "Un Poema Al Lienzo",
@@ -5147,7 +5514,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261107PIEXCERUNP.jpg",
    "url": "https://entradalibre.me/event/un-poema-al-lienzo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4d6cf7919a077fc5.webp"
   },
   {
    "nombre": "Voces de España",
@@ -5160,7 +5528,8 @@
    "precio": 61,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/aee002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/voces-de-espania-centro-de-convenciones-bolivar",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/8ddb9e3bc24467a1.webp"
   },
   {
    "nombre": "Atrapados en el Tiempo - el Festi Retro de Los 80´ y 90s",
@@ -5173,7 +5542,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/vsw011_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/atrapados-en-el-tiempo-el-festi-retro-de-los-80-y-90s-penia-los-andes",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/82d6933e7d8ddc9a.webp"
   },
   {
    "nombre": "Aventura Fest",
@@ -5186,7 +5556,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/EVENTO_RED.jpg",
    "url": "https://entradalibre.me/event/aventura-fest-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/afaa3118f0af25fc.webp"
   },
   {
    "nombre": "Azucena Y Su Son Criollo",
@@ -5199,7 +5570,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/28-de-nov.jpg",
    "url": "https://entradalibre.me/event/azucena-y-su-son-criollo/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f841909b8db1f6a3.webp"
   },
   {
    "nombre": "Black Friday & Fest - Black Friday & Fest",
@@ -5212,7 +5584,8 @@
    "precio": 99,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/LAC019_calugalistado.jpg?v=1794340920",
    "url": "https://teleticket.com.pe/evento/black-friday-fest",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/b6679643d90d5489.webp"
   },
   {
    "nombre": "Don Diablo | Tercer Aniversario",
@@ -5225,7 +5598,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80610/main/u5CwoAAULJnSuLO.webp",
    "url": "https://www.joinnus.com/events/party/lima-don-diablo-tercer-aniversario-80610",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/7481033d09b7814c.webp"
   },
   {
    "nombre": "Dos Voces, un Perú",
@@ -5238,7 +5612,8 @@
    "precio": 70,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/msl011_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/dos-voces-un-peru-meson-del-inca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/dbd18047772b2a88.webp"
   },
   {
    "nombre": "El Cuy Y El Zorro",
@@ -5251,7 +5626,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128KIPUSANELC.jpg",
    "url": "https://entradalibre.me/event/el-cuy-y-el-zorro/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1caaecfce29447de.webp"
   },
   {
    "nombre": "El Cuy Y El Zorro",
@@ -5264,7 +5640,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128KIPUPUEELC.jpg",
    "url": "https://entradalibre.me/event/el-cuy-y-el-zorro-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/168c742f581b89ba.webp"
   },
   {
    "nombre": "Gala de Campeones en el Canout",
@@ -5277,7 +5654,8 @@
    "precio": 64,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/aee009_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/gala-de-campeones-en-el-canout-teatro-canout",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/b57ddefab70e562d.webp"
   },
   {
    "nombre": "Hartas",
@@ -5290,7 +5668,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/HARTAS.jpg",
    "url": "https://entradalibre.me/event/hartas-5/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ceadc6eb50f843c0.webp"
   },
   {
    "nombre": "Inolvidables Vol. 2",
@@ -5303,7 +5682,8 @@
    "precio": 33,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/imc049_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/inolvidables-vol-2-rock-and-pez-",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/cdbc2cc1fafd395f.webp"
   },
   {
    "nombre": "La Cena",
@@ -5316,7 +5696,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261128CIPRSANLAC.webp",
    "url": "https://entradalibre.me/event/la-cena/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/3faf8bdb743f84ac.webp"
   },
   {
    "nombre": "Las Eternas - Miraflores",
@@ -5329,7 +5710,8 @@
    "precio": 70,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta111_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/las-eternas-miraflores-teatro-auditorio-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/49fa0e9dc7be1aca.webp"
   },
   {
    "nombre": "NO era para tanto - NO era para tanto",
@@ -5342,7 +5724,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/CTD024_calugalistado.jpg?v=1793633003",
    "url": "https://teleticket.com.pe/evento/no-era-para-tanto",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/12f661a12ca8876c.webp"
   },
   {
    "nombre": "NOCTURNA RAVE",
@@ -5355,7 +5738,8 @@
    "precio": 20,
    "imagen": "https://cdn.joinnus.com/images/79925/main/tSYCM0ilAhVtyVU.webp",
    "url": "https://www.joinnus.com/events/party/lima-nocturna-rave-79925",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e1dfdb6fd4fba813.webp"
   },
   {
    "nombre": "Nosotras Que Nos Queremos Tanto en Teatro Ricardo Palma",
@@ -5368,7 +5752,8 @@
    "precio": 80,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta114_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nosotras-que-nos-queremos-tanto-en-teatro-ricardo-palma-centro-cultural-ricardo-palma",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/2089ebb5f7eb0c78.webp"
   },
   {
    "nombre": "Oriana Montero 8vo Aniversario – Tributo a Mon Laferte",
@@ -5381,7 +5766,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/omc003_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/oriana-montero-8vo-aniversario-–-trubuto-a-mon-laferte-la-estacion-de-barranco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/81fd4ac8bf5355fa.webp"
   },
   {
    "nombre": "Papá Cholo",
@@ -5394,7 +5780,8 @@
    "precio": 33,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/jnl004_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/papa-cholo-lima-comedy-club",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/34c7ddb3aa7b4cb0.webp"
   },
   {
    "nombre": "Peruanazas - Festival de Stand-up Comedy de Mujeres - Peruanazas",
@@ -5407,7 +5794,8 @@
    "precio": 38.4,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/ASV021_calugalistado.jpg?v=1790777067",
    "url": "https://teleticket.com.pe/evento/ASV021",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/c08f7057540788ce.webp"
   },
   {
    "nombre": "Pixel Play Perú",
@@ -5420,7 +5808,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/IMG_8562.jpeg",
    "url": "https://entradalibre.me/event/pixel-play-peru/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f527fc15fa9d3d7d.webp"
   },
   {
    "nombre": "Prodrift - Copa Betsafe",
@@ -5433,7 +5822,8 @@
    "precio": 30,
    "imagen": "https://cdn.joinnus.com/images/80384/main/r2dQId3mS6zcwPb.webp",
    "url": "https://www.joinnus.com/events/sports/lima-prodrift-copa-betsafe-80384",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ed18532b207da0fa.webp"
   },
   {
    "nombre": "Refugiado",
@@ -5446,7 +5836,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128CIPRMIRREF.webp",
    "url": "https://entradalibre.me/event/refugiado/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/648be0c8151ac0b4.webp"
   },
   {
    "nombre": "Rosaflor Celebra 46 Años de Trayectoria Con ´´mestiza´´",
@@ -5459,7 +5850,8 @@
    "precio": 54,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/vcr001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/rosaflor-celebra-46-anios-de-trayectoria-con-mestiza-teatro-manuel-ascencio-segura",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/8f4df808612e3415.webp"
   },
   {
    "nombre": "Saratoga - en Estado Puro",
@@ -5469,10 +5861,11 @@
    "lugar": "C.c. Teatro Leguia - Lima",
    "categoria": "Concierto",
    "tipo": "cultural",
-   "precio": 134.34,
+   "precio": 104.7,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/otr018_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/saratoga-en-estado-puro-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f6363f5515ffc8bf.webp"
   },
   {
    "nombre": "SOUNDCLOUD FEST",
@@ -5485,7 +5878,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/80235/main/kYQHUUaGd5s3Gbk.webp",
    "url": "https://www.joinnus.com/events/party/lima-soundcloud-fest-80235",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/2d364d44c6a02485.webp"
   },
   {
    "nombre": "Tonazo Noventero con Chiki",
@@ -5498,7 +5892,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80614/main/H6TPdHsndfUJu4b.webp",
    "url": "https://www.joinnus.com/events/party/lima-tonazo-noventero-con-chiki-80614",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/a4d908d9e976aff1.webp"
   },
   {
    "nombre": "Tributo a Gilberto Santa Rosa",
@@ -5511,7 +5906,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/qaj050_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/tributo-a-gilberto-santa-rosa-lima-39-restobar",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/b4755ec7498267d3.webp"
   },
   {
    "nombre": "Un Tranvía Llamado Deseo",
@@ -5524,7 +5920,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128CIPRATEUNT.webp",
    "url": "https://entradalibre.me/event/un-tranvia-llamado-deseo-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/989ac319759af0dc.webp"
   },
   {
    "nombre": "Colección De Gifs",
@@ -5537,7 +5934,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/coleccion-de-gifs-01-scaled.jpg",
    "url": "https://entradalibre.me/event/coleccion-de-gifs/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2c460923dba1a7f7.webp"
   },
   {
    "nombre": "KALIMBA HITS TOUR",
@@ -5550,7 +5948,8 @@
    "precio": 100,
    "imagen": "https://cdn.joinnus.com/images/79851/main/a2CZ1XVbRjae2Em.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-kalimba-hits-tour-79851",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/7e6bb43e20bed41a.webp"
   },
   {
    "nombre": "Katseye Live, el Musical - Tributo en el Teatro Canout",
@@ -5563,7 +5962,8 @@
    "precio": 68,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/tys035_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/katseye-live-el-musical-tributo-en-el-teatro-canout-teatro-canout",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/d49f465b50b63d36.webp"
   },
   {
    "nombre": "Lima De Saya Y Manto",
@@ -5576,7 +5976,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/29-de-nov.jpg",
    "url": "https://entradalibre.me/event/lima-de-saya-y-manto/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ede823360a838dbd.webp"
   },
   {
    "nombre": "Volver Run Club",
@@ -5589,7 +5990,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-12.41.47-PM-2.jpeg",
    "url": "https://entradalibre.me/event/volver-run-club-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1b3a9ca90dc0f74d.webp"
   },
   {
    "nombre": "Christmas magic park (3D)",
@@ -5602,7 +6004,8 @@
    "precio": 19.9,
    "imagen": "https://cdn.joinnus.com/images/80347/main/niw6Zdfq8oUAqul.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-christmas-magic-park-3d-80347",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/e8139d196e0b15aa.webp"
   },
   {
    "nombre": "Hablando Huevadas - Hablando Huevadas",
@@ -5615,7 +6018,8 @@
    "precio": 79,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/ATM034_calugalistado.jpg?v=1794812033",
    "url": "https://teleticket.com.pe/evento/ATM034",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/044c144b0e378886.webp"
   },
   {
    "nombre": "Nicole Favre Por Primera Vez en Vivo",
@@ -5628,7 +6032,8 @@
    "precio": 100,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/coc001v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nicole-favre-por-primera-vez-en-vivo-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/ce115ed102569fd0.webp"
   },
   {
    "nombre": "Las Mejores Voces Del Año",
@@ -5641,7 +6046,8 @@
    "precio": 54,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/zvp110_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/las-mejores-voces-del-anio-teatro-plaza-norte",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1f33314ee83d6436.webp"
   },
   {
    "nombre": "Nosotros Somos Wow en Vivo",
@@ -5654,7 +6060,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/ble001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nosotros-somos-wow-en-vivo-cc-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/ca82d644d76dcc72.webp"
   },
   {
    "nombre": "Sin Anestesia",
@@ -5667,7 +6074,8 @@
    "precio": 38,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pco001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/sin-anestesia-lima-comedy-club",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f16706ccc1d4001d.webp"
   },
   {
    "nombre": "2 Minutos en Lima",
@@ -5680,7 +6088,8 @@
    "precio": 169,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/otr017_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/2-minutos-en-lima-cc-festiva",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/edb0e9e74d1b24ed.webp"
   },
   {
    "nombre": "Dudas Eternas: el Último Baile",
@@ -5693,7 +6102,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/lbe002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/dudas-eternas-el-ultimo-baile-lima-comedy-club",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e33d01907264930a.webp"
   },
   {
    "nombre": "Nos Casamos la Cagamos - Show de Comedia en Pareja",
@@ -5706,7 +6116,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cma042_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nos-casamos-la-cagamos-jazz-zone-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/24754c0ab567863a.webp"
   },
   {
    "nombre": "R&B FEST",
@@ -5719,7 +6130,8 @@
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/80327/main/KTKQK8CIV6imH04.webp",
    "url": "https://www.joinnus.com/events/party/lima-rb-fest-80327",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/ee7ad9131e70c812.webp"
   },
   {
    "nombre": "Tardes De Soledad",
@@ -5732,7 +6144,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261205CIPRSANTAR.webp",
    "url": "https://entradalibre.me/event/tardes-de-soledad/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8b88e0df1a394b9b.webp"
   },
   {
    "nombre": "Voces Del Rock Latino Último Show Del Año",
@@ -5745,7 +6158,8 @@
    "precio": 30,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/spe075_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/voces-del-rock-latino-ultimo-show-del-anio-restaurante-tur-el-rosedal",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/400aac095c6f51a9.webp"
   },
   {
    "nombre": "William Luna y Pelo d´ Ambrosio - Edicion de Lujo",
@@ -5758,7 +6172,8 @@
    "precio": 54.5,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/ind004_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/william-luna-y-pelo-d-ambrosio-edicion-de-lujo-teatro-plaza-norte",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/9c0d917ad67d761c.webp"
   },
   {
    "nombre": "ya Vuelta Les Cuento / Mario el Charapa - ya Vuelta Les Cuento/mario el Charapa",
@@ -5771,7 +6186,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/GAZ001_calugalistado.jpg?v=1792794729",
    "url": "https://teleticket.com.pe/evento/ya-vuelta-les-cuento-mario-el-charapa",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/17d13378c0859dde.webp"
   },
   {
    "nombre": "Amor Eterno",
@@ -5784,7 +6200,8 @@
    "precio": 70,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/cta115_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/amor-eterno-centro-cultural-ricardo-palma",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/96ec25b17b80e207.webp"
   },
   {
    "nombre": "Campeonato Ronex 2026 - Gran Final",
@@ -5797,7 +6214,8 @@
    "precio": 40,
    "imagen": "https://cdn.joinnus.com/images/80467/main/jCArPMuOT69WLMq.webp",
    "url": "https://www.joinnus.com/events/sports/lima-campeonato-ronex-2026-gran-final-80467",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/398417acfad4dbeb.webp"
   },
   {
    "nombre": "Media Maraton de Fuego 2026",
@@ -5810,7 +6228,8 @@
    "precio": 40,
    "imagen": "https://cdn.joinnus.com/images/77113/main/K1dxIxyAMtmMubq.webp",
    "url": "https://www.joinnus.com/events/sports/lima-media-maraton-de-fuego-2026-77113",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5d3c89752fb20f07.webp"
   },
   {
    "nombre": "Salsa King – a lo Cubano - Tumbakin & Adalberto Álvarez",
@@ -5823,7 +6242,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/tim039_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/salsa-king-–-a-lo-cubano-tumbakin--adalberto-alvarez-penia-del-carajo",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4eea9ff66fa05239.webp"
   },
   {
    "nombre": "“el Concierto de Navidad Del Lobo Feroz” - el Concierto de Navidad Del Lobo Feroz",
@@ -5836,7 +6256,8 @@
    "precio": 31,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/JEP113_calugalistado.jpg?v=1794516882",
    "url": "https://teleticket.com.pe/evento/el-concierto-de-navidad-de-lobo-feroz-teatro-lucia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/ea47772a3fbd8e8f.webp"
   },
   {
    "nombre": "40 Años ´pateando Piedras´ - Miguel Tapia ´los Prisioneros´",
@@ -5849,7 +6270,8 @@
    "precio": 200,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/bop001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/40-anios-pateando-piedras-miguel-tapia-los-prisioneros-centro-de-convenciones-barranco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/d54bc82201ae4503.webp"
   },
   {
    "nombre": "Elf: el Musical",
@@ -5862,7 +6284,8 @@
    "precio": 43,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pre036_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/elf-el-musical-teatro-municipal-de-surco-",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/fe59ee0afda9fba6.webp"
   },
   {
    "nombre": "Sirât",
@@ -5875,20 +6298,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261031CIPRSANSIR.webp",
    "url": "https://entradalibre.me/event/sirat-2/",
-   "fuente": "EntradaLibre"
-  },
-  {
-   "nombre": "Tour Del Miedo Nocturno - Fortaleza Real Felipe 2026 - Tour Del Miedo Nocturno - Fortaleza Real Felipe 2026",
-   "inicio": "2026-12-07",
-   "fin": "2027-01-30",
-   "hora": "",
-   "lugar": "Museo Fortaleza Real Felipe - Lima",
-   "categoria": "Show",
-   "tipo": "cultural",
-   "precio": 60,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE074_calugalistado.jpg?v=1794414346",
-   "url": "https://teleticket.com.pe/evento/tour-del-miedo-nocturno-fortaleza-real-felipe-2027",
-   "fuente": "Teleticket"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/879fe3da8258aa76.webp"
   },
   {
    "nombre": "Ya Fue Todo Party Vol.2 : Fuera de Control",
@@ -5901,7 +6312,8 @@
    "precio": 0,
    "imagen": "https://cdn.joinnus.com/images/80497/main/rB274JMUAXc0Dys.webp",
    "url": "https://www.joinnus.com/events/festivales/lima-ya-fue-todo-party-vol2-fuera-de-control-80497",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/9958ad4a05df7c2d.webp"
   },
   {
    "nombre": "Cazadores de Historias - Ricardo Mendoza, Job Mansilla, Guille Neyra, Brayan Estiven",
@@ -5914,7 +6326,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIM005_calugalistado.jpg?v=1794839693",
    "url": "https://teleticket.com.pe/evento/cazadores-de-historias-lima-comedy-club-miraflores",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/022f78506b38dd3d.webp"
   },
   {
    "nombre": "Cascarón Criollo",
@@ -5927,7 +6340,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/spi002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/cascaron-criollo-la-estacion-de-barrancoo",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/ab43ed8dc1e3b34c.webp"
   },
   {
    "nombre": "Jaime Ferraro - Fraude",
@@ -5940,7 +6354,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/MMC007_calugalistado.jpg?v=1789051083",
    "url": "https://teleticket.com.pe/evento/MMC007",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1f7eaa4062744cdc.webp"
   },
   {
    "nombre": "el Nefasto Especial de Navidad - EL NEFASTO ESPECIAL DE NAVIDAD x CHOCOCHIFLE",
@@ -5953,7 +6368,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/CHO008_calugalistado.jpg?v=1794004211",
    "url": "https://teleticket.com.pe/evento/el-nefasto-especial-de-navidad-x-chocochifle",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/865b00f62b64e232.webp"
   },
   {
    "nombre": "Gala de Campeones Santa Anita",
@@ -5966,7 +6382,8 @@
    "precio": 58,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/aee021_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/gala-de-campeones-santa-anita-teatro-municipal-de-santa-anita",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/8ac7a85b5bda89bc.webp"
   },
   {
    "nombre": "Invicta Run 03: Carrera Virtual",
@@ -5979,7 +6396,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/image.png",
    "url": "https://entradalibre.me/event/invicta-run-03-carrera-virtual-gratis/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/41f0a97a1acb8ee1.webp"
   },
   {
    "nombre": "la Ultima Rumba - Tributo Gilberto Santa Rosa y Hector Lavoe",
@@ -5992,7 +6410,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/myr020_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/raul-gutierrez-tributo-intimo-gilberto-santa-rosa-vol2-la-estacion-de-barranco-2026",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/c90b94b7ea02f1a6.webp"
   },
   {
    "nombre": "un Año Más, Segunda Edición - Serenata a Josué Rivaldo",
@@ -6005,7 +6424,8 @@
    "precio": 55,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/jrm002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/un-anio-mas-segunda-edicion-serenata-a-josue-rivaldo-cc-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/1aa65eb02e4396cf.webp"
   },
   {
    "nombre": "CHURRE pa´ simplón - CHURRE pa´ simplón",
@@ -6018,7 +6438,8 @@
    "precio": 33,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/AGR001_calugalistado.jpg?v=1794265122",
    "url": "https://teleticket.com.pe/evento/churre-pa-simplon",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f394150d2135fbfd.webp"
   },
   {
    "nombre": "Entre el Criollismo y la Salsa",
@@ -6031,7 +6452,8 @@
    "precio": 88,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/nov001v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/entre-el-criollismo-y-la-salsa-cc-scencia-de-la-molina",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/fe5caffd85edd328.webp"
   },
   {
    "nombre": "Hasta el Más Grinch, Quiere su Nochebuena",
@@ -6044,7 +6466,8 @@
    "precio": 30,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/rpa053_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/hasta-el-mas-grinch-quiere-su-nochebuena-jazz-zone",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/7bb722332699a615.webp"
   },
   {
    "nombre": "Voces de Oro - Gran Gala de Fin de Año",
@@ -6057,7 +6480,8 @@
    "precio": 61,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/aee022_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/voces-de-oro-gran-gala-de-fin-de-anio-centro-de-convenciones-bolivar",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/cde2a7249fb1d624.webp"
   },
   {
    "nombre": "yo Soy Enrique Gomez - yo Soy Enrique Gomez",
@@ -6070,7 +6494,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/MHA009_calugalistado.jpg?v=1794348669",
    "url": "https://teleticket.com.pe/evento/yo-soy-enrique-gomez",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4c380f2863b42f91.webp"
   },
   {
    "nombre": "Mensajes Del Alma",
@@ -6083,7 +6508,8 @@
    "precio": 99,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mts063_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/mensajes-del-alma-duomo-de-multiespacio-costa-21",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4cde8536c35a7ab7.webp"
   },
   {
    "nombre": "Nuevaoleros en Lima Este",
@@ -6096,7 +6522,8 @@
    "precio": 37,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/crj025_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/nuevaoleros-en-lima-este-epoca-santa-clara",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/561b489fcc9bc460.webp"
   },
   {
    "nombre": "Tinkuna Con Cocbamba, Yawar, Hijas Del Sol",
@@ -6109,7 +6536,8 @@
    "precio": 60,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/reg033_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/tinkuna-con-cocbamba-yawar-hijas-del-sol-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4e40dad32b683726.webp"
   },
   {
    "nombre": "un Mundo en Escena - Muestra de Talleres",
@@ -6122,7 +6550,8 @@
    "precio": 20,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/acl001v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/un-mundo-en-escena-muestra-de-talleres-teatro-nos-pucp",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/19f3e7202e43a66d.webp"
   },
   {
    "nombre": "ni Tóxica ni Mensa Sin Filtro - 2da Temporada Angie Denegri",
@@ -6135,7 +6564,8 @@
    "precio": 35,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/abd012_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/ni-toxica-ni-mensa-sin-filtro-2da-temporada-roble-de-barranco-",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4299ec8f7c0e489c.webp"
   },
   {
    "nombre": "´el Cumpleaños de Yaco y el Loco´",
@@ -6148,7 +6578,8 @@
    "precio": 87,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/psm027_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/yaco-y-el-loco-el-cumpleanios-de-yaco-y-el-loco-duomo-de-multiespacio-costa-21",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f4e42ccd3281ec35.webp"
   },
   {
    "nombre": "Manifiesta",
@@ -6161,7 +6592,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261219DIFEMIRMAN.jpg",
    "url": "https://entradalibre.me/event/manifiesta/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2dad0c78fa98d2a2.webp"
   },
   {
    "nombre": "El Ollantay De Francisco González Gamarra",
@@ -6174,7 +6606,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261114PIEXCERHIS.jpg",
    "url": "https://entradalibre.me/event/el-ollantay-de-francisco-gonzalez-gamarra/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1fe034fc3fb1293a.webp"
   },
   {
    "nombre": "Gabriela Villanueva: Bad Tour 2",
@@ -6187,7 +6620,8 @@
    "precio": 131,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/lag001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/gabriela-villanueva-bad-tour-2-anfiteatro-parque-de-la-exposicion",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/09c9d60d064f4fa5.webp"
   },
   {
    "nombre": "Asichiq xv Aniversario - Job Mansilla",
@@ -6200,7 +6634,8 @@
    "precio": 39.99,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mmc010_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/asichiq-xv-aniversario-job-mansilla-teatro-canout",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/35a7f74f10db3b27.webp"
   },
   {
    "nombre": "Romanticos Del Amor",
@@ -6213,7 +6648,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mbc053_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/romanticos-del-amor-cc-biancaa",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/47e80ad7789b0a5d.webp"
   },
   {
    "nombre": "el Fiestón de Año Nuevo 2027",
@@ -6226,7 +6662,8 @@
    "precio": 53,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/din005_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/el-fieston-de-anio-nuevo-2027-barley-bar-centro-de-convenciones-bolivar",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/34560a3980248f39.webp"
   },
   {
    "nombre": "Fiesta Blanca - Año Nuevo 2027",
@@ -6239,7 +6676,8 @@
    "precio": 56,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/tou001v3_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/fiesta-blanca-anio-nuevo-2027-el-rancho-de-pol",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/6ca47dec52022395.webp"
   },
   {
    "nombre": "Giuliana Taddei - The Blackstars",
@@ -6252,7 +6690,8 @@
    "precio": 43,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/zmj008v3_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/giuliana-taddei-the-blackstars-la-estacion-de-barranco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/fff87143514e4471.webp"
   },
   {
    "nombre": "Ghost Posters",
@@ -6265,7 +6704,8 @@
    "precio": 0,
    "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/POST-IG-GHOST-POSTERS.png",
    "url": "https://entradalibre.me/event/ghost-posters-2/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8fcdb3219d16c9b3.webp"
   },
   {
    "nombre": "Magic Men Australia",
@@ -6278,7 +6718,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pag001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/magic-men-australia-cc-bianca",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/4ee9fdd9c6b0ed0d.webp"
   },
   {
    "nombre": "Tunantada Lima Fest",
@@ -6291,7 +6732,8 @@
    "precio": 54,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/bqs001v2_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/tunantada-lima-fest-parque-de-la-exposicion",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/161f938756a33bee.webp"
   },
   {
    "nombre": "Los Hombres no Lloran - Una Comedia Musical",
@@ -6304,7 +6746,8 @@
    "precio": 42,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/ioi002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/los-hombres-no-lloran-una-comedia-musical-teatro-municipal-de-surco",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/46e0626b5e700f67.webp"
   },
   {
    "nombre": "Lucho Miranda - Lucho Miranda",
@@ -6317,7 +6760,8 @@
    "precio": 110,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/MTS050_calugalistado.jpg?v=1779413312",
    "url": "https://teleticket.com.pe/evento/MTS050",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/d5f76282f027c0dd.webp"
   },
   {
    "nombre": "Annette Moreno en Lima - un Angel Llora Tour 25 Años",
@@ -6330,7 +6774,8 @@
    "precio": 100,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/adj006_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/annette-moreno-en-lima-un-angel-llora-tour-25-anios-auditorio-revival",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/772dbaad97ea9656.webp"
   },
   {
    "nombre": "Concierto al Amor",
@@ -6343,7 +6788,8 @@
    "precio": 59,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/zvp111_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/concierto-al-amor-teatro-peruano-japones",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f3c6bc2fd1822e7e.webp"
   },
   {
    "nombre": "Gala Romantica en Chorrillos",
@@ -6356,7 +6802,8 @@
    "precio": 120,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/tys031_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/gala-romantica-en-chorrillos-circulo-militar-de-chorrillos",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f334b08959004292.webp"
   },
   {
    "nombre": "´chungo´ - Luis Zahera",
@@ -6369,7 +6816,8 @@
    "precio": 171,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pip001v3_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/chungo-luis-zahera-teatro-canout",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e1828ec8a8b9c7ee.webp"
   },
   {
    "nombre": "Argentinazo en Barranco",
@@ -6382,7 +6830,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/mbc052_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/argentinazo-en-barranco-cc-biancaa",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/f558ef80fa8e18fc.webp"
   },
   {
    "nombre": "Gran Gala Internacional - Gran Gala Internacional - Adrián Lima, Jhony Jackson y Christian Allen",
@@ -6395,7 +6844,8 @@
    "precio": 40,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/TCJ001_calugalistado.jpg?v=1793295307",
    "url": "https://teleticket.com.pe/evento/gran-gala-internacional",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/78252056f8ff65b4.webp"
   },
   {
    "nombre": "el Unipersonal de Lucho Mellera",
@@ -6408,7 +6858,8 @@
    "precio": 310,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/sce002_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/el-unipersonal-de-lucho-mellera-teatro-peruano-japones",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/dd76e73203e34d33.webp"
   },
   {
    "nombre": "Poly Diaz - Poly Diaz",
@@ -6421,7 +6872,8 @@
    "precio": 60,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/MTS056_calugalistado.jpg?v=1794819146",
    "url": "https://teleticket.com.pe/evento/MTS056",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/12810f32e2a08bb7.webp"
   },
   {
    "nombre": "12 Princesas en Pugna - Peru",
@@ -6434,7 +6886,8 @@
    "precio": 50,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pir001_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/12-princesas-en-pugna-peru-multiteatro-movistar-sala-3",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/db0c00ed7807c2c0.webp"
   },
   {
    "nombre": "Dalia Gutman - ¡No me calmo nada!",
@@ -6447,7 +6900,8 @@
    "precio": 120,
    "imagen": "https://cdn.teleticket.com.pe/event-resources/images/ELS001_calugalistado.jpg?v=1787601197",
    "url": "https://teleticket.com.pe/evento/ELS001",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/292aa07a81b4e149.webp"
   },
   {
    "nombre": "Floor Jansens en Lima",
@@ -6460,7 +6914,8 @@
    "precio": 301,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/xar020_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/floor-jansens-en-lima-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e47519738b8eeb28.webp"
   },
   {
    "nombre": "Rhapsody of Fire And Masterplan",
@@ -6473,7 +6928,8 @@
    "precio": 280,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/xar021_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/rhapsody-of-fire-and-masterplan-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/20ccf6be8b0d07c8.webp"
   },
   {
    "nombre": "Mass of The Fermenting Dregs",
@@ -6486,7 +6942,8 @@
    "precio": 202,
    "imagen": "https://cdn.teleticket.com.pe/images/eventos/pmc009_calugalistado.jpg",
    "url": "https://teleticket.com.pe/evento/mass-of-the-fermenting-dregs-cc-teatro-leguia",
-   "fuente": "Teleticket"
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/64a84c81037aca83.webp"
   },
   {
    "nombre": "TERRAZA ALAIRE",
@@ -6499,7 +6956,8 @@
    "precio": 599,
    "imagen": "https://cdn.joinnus.com/images/79870/main/OhjoZZ0AExLw0No.webp",
    "url": "https://www.joinnus.com/events/festivales/lima-terraza-alaire-79870",
-   "fuente": "Joinnus"
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/1c74d4f2194a2d7c.webp"
   }
  ]
 }

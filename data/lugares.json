@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T14:40-05:00",
+ "actualizado": "2026-11-17T15:06-05:00",
  "lugares": [
   {
    "nombre": "Excursión a Ica y Huacachina + Islas Ballestas en grupo reducido",
@@ -11,7 +11,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-ica-huacachina-islas-ballestas-list.jpg",
    "url": "https://www.civitatis.com/es/lima/excursion-ica-huacachina-islas-ballestas/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/77c17911fc3aea0a.webp"
   },
   {
    "nombre": "Free tour por Lima",
@@ -23,7 +24,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/free-tour-lima-list.jpg",
    "url": "https://www.civitatis.com/es/lima/free-tour-lima/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/f3a66a1caa0a5e20.webp"
   },
   {
    "nombre": "Excursión a Pachacamac",
@@ -35,7 +37,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-pachacamac-list.jpg",
    "url": "https://www.civitatis.com/es/lima/excursion-pachacamac/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/c2b61dd1807827e8.webp"
   },
   {
    "nombre": "Excursión a Paracas y Huacachina",
@@ -47,19 +50,21 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-paracas-huacachina-list.jpg",
    "url": "https://www.civitatis.com/es/lima/excursion-paracas-huacachina/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/f5e35c62ee2470be.webp"
   },
   {
    "nombre": "Tour por la Lima colonial + Circuito Mágico del Agua",
    "lugar": "Lima",
-   "categoria": "Free tour",
+   "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 0,
+   "precio": 185,
    "calificacion": 4.7,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-lima-colonial-circuito-magico-agua-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-lima-colonial-circuito-magico-agua/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/57e4167025efe019.webp"
   },
   {
    "nombre": "Free tour por Barranco",
@@ -71,55 +76,60 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/free-tour-barranco-list.jpg",
    "url": "https://www.civitatis.com/es/lima/free-tour-barranco/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/6a1680360afccc2c.webp"
   },
   {
    "nombre": "Tour privado por Lima",
    "lugar": "Lima",
-   "categoria": "Free tour",
+   "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 0,
+   "precio": 386.58,
    "calificacion": 4.75,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-privado-lima-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-privado-lima/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/f635406c61452784.webp"
   },
   {
    "nombre": "Tour de Lima al completo con entradas",
    "lugar": "Desde Lima",
    "categoria": "Full day",
    "tipo": "aire",
-   "precio": 0,
+   "precio": 451.61,
    "calificacion": 4.9,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-lima-completo-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-lima-completo/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/b769eb8e5093bf89.webp"
   },
   {
    "nombre": "Tour por Miraflores y Huaca Pucllana",
    "lugar": "Lima",
-   "categoria": "Free tour",
+   "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 0,
+   "precio": 93.5,
    "calificacion": 4.85,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-miraflores-huaca-pucllana-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-miraflores-huaca-pucllana/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/fa9ad27214f1dc13.webp"
   },
   {
    "nombre": "Tour por Lima",
    "lugar": "Lima",
-   "categoria": "Free tour",
+   "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 0,
+   "precio": 106,
    "calificacion": 4.2,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-lima-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-lima/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/4581cd033e77b3ca.webp"
   },
   {
    "nombre": "Tour del vino por Lima",
@@ -131,19 +141,21 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-quesos-vinos-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-quesos-vinos/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/7420cd5056e07927.webp"
   },
   {
    "nombre": "Contrastes de Lima",
    "lugar": "Desde Lima",
    "categoria": "Full day",
    "tipo": "aire",
-   "precio": 0,
+   "precio": 400,
    "calificacion": null,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/contrastes-lima-list.jpg",
    "url": "https://www.civitatis.com/es/lima/contrastes-lima/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/cd001cece5099550.webp"
   },
   {
    "nombre": "Taller de ceviche en Lima",
@@ -155,7 +167,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/taller-ceviche-lima-list.jpg",
    "url": "https://www.civitatis.com/es/lima/taller-ceviche-lima/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/3f287acd77eb82f1.webp"
   },
   {
    "nombre": "Free tour por Miraflores",
@@ -167,7 +180,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/free-tour-miraflores-list.jpg",
    "url": "https://www.civitatis.com/es/lima/free-tour-miraflores/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/775d2670f5c15438.webp"
   },
   {
    "nombre": "Excursión a Caral y Bandurria",
@@ -179,7 +193,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-caral-list.jpg",
    "url": "https://www.civitatis.com/es/lima/excursion-caral/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/1a3d09135ff822d3.webp"
   },
   {
    "nombre": "Taller de cocina peruana + Tour por un mercado local",
@@ -191,7 +206,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-gastronomico-taller-cocina-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-gastronomico-taller-cocina/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/e9538683a04d16ac.webp"
   },
   {
    "nombre": "Paseo en barco por las Islas Palomino",
@@ -203,19 +219,21 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/paseo-barco-islas-palomino-list.jpg",
    "url": "https://www.civitatis.com/es/callao/paseo-barco-islas-palomino/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/5c3ee9732962b4a5.webp"
   },
   {
    "nombre": "Tour en bicicleta por Miraflores y Barranco",
    "lugar": "Lima",
-   "categoria": "Free tour",
+   "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 0,
+   "precio": 85,
    "calificacion": 4.75,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-bicicleta-miraflores-barranco-list.jpg",
    "url": "https://www.civitatis.com/es/lima/tour-bicicleta-miraflores-barranco/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/a7a13a13a10fe931.webp"
   },
   {
    "nombre": "Trekking por el Nevado Raura + Baños termales de Churín",
@@ -227,7 +245,8 @@
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/trekking-nevado-raura-termas-churin-list.jpg",
    "url": "https://www.civitatis.com/es/lima/trekking-nevado-raura-termas-churin/",
-   "fuente": "Civitatis"
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/9f4fb20e71db7447.webp"
   },
   {
    "nombre": "Vichaycocha Privado – Experiencia Full Day a Tu Ritmo",
@@ -240,7 +259,8 @@
    "salidas": "Diarias (Disponible de mayo-agosto)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2026/01/vichaycochapriv.jpg",
    "url": "https://www.incatrilogytours.com/tour/vichaycocha-privado-experiencia-full-day-a-tu-ritmo/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/287d3eef6df820b0.webp"
   },
   {
    "nombre": "Full Day Vichaycocha – Laguna Azulcocha y Baños de Collpa",
@@ -253,7 +273,8 @@
    "salidas": "Sábados de noche. (De mayo-agosto)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/vichaycocha-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-vichaycocha-laguna-azulcocha-y-banos-de-collpa/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/9417903a4f0ffcf0.webp"
   },
   {
    "nombre": "Full Day Antioquía Privado: Explora el pueblo más colorido de Lima",
@@ -266,7 +287,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/portadaantioquia.jpeg",
    "url": "https://www.incatrilogytours.com/tour/full-day-antioquia-privado-explora-el-pueblo-mas-colorido-de-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/ffdf4cc4ec4a3e85.webp"
   },
   {
    "nombre": "Cordillera La Viuda Privado: Aventura natural cerca de Lima",
@@ -279,7 +301,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/PORTADAprivviuda.jpeg",
    "url": "https://www.incatrilogytours.com/tour/cordillera-la-viuda-privado-aventura-natural-cerca-de-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/8c2662b483717ff3.webp"
   },
   {
    "nombre": "Machu Picchu Limeño Privado desde Lima",
@@ -292,7 +315,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/PORTADAmapilimenopriv.jpeg",
    "url": "https://www.incatrilogytours.com/tour/machu-picchu-limeno-privado-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/8b84b7bd8c07f38b.webp"
   },
   {
    "nombre": "Cañón de Shutjo Privado: Recorre uno de los secretos del Perú",
@@ -305,7 +329,8 @@
    "salidas": "Viernes y Sábados en la noche (FEB - DIC)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/Canon-de-Shutjo-PORTADA.jpeg",
    "url": "https://www.incatrilogytours.com/tour/canon-de-shutjo-privado-recorre-uno-de-los-secretos-del-peru/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/84079d7c18bcf920.webp"
   },
   {
    "nombre": "San Mateo de Otao privado: Experiencia auténtica en los Andes",
@@ -318,7 +343,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/san-mateo-web-Portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/san-mateo-de-otao-privado-experiencia-autentica-en-los-andes/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/3df8de673ce3c5d8.webp"
   },
   {
    "nombre": "Full Day Callahuanca – Visita Huarochirí y disfruta sus Cataratas",
@@ -331,7 +357,8 @@
    "salidas": "Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/callahuanca-portada-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-callahuanca-visita-huarochiri-y-disfruta-sus-cataratas/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/83f9220d28811325.webp"
   },
   {
    "nombre": "Lomas de Lachay Privado: Caminatas, Paisajes y Fotografía",
@@ -344,7 +371,8 @@
    "salidas": "Todos los días (Julio a Noviembre)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/PORTADALACHAY.jpeg",
    "url": "https://www.incatrilogytours.com/tour/lomas-de-lachay-privado-caminatas-paisajes-y-fotografia/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/20750d8268c4786e.webp"
   },
   {
    "nombre": "Full Day Privado Huancaya: Naturaleza y aventura en un solo día",
@@ -357,7 +385,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/09/Huancaya-PORTADA.jpeg",
    "url": "https://www.incatrilogytours.com/tour/full-day-privado-huancaya-naturaleza-y-aventura-en-un-solo-dia/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/e4e63f108ba83688.webp"
   },
   {
    "nombre": "Tour Cordillera Raura Privado-Full day desde Lima",
@@ -370,7 +399,8 @@
    "salidas": "Sábado y Domingo en la noche (FEB - DIC)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/09/rauraportada.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-cordillera-raura-privado-full-day-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/80acc851385c0775.webp"
   },
   {
    "nombre": "Tour Privado a Huaral: Visita el Castillo de Chancay a tu ritmo",
@@ -383,7 +413,8 @@
    "salidas": "Martes a Domingo",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/10/CHANCAYPORTADA.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-privado-huaral-castillo-de-chancay/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/eb253ebd54543640.webp"
   },
   {
    "nombre": "Full Day Huancaya – Pasea en bote y lagunas Turquesas",
@@ -396,7 +427,8 @@
    "salidas": "Viernes y Sábados en la noche",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/Huancaya-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-a-huancaya-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/dd9b0a949db48c2d.webp"
   },
   {
    "nombre": "Full day Cordillera Raura – Trekking y baños termales de Churín",
@@ -409,7 +441,8 @@
    "salidas": "Viernes y Sábados en la noche",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/Raura-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-a-rura-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/efae92d865abf91f.webp"
   },
   {
    "nombre": "Full Day Machu Picchu Limeño – Recorre réplicas arqueológicas",
@@ -422,7 +455,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/portada-machupicchu-limeno.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-machu-picchu-limeno-ideal-para-locales/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/15df7870fa5f921d.webp"
   },
   {
    "nombre": "Full Day Lomas de Lachay – Caminata y avistamiento de fauna",
@@ -435,7 +469,8 @@
    "salidas": "SAB Y DOM (Julio a Noviembre)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/Lachay-portada-del-tours.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-lomas-de-lachay-desde-lima-ideal-para-locales/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/a4ef4a20bcf0b74e.webp"
   },
   {
    "nombre": "Full Day Cañon de Shutjo – Trekking entre montañas",
@@ -448,7 +483,8 @@
    "salidas": "Viernes y Sábados en la noche",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/canon-de-shutjo-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-canon-de-shutjo-trekking-entre-montanas/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/2c5347308123daa9.webp"
   },
   {
    "nombre": "Full Day Cañón de Autisha – Rappel y Puenting extremo",
@@ -461,7 +497,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/Sin-titulo-1-Recuperado-Recuperado-Recuperado-Recuperado.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-al-canon-de-autisha-desde-lima-peru/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/3c60dd67b1bc3149.webp"
   },
   {
    "nombre": "Full Day Cordillera la Viuda – Paseo en bote y ritual andino",
@@ -474,7 +511,8 @@
    "salidas": "Viernes, Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/08/la-cordillera-la-viuda.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-cordillera-la-viuda-desde-lima-peru/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/819428e7892e5e77.webp"
   },
   {
    "nombre": "Tour Full Day Marcapomacocha – Experiencias y Paisajes andinos",
@@ -487,7 +525,8 @@
    "salidas": "Consultar fechas",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/08/portada-Marcapomacocha.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-marcapomacocha-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/19e87bd608dc9998.webp"
   },
   {
    "nombre": "Full Day Nevado Rajuntay Desde Lima",
@@ -500,7 +539,8 @@
    "salidas": "Sábados en la Noche",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/nevado-rajuntay-web-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-nevado-rajuntay-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/0fe3ca869764aad3.webp"
   },
   {
    "nombre": "Full Day Churin – Relájate en los Baños Termales",
@@ -513,7 +553,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/Churin-web-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-a-churin-desde-lima-peru/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/df384a8deeedfc4f.webp"
   },
   {
    "nombre": "Full Day San Mateo de Otao desde Lima",
@@ -526,7 +567,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/09/san-mateo-web-portada-2.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-san-mateo-de-otao-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/a0cce2d32db443e1.webp"
   },
   {
    "nombre": "Full Day Castillo de Chancay – Recorrido guiado y Chancho al palo",
@@ -539,7 +581,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/08/portada-para-tour-de-huaral-y-castillo-de-chancay.jpg",
    "url": "https://www.incatrilogytours.com/tour/castillo-de-chancay-en-huaral-recorrido-guiado/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/2d35e9566c40336a.webp"
   },
   {
    "nombre": "Tour Full Day Lunahuaná – Cuatrimoto, canotaje y pisco",
@@ -552,7 +595,8 @@
    "salidas": "Viernes, Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/08/portada-Lunahuana.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-full-day-lunahuana-cuatrimoto-canotaje-y-pisco/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/560e73af98bfa71e.webp"
   },
   {
    "nombre": "Full Day en Antioquía y Cieneguilla: Descubre Naturaleza y Cultura Cerca de Lima",
@@ -565,7 +609,8 @@
    "salidas": "Sábados y Domingos",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/08/iglesia-antioquia.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-en-antioquia-y-cieneguilla-descubre-naturaleza-y-cultura-cerca-de-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/f73a4fcb407a97a0.webp"
   },
   {
    "nombre": "Pantanos de Villa y Chilca | Aventura Ecológica en Lima",
@@ -578,7 +623,8 @@
    "salidas": "Diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2026/01/PANTANOS-DE-VILLA-PORTADA.jpg",
    "url": "https://www.incatrilogytours.com/tour/pantanos-de-villa-y-chilca-aventura-ecologica-en-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/cad4d35580dc2f08.webp"
   },
   {
    "nombre": "Sandboarding en Chilca + Visita Arqueológica a Pachacamac",
@@ -591,7 +637,8 @@
    "salidas": "Diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2026/01/sandboard-chilca.jpg",
    "url": "https://www.incatrilogytours.com/tour/sandboarding-en-chilca-visita-a-pachacamac-tour-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/e1dbe216695bde31.webp"
   },
   {
    "nombre": "Sandboarding en Aucallama con Tabla Profesional Viaja al limite",
@@ -604,7 +651,8 @@
    "salidas": "9 am/11 am/2 pm/4 pm",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/01/sandboarding-chilca.jpg",
    "url": "https://www.incatrilogytours.com/tour/sandboarding-en-aucallama-con-tabla-profesional-viaja-al-limite/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/7ee4bde69b58a34f.webp"
   },
   {
    "nombre": "Tour de Sandboarding y picnic en Lima por el desierto de Chilca",
@@ -617,7 +665,8 @@
    "salidas": "8:00 AM - 2:00 PM / 1:00 PM - 7:00 PM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/03/portada-del-tour-a-chilca-con-picnic-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-de-sandboarding-y-picnic-en-lima-por-el-desierto-de-chilca/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/6b170dcd783e7da2.webp"
   },
   {
    "nombre": "Day trip to Caral: La civilización más antigua de América – OFERTA",
@@ -630,7 +679,8 @@
    "salidas": "Cupos Limitados en Agosto <strong>(Lee la descripción)</strong>",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/05/caral.jpg",
    "url": "https://www.incatrilogytours.com/tour/day-trip-to-caral-la-civilizacion-mas-antigua-de-america-oferta/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/4d34537d824df129.webp"
   },
   {
    "nombre": "Tour de Sandboarding en Lima en 4×4 por el Desierto de Chilca",
@@ -643,7 +693,8 @@
    "salidas": "8:00 AM - 1:00 PM  2:00 PM - 7:00 PM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/01/CHILCA-PORTADA.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-de-sandboarding-en-lima-en-4x4-por-el-desierto-de-chilca/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/889ae951b12fda5a.webp"
   },
   {
    "nombre": "Lima Nocturna: City Tour por el Centro Histórico",
@@ -656,7 +707,8 @@
    "salidas": "18:00 (Horarios flexibles)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/01/centro-historico-de-lima-portada-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/city-tour-nocturno-un-recorrido-magico-y-misterioso-por-el-centro-historico-de-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/6905ed6c705e03de.webp"
   },
   {
    "nombre": "Expedición a Pachacamac y Huaca Pucllana Arqueología e Historia",
@@ -669,7 +721,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/09/HUACA-PUCLLANA-17.jpg",
    "url": "https://www.incatrilogytours.com/tour/expedicion-arqueologica-a-pachacamac-y-huaca-pucllana-los-secretos-de-lima-ancestral/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/6dbec35cc8d1b4eb.webp"
   },
   {
    "nombre": "Recorrido Guiado por Lima y Callao – Real Felipe y Museo Larco",
@@ -695,7 +748,8 @@
    "salidas": "Miércoles a Domingo",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/04/barranco-grafitis-x2.jpg",
    "url": "https://www.incatrilogytours.com/tour/experiencia-de-un-dia-por-lima-barranco-y-huaca-pucllana/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/d609d923ba6546e1.webp"
   },
   {
    "nombre": "Tour Completo en Lima Pachacamac Barranco Centro Histórico & Huaca Pucllana",
@@ -708,7 +762,8 @@
    "salidas": "Miércoles a Domingo",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/portada-acllahuasi-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-completo-en-lima-un-dia-de-historia-y-cultura-del-pasado/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/8deedc75f245078a.webp"
   },
   {
    "nombre": "Explora lo Mejor de Lima en 1 Día: Centro Histórico, Casa Aliaga y Museo Larco",
@@ -721,7 +776,8 @@
    "salidas": "Consultar disponibilidad",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/12/Museo-Larco-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/explora-lo-mejor-de-lima-en-1-dia-centro-historico-casa-aliaga-y-museo-larco/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/228d23cb603224c9.webp"
   },
   {
    "nombre": "City Tour en Lima + Cena Show",
@@ -734,7 +790,8 @@
    "salidas": "Jueves a Domingo <strong>(consultar disponibilidad)</strong>",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/10/La-candelaria-portada-del-tour.jpg",
    "url": "https://www.incatrilogytours.com/tour/city-tour-en-lima-cena-show/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/6dc992a9059d06c6.webp"
   },
   {
    "nombre": "Vuelo en parapente a motor en Lima Peru",
@@ -747,7 +804,8 @@
    "salidas": "10:30 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/06/parapente-web.jpg",
    "url": "https://www.incatrilogytours.com/tour/parapente-en-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/99281c93831a9b5f.webp"
   },
   {
    "nombre": "Tour Nocturno en Lima con Degustación de Pisco, Cena y Postre",
@@ -760,7 +818,8 @@
    "salidas": "Lunes a sábado",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/05/mortada-de-tour-nocturno-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-nocturno-en-lima-con-degustacion-de-pisco-cena-y-postre/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/f6655e2ce0a11df5.webp"
   },
   {
    "nombre": "City Tour Lima Privado: Plaza Mayor y Catacumbas",
@@ -773,7 +832,8 @@
    "salidas": "Todos los días / Horarios Flexibles",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/02/convento-de-santo-domingo.jpg",
    "url": "https://www.incatrilogytours.com/tour/city-tour-lima-privado-plaza-mayor-balcones-y-catacumbas/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/4a9a75792c65336e.webp"
   },
   {
    "nombre": "Tour al Cementerio Presbítero Maestro: Historia y Misterios de Lima",
@@ -786,7 +846,8 @@
    "salidas": "9:00 AM- DIARIO\r\n\r\n19:00 PM- VIE/SAB/DOM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/02/cementerio-presbitero-matias.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-al-cementerio-presbitero-matias-maestro-de-lima-un-paseo-entre-las-sombras/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/abcfb431f3f8014f.webp"
   },
   {
    "nombre": "Tour Huaca Pucllana: Entre Pirámides y Pasado Precolombino",
@@ -799,7 +860,8 @@
    "salidas": "Miércoles a Domingo",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/09/Ritual-and-Tradicion-en-Ruinas-de-Adobe-768x768.png",
    "url": "https://www.incatrilogytours.com/tour/tour-huaca-pucllana-entre-piramides-y-pasado-precolombino/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/1a033672a6d058db.webp"
   },
   {
    "nombre": "Tour Religioso en Lima: Fe, Historia y Tradición",
@@ -812,7 +874,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/09/santa-rosa-15.jpg",
    "url": "https://www.incatrilogytours.com/tour/city-tour-lima-religioso-explora-el-convento-de-santo-domingo-y-la-casa-de-los-santos-peruanos/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/c402b1fb40e65dda.webp"
   },
   {
    "nombre": "Tour Privado de Escala en Lima: Del Aeropuerto al Corazón de la Ciudad",
@@ -825,7 +888,8 @@
    "salidas": "Todo los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2026/07/lima-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/escala-en-lima-tour-saliendo-del-aeropuerto/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/e57199edb9c1bb94.webp"
   },
   {
    "nombre": "8-Horas Tour Privado Casa Aliaga y Museo del Oro con almuerzo",
@@ -838,7 +902,8 @@
    "salidas": "9:00 am",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2022/12/casa-aliaga-web.jpg",
    "url": "https://www.incatrilogytours.com/tour/8-horas-tour-privado-casa-aliaga-y-museo-del-oro-con-almuerzo/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/6abc44f662a54b6a.webp"
   },
   {
    "nombre": "Tour de Lima en un Día: Lugares Imperdibles",
@@ -851,7 +916,8 @@
    "salidas": "Salidas diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/10/plaza-de-armas-lima-web.jpg",
    "url": "https://www.incatrilogytours.com/tour/excursion-de-1-dia-en-lima-tour-de-los-destinos-imperdibles/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/b9416ea258f74bb9.webp"
   },
   {
    "nombre": "Tour Islas Palomino en yate – Nada con lobos marinos",
@@ -864,7 +930,8 @@
    "salidas": "Todos los Días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/islas-palomino-nado-lobos-callao-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-islas-palomino-callao-palomino-islands-from-lima-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/db537c948abbbf88.webp"
   },
   {
    "nombre": "Tour Callao Monumental y Real Felipe: Historia y Cultura Viva",
@@ -877,7 +944,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/real-felipe-callao-2.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-callao-monumental-historia-arte-y-color-en-el-primer-puerto/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/f6682bb5bdf45a24.webp"
   },
   {
    "nombre": "Tour de Contrastes de Lima: Del Cerro San Cristóbal al Corazón Histórico",
@@ -890,7 +958,8 @@
    "salidas": "Diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/Mirador-dorado-sobre-la-ciudad-768x768.png",
    "url": "https://www.incatrilogytours.com/tour/tour-de-contrastes-de-lima-lima-desde-los-cielos/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/472a3d31c8b2dc42.webp"
   },
   {
    "nombre": "Pachacamac, Barranco y Callao Monumental: Tres Rostros de Lima",
@@ -903,7 +972,8 @@
    "salidas": "8:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/02/Sin-titulo-svfv.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-a-pachacamac-barranco-y-callao-monumental-lo-mejor-de-la-capital-peruana/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/645c5bf5311ec1f1.webp"
   },
   {
    "nombre": "Day trip to Caral & Bandurria: La civilización más antigua de América",
@@ -916,7 +986,8 @@
    "salidas": "Diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/carl_familia_getyourguide_150kb.jpg",
    "url": "https://www.incatrilogytours.com/tour/day-trip-to-caral/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/5f2b891907c98223.webp"
   },
   {
    "nombre": "Tour por el Centro Histórico de Lima",
@@ -929,7 +1000,8 @@
    "salidas": "Salidas diarias",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/viaje-familiar-recuerdos-peru-letras.jpg.jpeg",
    "url": "https://www.incatrilogytours.com/tour/tour-por-el-centro-historico-de-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/a4e2beac3180906c.webp"
   },
   {
    "nombre": "Free Tour Lima desde Miraflores: Viaja como Local",
@@ -942,7 +1014,8 @@
    "salidas": "Todos los días",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/artesanias-cultural-peru-artesana.jpg.jpeg",
    "url": "https://www.incatrilogytours.com/tour/free-tour-lima-desde-miraflores-tour-basado-en-propinas-por-lima-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/f072dc9a4d19d1ae.webp"
   },
   {
    "nombre": "Free Tour Barranco: Descubre las Calles Coloridas y el Arte Urbano",
@@ -955,7 +1028,8 @@
    "salidas": "9:00 AM / 4:00 PM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/10/barranco-barrio-bohemio.jpg",
    "url": "https://www.incatrilogytours.com/tour/free-tour-barranco-reserva-gratis-ahora-disponible-todos-los-dias/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/eeaced256e212f3d.webp"
   },
   {
    "nombre": "Free Food Tour Lima: Sabores Locales a Pie",
@@ -968,7 +1042,8 @@
    "salidas": "11:00 am / 16:00 PM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/10/mercado_frutas_mejorado_1535x1024_menos200kb-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/free-food-tour-descubre-los-sabores-de-lima-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/8ffa3de1143609c7.webp"
   },
   {
    "nombre": "Free Tour Centro Histórico: Plazas, Balcones y Pisco",
@@ -981,7 +1056,8 @@
    "salidas": "10:00 A.M / 16:20 Horas",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2020/11/free-tour-lima-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/free-tour-lima-desde-la-plaza-san-martin-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/5b9bb1b90f4de35d.webp"
   },
   {
    "nombre": "Day Trip a Lunahuaná desde Lima + deportes extremos (Privado)",
@@ -994,7 +1070,8 @@
    "salidas": "<span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Viernes, Sabados y Domingos </span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/portada-para-tour-de-lunauana-1.1.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-lunahuana-con-canotaje-y-cuatrimotos-desde-lima-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/4804325523b76373.webp"
   },
   {
    "nombre": "Full day Playas del Sur: Pesca Artesanal y Playa Naplo",
@@ -1007,7 +1084,8 @@
    "salidas": "6:00 a.m",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/02/portada-playas-del-sur.jpg",
    "url": "https://www.incatrilogytours.com/tour/full-day-playas-del-sur-isla-galapagos-pucusana-pesca-artesanal-y-playa-naplo/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/7b54e42cd456c19d.webp"
   },
   {
    "nombre": "Tour a Pachacamac – El Templo Inca de Lima (Oferta)",
@@ -1033,7 +1111,8 @@
    "salidas": "Martes a Domingos (Horarios Flexibles)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2025/07/pachamac-mistico.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-privado-a-pachacamac-explora-el-santuario-inca-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/a72739d32e02f02e.webp"
   },
   {
    "nombre": "Ruinas de Pachacamac y Museo de Sitio Servicio Grupal",
@@ -1046,7 +1125,8 @@
    "salidas": "De Martes a Domingo",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2024/05/pacha-grupal-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/ruinas-de-pachacamac-y-museo-de-sitio/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/815dcce1a9a94ac3.webp"
   },
   {
    "nombre": "Tour a Pachacamac: Tras las Huellas del Antiguo Oráculo",
@@ -1059,7 +1139,8 @@
    "salidas": "9:00 AM de Martes a Domingo\r\n\r\n&nbsp;",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/explorando_antiguas_ruinas_de_adobe_menos200kb.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-a-pachacamac-en-grupos-reducidos/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/7c64d4bae0529db7.webp"
   },
   {
    "nombre": "Pachacamac, Barranco y Centro Histórico: Del Oráculo a las Catacumbas",
@@ -1072,7 +1153,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/Puente-de-los-Suspiros-de-Barranco-Lima-1.jpg",
    "url": "https://www.incatrilogytours.com/tour/excursion-a-pachacamac-barranco-y-city-tour-lima-2024/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/5849b67f53a7ff0c.webp"
   },
   {
    "nombre": "Tour al Santuario Arqueológico de Pachacamac con almuerzo en la Hacienda Ficus",
@@ -1085,7 +1167,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/05/hacienda-ficus-show.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-al-santuario-arqueologico-de-pachacamac-con-almuerzo-en-la-hacienda-ficus/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/630f1cf5ca6e7f86.webp"
   },
   {
    "nombre": "Visita a Pachacamac y Cabalga en Caballo de Paso desde Lima",
@@ -1098,7 +1181,8 @@
    "salidas": "9:00 AM",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2023/02/foto-portada.jpg",
    "url": "https://www.incatrilogytours.com/tour/visita-a-pachacamac-y-cabalga-en-caballo-de-paso-desde-lima/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/1edd30aefdc7eba7.webp"
   },
   {
    "nombre": "Pachacamac con Almuerzo Show y Caballos de Paso",
@@ -1111,7 +1195,8 @@
    "salidas": "9:00 AM (sábado y domingo)",
    "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/DPASO-PORTADA.jpg",
    "url": "https://www.incatrilogytours.com/tour/pachacamac-tour-con-almuerzo-show-y-caballos-dpaso-peruano/",
-   "fuente": "Inca Trilogy Tours"
+   "fuente": "Inca Trilogy Tours",
+   "imagen_local": "img/cache/5df13420d77042d0.webp"
   },
   {
    "nombre": "Barra Botánica",
@@ -1120,7 +1205,7 @@
    "tipo": "restaurantes",
    "precio": 50,
    "calificacion": 4.9,
-   "resenas": 1409,
+   "resenas": 1411,
    "atributos": [
     "terraza",
     "vegetariano",
@@ -1138,7 +1223,7 @@
    "tipo": "restaurantes",
    "precio": 50,
    "calificacion": 4.8,
-   "resenas": 5298,
+   "resenas": 5299,
    "atributos": [
     "terraza",
     "ninos",
@@ -1178,6 +1263,22 @@
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=18228028606783006717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Cevichería Barra Maretazo | Peruvian Food",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.8,
+   "resenas": 2612,
+   "atributos": [
+    "terraza",
+    "vegetariano"
+   ],
+   "subtipo": "Restaurante peruano",
+   "url": "https://maps.google.com/?cid=9211312265691928987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   },
   {
@@ -1269,23 +1370,6 @@
    "fuente": "Google Maps"
   },
   {
-   "nombre": "Molly's Irish Bar & Restaurant",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 60,
-   "calificacion": 4.7,
-   "resenas": 10175,
-   "atributos": [
-    "terraza",
-    "vegetariano",
-    "musica"
-   ],
-   "subtipo": "Pub irlandés",
-   "url": "https://maps.google.com/?cid=4363491837794013932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
    "nombre": "Siete Sopas",
    "lugar": "Miraflores",
    "categoria": "Restaurante",
@@ -1360,37 +1444,6 @@
    "fuente": "Google Maps"
   },
   {
-   "nombre": "Selectos Ibéricos Miraflores - Tarata",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 90,
-   "calificacion": 4.7,
-   "resenas": 2154,
-   "atributos": [
-    "ninos"
-   ],
-   "subtipo": "Restaurante de cocina española",
-   "url": "https://maps.google.com/?cid=14500142104930856899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
-   "nombre": "La Barra de Jackili Miraflores",
-   "lugar": "Miraflores",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 90,
-   "calificacion": 4.7,
-   "resenas": 1687,
-   "atributos": [
-    "terraza",
-    "pet"
-   ],
-   "subtipo": "Marisquería",
-   "url": "https://maps.google.com/?cid=3376368350692045045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
    "nombre": "XOMA Gastronómico",
    "lugar": "Miraflores",
    "categoria": "Restaurante",
@@ -1449,7 +1502,7 @@
    "tipo": "restaurantes",
    "precio": 30,
    "calificacion": 4.6,
-   "resenas": 14756,
+   "resenas": 14758,
    "atributos": [
     "terraza",
     "ninos"
@@ -1482,7 +1535,7 @@
    "tipo": "restaurantes",
    "precio": 80,
    "calificacion": 4.6,
-   "resenas": 13785,
+   "resenas": 13786,
    "atributos": [
     "terraza",
     "vegetariano",
@@ -1525,6 +1578,41 @@
    "fuente": "Google Maps"
   },
   {
+   "nombre": "Amarena La Mar",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 50,
+   "calificacion": 4.7,
+   "resenas": 645,
+   "atributos": [
+    "terraza",
+    "vegetariano",
+    "ninos",
+    "pet",
+    "musica"
+   ],
+   "subtipo": "Taberna",
+   "url": "https://maps.google.com/?cid=3371029953791463817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "MAYTA by Jaime Pesaque",
+   "lugar": "Miraflores",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 240,
+   "calificacion": 4.6,
+   "resenas": 2681,
+   "atributos": [
+    "vegetariano",
+    "romantico"
+   ],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=8877732925407308623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
    "nombre": "LIMANÁ - PERUVIAN SUPERFOOD RESTAURANT",
    "lugar": "San Isidro",
    "categoria": "Restaurante",
@@ -1551,7 +1639,7 @@
    "tipo": "restaurantes",
    "precio": 140,
    "calificacion": 4.9,
-   "resenas": 632,
+   "resenas": 633,
    "atributos": [
     "vegetariano",
     "romantico"
@@ -2223,34 +2311,6 @@
    "fuente": "Google Maps"
   },
   {
-   "nombre": "La Casa del Ceviche",
-   "lugar": "Santiago de Surco",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 50,
-   "calificacion": 4.5,
-   "resenas": 833,
-   "atributos": [
-    "pet"
-   ],
-   "subtipo": "Restaurante peruano",
-   "url": "https://maps.google.com/?cid=16922303796866785665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
-   "nombre": "La Linterna",
-   "lugar": "Santiago de Surco",
-   "categoria": "Restaurante",
-   "tipo": "restaurantes",
-   "precio": 90,
-   "calificacion": 4.5,
-   "resenas": 824,
-   "atributos": [],
-   "subtipo": "Restaurante italiano",
-   "url": "https://maps.google.com/?cid=17339078598256605735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "fuente": "Google Maps"
-  },
-  {
    "nombre": "Doomo Saltado",
    "lugar": "Santiago de Surco",
    "categoria": "Restaurante",
@@ -2264,6 +2324,19 @@
    ],
    "subtipo": "Restaurante",
    "url": "https://maps.google.com/?cid=16069810264658954179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "fuente": "Google Maps"
+  },
+  {
+   "nombre": "Anticucheria Dkyara - Surco",
+   "lugar": "Santiago de Surco",
+   "categoria": "Restaurante",
+   "tipo": "restaurantes",
+   "precio": 60,
+   "calificacion": 4.5,
+   "resenas": 156,
+   "atributos": [],
+   "subtipo": "Restaurante",
+   "url": "https://maps.google.com/?cid=11039339019246040189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "fuente": "Google Maps"
   }
  ]
