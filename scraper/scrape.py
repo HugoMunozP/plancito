@@ -105,8 +105,7 @@ def main():
             res_lu = {"(tours)": f"sin cambios hasta el lunes ({len(tours)})"}
         browser.close()
 
-    # ---- eventos
-    eventos += leer_lista(MANUAL / "eventos.json")
+    # ---- eventos (los manuales de data/manual/ los lee la web directamente, desde admin.html)
     vistos, limpios = set(), []
     for e in eventos:
         clave = e.get("url") or (e.get("nombre", "").lower(), e.get("inicio"))
@@ -124,13 +123,12 @@ def main():
     (DATA / "eventos.json").write_text(
         json.dumps({"actualizado": ahora, "eventos": limpios}, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # ---- lugares (manuales primero, luego tours)
-    lugares = leer_lista(MANUAL / "lugares.json")
-    if any(t.get("fuente") == "Google Maps" for t in tours):
-        # ya hay restaurantes reales: se quitan los restaurantes de ejemplo
-        lugares = [l for l in lugares if not (l.get("ejemplo") and l.get("tipo") == "restaurantes")]
-    urls = {l.get("url") for l in lugares if l.get("url")}
-    lugares += [t for t in tours if t["url"] not in urls]
+    # ---- lugares: solo los automáticos (los manuales los lee la web desde data/manual/lugares.json)
+    vistos_l, lugares = set(), []
+    for t in tours:
+        if t.get("url") and t["url"] not in vistos_l:
+            vistos_l.add(t["url"])
+            lugares.append(t)
     (DATA / "lugares.json").write_text(
         json.dumps({"actualizado": ahora, "lugares": lugares}, ensure_ascii=False, indent=1), encoding="utf-8")
 

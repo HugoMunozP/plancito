@@ -49,6 +49,10 @@ Las instrucciones están al inicio de `scraper/fuentes/formulario.py`. En resume
 
 ## Agregar cosas a mano
 
+Lo más fácil es usar **admin.html** (https://hugomunozp.github.io/plancito/admin.html): un formulario para agregar, editar y borrar lugares y eventos propios, con foto. Lo que guardas ahí aparece en la web en 1 o 2 minutos. Se conecta a GitHub con un token propio (Contents: Read and write, solo para este repo) que se guarda en tu navegador.
+
+También puedes editar los archivos a mano:
+
 `data/manual/eventos.json` es una lista con el mismo formato de los eventos:
 
 ```json

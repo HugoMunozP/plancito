@@ -13,7 +13,8 @@
    "terraza"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-1"
  },
  {
   "nombre": "Cafetería de barrio en Miraflores",
@@ -27,7 +28,8 @@
    "wifi"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-2"
  },
  {
   "nombre": "Café con jardín en San Isidro",
@@ -42,95 +44,8 @@
    "postres"
   ],
   "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Cena a la luz de las velas en Barranco",
-  "lugar": "Barranco",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 65,
-  "calificacion": 4.7,
-  "atributos": [
-   "romantico",
-   "vegetariano",
-   "postres"
-  ],
-  "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Bistró íntimo con terraza en Miraflores",
-  "lugar": "Miraflores",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 50,
-  "calificacion": 4.5,
-  "atributos": [
-   "romantico",
-   "terraza",
-   "vegetariano"
-  ],
-  "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Trattoria con vino de la casa en San Isidro",
-  "lugar": "San Isidro",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 40,
-  "calificacion": 4.4,
-  "atributos": [
-   "romantico",
-   "postres"
-  ],
-  "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Cevichería en Surquillo",
-  "lugar": "Surquillo",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 45,
-  "calificacion": 4.6,
-  "atributos": [
-   "ninos"
-  ],
-  "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Pizzería con terraza en Barranco",
-  "lugar": "Barranco",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 35,
-  "calificacion": 4.3,
-  "atributos": [
-   "pet",
-   "terraza",
-   "ninos",
-   "vegetariano"
-  ],
-  "url": null,
-  "ejemplo": true
- },
- {
-  "nombre": "Restaurante con vista al mar en Chorrillos",
-  "lugar": "Chorrillos",
-  "categoria": "Restaurante",
-  "tipo": "restaurantes",
-  "precio": 90,
-  "calificacion": 4.8,
-  "atributos": [
-   "vista",
-   "terraza",
-   "romantico"
-  ],
-  "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-3"
  },
  {
   "nombre": "Bar de cócteles en Barranco",
@@ -145,7 +60,8 @@
    "romantico"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-4"
  },
  {
   "nombre": "Bar con terraza en Miraflores",
@@ -160,7 +76,8 @@
    "pet"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-5"
  },
  {
   "nombre": "Bar con música en vivo en Barranco",
@@ -174,7 +91,8 @@
    "terraza"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-6"
  },
  {
   "nombre": "Función de estreno en cine de centro comercial",
@@ -188,7 +106,8 @@
    "ninos"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-7"
  },
  {
   "nombre": "Cine al aire libre en un parque",
@@ -201,7 +120,8 @@
    "ninos"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-8"
  },
  {
   "nombre": "Museo de arte con ingreso libre",
@@ -214,7 +134,8 @@
    "ninos"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-9"
  },
  {
   "nombre": "Feria del libro y artesanía",
@@ -228,7 +149,8 @@
    "pet"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-10"
  },
  {
   "nombre": "Galería de arte contemporáneo",
@@ -239,7 +161,8 @@
   "calificacion": 4.4,
   "atributos": [],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-11"
  },
  {
   "nombre": "Paseo por el malecón de Miraflores",
@@ -253,7 +176,8 @@
    "ninos"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-12"
  },
  {
   "nombre": "Picnic en un parque zonal",
@@ -267,7 +191,8 @@
    "ninos"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-13"
  },
  {
   "nombre": "Bicicleta por la Costa Verde",
@@ -280,6 +205,7 @@
    "pet"
   ],
   "url": null,
-  "ejemplo": true
+  "ejemplo": true,
+  "id": "ejemplo-14"
  }
 ]

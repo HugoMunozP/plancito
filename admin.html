@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Plancito · Agregar planes</title>
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Inter:wght@400;600;700;800&display=swap">
+<style>
+  :root { --fondo:#0F0A1F; --fondo2:#1B1036; --panel:#241845; --borde:#3A2E6B; --suave:#C9C2E8; --tenue:#9A93BC; --amarillo:#FFC933; --coral:#FF4F3A; --verde:#00A884; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:Inter,system-ui,sans-serif; background:var(--fondo); color:#fff; }
+  a { color: var(--amarillo); }
+  header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:16px clamp(16px,4vw,40px); border-bottom:1px solid var(--borde); position:sticky; top:0; background:rgba(15,10,31,.97); z-index:5; }
+  header .logo { display:flex; align-items:center; gap:8px; text-decoration:none; font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:22px; color:var(--amarillo); }
+  header small { color:var(--tenue); font-family:Inter; font-weight:600; font-size:13px; }
+  main { max-width:1100px; margin:0 auto; padding:24px clamp(16px,4vw,40px) 80px; display:grid; grid-template-columns: minmax(0,1.25fr) minmax(0,1fr); gap:28px; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  h1, h2 { font-family:'Bricolage Grotesque',sans-serif; margin:0 0 6px; }
+  h1 { font-size:28px; } h2 { font-size:20px; }
+  .caja { background:var(--fondo2); border:1px solid var(--borde); border-radius:16px; padding:20px; }
+  .sub { color:var(--tenue); font-size:14px; margin:0 0 18px; }
+  form { display:flex; flex-direction:column; gap:16px; }
+  label.campo { display:flex; flex-direction:column; gap:6px; font-size:13px; font-weight:700; color:var(--suave); }
+  label.campo em { font-style:normal; color:var(--tenue); font-weight:600; }
+  input[type=text], input[type=number], input[type=url], input[type=date], input[type=time], input[type=password], select {
+    font:inherit; font-size:15px; color:#fff; background:var(--panel); border:1px solid var(--borde); border-radius:10px; padding:11px 12px; min-height:44px; width:100%; }
+  input:focus, select:focus { outline:3px solid #3DB7FF; outline-offset:1px; }
+  .fila { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .fila3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+  @media (max-width: 520px) { .fila, .fila3 { grid-template-columns:1fr; } }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chips input { position:absolute; opacity:0; pointer-events:none; }
+  .chips label { cursor:pointer; display:inline-flex; align-items:center; gap:6px; min-height:40px; padding:8px 14px; border-radius:999px; border:1px solid var(--borde); background:var(--panel); color:var(--suave); font-size:14px; font-weight:600; user-select:none; }
+  .chips input:checked + label { background:#fff; color:var(--fondo); border-color:#fff; font-weight:800; }
+  .chips input:focus-visible + label { outline:3px solid #3DB7FF; }
+  .modo { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .modo label { justify-content:center; border-radius:12px; min-height:52px; flex-direction:column; gap:0; }
+  .modo label small { font-weight:600; font-size:11px; opacity:.75; }
+  .check { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:600; color:var(--suave); cursor:pointer; }
+  .check input { width:18px; height:18px; accent-color: var(--amarillo); }
+  .foto { display:flex; gap:14px; align-items:center; }
+  .foto .vista { width:150px; aspect-ratio:16/9; border-radius:10px; background:var(--panel) center/cover no-repeat; border:1px dashed var(--borde); flex:none; display:flex; align-items:center; justify-content:center; color:var(--tenue); font-size:12px; text-align:center; }
+  .foto input[type=file] { font-size:13px; color:var(--suave); }
+  .botones { display:flex; flex-wrap:wrap; gap:10px; }
+  button { font:inherit; cursor:pointer; border:none; border-radius:999px; font-weight:800; min-height:46px; padding:10px 22px; }
+  .primario { background:var(--amarillo); color:var(--fondo); font-size:16px; }
+  .primario:disabled { opacity:.6; cursor:wait; }
+  .secundario { background:var(--panel); color:#fff; border:1px solid var(--borde); }
+  .peligro { background:transparent; color:#FF8A7A; border:1px solid #6B2E2E; min-height:36px; padding:6px 12px; font-size:13px; }
+  .mini { min-height:36px; padding:6px 12px; font-size:13px; }
+  .aviso { border-radius:12px; padding:12px 14px; font-size:14px; font-weight:600; }
+  .aviso.ok { background:rgba(0,168,132,.18); color:#5EE6B5; }
+  .aviso.error { background:rgba(255,79,58,.16); color:#FF9B8E; }
+  .aviso.info { background:rgba(255,201,51,.14); color:var(--amarillo); }
+  .oculto { display:none !important; }
+  .lista { display:flex; flex-direction:column; gap:10px; max-height:70vh; overflow:auto; }
+  .item { display:flex; gap:12px; align-items:center; background:var(--panel); border-radius:12px; padding:10px; }
+  .item .min { width:64px; aspect-ratio:16/10; border-radius:8px; background:var(--fondo) center/cover; flex:none; }
+  .item .info { flex:1; min-width:0; }
+  .item b { display:block; font-size:14px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .item span { font-size:12px; color:var(--tenue); }
+  .item .acc { display:flex; gap:6px; }
+  .etq { display:inline-block; font-size:10px; font-weight:800; padding:2px 6px; border-radius:4px; background:var(--fondo); color:var(--suave); margin-right:4px; }
+  details summary { cursor:pointer; color:var(--suave); font-weight:700; font-size:14px; }
+  .pasos { font-size:13px; color:var(--suave); line-height:1.6; padding-left:18px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="./"><img src="img/logo.svg" alt="" width="30" height="30">plancito <small>· admin</small></a>
+  <a href="./" style="font-size:14px;font-weight:700">Ver la web →</a>
+</header>
+
+<main>
+  <section>
+    <!-- Conexión con GitHub -->
+    <div class="caja" id="conexion" style="margin-bottom:20px">
+      <h2>Conectar con GitHub</h2>
+      <p class="sub">Solo la primera vez en este navegador. La clave se guarda aquí, en tu navegador, y no se sube a ningún lado.</p>
+      <form id="form-token">
+        <label class="campo">Token de GitHub
+          <input type="password" id="token" autocomplete="off" placeholder="github_pat_…" required>
+        </label>
+        <details>
+          <summary>¿Cómo saco el token?</summary>
+          <ol class="pasos">
+            <li>Entra a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+            <li>Nombre: <b>plancito-admin</b>. Vencimiento: el que prefieras (por ejemplo 1 año).</li>
+            <li>En <b>Repository access</b> elige <b>Only select repositories</b> → <b>plancito</b>.</li>
+            <li>En <b>Permissions → Repository permissions → Contents</b> elige <b>Read and write</b>.</li>
+            <li>Haz clic en <b>Generate token</b>, cópialo y pégalo aquí.</li>
+          </ol>
+        </details>
+        <div class="botones"><button class="primario" type="submit">Conectar</button></div>
+        <div id="aviso-token" class="aviso oculto"></div>
+      </form>
+    </div>
+
+    <!-- Formulario -->
+    <div class="caja" id="editor">
+      <h1 id="titulo-form">Agregar un plan</h1>
+      <p class="sub">Aparece en la web en 1 o 2 minutos después de guardar.</p>
+      <form id="form-plan" novalidate>
+        <div class="chips modo" role="radiogroup" aria-label="Qué vas a agregar">
+          <input type="radio" name="modo" id="modo-lugar" value="lugar" checked><label for="modo-lugar">Lugar<small>siempre disponible</small></label>
+          <input type="radio" name="modo" id="modo-evento" value="evento"><label for="modo-evento">Evento<small>con fecha</small></label>
+        </div>
+
+        <label class="campo">Nombre *
+          <input type="text" id="nombre" required maxlength="90" placeholder="Ej.: Parque de la Reserva – Circuito Mágico del Agua">
+        </label>
+
+        <div>
+          <div class="campo" style="margin-bottom:8px">Tipo de plan *</div>
+          <div class="chips" id="tipos"></div>
+        </div>
+
+        <div class="fila">
+          <label class="campo">Categoría <em>(etiqueta de la tarjeta)</em>
+            <input type="text" id="categoria" list="lista-categorias" maxlength="30">
+            <datalist id="lista-categorias"></datalist>
+          </label>
+          <label class="campo">Distrito / lugar *
+            <input type="text" id="lugar" list="lista-distritos" required maxlength="80" placeholder="Miraflores">
+            <datalist id="lista-distritos"></datalist>
+          </label>
+        </div>
+
+        <div class="fila3 solo-evento oculto">
+          <label class="campo">Desde *<input type="date" id="inicio"></label>
+          <label class="campo">Hasta <em>(si dura varios días)</em><input type="date" id="fin"></label>
+          <label class="campo">Hora<input type="time" id="hora"></label>
+        </div>
+
+        <div class="fila">
+          <label class="campo">Precio por persona (S/) *
+            <input type="number" id="precio" min="0" step="0.5" inputmode="decimal" placeholder="35">
+          </label>
+          <div class="campo" style="justify-content:flex-end">
+            <label class="check"><input type="checkbox" id="gratis"> Es gratis</label>
+          </div>
+        </div>
+
+        <label class="campo solo-lugar">Calificación <em>(opcional, de 1 a 5)</em>
+          <input type="number" id="calificacion" min="1" max="5" step="0.1" placeholder="4.6">
+        </label>
+
+        <div class="solo-lugar">
+          <div class="campo" style="margin-bottom:8px">Qué tiene <em>(opcional)</em></div>
+          <div class="chips" id="atributos"></div>
+        </div>
+
+        <label class="campo">Link <em>(Google Maps, Instagram, web o página de compra)</em>
+          <input type="url" id="url" placeholder="https://maps.app.goo.gl/…">
+        </label>
+
+        <div>
+          <div class="campo" style="margin-bottom:8px">Foto <em>(opcional, se ajusta sola)</em></div>
+          <div class="foto">
+            <div class="vista" id="vista">Sin foto</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <input type="file" id="imagen" accept="image/*">
+              <button type="button" class="secundario mini oculto" id="quitar-foto">Quitar foto</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="aviso" class="aviso oculto" role="status"></div>
+        <div class="botones">
+          <button class="primario" type="submit" id="guardar">Guardar</button>
+          <button class="secundario oculto" type="button" id="cancelar">Cancelar edición</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <aside class="caja">
+    <h2>Lo que agregaste</h2>
+    <p class="sub">Tus lugares y eventos propios. Los automáticos (Joinnus, Google Maps…) no salen aquí.</p>
+    <div class="chips" style="margin-bottom:12px">
+      <input type="radio" name="ver" id="ver-lugares" value="lugar" checked><label for="ver-lugares">Lugares</label>
+      <input type="radio" name="ver" id="ver-eventos" value="evento"><label for="ver-eventos">Eventos</label>
+    </div>
+    <div class="lista" id="lista"><span class="sub">Conecta con GitHub para ver tu lista.</span></div>
+  </aside>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  const REPO = 'HugoMunozP/plancito';
+  const RAMA = 'main';
+  const ARCHIVO = { lugar: 'data/manual/lugares.json', evento: 'data/manual/eventos.json' };
+  const API = 'https://api.github.com/repos/' + REPO + '/contents/';
+
+  const TIPOS = [
+    ['restaurantes', 'Restaurante', ['Restaurante', 'Cevichería', 'Pollería', 'Comida', 'Brunch']],
+    ['cafe', 'Café', ['Café', 'Pastelería', 'Heladería']],
+    ['bar', 'Bar', ['Bar', 'Fiesta', 'Discoteca', 'Karaoke']],
+    ['cine', 'Cine', ['Cine', 'Cine al aire libre']],
+    ['cultural', 'Cultural', ['Cultura', 'Museo', 'Exposición', 'Teatro', 'Concierto', 'Stand up', 'Feria', 'Taller', 'Show']],
+    ['aire', 'Aire libre', ['Aire libre', 'Parque', 'Paseo', 'Playa', 'Full day', 'Deporte', 'Pádel', 'Paddle']]
+  ];
+  const ATRIBUTOS = {
+    pet: 'Pet friendly', ninos: 'Para niños', terraza: 'Terraza', vista: 'Vista al mar', vegetariano: 'Opción vegetariana',
+    postres: 'Postres', wifi: 'Wifi para trabajar', musica: 'Música en vivo', happy: 'Happy hour', romantico: 'Romántico', '3d': 'Sala 3D'
+  };
+  const ATRIBUTOS_POR_TIPO = {
+    restaurantes: ['romantico', 'pet', 'terraza', 'vista', 'vegetariano', 'ninos'],
+    cafe: ['pet', 'postres', 'wifi', 'terraza'],
+    bar: ['romantico', 'musica', 'happy', 'terraza', 'pet'],
+    cine: ['3d', 'ninos'],
+    cultural: ['ninos'],
+    aire: ['ninos', 'pet']
+  };
+  const DISTRITOS = ['Barranco', 'Miraflores', 'San Isidro', 'San Borja', 'Santiago de Surco', 'Surquillo', 'Cercado de Lima', 'Jesús María',
+    'Lince', 'Magdalena del Mar', 'Pueblo Libre', 'San Miguel', 'La Molina', 'Chorrillos', 'La Victoria', 'Rímac', 'Callao', 'La Punta',
+    'Los Olivos', 'San Juan de Lurigancho', 'Ate', 'Lurín', 'Pachacámac', 'Punta Hermosa', 'San Bartolo', 'Costa Verde', 'Lima', 'Desde Lima'];
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  let token = '';
+  try { token = localStorage.getItem('plancito_token') || ''; } catch (e) { /* sin localStorage */ }
+  const datos = { lugar: { items: [], sha: null }, evento: { items: [], sha: null } };
+  let editando = null;   // { modo, id }
+  let fotoNueva = null;  // Blob jpg
+  let fotoActual = '';   // ruta existente
+
+  // ---------- UI dinámica ----------
+  $('tipos').innerHTML = TIPOS.map(([v, t], i) =>
+    '<input type="radio" name="tipo" id="tipo-' + v + '" value="' + v + '"' + (i === 0 ? ' checked' : '') + '><label for="tipo-' + v + '">' + t + '</label>').join('');
+  $('lista-distritos').innerHTML = DISTRITOS.map((d) => '<option value="' + d + '">').join('');
+
+  const modo = () => document.querySelector('input[name=modo]:checked').value;
+  const tipo = () => (document.querySelector('input[name=tipo]:checked') || {}).value;
+
+  function pintarTipo(conservar) {
+    const t = TIPOS.find((x) => x[0] === tipo());
+    $('lista-categorias').innerHTML = t[2].map((c) => '<option value="' + c + '">').join('');
+    const cat = $('categoria');
+    const todas = TIPOS.flatMap((x) => x[2]);
+    if (!conservar && (!cat.value || todas.includes(cat.value))) cat.value = t[2][0];
+    cat.placeholder = t[2][0];
+    const marcados = new Set([...document.querySelectorAll('input[name=attr]:checked')].map((x) => x.value));
+    $('atributos').innerHTML = ATRIBUTOS_POR_TIPO[t[0]].map((a) =>
+      '<input type="checkbox" name="attr" id="attr-' + a + '" value="' + a + '"' + (marcados.has(a) ? ' checked' : '') + '><label for="attr-' + a + '">' + ATRIBUTOS[a] + '</label>').join('');
+  }
+  function pintarModo() {
+    const ev = modo() === 'evento';
+    document.querySelectorAll('.solo-evento').forEach((x) => x.classList.toggle('oculto', !ev));
+    document.querySelectorAll('.solo-lugar').forEach((x) => x.classList.toggle('oculto', ev));
+    $('titulo-form').textContent = (editando ? 'Editar ' : 'Agregar ') + (ev ? 'un evento' : 'un lugar');
+  }
+  document.querySelectorAll('input[name=tipo]').forEach((x) => x.addEventListener('change', () => pintarTipo(false)));
+  document.querySelectorAll('input[name=modo]').forEach((x) => x.addEventListener('change', pintarModo));
+  $('gratis').addEventListener('change', () => { $('precio').disabled = $('gratis').checked; if ($('gratis').checked) $('precio').value = ''; });
+  pintarTipo(false); pintarModo();
+
+  // ---------- Foto: se reduce a 1200 px y JPG ----------
+  $('imagen').addEventListener('change', async () => {
+    const f = $('imagen').files[0];
+    if (!f) return;
+    try {
+      fotoNueva = await reducir(f);
+      mostrarFoto(URL.createObjectURL(fotoNueva));
+    } catch (e) { avisar('No pude leer esa imagen. Prueba con un JPG o PNG.', 'error'); }
+  });
+  $('quitar-foto').addEventListener('click', () => { fotoNueva = null; fotoActual = ''; $('imagen').value = ''; mostrarFoto(''); });
+  function mostrarFoto(src) {
+    const v = $('vista');
+    v.style.backgroundImage = src ? 'url("' + src + '")' : '';
+    v.textContent = src ? '' : 'Sin foto';
+    $('quitar-foto').classList.toggle('oculto', !src);
+  }
+  function reducir(file) {
+    return new Promise((ok, mal) => {
+      const img = new Image();
+      img.onload = () => {
+        const max = 1200;
+        const k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas');
+        c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        c.toBlob((b) => b ? ok(b) : mal(new Error('canvas')), 'image/jpeg', 0.82);
+      };
+      img.onerror = mal;
+      img.src = URL.createObjectURL(file);
+    });
+  }
+
+  // ---------- GitHub ----------
+  const b64 = (txt) => btoa(unescape(encodeURIComponent(txt)));
+  const deb64 = (b) => decodeURIComponent(escape(atob(b.replace(/\n/g, ''))));
+  async function gh(ruta, opciones) {
+    const r = await fetch(API + ruta + (opciones && opciones.method ? '' : '?ref=' + RAMA), Object.assign({
+      headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' }
+    }, opciones || {}));
+    if (r.status === 404) return null;
+    if (!r.ok) {
+      const d = await r.json().catch(() => ({}));
+      throw new Error(r.status === 401 ? 'El token no es válido o venció.' : r.status === 403 ? 'El token no tiene permiso de escritura (Contents: Read and write).' : r.status === 409 ? 'Alguien más guardó al mismo tiempo. Intenta de nuevo.' : (d.message || 'Error ' + r.status));
+    }
+    return r.json();
+  }
+  async function cargar(m) {
+    const d = await gh(ARCHIVO[m]);
+    datos[m].sha = d ? d.sha : null;
+    datos[m].items = d ? JSON.parse(deb64(d.content) || '[]') : [];
+  }
+  async function guardarArchivo(m, mensaje) {
+    const cuerpo = { message: mensaje, branch: RAMA, content: b64(JSON.stringify(datos[m].items, null, 1) + '\n') };
+    if (datos[m].sha) cuerpo.sha = datos[m].sha;
+    const r = await gh(ARCHIVO[m], { method: 'PUT', body: JSON.stringify(cuerpo) });
+    datos[m].sha = r.content.sha;
+  }
+  async function subirFoto(blob, nombre) {
+    const base64 = await new Promise((ok) => { const fr = new FileReader(); fr.onload = () => ok(fr.result.split(',')[1]); fr.readAsDataURL(blob); });
+    const ruta = 'img/lugares/' + nombre + '.jpg';
+    await gh(ruta, { method: 'PUT', body: JSON.stringify({ message: 'Foto: ' + nombre, branch: RAMA, content: base64 }) });
+    return ruta;
+  }
+  const slug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'plan';
+
+  // ---------- Conectar ----------
+  async function conectar() {
+    $('conexion').classList.toggle('oculto', !!token);
+    if (!token) return;
+    try {
+      await Promise.all([cargar('lugar'), cargar('evento')]);
+      pintarLista();
+    } catch (e) {
+      $('conexion').classList.remove('oculto');
+      avisoToken(e.message, 'error');
+    }
+  }
+  $('form-token').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    token = $('token').value.trim();
+    try { localStorage.setItem('plancito_token', token); } catch (e) { /* solo esta sesión */ }
+    avisoToken('Conectando…', 'info');
+    await conectar();
+    if (!$('conexion').classList.contains('oculto')) return;
+    $('token').value = '';
+    avisar('Conectado. Ya puedes agregar planes.', 'ok');
+  });
+  function avisoToken(t, tipo) { const a = $('aviso-token'); a.textContent = t; a.className = 'aviso ' + tipo; }
+
+  // ---------- Lista ----------
+  const verModo = () => document.querySelector('input[name=ver]:checked').value;
+  document.querySelectorAll('input[name=ver]').forEach((x) => x.addEventListener('change', pintarLista));
+  function pintarLista() {
+    if (!token) return;
+    const m = verModo();
+    const items = datos[m].items;
+    const nombreTipo = Object.fromEntries(TIPOS.map((t) => [t[0], t[1]]));
+    $('lista').innerHTML = items.length ? items.map((x) =>
+      '<div class="item"><div class="min" style="background-image:url(\'' + esc(x.imagen || '') + '\')"></div><div class="info">' +
+      '<b>' + esc(x.nombre) + '</b><span>' + (x.ejemplo ? '<i class="etq">EJEMPLO</i>' : '') + '<i class="etq">' + esc(nombreTipo[x.tipo] || x.tipo) + '</i>' +
+      esc(x.lugar || '') + ' · ' + (x.precio ? 'S/ ' + x.precio : 'Gratis') + (m === 'evento' ? ' · ' + esc(x.inicio) : '') + '</span></div>' +
+      '<div class="acc"><button class="secundario mini" data-editar="' + esc(x.id) + '">Editar</button><button class="peligro" data-borrar="' + esc(x.id) + '">Borrar</button></div></div>'
+    ).join('') : '<span class="sub">Todavía no agregaste ' + (m === 'evento' ? 'eventos' : 'lugares') + '.</span>';
+  }
+  $('lista').addEventListener('click', async (ev) => {
+    const m = verModo();
+    const ed = ev.target.closest('[data-editar]');
+    const bo = ev.target.closest('[data-borrar]');
+    if (ed) return editar(m, ed.dataset.editar);
+    if (bo) {
+      const it = datos[m].items.find((x) => x.id === bo.dataset.borrar);
+      if (!it || !confirm('¿Borrar «' + it.nombre + '» de la web?')) return;
+      try {
+        await cargar(m);
+        datos[m].items = datos[m].items.filter((x) => x.id !== it.id);
+        await guardarArchivo(m, 'Borra: ' + it.nombre);
+        pintarLista();
+        avisar('Borrado. Desaparece de la web en 1 o 2 minutos.', 'ok');
+      } catch (e) { avisar(e.message, 'error'); }
+    }
+  });
+
+  // ---------- Editar ----------
+  function editar(m, id) {
+    const x = datos[m].items.find((i) => i.id === id);
+    if (!x) return;
+    editando = { modo: m, id };
+    document.getElementById('modo-' + m).checked = true;
+    const t = document.getElementById('tipo-' + x.tipo); if (t) t.checked = true;
+    $('nombre').value = x.nombre || '';
+    $('categoria').value = x.categoria || '';
+    $('lugar').value = x.lugar || '';
+    $('gratis').checked = x.precio === 0; $('precio').disabled = x.precio === 0;
+    $('precio').value = x.precio || '';
+    $('calificacion').value = x.calificacion || '';
+    $('url').value = x.url || '';
+    $('inicio').value = x.inicio || ''; $('fin').value = x.fin && x.fin !== x.inicio ? x.fin : ''; $('hora').value = aHora24(x.hora);
+    document.querySelectorAll('input[name=attr]').forEach((c) => { c.checked = false; });
+    pintarTipo(true);
+    (x.atributos || []).forEach((a) => { const c = document.getElementById('attr-' + a); if (c) c.checked = true; });
+    fotoNueva = null; fotoActual = x.imagen || ''; $('imagen').value = ''; mostrarFoto(fotoActual);
+    $('cancelar').classList.remove('oculto');
+    pintarModo();
+    $('editor').scrollIntoView({ behavior: 'smooth' });
+  }
+  $('cancelar').addEventListener('click', limpiar);
+  function limpiar() {
+    editando = null; fotoNueva = null; fotoActual = '';
+    $('form-plan').reset(); $('precio').disabled = false;
+    document.getElementById('modo-' + (verModo())).checked = true;
+    mostrarFoto(''); $('cancelar').classList.add('oculto');
+    pintarTipo(false); pintarModo();
+  }
+  function aHora24(h) {
+    const m = /(\d{1,2}):(\d{2})\s*([ap])m/i.exec(h || '');
+    if (!m) return '';
+    let hh = +m[1] % 12; if (m[3].toLowerCase() === 'p') hh += 12;
+    return String(hh).padStart(2, '0') + ':' + m[2];
+  }
+  function aHora12(v) {
+    if (!v) return '';
+    const [h, mi] = v.split(':').map(Number);
+    return ((h + 11) % 12 + 1) + ':' + String(mi).padStart(2, '0') + ' ' + (h >= 12 ? 'pm' : 'am');
+  }
+
+  // ---------- Guardar ----------
+  $('form-plan').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    if (!token) { avisar('Primero conecta con GitHub (arriba).', 'error'); $('conexion').classList.remove('oculto'); return; }
+    const m = modo();
+    const nombre = $('nombre').value.trim();
+    const lugar = $('lugar').value.trim();
+    const gratis = $('gratis').checked;
+    const precio = gratis ? 0 : parseFloat($('precio').value);
+    const faltan = [];
+    if (!nombre) faltan.push('nombre');
+    if (!lugar) faltan.push('distrito');
+    if (!gratis && !(precio >= 0)) faltan.push('precio (o marca «Es gratis»)');
+    if (m === 'evento' && !$('inicio').value) faltan.push('fecha');
+    if (faltan.length) return avisar('Falta: ' + faltan.join(', ') + '.', 'error');
+    if (m === 'evento' && $('fin').value && $('fin').value < $('inicio').value) return avisar('La fecha «Hasta» es antes que «Desde».', 'error');
+    const url = $('url').value.trim();
+    if (url && !/^https?:\/\//i.test(url)) return avisar('El link debe empezar con https://', 'error');
+
+    const boton = $('guardar'); boton.disabled = true; boton.textContent = 'Guardando…';
+    try {
+      const id = editando ? editando.id : slug(nombre) + '-' + Date.now().toString(36);
+      let imagen = fotoActual;
+      if (fotoNueva) imagen = await subirFoto(fotoNueva, id + '-' + Date.now().toString(36));
+      const t = tipo();
+      const item = {
+        id, nombre, lugar,
+        categoria: $('categoria').value.trim() || TIPOS.find((x) => x[0] === t)[2][0],
+        tipo: t,
+        precio: gratis ? 0 : Math.round(precio * 100) / 100,
+        imagen,
+        url: url || null
+      };
+      if (m === 'lugar') {
+        item.calificacion = parseFloat($('calificacion').value) || null;
+        item.atributos = [...document.querySelectorAll('input[name=attr]:checked')].map((c) => c.value);
+      } else {
+        item.inicio = $('inicio').value;
+        item.fin = $('fin').value || $('inicio').value;
+        item.hora = aHora12($('hora').value);
+        item.fuente = 'Plancito';
+      }
+      // si cambió de lugar a evento (o al revés) al editar, se borra del otro archivo
+      if (editando && editando.modo !== m) {
+        await cargar(editando.modo);
+        datos[editando.modo].items = datos[editando.modo].items.filter((x) => x.id !== id);
+        await guardarArchivo(editando.modo, 'Mueve: ' + nombre);
+      }
+      await cargar(m);  // releer por si cambió en otro lado
+      const i = datos[m].items.findIndex((x) => x.id === id);
+      if (i >= 0) datos[m].items[i] = item; else datos[m].items.unshift(item);
+      await guardarArchivo(m, (i >= 0 ? 'Edita: ' : 'Agrega: ') + nombre);
+      document.getElementById('ver-' + (m === 'evento' ? 'eventos' : 'lugares')).checked = true;
+      pintarLista();
+      avisar('¡Listo! «' + nombre + '» aparece en la web en 1 o 2 minutos.', 'ok');
+      limpiar();
+    } catch (e) {
+      avisar(e.message, 'error');
+    } finally {
+      boton.disabled = false; boton.textContent = 'Guardar';
+    }
+  });
+  function avisar(t, tipo) { const a = $('aviso'); a.textContent = t; a.className = 'aviso ' + tipo; }
+
+  conectar();
+})();
+</script>
+</body>
+</html>

@@ -138,13 +138,17 @@
   function cargar() {
     const ev = fetch('data/eventos.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ eventos: [] }));
     const lu = fetch('data/lugares.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ lugares: [] }));
-    Promise.all([ev, lu]).then(([eventos, lugares]) => {
+    const lista = (u) => fetch(u, { cache: 'no-cache' }).then((r) => r.json()).then((d) => Array.isArray(d) ? d : []).catch(() => []);
+    // data/manual/*.json: lo que agregas tú desde admin.html (aparece al toque, sin esperar al scraper)
+    Promise.all([ev, lu, lista('data/manual/eventos.json'), lista('data/manual/lugares.json')]).then(([eventos, lugares, evManual, luManual]) => {
       ACTUALIZADO = eventos.actualizado || '';
-      PLANES = (eventos.eventos || []).map((e, i) => ({
+      const hoyISO = hoy();
+      const propios = evManual.filter((e) => e.nombre && e.inicio && (e.fin || e.inicio) >= hoyISO).map((e) => Object.assign({ fuente: 'Plancito' }, e));
+      PLANES = (eventos.eventos || []).concat(propios).map((e, i) => ({
         id: 'e' + i, nombre: e.nombre, inicio: e.inicio, fin: e.fin || e.inicio, hora: e.hora, lugar: e.lugar,
         categoria: e.categoria, tipo: e.tipo, precio: e.precio, imagen: e.imagen, url: e.url, fuente: e.fuente,
         atributos: [], siempre: false, ejemplo: false, calificacion: 0
-      })).concat((lugares.lugares || []).map((l, i) => ({
+      })).concat(luManual.concat(lugares.lugares || []).map((l, i) => ({
         id: 'l' + i, nombre: l.nombre, lugar: l.lugar, categoria: l.categoria, tipo: l.tipo, precio: l.precio,
         calificacion: l.calificacion || 0, atributos: l.atributos || [], url: l.url, imagen: l.imagen || '',
         salidas: l.salidas || '', resenas: l.resenas || 0, fuente: l.ejemplo ? 'Ejemplo' : (l.fuente || 'Plancito'), siempre: true, ejemplo: !!l.ejemplo
