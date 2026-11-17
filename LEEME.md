@@ -16,7 +16,7 @@ GitHub Actions corre `scraper/scrape.py` todos los días a las 6:17 a. m. (hora 
 | Formulario de Google | Agencias de Facebook e Instagram, municipalidades, pádel, paddle, centros culturales | CSV publicado de la hoja de respuestas | eventos |
 | Civitatis | Tours, free tours y full days desde Lima | Navegador invisible | lugares |
 | Inca Trilogy Tours | Full days desde Lima (Huancaya, Lachay, Antioquía, Lunahuaná…) | Su API pública de WordPress, con precios en dólares convertidos a soles | lugares |
-| Google Maps (API oficial de Places) | Los restaurantes mejor calificados de Miraflores, San Isidro, San Borja y Surco (nota de 4.5 o más y al menos 150 reseñas, hasta 25 por distrito) | API Text Search (New). Necesita el secreto `GOOGLE_PLACES_API_KEY` | lugares |
+| Google Maps (API oficial de Places) | Los restaurantes (25 por distrito), cafés (20) y bares (15) mejor calificados de Miraflores, San Isidro, San Borja y Surco, con nota de 4.5 o más | API Text Search (New). Necesita el secreto `GOOGLE_PLACES_API_KEY` | lugares |
 | `data/manual/*.json` | Lo que quieras agregar a mano | Se copia tal cual | ambos |
 
 ### Fuentes que no se scrapean y por qué
