@@ -1,0 +1,6 @@
+# Plancito: todos los buscadores pueden leer la web (menos el panel de administración)
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://plancitopes.com/sitemap.xml
