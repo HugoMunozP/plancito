@@ -429,9 +429,7 @@
           '<span class="mini-ruleta" aria-hidden="true"></span><span class="txt"><strong>¿Siguen sin decidirse?</strong>' +
           '<span>Giren la ruleta con ' + Math.min(c.planes.length, MAX_RULETA) + ' de sus planes y que decida la suerte</span></span><em>Girar</em></button></div>';
       }
-      if (i === 1) {
-        html += '<div class="pausa"><!-- ESPACIO PUBLICITARIO: reemplaza este div por tu bloque de AdSense --><div class="anuncio"><small>PUBLICIDAD</small>Espacio para anunciante</div></div>';
-      }
+      // ESPACIO PUBLICITARIO (oculto hasta que AdSense apruebe el sitio): aquí, después de la 2.ª fila, va un bloque de AdSense
     });
 
     const cats = [['Conciertos', 'concierto', 'cultural'], ['Fútbol y deporte', 'futbol', 'aire'], ['Teatro y stand up', 'teatro', 'cultural'],
