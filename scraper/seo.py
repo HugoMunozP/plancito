@@ -171,6 +171,8 @@ def main():
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0F0A1F">
 <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<meta name="google-adsense-account" content="ca-pub-6793461025090493">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6793461025090493" crossorigin="anonymous"></script>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>
 body{{margin:0;background:#0F0A1F;color:#F4F1FA;font:16px/1.55 Inter,system-ui,sans-serif}}
