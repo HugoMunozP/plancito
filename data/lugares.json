@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T13:34-05:00",
+ "actualizado": "2026-11-23T17:43-05:00",
  "lugares": [
   {
    "nombre": "Excursión a Ica y Huacachina + Islas Ballestas en grupo reducido",
@@ -7,7 +7,7 @@
    "categoria": "Full day",
    "tipo": "aire",
    "precio": 226,
-   "calificacion": 4.35,
+   "calificacion": 4.3,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-ica-huacachina-islas-ballestas-list.jpg",
    "url": "https://www.civitatis.com/es/lima/excursion-ica-huacachina-islas-ballestas/",
@@ -45,7 +45,7 @@
    "lugar": "Desde Lima",
    "categoria": "Full day",
    "tipo": "aire",
-   "precio": 249.29,
+   "precio": 251.07,
    "calificacion": null,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/excursion-paracas-huacachina-list.jpg",
@@ -67,6 +67,19 @@
    "imagen_local": "img/cache/57e4167025efe019.webp"
   },
   {
+   "nombre": "Tour de Lima al completo con entradas",
+   "lugar": "Desde Lima",
+   "categoria": "Full day",
+   "tipo": "aire",
+   "precio": 454.85,
+   "calificacion": 4.9,
+   "atributos": [],
+   "imagen": "https://www.civitatis.com/f/peru/lima/tour-lima-completo-list.jpg",
+   "url": "https://www.civitatis.com/es/lima/tour-lima-completo/",
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/b769eb8e5093bf89.webp"
+  },
+  {
    "nombre": "Free tour por Barranco",
    "lugar": "Lima",
    "categoria": "Free tour",
@@ -78,45 +91,6 @@
    "url": "https://www.civitatis.com/es/lima/free-tour-barranco/",
    "fuente": "Civitatis",
    "imagen_local": "img/cache/6a1680360afccc2c.webp"
-  },
-  {
-   "nombre": "Tour privado por Lima",
-   "lugar": "Lima",
-   "categoria": "Tour",
-   "tipo": "cultural",
-   "precio": 386.58,
-   "calificacion": 4.75,
-   "atributos": [],
-   "imagen": "https://www.civitatis.com/f/peru/lima/tour-privado-lima-list.jpg",
-   "url": "https://www.civitatis.com/es/lima/tour-privado-lima/",
-   "fuente": "Civitatis",
-   "imagen_local": "img/cache/f635406c61452784.webp"
-  },
-  {
-   "nombre": "Tour de Lima al completo con entradas",
-   "lugar": "Desde Lima",
-   "categoria": "Full day",
-   "tipo": "aire",
-   "precio": 451.61,
-   "calificacion": 4.9,
-   "atributos": [],
-   "imagen": "https://www.civitatis.com/f/peru/lima/tour-lima-completo-list.jpg",
-   "url": "https://www.civitatis.com/es/lima/tour-lima-completo/",
-   "fuente": "Civitatis",
-   "imagen_local": "img/cache/b769eb8e5093bf89.webp"
-  },
-  {
-   "nombre": "Tour por Miraflores y Huaca Pucllana",
-   "lugar": "Lima",
-   "categoria": "Tour",
-   "tipo": "cultural",
-   "precio": 93.5,
-   "calificacion": 4.85,
-   "atributos": [],
-   "imagen": "https://www.civitatis.com/f/peru/lima/tour-miraflores-huaca-pucllana-list.jpg",
-   "url": "https://www.civitatis.com/es/lima/tour-miraflores-huaca-pucllana/",
-   "fuente": "Civitatis",
-   "imagen_local": "img/cache/fa9ad27214f1dc13.webp"
   },
   {
    "nombre": "Tour por Lima",
@@ -132,11 +106,37 @@
    "imagen_local": "img/cache/4581cd033e77b3ca.webp"
   },
   {
+   "nombre": "Tour privado por Lima",
+   "lugar": "Lima",
+   "categoria": "Tour",
+   "tipo": "cultural",
+   "precio": 389.35,
+   "calificacion": 4.75,
+   "atributos": [],
+   "imagen": "https://www.civitatis.com/f/peru/lima/tour-privado-lima-list.jpg",
+   "url": "https://www.civitatis.com/es/lima/tour-privado-lima/",
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/f635406c61452784.webp"
+  },
+  {
+   "nombre": "Tour por Miraflores y Huaca Pucllana",
+   "lugar": "Lima",
+   "categoria": "Tour",
+   "tipo": "cultural",
+   "precio": 93.5,
+   "calificacion": 4.8,
+   "atributos": [],
+   "imagen": "https://www.civitatis.com/f/peru/lima/tour-miraflores-huaca-pucllana-list.jpg",
+   "url": "https://www.civitatis.com/es/lima/tour-miraflores-huaca-pucllana/",
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/fa9ad27214f1dc13.webp"
+  },
+  {
    "nombre": "Tour del vino por Lima",
    "lugar": "Lima",
    "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 198.71,
+   "precio": 200.13,
    "calificacion": null,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-quesos-vinos-list.jpg",
@@ -158,11 +158,24 @@
    "imagen_local": "img/cache/cd001cece5099550.webp"
   },
   {
+   "nombre": "Tour panorámico por Lima + Entrada al convento de Santo Domingo",
+   "lugar": "Lima",
+   "categoria": "Tour",
+   "tipo": "cultural",
+   "precio": 127.35,
+   "calificacion": 4.2,
+   "atributos": [],
+   "imagen": "https://www.civitatis.com/f/peru/lima/tour-panoramico-lima-list.jpg",
+   "url": "https://www.civitatis.com/es/lima/tour-panoramico-lima/",
+   "fuente": "Civitatis",
+   "imagen_local": "img/cache/0477b74c6b7d506f.webp"
+  },
+  {
    "nombre": "Taller de ceviche en Lima",
    "lugar": "Lima",
    "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 162.58,
+   "precio": 163.74,
    "calificacion": 4.95,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/taller-ceviche-lima-list.jpg",
@@ -201,7 +214,7 @@
    "lugar": "Lima",
    "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 250.48,
+   "precio": 252.28,
    "calificacion": 4.8,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/tour-gastronomico-taller-cocina-list.jpg",
@@ -214,7 +227,7 @@
    "lugar": "Lima",
    "categoria": "Tour",
    "tipo": "cultural",
-   "precio": 249.29,
+   "precio": 251.07,
    "calificacion": 4.65,
    "atributos": [],
    "imagen": "https://www.civitatis.com/f/peru/lima/paseo-barco-islas-palomino-list.jpg",
@@ -956,10 +969,10 @@
    "calificacion": null,
    "atributos": [],
    "salidas": "Diarias",
-   "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/Mirador-dorado-sobre-la-ciudad-768x768.png",
+   "imagen": "https://www.incatrilogytours.com/wp-content/uploads/2021/11/tuk-tuk.jpg",
    "url": "https://www.incatrilogytours.com/tour/tour-de-contrastes-de-lima-lima-desde-los-cielos/",
    "fuente": "Inca Trilogy Tours",
-   "imagen_local": "img/cache/472a3d31c8b2dc42.webp"
+   "imagen_local": "img/cache/46715d7b41076449.webp"
   },
   {
    "nombre": "Pachacamac, Barranco y Callao Monumental: Tres Rostros de Lima",
