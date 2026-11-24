@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-23T17:43-05:00",
+ "actualizado": "2026-11-24T16:14-05:00",
  "eventos": [
   {
    "nombre": "7 Concurso De Narrativa Gráfica",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
    "hora": "10:00 am",
    "lugar": "La Molina",
    "categoria": "Comic",
@@ -17,8 +17,8 @@
   },
   {
    "nombre": "Algo Mas Cerca De La Verdad",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
    "hora": "10:00 am",
    "lugar": "Santa Anita",
    "categoria": "Exposición",
@@ -28,314 +28,6 @@
    "url": "https://entradalibre.me/event/algo-mas-cerca-de-la-verdad-3/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/1ebd579c804697db.webp"
-  },
-  {
-   "nombre": "Biblioteca Nacional Del Perú",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "San Borja",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/04/260327LIEXSANBIB.jpg",
-   "url": "https://entradalibre.me/event/biblioteca-nacional-del-peru/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/5e9a5ccd4e625bc6.webp"
-  },
-  {
-   "nombre": "Celebrando Nuestra Música Peruana",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "7:00 pm",
-   "lugar": "San Miguel",
-   "categoria": "Concierto",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123MUCOSANCEL.jpg",
-   "url": "https://entradalibre.me/event/celebrando-nuestra-musica-peruana/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/748955585393cf6a.webp"
-  },
-  {
-   "nombre": "Centenario De La Revista Amauta",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "Cercado de Lima",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261030LIEXCERCEN-scaled.jpg",
-   "url": "https://entradalibre.me/event/centenario-de-la-revista-amauta/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/15821e58742fa990.webp"
-  },
-  {
-   "nombre": "Chambi Itinerante",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "Jesús María",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261105FOEXJESCHA-scaled.jpg",
-   "url": "https://entradalibre.me/event/chambi-itinerante-2/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/4d23e1dfa5db7013.webp"
-  },
-  {
-   "nombre": "Corto De Boleto Xxii Edición",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "5:00 pm",
-   "lugar": "Santiago de Surco",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/semana-de-cine.jpg",
-   "url": "https://entradalibre.me/event/corto-de-boleto-xxii-edicion/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/ce6086c29f93a0d4.webp"
-  },
-  {
-   "nombre": "David Bowie: Station To Station",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "10:00 am",
-   "lugar": "Miraflores",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261029MUEXMIRDAV.jpg",
-   "url": "https://entradalibre.me/event/david-bowie-station-to-station/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/bbc6ec10096259fb.webp"
-  },
-  {
-   "nombre": "Die Mauer – El Muro",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "Miraflores",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261110PIEXMIRDIE-scaled.jpg",
-   "url": "https://entradalibre.me/event/die-mauer-el-muro/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/0bff5b9432def1bd.webp"
-  },
-  {
-   "nombre": "El Arte De Mirarnos",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "10:00 am",
-   "lugar": "Miraflores",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261105FOEXMIRELA.jpg",
-   "url": "https://entradalibre.me/event/el-arte-de-mirarnos/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/76526b76d452fb2f.webp"
-  },
-  {
-   "nombre": "El Instante Antes",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "10:00 am",
-   "lugar": "Santiago de Surco",
-   "categoria": "Artes visuales",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/f770fe33-6c43-4254-a060-8e4241c87ed4.jpg",
-   "url": "https://entradalibre.me/event/el-instante-antes/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/9c317e6ca9684669.webp"
-  },
-  {
-   "nombre": "El Matrimonio De María Braun",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "4:00 pm",
-   "lugar": "Santiago de Surco",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/tXjZEzlf4WQwZ4Dt53gXeJVuO7p.webp",
-   "url": "https://entradalibre.me/event/el-matrimonio-de-maria-braun/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/01a97200b1b56604.webp"
-  },
-  {
-   "nombre": "En El Principio Solo Existía Agua Y Oscuridad",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "Santiago de Surco",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261023TEEXSANENE.jpg",
-   "url": "https://entradalibre.me/event/en-el-principio-solo-existia-agua-y-oscuridad/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/32d898251b149545.webp"
-  },
-  {
-   "nombre": "Expo 100: 100 Dibujos De 100 Cafeterías",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "8:00 am",
-   "lugar": "Barranco",
-   "categoria": "Dibujo",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/EXPO-100-AFICHE.png",
-   "url": "https://entradalibre.me/event/expo-100-100-dibujos-de-100-cafeterias/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/db7a54c5ddc6b3a8.webp"
-  },
-  {
-   "nombre": "Futures Archive",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "9:00 am",
-   "lugar": "Cercado de Lima",
-   "categoria": "Diseño",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119DIEXCERFUT.jpg",
-   "url": "https://entradalibre.me/event/futures-archive/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/5e5fc092853a95e6.webp"
-  },
-  {
-   "nombre": "La Eternidad en sus ojos",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "8:00 pm",
-   "lugar": "Teatro De Lucía - Bellavista",
-   "categoria": "Teatro",
-   "tipo": "cultural",
-   "precio": 25,
-   "imagen": "https://cdn.joinnus.com/images/79152/main/0ZHjqoR7iX0uMYP.webp",
-   "url": "https://www.joinnus.com/events/theater/lima-la-eternidad-en-sus-ojos-79152",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/32a01698e71db385.webp"
-  },
-  {
-   "nombre": "La Gradiva",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "8:15 pm",
-   "lugar": "Santiago de Surco",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/SaveClip.App_874685482_18039118079838921_2291832498908979836_n-scaled.jpg",
-   "url": "https://entradalibre.me/event/la-gradiva/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/2b584592fb65085e.webp"
-  },
-  {
-   "nombre": "Memoria A Pantallazos",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "10:00 am",
-   "lugar": "Miraflores",
-   "categoria": "Exposición",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/261001PIEXMIRMEM.jpg",
-   "url": "https://entradalibre.me/event/memoria-a-pantallazos-2/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/2475a63c017e6a7c.webp"
-  },
-  {
-   "nombre": "MIENTRAS ESCRIBES",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "8:00 pm",
-   "lugar": "Centro Cultural Ricardo Palma - Miraflores",
-   "categoria": "Teatro",
-   "tipo": "cultural",
-   "precio": 30,
-   "imagen": "https://cdn.joinnus.com/images/79997/main/2l2JsGHWLl4f0Eb.webp",
-   "url": "https://www.joinnus.com/events/theater/lima-mientras-escribes-79997",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/236b158c9e434cc1.webp"
-  },
-  {
-   "nombre": "No Matar",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "7:00 pm",
-   "lugar": "Santiago de Surco",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/5bJJ68KvQUhD1mRYtq8lAgVHFbs.webp",
-   "url": "https://entradalibre.me/event/no-matar/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/31fb24c9a334ce4e.webp"
-  },
-  {
-   "nombre": "NOFX: 40 Years of Fuckin’ Up + El Hefe en Lima 2026",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "8:00 pm",
-   "lugar": "Ccpucp - San Isidro",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 99,
-   "imagen": "https://cdn.joinnus.com/images/80156/main/Asr0cUOItcOyAf8.webp",
-   "url": "https://www.joinnus.com/events/cine/lima-nofx-40-years-of-fuckin-up-el-hefe-en-lima-2026-80156",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/ddf70f0d720e4d74.webp"
-  },
-  {
-   "nombre": "Recordé La Ladera De Un Cerro",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "10:00 am",
-   "lugar": "San Miguel",
-   "categoria": "Dibujo",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118DIEXSANREC.webp",
-   "url": "https://entradalibre.me/event/recorde-la-ladera-de-un-cerro/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/7bdf88341359f267.webp"
-  },
-  {
-   "nombre": "Shahid",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "6:00 pm",
-   "lugar": "Jesús María",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123CIPRJESSHA.jpg",
-   "url": "https://entradalibre.me/event/shahid-4/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/b406814c1d995b44.webp"
-  },
-  {
-   "nombre": "Su Propio Infierno",
-   "inicio": "2026-11-23",
-   "fin": "2026-11-23",
-   "hora": "6:00 pm",
-   "lugar": "Cercado de Lima",
-   "categoria": "Cine",
-   "tipo": "cine",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123CIPRCERSUP.webp",
-   "url": "https://entradalibre.me/event/su-propio-infierno/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/77d2ca3405566aab.webp"
   },
   {
    "nombre": "Altares De Piedra Y Arena",
@@ -366,20 +58,6 @@
    "imagen_local": "img/cache/591142b36c99bbbe.webp"
   },
   {
-   "nombre": "Artrotheca en el Jockey Plaza",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-24",
-   "hora": "12:00 pm",
-   "lugar": "Jockey Plaza - Santiago de Surco",
-   "categoria": "Show",
-   "tipo": "cultural",
-   "precio": 17.9,
-   "imagen": "https://cdn.joinnus.com/user/5060753/WgMxSlnjmOyEwz3.webp",
-   "url": "https://www.joinnus.com/events/entertainment/lima-artrotheca-en-el-jockey-plaza-76042",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/7279a867491d74e5.webp"
-  },
-  {
    "nombre": "Asistencia De Dirección",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -392,6 +70,20 @@
    "url": "https://entradalibre.me/event/asistencia-de-direccion/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/8c8edffd4a1e61a7.webp"
+  },
+  {
+   "nombre": "Biblioteca Nacional Del Perú",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "9:00 am",
+   "lugar": "San Borja",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/04/260327LIEXSANBIB.jpg",
+   "url": "https://entradalibre.me/event/biblioteca-nacional-del-peru/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5e9a5ccd4e625bc6.webp"
   },
   {
    "nombre": "Buenos Días, Mario",
@@ -422,34 +114,6 @@
    "imagen_local": "img/cache/7f7dfc0edbcedce9.webp"
   },
   {
-   "nombre": "Campanas Bajo El Mar",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-24",
-   "hora": "7:00 pm",
-   "lugar": "San Isidro",
-   "categoria": "Poesía",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124POPRSANCAM.jpg",
-   "url": "https://entradalibre.me/event/campanas-bajo-el-mar/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/c7a0098bf294c1f9.webp"
-  },
-  {
-   "nombre": "Campeonato de Atletismo Adecore 2026 - Campeonato de Atletismo Adecore 2026",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-26",
-   "hora": "",
-   "lugar": "Complejo Deportivo Andrés Avelino Cáceres - Lima",
-   "categoria": "Deporte",
-   "tipo": "aire",
-   "precio": 20,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/ADE006_calugalistado.jpg?v=1795196824",
-   "url": "https://teleticket.com.pe/evento/campeonato-de-atletismo-adecore-2026",
-   "fuente": "Teleticket",
-   "imagen_local": "img/cache/970754d4cd29e65c.webp"
-  },
-  {
    "nombre": "Caral: Vida En Armonía Con La Naturaleza Megadiversa",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -478,18 +142,32 @@
    "imagen_local": "img/cache/f3d5929e9ba47728.webp"
   },
   {
-   "nombre": "CITY TOUR PRIVADO EN LIMA - CATACUMBA DE SAN FRANCISCO 2026",
+   "nombre": "Centenario De La Revista Amauta",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
-   "hora": "10:00 am",
-   "lugar": "Lima",
-   "categoria": "Paseo",
-   "tipo": "aire",
-   "precio": 110,
-   "imagen": "https://cdn.joinnus.com/user/5060753/act695c3c524904e.jpg",
-   "url": "https://www.joinnus.com/events/trip-adventure/lima-city-tour-privado-en-lima-catacumba-de-san-francisco-2026-73781",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/8a9249b13f27b00e.webp"
+   "hora": "9:00 am",
+   "lugar": "Cercado de Lima",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261030LIEXCERCEN-scaled.jpg",
+   "url": "https://entradalibre.me/event/centenario-de-la-revista-amauta/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/15821e58742fa990.webp"
+  },
+  {
+   "nombre": "Chambi Itinerante",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "9:00 am",
+   "lugar": "Jesús María",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261105FOEXJESCHA-scaled.jpg",
+   "url": "https://entradalibre.me/event/chambi-itinerante-2/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/4d23e1dfa5db7013.webp"
   },
   {
    "nombre": "Competencia Estudiantil Bloque A",
@@ -504,6 +182,34 @@
    "url": "https://entradalibre.me/event/competencia-estudiantil-bloque-a/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/0df0064c753f2356.webp"
+  },
+  {
+   "nombre": "David Bowie: Station To Station",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "10:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261029MUEXMIRDAV.jpg",
+   "url": "https://entradalibre.me/event/david-bowie-station-to-station/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bbc6ec10096259fb.webp"
+  },
+  {
+   "nombre": "Die Mauer – El Muro",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "9:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261110PIEXMIRDIE-scaled.jpg",
+   "url": "https://entradalibre.me/event/die-mauer-el-muro/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/0bff5b9432def1bd.webp"
   },
   {
    "nombre": "Doble Función!",
@@ -548,6 +254,34 @@
    "imagen_local": "img/cache/7ddf6e0633eed4a9.webp"
   },
   {
+   "nombre": "El Arte De Mirarnos",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "10:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Exposición",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261105FOEXMIRELA.jpg",
+   "url": "https://entradalibre.me/event/el-arte-de-mirarnos/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/76526b76d452fb2f.webp"
+  },
+  {
+   "nombre": "El Instante Antes",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "10:00 am",
+   "lugar": "Santiago de Surco",
+   "categoria": "Artes visuales",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/f770fe33-6c43-4254-a060-8e4241c87ed4.jpg",
+   "url": "https://entradalibre.me/event/el-instante-antes/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/9c317e6ca9684669.webp"
+  },
+  {
    "nombre": "El Niño Probeta",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -590,18 +324,18 @@
    "imagen_local": "img/cache/9d1d9d8d439d1fc4.webp"
   },
   {
-   "nombre": "En el principio solo existía Agua y Oscuridad",
+   "nombre": "En El Principio Solo Existía Agua Y Oscuridad",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
    "hora": "9:00 am",
-   "lugar": "Centro Cultural De La Universidad De Lima - Santiago de Surco",
-   "categoria": "Cultura",
+   "lugar": "Santiago de Surco",
+   "categoria": "Exposición",
    "tipo": "cultural",
    "precio": 0,
-   "imagen": "https://cdn.joinnus.com/images/79715/main/6lsiRvwLU07IJSU.webp",
-   "url": "https://www.joinnus.com/events/art-culture/lima-en-el-principio-solo-existia-agua-y-oscuridad-79715",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/3c1f38e51620de6d.webp"
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/10/261023TEEXSANENE.jpg",
+   "url": "https://entradalibre.me/event/en-el-principio-solo-existia-agua-y-oscuridad/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/32d898251b149545.webp"
   },
   {
    "nombre": "Entre Mar Y Materia",
@@ -632,6 +366,20 @@
    "imagen_local": "img/cache/8b599bf325cda808.webp"
   },
   {
+   "nombre": "Expo 100: 100 Dibujos De 100 Cafeterías",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "8:00 am",
+   "lugar": "Barranco",
+   "categoria": "Dibujo",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/EXPO-100-AFICHE.png",
+   "url": "https://entradalibre.me/event/expo-100-100-dibujos-de-100-cafeterias/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/db7a54c5ddc6b3a8.webp"
+  },
+  {
    "nombre": "Fedra",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -646,18 +394,18 @@
    "imagen_local": "img/cache/e4ed9087af7f54e6.webp"
   },
   {
-   "nombre": "Full Day Paracas - Ica - Laguna de Huacachina 2026 - Full Day Paracas - Ica - Laguana de Huacachina 2026",
+   "nombre": "Futures Archive",
    "inicio": "2026-11-24",
-   "fin": "2026-11-25",
-   "hora": "",
-   "lugar": "Punto de Reunion Cc.plaza Norte - Lima",
-   "categoria": "Show",
+   "fin": "2026-11-24",
+   "hora": "9:00 am",
+   "lugar": "Cercado de Lima",
+   "categoria": "Diseño",
    "tipo": "cultural",
-   "precio": 16,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE075_calugalistado.jpg?v=1794679850",
-   "url": "https://teleticket.com.pe/evento/full-day-paracas-ica-laguana-de-huacachina-2026",
-   "fuente": "Teleticket",
-   "imagen_local": "img/cache/00989669e6a70c6e.webp"
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119DIEXCERFUT.jpg",
+   "url": "https://entradalibre.me/event/futures-archive/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/5e5fc092853a95e6.webp"
   },
   {
    "nombre": "Gran Medio Tazón - Torneo de Stand-up Comedy",
@@ -744,6 +492,20 @@
    "imagen_local": "img/cache/3e5dda20e8ac3655.webp"
   },
   {
+   "nombre": "La Eternidad en sus ojos",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "8:00 pm",
+   "lugar": "Teatro De Lucía - Bellavista",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 25,
+   "imagen": "https://cdn.joinnus.com/images/79152/main/0ZHjqoR7iX0uMYP.webp",
+   "url": "https://www.joinnus.com/events/theater/lima-la-eternidad-en-sus-ojos-79152",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/32a01698e71db385.webp"
+  },
+  {
    "nombre": "La Tropicana",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -814,32 +576,18 @@
    "imagen_local": "img/cache/a50141298a518ea2.webp"
   },
   {
-   "nombre": "Miski Takiy",
+   "nombre": "Memoria A Pantallazos",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
-   "hora": "9:00 am",
-   "lugar": "Magdalena del Mar",
-   "categoria": "Concierto",
+   "hora": "10:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Exposición",
    "tipo": "cultural",
    "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124MUCOMAGMIS.jpg",
-   "url": "https://entradalibre.me/event/miski-takiy/",
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/09/261001PIEXMIRMEM.jpg",
+   "url": "https://entradalibre.me/event/memoria-a-pantallazos-2/",
    "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/48e07a81a54433df.webp"
-  },
-  {
-   "nombre": "Mobile Filmmaking",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-24",
-   "hora": "1:00 pm",
-   "lugar": "Los Olivos",
-   "categoria": "Taller",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124CITALOSMOB.webp",
-   "url": "https://entradalibre.me/event/mobile-filmmaking/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/ee689ac0e97f3da8.webp"
+   "imagen_local": "img/cache/2475a63c017e6a7c.webp"
   },
   {
    "nombre": "Muestra De Cortometrajes Suburbia",
@@ -854,20 +602,6 @@
    "url": "https://entradalibre.me/event/muestra-de-cortometrajes-suburbia/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/dc214d6357b8a7d6.webp"
-  },
-  {
-   "nombre": "Muestra De Cortos Fuera De Competencia",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-24",
-   "hora": "1:00 pm",
-   "lugar": "San Martín de Porres",
-   "categoria": "Proyección",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/suburbia.jpeg",
-   "url": "https://entradalibre.me/event/muestra-de-cortos-fuera-de-competencia/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/3986a5d7e79b560a.webp"
   },
   {
    "nombre": "Muestra De Cortos Fuera De Competencia",
@@ -940,6 +674,20 @@
    "imagen_local": "img/cache/8d1b167b8ab2fc26.webp"
   },
   {
+   "nombre": "Recordé La Ladera De Un Cerro",
+   "inicio": "2026-11-24",
+   "fin": "2026-11-24",
+   "hora": "10:00 am",
+   "lugar": "San Miguel",
+   "categoria": "Dibujo",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118DIEXSANREC.webp",
+   "url": "https://entradalibre.me/event/recorde-la-ladera-de-un-cerro/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7bdf88341359f267.webp"
+  },
+  {
    "nombre": "Sinfonías De Primavera",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
@@ -982,18 +730,18 @@
    "imagen_local": "img/cache/aed33e9eba3aa66b.webp"
   },
   {
-   "nombre": "Una Ilusa Rosa Azul En El Desierto",
+   "nombre": "Un Recorrido Por El Perú",
    "inicio": "2026-11-24",
    "fin": "2026-11-24",
-   "hora": "12:00 pm",
+   "hora": "8:30 am",
    "lugar": "Cercado de Lima",
-   "categoria": "Literatura",
+   "categoria": "Exposición",
    "tipo": "cultural",
    "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124LIPRCERUNA.jpg",
-   "url": "https://entradalibre.me/event/una-ilusa-rosa-azul-en-el-desierto/",
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/AFICHE-MUESTRA-DOCUMENTAL-MEF.jpeg",
+   "url": "https://entradalibre.me/event/un-recorrido-por-el-peru/",
    "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/ec9f6aa404021103.webp"
+   "imagen_local": "img/cache/4bdeb0c91a9eb38e.webp"
   },
   {
    "nombre": "Una Mirada Británica: Kate Hepburn",
@@ -1008,20 +756,6 @@
    "url": "https://entradalibre.me/event/una-mirada-britanica-kate-hepburn/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/c82018b5c773e814.webp"
-  },
-  {
-   "nombre": "Voces Por La Tierra",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-24",
-   "hora": "12:00 pm",
-   "lugar": "San Miguel",
-   "categoria": "Conversatorio",
-   "tipo": "cultural",
-   "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261124MECOSANVOC.webp",
-   "url": "https://entradalibre.me/event/voces-por-la-tierra/",
-   "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/9f9349e2866bb669.webp"
   },
   {
    "nombre": "Xiv Salón Internacional De Arte Con Derechos",
@@ -1050,20 +784,6 @@
    "url": "https://www.joinnus.com/events/concerts/lima-yield-live-sessions-nro-11-presenta-black-lion-80038",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/4ab603b6c8d4410f.webp"
-  },
-  {
-   "nombre": "¡tour Paracas + Ica + Chincha 2d/1n Con Rutas Incas! - ¡Tour Paracas + Huacachina 2D/1N! Hospedaje, Piscina, Ballestas y más",
-   "inicio": "2026-11-24",
-   "fin": "2026-11-26",
-   "hora": "",
-   "lugar": "Lima",
-   "categoria": "Especiales",
-   "tipo": "cultural",
-   "precio": 4,
-   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP178_calugalistado.jpg?v=1794833655",
-   "url": "https://teleticket.com.pe/evento/tour-paracas-huacachina-2d-1n-hospedaje-piscina-ba",
-   "fuente": "Teleticket",
-   "imagen_local": "img/cache/26927a1af18a569b.webp"
   },
   {
    "nombre": "“EN BUSCA DEL AMOR ”",
@@ -1108,6 +828,20 @@
    "imagen_local": "img/cache/6fdde61828576ff3.webp"
   },
   {
+   "nombre": "Artrotheca en el Jockey Plaza",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "12:00 pm",
+   "lugar": "Jockey Plaza - Santiago de Surco",
+   "categoria": "Show",
+   "tipo": "cultural",
+   "precio": 17.9,
+   "imagen": "https://cdn.joinnus.com/user/5060753/WgMxSlnjmOyEwz3.webp",
+   "url": "https://www.joinnus.com/events/entertainment/lima-artrotheca-en-el-jockey-plaza-76042",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/7279a867491d74e5.webp"
+  },
+  {
    "nombre": "BAR CRAWL LIMA: RUTA DE BARES POR MIRAFLORES",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
@@ -1150,6 +884,20 @@
    "imagen_local": "img/cache/696596411b634c87.webp"
   },
   {
+   "nombre": "Campeonato de Atletismo Adecore 2026 - Campeonato de Atletismo Adecore 2026",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-26",
+   "hora": "",
+   "lugar": "Complejo Deportivo Andrés Avelino Cáceres - Lima",
+   "categoria": "Deporte",
+   "tipo": "aire",
+   "precio": 20,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/ADE006_calugalistado.jpg?v=1795196824",
+   "url": "https://teleticket.com.pe/evento/campeonato-de-atletismo-adecore-2026",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/970754d4cd29e65c.webp"
+  },
+  {
    "nombre": "CERO MIGAJEROS LAURA Y CARLOS",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
@@ -1162,6 +910,20 @@
    "url": "https://www.joinnus.com/events/theater/lima-cero-migajeros-laura-y-carlos-79768",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/2bb267027f82add0.webp"
+  },
+  {
+   "nombre": "CITY TOUR PRIVADO EN LIMA - CATACUMBA DE SAN FRANCISCO 2026",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "10:00 am",
+   "lugar": "Lima",
+   "categoria": "Paseo",
+   "tipo": "aire",
+   "precio": 110,
+   "imagen": "https://cdn.joinnus.com/user/5060753/act695c3c524904e.jpg",
+   "url": "https://www.joinnus.com/events/trip-adventure/lima-city-tour-privado-en-lima-catacumba-de-san-francisco-2026-73781",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/8a9249b13f27b00e.webp"
   },
   {
    "nombre": "Conociendo Miraflores",
@@ -1192,18 +954,32 @@
    "imagen_local": "img/cache/3189977c26a2a74d.webp"
   },
   {
-   "nombre": "Días De Santiago",
+   "nombre": "Día Del Músico",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
-   "hora": "6:00 pm",
+   "hora": "7:30 pm",
    "lugar": "Cercado de Lima",
-   "categoria": "Cine",
-   "tipo": "cine",
+   "categoria": "Concierto",
+   "tipo": "cultural",
    "precio": 0,
-   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261125CIPRCERDIA.webp",
-   "url": "https://entradalibre.me/event/dias-de-santiago-5/",
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123MUCOCERCON.jpg",
+   "url": "https://entradalibre.me/event/dia-del-musico-3/",
    "fuente": "EntradaLibre",
-   "imagen_local": "img/cache/a7e4dfb2c6f03c18.webp"
+   "imagen_local": "img/cache/b845776abcdebbcf.webp"
+  },
+  {
+   "nombre": "El Club De Las Ex",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "7:30 pm",
+   "lugar": "San Martín de Porres",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261123TEPUMIRELC.jpg",
+   "url": "https://entradalibre.me/event/el-club-de-las-ex/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/46805c1a353d881f.webp"
   },
   {
    "nombre": "El Cronista Dibujante",
@@ -1223,7 +999,7 @@
    "nombre": "El Tribunal del Karma",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
-   "hora": "9:30 pm",
+   "hora": "8:00 pm",
    "lugar": "Enemys House - Barranco",
    "categoria": "Stand up",
    "tipo": "cultural",
@@ -1248,6 +1024,20 @@
    "imagen_local": "img/cache/653aee8cf67a3178.webp"
   },
   {
+   "nombre": "En el principio solo existía Agua y Oscuridad",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "9:00 am",
+   "lugar": "Centro Cultural De La Universidad De Lima - Santiago de Surco",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://cdn.joinnus.com/images/79715/main/6lsiRvwLU07IJSU.webp",
+   "url": "https://www.joinnus.com/events/art-culture/lima-en-el-principio-solo-existia-agua-y-oscuridad-79715",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/3c1f38e51620de6d.webp"
+  },
+  {
    "nombre": "Esotéricos",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
@@ -1260,6 +1050,20 @@
    "url": "https://www.joinnus.com/events/stand-up/lima-esotericos-80150",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/e34ff5b966574f5a.webp"
+  },
+  {
+   "nombre": "Full Day Paracas - Ica - Laguna de Huacachina 2026 - Full Day Paracas - Ica - Laguana de Huacachina 2026",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "",
+   "lugar": "Punto de Reunion Cc.plaza Norte - Lima",
+   "categoria": "Show",
+   "tipo": "cultural",
+   "precio": 16,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RPE075_calugalistado.jpg?v=1794679850",
+   "url": "https://teleticket.com.pe/evento/full-day-paracas-ica-laguana-de-huacachina-2026",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/00989669e6a70c6e.webp"
   },
   {
    "nombre": "Habitar El Espacio",
@@ -1358,6 +1162,20 @@
    "url": "https://entradalibre.me/event/la-historia-de-la-uni-2/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/66b618beab87f066.webp"
+  },
+  {
+   "nombre": "La Wachi - Humor de Barrio",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-25",
+   "hora": "8:00 pm",
+   "lugar": "La Posada Del Mirador - Barranco",
+   "categoria": "Stand up",
+   "tipo": "cultural",
+   "precio": 30,
+   "imagen": "https://cdn.joinnus.com/images/80791/main/r7GmYJWvcffCUL1.webp",
+   "url": "https://www.joinnus.com/events/stand-up/lima-la-wachi-humor-de-barrio-80791",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/3d7ae61281c6981c.webp"
   },
   {
    "nombre": "Lima Inefable",
@@ -1682,6 +1500,20 @@
    "imagen_local": "img/cache/8e93b64471bae7ad.webp"
   },
   {
+   "nombre": "¡tour Paracas + Ica + Chincha 2d/1n Con Rutas Incas! - ¡Tour Paracas + Huacachina 2D/1N! Hospedaje, Piscina, Ballestas y más",
+   "inicio": "2026-11-25",
+   "fin": "2026-11-26",
+   "hora": "",
+   "lugar": "Lima",
+   "categoria": "Especiales",
+   "tipo": "cultural",
+   "precio": 4,
+   "imagen": "https://cdn.teleticket.com.pe/event-resources/images/RIP178_calugalistado.jpg?v=1794833655",
+   "url": "https://teleticket.com.pe/evento/tour-paracas-huacachina-2d-1n-hospedaje-piscina-ba",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/26927a1af18a569b.webp"
+  },
+  {
    "nombre": "¿Qué Le Falta A Tu Proyecto Para Que Sea Seleccionado?",
    "inicio": "2026-11-25",
    "fin": "2026-11-25",
@@ -1752,18 +1584,18 @@
    "imagen_local": "img/cache/93c65219fd12a236.webp"
   },
   {
-   "nombre": "BITS | Lo mejor de la stand-up de Lima",
+   "nombre": "Brazil",
    "inicio": "2026-11-26",
    "fin": "2026-11-26",
-   "hora": "8:30 pm",
-   "lugar": "4 Queens Bar - Miraflores",
-   "categoria": "Stand up",
-   "tipo": "cultural",
-   "precio": 25,
-   "imagen": "https://cdn.joinnus.com/images/71783/main/S9HAF2SqlkY3sd1.webp",
-   "url": "https://www.joinnus.com/events/stand-up/lima-bits-lo-mejor-de-la-standup-de-lima-71783",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/bf4c77c456b1055a.webp"
+   "hora": "6:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Cine",
+   "tipo": "cine",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261126CIPRCERBRA-1.webp",
+   "url": "https://entradalibre.me/event/brazil/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f9410fc7c9d6c071.webp"
   },
   {
    "nombre": "De Amores Y Banqueros Florentinos",
@@ -1792,20 +1624,6 @@
    "url": "https://www.joinnus.com/events/stand-up/lima-democomedy-el-poder-del-chiste-stand-up-comedy-80317",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/78616f0e56b5a2d8.webp"
-  },
-  {
-   "nombre": "DESENCUENTROS",
-   "inicio": "2026-11-26",
-   "fin": "2026-11-26",
-   "hora": "8:00 pm",
-   "lugar": "Sala Roja Ccpucp - San Isidro",
-   "categoria": "Teatro",
-   "tipo": "cultural",
-   "precio": 15,
-   "imagen": "https://cdn.joinnus.com/images/79815/main/QfBHxGjKlqwkyR8.webp",
-   "url": "https://www.joinnus.com/events/theater/lima-desencuentros-79815",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/9ea2b4fd39f74dd9.webp"
   },
   {
    "nombre": "Domina La Luz",
@@ -1878,6 +1696,20 @@
    "imagen_local": "img/cache/18e00e2e24682ed7.webp"
   },
   {
+   "nombre": "FEDRA",
+   "inicio": "2026-11-26",
+   "fin": "2026-11-26",
+   "hora": "8:00 pm",
+   "lugar": "Icpna Miraflores - Miraflores",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 25,
+   "imagen": "https://cdn.joinnus.com/images/79052/main/L9UmtgZxwWh7CSm.webp",
+   "url": "https://www.joinnus.com/events/theater/lima-fedra-79052",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/5af348d454cd023c.webp"
+  },
+  {
    "nombre": "Holi Christmas Pop Up",
    "inicio": "2026-11-26",
    "fin": "2026-11-26",
@@ -1948,6 +1780,20 @@
    "imagen_local": "img/cache/61bbf5e8d43a8af4.webp"
   },
   {
+   "nombre": "La Biblioteca Abre De Noche",
+   "inicio": "2026-11-26",
+   "fin": "2026-11-26",
+   "hora": "7:00 pm",
+   "lugar": "San Borja",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261126CUVISANLAB.jpg",
+   "url": "https://entradalibre.me/event/la-biblioteca-abre-de-noche-7/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/8912ac8e02ea01de.webp"
+  },
+  {
    "nombre": "La Noche Está Marchándose Ya",
    "inicio": "2026-11-26",
    "fin": "2026-11-26",
@@ -2002,6 +1848,20 @@
    "url": "https://www.joinnus.com/events/cine/lima-leonera-35-mm-80138",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/a5ab4ea63c629b22.webp"
+  },
+  {
+   "nombre": "Malaquita",
+   "inicio": "2026-11-26",
+   "fin": "2026-11-26",
+   "hora": "8:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261126MUCOCERMAL.jpg",
+   "url": "https://entradalibre.me/event/malaquita/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/1777c4123f27bfdf.webp"
   },
   {
    "nombre": "Mosaico Cultural",
@@ -2172,6 +2032,20 @@
    "imagen_local": "img/cache/5ab2da8bb17b4a71.webp"
   },
   {
+   "nombre": "TOMA Y DACA de Omar Velásquez",
+   "inicio": "2026-11-26",
+   "fin": "2026-11-26",
+   "hora": "8:00 pm",
+   "lugar": "Auditorio Icpna Lima Centro - Cercado de Lima",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 15,
+   "imagen": "https://cdn.joinnus.com/images/79903/main/9iDR9qYIWI7lZyR.webp",
+   "url": "https://www.joinnus.com/events/theater/lima-toma-y-daca-de-omar-velasquez-79903",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/84b14f7daea19823.webp"
+  },
+  {
    "nombre": "TOUR DEL MIEDO CEMENTERIO PRESBÍTERO SIN TRASLADO 2026",
    "inicio": "2026-11-26",
    "fin": "2026-11-26",
@@ -2198,6 +2072,20 @@
    "url": "https://www.joinnus.com/events/theater/lima-una-navidad-de-locos-77166",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/f1253ce41ff5ebc7.webp"
+  },
+  {
+   "nombre": "Visitas Guiadas Por Los 31 Años Del Ccsm",
+   "inicio": "2026-11-26",
+   "fin": "2026-11-26",
+   "hora": "10:00 am",
+   "lugar": "Cercado de Lima",
+   "categoria": "Patrimonio",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/visita-la-casona.jpeg",
+   "url": "https://entradalibre.me/event/visitas-guiadas-por-los-31-anos-del-ccsm/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/43f545fe0549841a.webp"
   },
   {
    "nombre": "Whiplash",
@@ -2240,6 +2128,20 @@
    "url": "https://teleticket.com.pe/evento/con-un-poco-de-azucar-teatro-peruano-japones",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/841e915621d2b46f.webp"
+  },
+  {
+   "nombre": "\"SEGUNDO ROSERO EN SCENCIA DE LA MOLINA\" JUNTO A LOS KIPUS Y LOS HNOS CASTRO",
+   "inicio": "2026-11-27",
+   "fin": "2026-11-27",
+   "hora": "8:00 pm",
+   "lugar": "Centro De Convenciones Scencia - La Molina",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 100,
+   "imagen": "https://cdn.joinnus.com/images/79727/main/w7BIldU3uVLi48w.webp",
+   "url": "https://www.joinnus.com/events/concerts/lima-segundo-rosero-en-scencia-de-la-molina-junto-a-los-kipus-y-los-hnos-castro-79727",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/fcdcc04b73a0c838.webp"
   },
   {
    "nombre": "Altares De Piedra Y Arena",
@@ -2368,6 +2270,20 @@
    "imagen_local": "img/cache/475a48f99e7f71ab.webp"
   },
   {
+   "nombre": "El Poder De La Chicha",
+   "inicio": "2026-11-27",
+   "fin": "2026-11-27",
+   "hora": "5:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Arqueología",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/ARQUEOLOGIA.jpeg",
+   "url": "https://entradalibre.me/event/el-poder-de-la-chicha/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d7a8be0bc2f84023.webp"
+  },
+  {
    "nombre": "Equipos Cinematográficos",
    "inicio": "2026-11-27",
    "fin": "2026-11-27",
@@ -2422,6 +2338,20 @@
    "url": "https://www.joinnus.com/events/entertainment/lima-explora-el-universo-desde-el-planetario-del-igp-80185",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/aa4fe4aa78399f9d.webp"
+  },
+  {
+   "nombre": "Feria Del Libro Ricardo Palma",
+   "inicio": "2026-11-27",
+   "fin": "2026-11-27",
+   "hora": "",
+   "lugar": "Miraflores",
+   "categoria": "Feria",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261127LIFEMIRFER-scaled.jpg",
+   "url": "https://entradalibre.me/event/feria-del-libro-ricardo-palma-2/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/d0f60b9c8e79e8e1.webp"
   },
   {
    "nombre": "Festival Del Libro Y La Lectura",
@@ -2492,6 +2422,20 @@
    "url": "https://www.joinnus.com/events/art-culture/lima-humo-en-la-neblina-79398",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/89cefb0ee68153d3.webp"
+  },
+  {
+   "nombre": "Iii Interfacultades De Teatro Sanmarquino",
+   "inicio": "2026-11-27",
+   "fin": "2026-11-27",
+   "hora": "3:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Festival",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261127TEFECERIII.jpg",
+   "url": "https://entradalibre.me/event/iii-interfacultades-de-teatro-sanmarquino/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/172397184c828e65.webp"
   },
   {
    "nombre": "Joyas Del Recuerdo",
@@ -2684,10 +2628,10 @@
    "categoria": "Show",
    "tipo": "cultural",
    "precio": 0,
-   "imagen": "https://cdn.joinnus.com/images/80721/main/3QfhXuD0AfinEeX.webp",
+   "imagen": "https://cdn.joinnus.com/images/80721/main/pj8odY3ey4dQK06.webp",
    "url": "https://www.joinnus.com/events/entertainment/lima-perreo-black-vier-2711-le-paris-80721",
    "fuente": "Joinnus",
-   "imagen_local": "img/cache/20f7163b642ce40b.webp"
+   "imagen_local": "img/cache/bc66e7e793751987.webp"
   },
   {
    "nombre": "Pink Floyd",
@@ -2837,7 +2781,7 @@
    "lugar": "El Huaralino Internacional - Los Olivos",
    "categoria": "Concierto",
    "tipo": "cultural",
-   "precio": 60,
+   "precio": 35,
    "imagen": "https://cdn.joinnus.com/user/4334637/gUJdOd8d5ZuEmku.webp",
    "url": "https://www.joinnus.com/events/concerts/lima-voces-de-la-cumbia-80344",
    "fuente": "Joinnus",
@@ -3068,6 +3012,20 @@
    "imagen_local": "img/cache/f841909b8db1f6a3.webp"
   },
   {
+   "nombre": "Cantos Y Encantos De Los Andes",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "7:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128MUCOMIRCAN-scaled.jpg",
+   "url": "https://entradalibre.me/event/cantos-y-encantos-de-los-andes/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e978d626a017ee4f.webp"
+  },
+  {
    "nombre": "Cine E Impacto Social",
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
@@ -3138,6 +3096,20 @@
    "imagen_local": "img/cache/4020468ff5709613.webp"
   },
   {
+   "nombre": "Donde El Agua Trabaja",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "6:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128LIPRMIRDON.jpg",
+   "url": "https://entradalibre.me/event/donde-el-agua-trabaja/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/76edf14e93c085b9.webp"
+  },
+  {
    "nombre": "Dos Voces, un Perú",
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
@@ -3194,6 +3166,20 @@
    "imagen_local": "img/cache/168c742f581b89ba.webp"
   },
   {
+   "nombre": "En Las Alturas",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "11:00 am",
+   "lugar": "Barranco",
+   "categoria": "Concierto",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128LIPRBARENL.jpg",
+   "url": "https://entradalibre.me/event/en-las-alturas/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/310584c85619e37a.webp"
+  },
+  {
    "nombre": "Exhibición De Cortos Ganadores",
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
@@ -3206,20 +3192,6 @@
    "url": "https://entradalibre.me/event/exhibicion-de-cortos-ganadores/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/3986a5d7e79b560a.webp"
-  },
-  {
-   "nombre": "Experiencia Zombie en Lima",
-   "inicio": "2026-11-28",
-   "fin": "2026-11-28",
-   "hora": "3:00 pm",
-   "lugar": "Lima",
-   "categoria": "Show",
-   "tipo": "cultural",
-   "precio": 44.5,
-   "imagen": "https://cdn.joinnus.com/images/80596/main/gxzxR96kXV0IWjJ.webp",
-   "url": "https://www.joinnus.com/events/entertainment/lima-experiencia-zombie-en-lima-80596",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/9d2bf12360e8b2c9.webp"
   },
   {
    "nombre": "Festival Navideño - Arlequin Teatro",
@@ -3413,9 +3385,23 @@
    "tipo": "aire",
    "precio": 25,
    "imagen": "https://cdn.joinnus.com/images/79816/main/P85YDq1bXnlFuHe.webp",
-   "url": "https://www.joinnus.com/events/sports/lima-liga-peruana-de-voley-betsson-2026-27-79816",
+   "url": "https://www.joinnus.com/events/sports/lima-liga-peruana-de-voley-betsson-202627-79816",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/68f484492afd7072.webp"
+  },
+  {
+   "nombre": "Llamarse Olimpia",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "5:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Cine",
+   "tipo": "cine",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128CIPRCERLLA.webp",
+   "url": "https://entradalibre.me/event/llamarse-olimpia/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f357d162ef74cc2a.webp"
   },
   {
    "nombre": "Los Rocosaurios y el Misterio de Rocolandia - Rocosaurios y el Misterio de Rocolandia",
@@ -3430,6 +3416,20 @@
    "url": "https://teleticket.com.pe/evento/TBS003",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/3c17b9a3dbeb231f.webp"
+  },
+  {
+   "nombre": "Luces De Navidad",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "11:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128KIFEMIRENC.webp",
+   "url": "https://entradalibre.me/event/luces-de-navidad-2/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/015a102063a2c8e6.webp"
   },
   {
    "nombre": "MINOTAURO",
@@ -3544,6 +3544,20 @@
    "imagen_local": "img/cache/f527fc15fa9d3d7d.webp"
   },
   {
+   "nombre": "Poetry Night: Morir De Amor",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "8:00 pm",
+   "lugar": "Barranco",
+   "categoria": "Poesía",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128POREBARPOE.jpg",
+   "url": "https://entradalibre.me/event/poetry-night-morir-de-amor/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b5e61281c44e4517.webp"
+  },
+  {
    "nombre": "Prodrift - Copa Betsafe",
    "inicio": "2026-11-28",
    "fin": "2026-11-28",
@@ -3556,6 +3570,20 @@
    "url": "https://www.joinnus.com/events/sports/lima-prodrift-copa-betsafe-80384",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/ed18532b207da0fa.webp"
+  },
+  {
+   "nombre": "Pueblo Libre Rockea Vol Ii",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "4:00 pm",
+   "lugar": "Pueblo Libre",
+   "categoria": "Festival",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128MUFEPUEPUE.jpg",
+   "url": "https://entradalibre.me/event/pueblo-libre-rockea-vol-ii/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e3ecbc26e3f9a512.webp"
   },
   {
    "nombre": "Ramiro Llona. Grandes Formatos",
@@ -3612,6 +3640,20 @@
    "url": "https://teleticket.com.pe/evento/rosaflor-celebra-46-anios-de-trayectoria-con-mestiza-teatro-manuel-ascencio-segura",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/8f4df808612e3415.webp"
+  },
+  {
+   "nombre": "Sabantuy 2026",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "11:00 am",
+   "lugar": "Barranco",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128CUFEBARSAB.jpg",
+   "url": "https://entradalibre.me/event/sabantuy-2026/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2c6499d13484b796.webp"
   },
   {
    "nombre": "Saratoga - en Estado Puro",
@@ -3866,6 +3908,34 @@
    "imagen_local": "img/cache/0c2a35aeba137c61.webp"
   },
   {
+   "nombre": "¿A Quién No Le Gustaría Tener El Recuerdo?",
+   "inicio": "2026-11-28",
+   "fin": "2026-11-28",
+   "hora": "8:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261128LIPRMIR¿AQ.jpg",
+   "url": "https://entradalibre.me/event/a-quien-no-le-gustaria-tener-el-recuerdo/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/fdc3d2cf0ce86c22.webp"
+  },
+  {
+   "nombre": "Atlas Práctico De Cirugía",
+   "inicio": "2026-11-29",
+   "fin": "2026-11-29",
+   "hora": "8:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261129CUPRMIRATL.jpg",
+   "url": "https://entradalibre.me/event/atlas-practico-de-cirugia/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/7928111b98404db4.webp"
+  },
+  {
    "nombre": "Braille Perú: Tecnología Y Recursos Para Un Ambiente Laboral Accesible",
    "inicio": "2026-11-29",
    "fin": "2026-11-29",
@@ -3958,9 +4028,10 @@
    "categoria": "Cine",
    "tipo": "cine",
    "precio": 0,
-   "imagen": "",
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261129CIPRSANFLO.jpg",
    "url": "https://entradalibre.me/event/flor-pucarina-rebelde-hasta-los-huesos-3/",
-   "fuente": "EntradaLibre"
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/27fbefd66a86b037.webp"
   },
   {
    "nombre": "Fútbol Americano en Vivo | Playoffs del Torneo Nacional LPFA",
@@ -3989,20 +4060,6 @@
    "url": "https://teleticket.com.pe/evento/hogar-dulce-hogar-teatro-audit-miraflores-2026",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/b8cd93d48f4d036b.webp"
-  },
-  {
-   "nombre": "KALIMBA HITS TOUR",
-   "inicio": "2026-11-29",
-   "fin": "2026-11-29",
-   "hora": "7:00 pm",
-   "lugar": "Lima",
-   "categoria": "Concierto",
-   "tipo": "cultural",
-   "precio": 100,
-   "imagen": "https://cdn.joinnus.com/images/79851/main/a2CZ1XVbRjae2Em.webp",
-   "url": "https://www.joinnus.com/events/concerts/lima-kalimba-hits-tour-79851",
-   "fuente": "Joinnus",
-   "imagen_local": "img/cache/7e6bb43e20bed41a.webp"
   },
   {
    "nombre": "Katseye Live, el Musical - Tributo en el Teatro Canout",
@@ -4115,6 +4172,20 @@
    "url": "https://entradalibre.me/event/tea-time-bridal-feria-nupcial/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/f78834d3b07b7e48.webp"
+  },
+  {
+   "nombre": "V Encuentro De Bookfluencers",
+   "inicio": "2026-11-29",
+   "fin": "2026-11-29",
+   "hora": "2:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Encuentro",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/NDLIENMIRVEN.jpg",
+   "url": "https://entradalibre.me/event/v-encuentro-de-bookfluencers/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b08d3c25111af2d9.webp"
   },
   {
    "nombre": "Volver Run Club",
@@ -4271,6 +4342,34 @@
    "imagen_local": "img/cache/f1cf05e93a07edb7.webp"
   },
   {
+   "nombre": "Ayar La Leyenda Inkas",
+   "inicio": "2026-12-02",
+   "fin": "2026-12-02",
+   "hora": "8:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Comic",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261202COPRMIRAYA.jpg",
+   "url": "https://entradalibre.me/event/ayar-la-leyenda-inkas/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/56addce7e167a2da.webp"
+  },
+  {
+   "nombre": "Brillemos Juntos: Muestra de Taller Apasionados - Primavera 2026 - Turno 2",
+   "inicio": "2026-12-02",
+   "fin": "2026-12-02",
+   "hora": "",
+   "lugar": "Teatro Nos Pucp - San Isidro - Lima",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 45,
+   "imagen": "https://cdn.teleticket.com.pe/images/eventos/pre039_calugalistado.jpg",
+   "url": "https://teleticket.com.pe/evento/brillemos-juntos-muestra-de-taller-apasionados-primavera-2026-turno-2-teatro-nos-pucp",
+   "fuente": "Teleticket",
+   "imagen_local": "img/cache/e9559530ab09679d.webp"
+  },
+  {
    "nombre": "Brillemos Juntos: Muestra de Taller Apasionados Primavera - 2026 - Turno 1",
    "inicio": "2026-12-02",
    "fin": "2026-12-02",
@@ -4285,6 +4384,20 @@
    "imagen_local": "img/cache/ff6356c2dae8bc8c.webp"
   },
   {
+   "nombre": "EL CASCANUECES",
+   "inicio": "2026-12-02",
+   "fin": "2026-12-02",
+   "hora": "8:00 pm",
+   "lugar": "Gran Teatro Nacional - San Borja",
+   "categoria": "Teatro",
+   "tipo": "cultural",
+   "precio": 7.5,
+   "imagen": "https://cdn.joinnus.com/images/80428/main/TUNjbltNnQWVzZZ.webp",
+   "url": "https://www.joinnus.com/events/theater/lima-el-cascanueces-80428",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/1764e3a06456df67.webp"
+  },
+  {
    "nombre": "Hablando Huevadas - Hablando Huevadas",
    "inicio": "2026-12-02",
    "fin": "2026-12-02",
@@ -4297,6 +4410,48 @@
    "url": "https://teleticket.com.pe/evento/ATM034",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/044c144b0e378886.webp"
+  },
+  {
+   "nombre": "I Festival De Bandas Universitarias",
+   "inicio": "2026-12-02",
+   "fin": "2026-12-02",
+   "hora": "6:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Festival",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261202MUFECERFES.jpg",
+   "url": "https://entradalibre.me/event/i-festival-de-bandas-universitarias/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ab61e1782a9e9b8a.webp"
+  },
+  {
+   "nombre": "Campanas Bajo El Mar",
+   "inicio": "2026-12-03",
+   "fin": "2026-12-03",
+   "hora": "7:00 pm",
+   "lugar": "San Isidro",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261203LIPRSANCAM.jpg",
+   "url": "https://entradalibre.me/event/campanas-bajo-el-mar/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/e9cc40e74f81feed.webp"
+  },
+  {
+   "nombre": "Cine Peruano: Y despues la lluvia",
+   "inicio": "2026-12-03",
+   "fin": "2026-12-03",
+   "hora": "7:00 pm",
+   "lugar": "Sala Cine De La Alianza Francesa - Miraflores",
+   "categoria": "Cine",
+   "tipo": "cine",
+   "precio": 5,
+   "imagen": "https://cdn.joinnus.com/images/80665/main/zrn99Zfr8CP5xCT.webp",
+   "url": "https://www.joinnus.com/events/cine/lima-cine-peruano-y-despues-la-lluvia-80665",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/95e49c81478f841f.webp"
   },
   {
    "nombre": "Nicole Favre Por Primera Vez en Vivo",
@@ -4341,6 +4496,20 @@
    "imagen_local": "img/cache/1a479c0a511ed3ff.webp"
   },
   {
+   "nombre": "Esteban Castromán",
+   "inicio": "2026-12-04",
+   "fin": "2026-12-04",
+   "hora": "6:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261204LIPRMIREST.jpg",
+   "url": "https://entradalibre.me/event/esteban-castroman/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f796c4d1310c9365.webp"
+  },
+  {
    "nombre": "Las Mejores Voces Del Año",
    "inicio": "2026-12-04",
    "fin": "2026-12-04",
@@ -4353,6 +4522,20 @@
    "url": "https://teleticket.com.pe/evento/las-mejores-voces-del-anio-teatro-plaza-norte",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/1f33314ee83d6436.webp"
+  },
+  {
+   "nombre": "LIMA CALLING! FEST",
+   "inicio": "2026-12-04",
+   "fin": "2026-12-04",
+   "hora": "6:00 pm",
+   "lugar": "Lima",
+   "categoria": "Festival",
+   "tipo": "cultural",
+   "precio": 25,
+   "imagen": "https://cdn.joinnus.com/images/80796/main/F8cLY3S1p0GI9I5.webp",
+   "url": "https://www.joinnus.com/events/festivales/lima-lima-calling-fest-80796",
+   "fuente": "Joinnus",
+   "imagen_local": "img/cache/6c4724224e12a21e.webp"
   },
   {
    "nombre": "Modo Difícil | Johnny Zare - Modo Difícil | Johnny Zare",
@@ -4495,6 +4678,20 @@
    "imagen_local": "img/cache/cec06cfe0b04b3fb.webp"
   },
   {
+   "nombre": "Guía Dercon 1",
+   "inicio": "2026-12-05",
+   "fin": "2026-12-05",
+   "hora": "8:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261205LIPRMIRPRE.jpg",
+   "url": "https://entradalibre.me/event/guia-dercon-1/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/40b8062a6a935e1d.webp"
+  },
+  {
    "nombre": "Improvisación Poética",
    "inicio": "2026-12-05",
    "fin": "2026-12-05",
@@ -4507,6 +4704,20 @@
    "url": "https://entradalibre.me/event/improvisacion-poetica/",
    "fuente": "EntradaLibre",
    "imagen_local": "img/cache/11d0e54551b6505f.webp"
+  },
+  {
+   "nombre": "La Energía Se Transforma",
+   "inicio": "2026-12-05",
+   "fin": "2026-12-05",
+   "hora": "12:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Taller",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261205TETAMIRLAE.jpg",
+   "url": "https://entradalibre.me/event/la-energia-se-transforma/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/b97e1b30e3ebeb25.webp"
   },
   {
    "nombre": "Las Eternas - Jesus Maria",
@@ -4635,6 +4846,20 @@
    "imagen_local": "img/cache/96ec25b17b80e207.webp"
   },
   {
+   "nombre": "América Rodas",
+   "inicio": "2026-12-06",
+   "fin": "2026-12-06",
+   "hora": "2:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Literatura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261206LIPRMIRAME.jpg",
+   "url": "https://entradalibre.me/event/america-rodas/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/bf082528a328e7fc.webp"
+  },
+  {
    "nombre": "Campeonato Ronex 2026 - Gran Final",
    "inicio": "2026-12-06",
    "fin": "2026-12-06",
@@ -4647,6 +4872,20 @@
    "url": "https://www.joinnus.com/events/sports/lima-campeonato-ronex-2026-gran-final-80467",
    "fuente": "Joinnus",
    "imagen_local": "img/cache/398417acfad4dbeb.webp"
+  },
+  {
+   "nombre": "Homenaje A Harry Belevan",
+   "inicio": "2026-12-06",
+   "fin": "2026-12-06",
+   "hora": "4:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Homenaje",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261121LIHOMIRHOM.jpg",
+   "url": "https://entradalibre.me/event/homenaje-a-harry-belevan/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/f93ca428149f2a8f.webp"
   },
   {
    "nombre": "Media Maraton de Fuego 2026",
@@ -4663,6 +4902,19 @@
    "imagen_local": "img/cache/5d3c89752fb20f07.webp"
   },
   {
+   "nombre": "Primer Encuentro Cultural",
+   "inicio": "2026-12-06",
+   "fin": "2026-12-06",
+   "hora": "11:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Cultura",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "",
+   "url": "https://entradalibre.me/event/primer-encuentro-cultural/",
+   "fuente": "EntradaLibre"
+  },
+  {
    "nombre": "Salsa King – a lo Cubano - Tumbakin & Adalberto Álvarez",
    "inicio": "2026-12-06",
    "fin": "2026-12-06",
@@ -4675,6 +4927,20 @@
    "url": "https://teleticket.com.pe/evento/salsa-king-–-a-lo-cubano-tumbakin--adalberto-alvarez-penia-del-carajo",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/4eea9ff66fa05239.webp"
+  },
+  {
+   "nombre": "Trampas Parentales",
+   "inicio": "2026-12-06",
+   "fin": "2026-12-06",
+   "hora": "5:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Bienestar",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261118LIPRMIRTRA.jpg",
+   "url": "https://entradalibre.me/event/trampas-parentales/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/c897d4f348157524.webp"
   },
   {
    "nombre": "“el Concierto de Navidad Del Lobo Feroz” - el Concierto de Navidad Del Lobo Feroz",
@@ -4703,6 +4969,20 @@
    "url": "https://teleticket.com.pe/evento/40-anios-pateando-piedras-miguel-tapia-los-prisioneros-centro-de-convenciones-barranco",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/d54bc82201ae4503.webp"
+  },
+  {
+   "nombre": "Días De Santiago",
+   "inicio": "2026-12-07",
+   "fin": "2026-12-07",
+   "hora": "6:00 pm",
+   "lugar": "Cercado de Lima",
+   "categoria": "Cine",
+   "tipo": "cine",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/DIAS-DE-SANTIAGO.webp",
+   "url": "https://entradalibre.me/event/dias-de-santiago-5/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/af938f6caac422e2.webp"
   },
   {
    "nombre": "el Principe y el Gitano - Tributo a José José y Sandro",
@@ -4787,6 +5067,20 @@
    "url": "https://teleticket.com.pe/evento/cazadores-de-historias-lima-comedy-club-miraflores",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/022f78506b38dd3d.webp"
+  },
+  {
+   "nombre": "Homenaje A Federico Kauffmann",
+   "inicio": "2026-12-08",
+   "fin": "2026-12-08",
+   "hora": "4:00 pm",
+   "lugar": "Miraflores",
+   "categoria": "Arqueología",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/261119ARHOMIRHOM.jpg",
+   "url": "https://entradalibre.me/event/homenaje-a-federico-kauffmann/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/ea289ef1d8899004.webp"
   },
   {
    "nombre": "Llegó la Salsa a Barranco: la Ultima Gran Noche",
@@ -5207,6 +5501,20 @@
    "url": "https://teleticket.com.pe/evento/un-mundo-en-escena-muestra-de-talleres-teatro-nos-pucp",
    "fuente": "Teleticket",
    "imagen_local": "img/cache/19f3e7202e43a66d.webp"
+  },
+  {
+   "nombre": "Feria De Minerales – Edición Navideña",
+   "inicio": "2026-12-16",
+   "fin": "2026-12-16",
+   "hora": "10:00 am",
+   "lugar": "Miraflores",
+   "categoria": "Feria",
+   "tipo": "cultural",
+   "precio": 0,
+   "imagen": "https://entradalibre.me/wp-content/uploads/2026/11/inbound4619616992826988589.jpg",
+   "url": "https://entradalibre.me/event/feria-de-minerales-edicion-navidena/",
+   "fuente": "EntradaLibre",
+   "imagen_local": "img/cache/2c58add2580b11c6.webp"
   },
   {
    "nombre": "William Luna en Concierto Íntimo",
